@@ -41,6 +41,7 @@ export async function PATCH(request: NextRequest) {
   const body = await request.json();
   if (!body.id) return NextResponse.json({ error: "id is required" }, { status: 400 });
   const updates = Object.fromEntries(Object.entries(body).filter(([key]) => ["name", "designer", "category", "license", "supportsVietnamese", "tags", "status"].includes(key)));
+  if (updates.status && !["draft", "published", "archived"].includes(String(updates.status))) return NextResponse.json({ error: "Invalid status" }, { status: 400 });
   const collection = await seedIfEmpty();
   const result = await collection.updateOne({ id: body.id }, { $set: { ...updates, updatedAt: new Date() } });
   if (!result.matchedCount) return NextResponse.json({ error: "Font not found" }, { status: 404 });
