@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 const weights = { Thin: 100, ExtraLight: 200, Light: 300, Regular: 400, Medium: 500, SemiBold: 600, Bold: 700, ExtraBold: 800, Black: 900 };
 
@@ -20,6 +20,7 @@ export default function FontPreview({ files, sample }: { files: string[]; sample
     return "@font-face{font-family:'BlissPreview';font-style:" + (info.italic ? "italic" : "normal") + ";font-weight:" + info.weight + ";src:url('https://assets.blissbiovn.com/" + file + "') format('woff2');font-display:swap;}";
   }).join(""), [files]);
   const availableWeights = [...new Set(files.map((file) => descriptor(file).weight))].sort((a, b) => a - b);
+  useEffect(() => { if (files.length) void fetch("/api/metrics", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ event: "font_view", slug: files[0].split("/")[2] || "unknown" }) }); }, [files]);
 
   return (
     <>

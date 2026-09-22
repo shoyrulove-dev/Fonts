@@ -13,6 +13,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
 
   const files = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
   if (!files.length) return NextResponse.json({ error: "No webfont files available" }, { status: 404 });
+  try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() })); } catch { /* Analytics must never block downloads. */ }
 
   const archive: Record<string, Uint8Array> = {};
   let totalBytes = 0;
