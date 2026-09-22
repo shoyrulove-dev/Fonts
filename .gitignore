@@ -22,3 +22,11 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+
+# Next.js app
+/.next/
+/node_modules/
+/.vercel/
+/.env*
+!/.env.example
+*.tsbuildinfo
