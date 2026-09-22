@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import fonts from "@/data/google-fonts.json";
+import FontExplorer from "@/components/font-explorer";
 
 type FontRecord = (typeof fonts)[number];
 
@@ -67,6 +68,8 @@ export default function Home() {
           <div className="flex flex-wrap items-end justify-between gap-5"><div><p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">Browse by mood</p><h2 className="mt-3 text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">Start with a direction.</h2></div><p className="max-w-xs text-sm leading-6 text-[#697169]">From quiet editorial serifs to expressive display faces, there is a place to begin.</p></div>
           <div className="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">{categories.map((category, index) => { const count = fonts.filter((font: FontRecord) => font.category === category.key).length; return <div key={category.key} className={`group min-h-48 rounded-3xl p-6 transition-transform hover:-translate-y-1 ${index % 2 === 0 ? "bg-white" : "bg-[#dce8dc]"}`}><div className="flex items-start justify-between"><span className="text-3xl font-light">0{index + 1}</span><span className="text-xl opacity-50 transition-transform group-hover:translate-x-1">↗</span></div><p className="mt-14 text-lg font-semibold">{category.label}</p><p className="mt-1 text-sm text-[#697169]">{category.note}</p><p className="mt-5 text-xs uppercase tracking-wider text-[#889087]">{count} families</p></div>; })}</div>
         </section>
+
+        <FontExplorer fonts={fonts} />
 
         <section id="vietnamese" className="pt-24">
           <div className="flex flex-wrap items-end justify-between gap-5"><div><p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">Vietnamese coverage</p><h2 className="mt-3 text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">Made for every accent.</h2></div><span className="rounded-full border border-[#c9ccc1] px-4 py-2 text-sm text-[#697169]">{vietnameseFonts.length} typefaces</span></div>
