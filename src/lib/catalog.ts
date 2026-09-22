@@ -2,7 +2,7 @@ import baseFonts from "@/data/google-fonts.json";
 import { getDatabase } from "@/lib/mongodb";
 
 export type CatalogFont = (typeof baseFonts)[number] & {
-  status?: "draft" | "published" | "archived";
+  status?: string;
   files?: string[];
   updatedAt?: Date | string;
 };
