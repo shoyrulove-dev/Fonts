@@ -15,11 +15,15 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   if (!files.length) return NextResponse.json({ error: "No webfont files available" }, { status: 404 });
 
   const archive: Record<string, Uint8Array> = {};
+  let totalBytes = 0;
   for (const file of files) {
     const response = await fetch(`https://assets.blissbiovn.com/${file}`, { cache: "no-store" });
     if (!response.ok) return NextResponse.json({ error: "A font asset could not be downloaded" }, { status: 502 });
+    const data = new Uint8Array(await response.arrayBuffer());
+    totalBytes += data.byteLength;
+    if (totalBytes > 25 * 1024 * 1024) return NextResponse.json({ error: "This font bundle is larger than the 25 MB download limit" }, { status: 413 });
     const filename = file.split("/").pop() ?? file;
-    archive[`fonts/${filename}`] = new Uint8Array(await response.arrayBuffer());
+    archive[`fonts/${filename}`] = data;
   }
 
   const readme = [

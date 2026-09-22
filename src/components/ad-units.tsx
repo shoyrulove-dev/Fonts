@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Script from "next/script";
 
 export function NativeBanner() {
@@ -7,5 +8,15 @@ export function NativeBanner() {
 }
 
 export function PopunderDownload({ href, children }: { href: string; children: React.ReactNode }) {
-  return <><Script src="https://pl31454295.profitableratecpmnetwork.com/10/a7/59/10a75971819636efacdefe7810a72147.js" strategy="afterInteractive" /><a href={href} download className="rounded-full bg-[#dce8dc] px-5 py-3 text-sm font-semibold text-[#1d241f] transition-transform hover:-translate-y-0.5">{children}</a></>;
+  const [loaded, setLoaded] = useState(false);
+  function loadPopunder() {
+    if (loaded || document.querySelector('script[data-bliss-popunder="true"]')) return;
+    const script = document.createElement("script");
+    script.src = "https://pl31454295.profitableratecpmnetwork.com/10/a7/59/10a75971819636efacdefe7810a72147.js";
+    script.async = true;
+    script.dataset.blissPopunder = "true";
+    document.body.appendChild(script);
+    setLoaded(true);
+  }
+  return <a href={href} download onPointerDown={loadPopunder} className="rounded-full bg-[#dce8dc] px-5 py-3 text-sm font-semibold text-[#1d241f] transition-transform hover:-translate-y-0.5">{children}</a>;
 }

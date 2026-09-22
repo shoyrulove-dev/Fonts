@@ -22,6 +22,12 @@ export async function POST(request: NextRequest) {
   if (!records.length) return NextResponse.json({ error: "No valid records found" }, { status: 400 });
   const collection = (await getDatabase()).collection<FontRecord>("fonts");
   await collection.createIndex({ id: 1 }, { unique: true });
-  const result = await collection.insertMany(records, { ordered: false });
-  return NextResponse.json({ ok: true, inserted: result.insertedCount, received: records.length }, { status: 201 });
+  try {
+    const result = await collection.insertMany(records, { ordered: false });
+    return NextResponse.json({ ok: true, inserted: result.insertedCount, skipped: 0, received: records.length }, { status: 201 });
+  } catch (error) {
+    const result = (error as { result?: { insertedCount?: number } }).result;
+    const inserted = result?.insertedCount || 0;
+    return NextResponse.json({ ok: inserted > 0, inserted, skipped: records.length - inserted, received: records.length, message: "Duplicate IDs were skipped." }, { status: inserted > 0 ? 207 : 409 });
+  }
 }
