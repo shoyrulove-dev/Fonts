@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import fonts from "@/data/google-fonts.json";
 import ProfileSettings from "./profile-settings";
+import EditFontForm from "./edit-font-form";
 
 type FontRecord = (typeof fonts)[number];
 
@@ -14,6 +15,7 @@ export default function AdminDashboard({ fonts }: { fonts: FontRecord[] }) {
   const [catalog, setCatalog] = useState(fonts);
   const [syncState, setSyncState] = useState("Syncing MongoDB…");
   useEffect(() => { fetch("/api/admin/fonts?limit=2030", { credentials: "include" }).then(async (response) => { if (!response.ok) throw new Error("sync failed"); const data = await response.json(); setCatalog(data.fonts); setSyncState("MongoDB synced"); }).catch(() => setSyncState("Using catalog fallback")); }, []);
+  const handleSaved = (updated: FontRecord) => { setCatalog((current) => current.map((font) => font.id === updated.id ? updated : font)); setSelected(updated); };
   const vietnamese = catalog.filter((font) => font.supportsVietnamese).length;
   const categories = [...new Set(catalog.map((font) => font.category).filter(Boolean))];
   const results = useMemo(() => {
@@ -44,7 +46,7 @@ export default function AdminDashboard({ fonts }: { fonts: FontRecord[] }) {
           </div>
         </section>
       </div>
-      {selected && <div className="fixed inset-0 z-20 flex items-center justify-center bg-[#18211b]/30 p-5" onClick={() => setSelected(null)}><div className="w-full max-w-lg rounded-3xl bg-white p-7 shadow-2xl" onClick={(event) => event.stopPropagation()}><div className="flex items-start justify-between"><div><p className="text-xs uppercase tracking-[0.18em] text-[#829087]">Font record</p><h2 className="mt-2 text-3xl font-semibold">{selected.name}</h2></div><button type="button" onClick={() => setSelected(null)} className="text-xl text-[#829087]">×</button></div><dl className="mt-8 grid grid-cols-2 gap-5 text-sm"><div><dt className="text-[#92a097]">Designer</dt><dd className="mt-1 font-medium">{selected.designer || "Google Fonts"}</dd></div><div><dt className="text-[#92a097]">Category</dt><dd className="mt-1 font-medium">{selected.category?.replace("_", " ")}</dd></div><div><dt className="text-[#92a097]">License</dt><dd className="mt-1 font-medium">{selected.license}</dd></div><div><dt className="text-[#92a097]">Vietnamese</dt><dd className="mt-1 font-medium">{selected.supportsVietnamese ? "Supported" : "Not confirmed"}</dd></div></dl><div className="mt-8 flex gap-3"><Link href={"/font/" + selected.slug} className="flex-1 rounded-full border border-[#dce3dd] px-4 py-3 text-center text-sm font-medium">Open preview</Link><button type="button" className="flex-1 rounded-full bg-[#1d241f] px-4 py-3 text-sm font-medium text-white">Edit record</button></div></div></div>}
+      {selected && <EditFontForm font={selected} onClose={() => setSelected(null)} onSaved={handleSaved} />}
     </main>
   );
 }
