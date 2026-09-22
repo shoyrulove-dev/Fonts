@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -19,7 +19,6 @@ export const metadata: Metadata = {
   creator: "Bliss Fonts",
   alternates: { canonical: siteUrl },
   manifest: "/site.webmanifest",
-  themeColor: "#1d241f",
   icons: { icon: "/icon.svg", shortcut: "/icon.svg", apple: "/icon.svg" },
   openGraph: {
     type: "website",
@@ -36,6 +35,11 @@ export const metadata: Metadata = {
     description: "Khám phá và thử font hỗ trợ tiếng Việt với license rõ ràng.",
     images: ["/og-bliss-fonts.png"],
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1d241f",
+  colorScheme: "light",
 };
 
 const structuredData = {
