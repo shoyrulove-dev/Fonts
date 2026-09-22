@@ -46,3 +46,14 @@ export async function PATCH(request: NextRequest) {
   if (!result.matchedCount) return NextResponse.json({ error: "Font not found" }, { status: 404 });
   return NextResponse.json({ ok: true });
 }
+
+export async function POST(request: NextRequest) {
+  if (!(await isAdminRequest(request))) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const body = await request.json();
+  if (!body.name) return NextResponse.json({ error: "name is required" }, { status: 400 });
+  const slug = String(body.slug || body.name).toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const collection = await seedIfEmpty();
+  const record = { id: "manual/" + slug, slug, name: body.name, designer: body.designer || "", category: body.category || "DISPLAY", license: body.license || "Pending review", subsets: [], supportsVietnamese: Boolean(body.supportsVietnamese), sourcePath: "manual/" + slug, sourceUrl: body.sourceUrl || "", status: "draft", tags: Array.isArray(body.tags) ? body.tags : [] };
+  try { await collection.insertOne(record as FontRecord); } catch { return NextResponse.json({ error: "A font with this slug already exists" }, { status: 409 }); }
+  return NextResponse.json({ ok: true, font: record }, { status: 201 });
+}
