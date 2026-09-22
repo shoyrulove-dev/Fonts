@@ -3,6 +3,7 @@ import type { NextRequest } from "next/server";
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import { zipSync, strToU8 } from "fflate";
 import fonts from "@/data/google-fonts.json";
+import woff2Manifest from "@/data/woff2-manifest.json";
 import { getDatabase } from "@/lib/mongodb";
 import { isAdminRequest } from "@/lib/admin-auth";
 
@@ -15,7 +16,7 @@ export async function POST(request: NextRequest) {
   const { fontId } = await request.json();
   const db = await getDatabase(); const collection = db.collection<FontRecord>("fonts"); const font = await collection.findOne({ id: String(fontId || "") });
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
-  const files = font.files || [];
+  const files = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
   if (!files.length) return NextResponse.json({ error: "Upload at least one font file first" }, { status: 400 });
   const archive: Record<string, Uint8Array> = {}; let total = 0;
   for (const file of files) { const response = await fetch(`https://assets.blissbiovn.com/${file}`, { cache: "no-store" }); if (!response.ok) return NextResponse.json({ error: `Missing asset: ${file}` }, { status: 502 }); const data = new Uint8Array(await response.arrayBuffer()); total += data.byteLength; if (total > 25 * 1024 * 1024) return NextResponse.json({ error: "Bundle exceeds 25 MB" }, { status: 413 }); archive[`fonts/${file.split("/").pop() || file}`] = data; }

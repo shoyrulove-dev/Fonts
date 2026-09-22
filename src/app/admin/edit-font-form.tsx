@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import fonts from "@/data/google-fonts.json";
+import woff2Manifest from "@/data/woff2-manifest.json";
 
 type FontRecord = (typeof fonts)[number] & { files?: string[]; status?: string; tags?: string[] };
 type Editable = { name: string; designer: string; category: string; license: string; status: string; supportsVietnamese: boolean; tags: string };
@@ -10,7 +11,7 @@ export default function EditFontForm({ font, onClose, onSaved }: { font: FontRec
   const [form, setForm] = useState<Editable>({ name: font.name, designer: font.designer || "", category: font.category || "SANS_SERIF", license: font.license, status: (font as FontRecord & { status?: string }).status || "published", supportsVietnamese: font.supportsVietnamese, tags: (font as FontRecord & { tags?: string[] }).tags?.join(", ") || "" });
   const [message, setMessage] = useState("");
   const [uploading, setUploading] = useState(false);
-  const [uploadedFiles, setUploadedFiles] = useState<string[]>(font.files || []);
+  const [uploadedFiles, setUploadedFiles] = useState<string[]>(font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? []);
   const [bundling, setBundling] = useState(false);
   const update = (key: keyof Editable, value: string | boolean) => setForm((current) => ({ ...current, [key]: value }));
 
