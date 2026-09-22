@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import fonts from "@/data/google-fonts.json";
+import woff2Manifest from "@/data/woff2-manifest.json";
 
 type FontRecord = (typeof fonts)[number];
 
@@ -29,9 +30,12 @@ export default async function FontPage({ params }: { params: Promise<{ slug: str
   const related = fonts.filter((item: FontRecord) => item.category === font.category && item.id !== font.id).slice(0, 6);
   const vietnamese = font.supportsVietnamese;
   const sample = vietnamese ? "Ăn ở ấm áp — Tiếng Việt đẹp cùng kiểu chữ này" : "Every idea deserves its own type.";
+  const fontFile = woff2Manifest[font.sourcePath as keyof typeof woff2Manifest]?.[0];
+  const fontUrl = fontFile ? "https://assets.blissbiovn.com/" + fontFile : null;
 
   return (
     <main className="min-h-screen bg-[#f6f4ee] text-[#1d241f]">
+      {fontUrl && <style dangerouslySetInnerHTML={{ __html: "@font-face{font-family:'BlissPreview';src:url('" + fontUrl + "') format('woff2');font-display:swap;}" }} />}
       <div className="mx-auto max-w-6xl px-6 py-8 sm:px-10 lg:py-12">
         <nav className="flex items-center justify-between border-b border-[#d8d7cc] pb-5"><Link href="/" className="font-semibold tracking-tight">Bliss Fonts</Link><Link href="/" className="text-sm text-[#697169] hover:text-[#1d241f]">← Back to collection</Link></nav>
         <section className="mt-12 grid gap-8 lg:grid-cols-[1fr_280px]">
@@ -39,8 +43,8 @@ export default async function FontPage({ params }: { params: Promise<{ slug: str
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#78907c]">{vietnamese ? "Vietnamese-ready typeface" : "Open typeface preview"}</p>
             <h1 className="mt-5 text-5xl font-semibold tracking-[-0.07em] sm:text-7xl">{font.name}</h1>
             <p className="mt-4 text-[#697169]">{font.designer || "Google Fonts"} · {font.category?.replace("_", " ")}</p>
-            <div className="mt-16 overflow-hidden text-4xl leading-tight text-[#5e7965] sm:text-6xl">{sample}</div>
-            <div className="mt-16 border-t border-[#e3e2da] pt-6"><p className="mb-3 text-sm text-[#697169]">Type tester</p><textarea className="min-h-32 w-full resize-y rounded-2xl border border-[#d8d7cc] p-4 text-2xl outline-none focus:border-[#5e7965]" defaultValue={sample} aria-label="Type tester" /></div>
+            <div className="mt-16 overflow-hidden text-4xl leading-tight text-[#5e7965] sm:text-6xl" style={fontUrl ? { fontFamily: "BlissPreview" } : undefined}>{sample}</div>
+            <div className="mt-16 border-t border-[#e3e2da] pt-6"><p className="mb-3 text-sm text-[#697169]">Type tester</p><textarea className="min-h-32 w-full resize-y rounded-2xl border border-[#d8d7cc] p-4 text-2xl outline-none focus:border-[#5e7965]" style={fontUrl ? { fontFamily: "BlissPreview" } : undefined} defaultValue={sample} aria-label="Type tester" /></div>
           </div>
           <aside className="h-fit rounded-[2rem] bg-[#dce8dc] p-7">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#5e7965]">Typeface details</p>

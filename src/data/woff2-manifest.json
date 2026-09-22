@@ -1,0 +1,2990 @@
+{
+  "sources/google-fonts/apache/robotoslab": [
+    "fonts/sources/google-fonts/apache/robotoslab/RobotoSlab[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/adobeblank": [
+    "fonts/sources/google-fonts/ofl/adobeblank/AdobeBlank-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/afacad": [
+    "fonts/sources/google-fonts/ofl/afacad/Afacad-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/afacad/Afacad[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/afacadflux": [
+    "fonts/sources/google-fonts/ofl/afacadflux/AfacadFlux[slnt,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/agbalumo": [
+    "fonts/sources/google-fonts/ofl/agbalumo/Agbalumo-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/agudisplay": [
+    "fonts/sources/google-fonts/ofl/agudisplay/AguDisplay[MORF].woff2"
+  ],
+  "sources/google-fonts/ofl/akt": [
+    "fonts/sources/google-fonts/ofl/akt/Akt[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/alata": [
+    "fonts/sources/google-fonts/ofl/alata/Alata-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alatsi": [
+    "fonts/sources/google-fonts/ofl/alatsi/Alatsi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alegreya": [
+    "fonts/sources/google-fonts/ofl/alegreya/Alegreya-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/alegreya/Alegreya[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/alegreyasans": [
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-Black.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-Light.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasans/AlegreyaSans-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/alegreyasanssc": [
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-Black.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-Light.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasanssc/AlegreyaSansSC-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/alegreyasc": [
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-Black.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/alegreyasc/AlegreyaSC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/aleo": [
+    "fonts/sources/google-fonts/ofl/aleo/Aleo-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/aleo/Aleo[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/alexandria": [
+    "fonts/sources/google-fonts/ofl/alexandria/Alexandria[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/alexbrush": [
+    "fonts/sources/google-fonts/ofl/alexbrush/AlexBrush-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alfaslabone": [
+    "fonts/sources/google-fonts/ofl/alfaslabone/AlfaSlabOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/allison": [
+    "fonts/sources/google-fonts/ofl/allison/Allison-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/allura": [
+    "fonts/sources/google-fonts/ofl/allura/Allura-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alumnisans": [
+    "fonts/sources/google-fonts/ofl/alumnisans/AlumniSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/alumnisans/AlumniSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/alumnisanscollegiateone": [
+    "fonts/sources/google-fonts/ofl/alumnisanscollegiateone/AlumniSansCollegiateOne-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/alumnisanscollegiateone/AlumniSansCollegiateOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alumnisanscollegiateonesc": [
+    "fonts/sources/google-fonts/ofl/alumnisanscollegiateonesc/AlumniSansCollegiateOneSC-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/alumnisanscollegiateonesc/AlumniSansCollegiateOneSC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alumnisansinlineone": [
+    "fonts/sources/google-fonts/ofl/alumnisansinlineone/AlumniSansInlineOne-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/alumnisansinlineone/AlumniSansInlineOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alumnisanspinstripe": [
+    "fonts/sources/google-fonts/ofl/alumnisanspinstripe/AlumniSansPinstripe-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/alumnisanspinstripe/AlumniSansPinstripe-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/alumnisanssc": [
+    "fonts/sources/google-fonts/ofl/alumnisanssc/AlumniSansSC-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/alumnisanssc/AlumniSansSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/amaticsc": [
+    "fonts/sources/google-fonts/ofl/amaticsc/AmaticSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/amaticsc/AmaticSC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/anaheim": [
+    "fonts/sources/google-fonts/ofl/anaheim/Anaheim[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/andadapro": [
+    "fonts/sources/google-fonts/ofl/andadapro/AndadaPro-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/andadapro/AndadaPro[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/andika": [
+    "fonts/sources/google-fonts/ofl/andika/Andika-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/andika/Andika-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/andika/Andika-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/andika/Andika-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/aneklatin": [
+    "fonts/sources/google-fonts/ofl/aneklatin/AnekLatin[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/anton": [
+    "fonts/sources/google-fonts/ofl/anton/Anton-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/antonsc": [
+    "fonts/sources/google-fonts/ofl/antonsc/AntonSC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/anuphan": [
+    "fonts/sources/google-fonts/ofl/anuphan/Anuphan[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/anybody": [
+    "fonts/sources/google-fonts/ofl/anybody/Anybody-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/anybody/Anybody[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/archivo": [
+    "fonts/sources/google-fonts/ofl/archivo/Archivo-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/archivo/Archivo[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/archivonarrow": [
+    "fonts/sources/google-fonts/ofl/archivonarrow/ArchivoNarrow-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/archivonarrow/ArchivoNarrow[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/areyouserious": [
+    "fonts/sources/google-fonts/ofl/areyouserious/AreYouSerious-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/arima": [
+    "fonts/sources/google-fonts/ofl/arima/Arima[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/arimo": [
+    "fonts/sources/google-fonts/ofl/arimo/Arimo-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/arimo/Arimo[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/arizonia": [
+    "fonts/sources/google-fonts/ofl/arizonia/Arizonia-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/aronesans": [
+    "fonts/sources/google-fonts/ofl/aronesans/AROneSans[ARRR,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/arsenal": [
+    "fonts/sources/google-fonts/ofl/arsenal/Arsenal-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/arsenal/Arsenal-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/arsenal/Arsenal-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/arsenal/Arsenal-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/arsenalsc": [
+    "fonts/sources/google-fonts/ofl/arsenalsc/ArsenalSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/arsenalsc/ArsenalSC-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/arsenalsc/ArsenalSC-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/arsenalsc/ArsenalSC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/asap": [
+    "fonts/sources/google-fonts/ofl/asap/Asap-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/asap/Asap[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/asapcondensed": [
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/asapcondensed/AsapCondensed-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/asapsharp": [
+    "fonts/sources/google-fonts/ofl/asapsharp/AsapSharp-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/asapsharp/AsapSharp[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/asimovian": [
+    "fonts/sources/google-fonts/ofl/asimovian/Asimovian-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/athiti": [
+    "fonts/sources/google-fonts/ofl/athiti/Athiti-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/athiti/Athiti-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/athiti/Athiti-Light.woff2",
+    "fonts/sources/google-fonts/ofl/athiti/Athiti-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/athiti/Athiti-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/athiti/Athiti-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/babylonica": [
+    "fonts/sources/google-fonts/ofl/babylonica/Babylonica-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/badscript": [
+    "fonts/sources/google-fonts/ofl/badscript/BadScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bahianita": [
+    "fonts/sources/google-fonts/ofl/bahianita/Bahianita-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/baijamjuree": [
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-Light.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/baijamjuree/BaiJamjuree-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/ballet": [
+    "fonts/sources/google-fonts/ofl/ballet/Ballet[opsz].woff2"
+  ],
+  "sources/google-fonts/ofl/baloo2": [
+    "fonts/sources/google-fonts/ofl/baloo2/Baloo2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/baloobhai2": [
+    "fonts/sources/google-fonts/ofl/baloobhai2/BalooBhai2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/baloobhaijaan2": [
+    "fonts/sources/google-fonts/ofl/baloobhaijaan2/BalooBhaijaan2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/baloobhaina2": [
+    "fonts/sources/google-fonts/ofl/baloobhaina2/BalooBhaina2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/baloochettan2": [
+    "fonts/sources/google-fonts/ofl/baloochettan2/BalooChettan2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/balooda2": [
+    "fonts/sources/google-fonts/ofl/balooda2/BalooDa2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/baloopaaji2": [
+    "fonts/sources/google-fonts/ofl/baloopaaji2/BalooPaaji2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/balootamma2": [
+    "fonts/sources/google-fonts/ofl/balootamma2/BalooTamma2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/balootammudu2": [
+    "fonts/sources/google-fonts/ofl/balootammudu2/BalooTammudu2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/baloothambi2": [
+    "fonts/sources/google-fonts/ofl/baloothambi2/BalooThambi2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/balsamiqsans": [
+    "fonts/sources/google-fonts/ofl/balsamiqsans/BalsamiqSans-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/balsamiqsans/BalsamiqSans-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/balsamiqsans/BalsamiqSans-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/balsamiqsans/BalsamiqSans-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bangers": [
+    "fonts/sources/google-fonts/ofl/bangers/Bangers-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/barlow": [
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-Black.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-Light.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/barlow/Barlow-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/barlowcondensed": [
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/barlowcondensed/BarlowCondensed-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/barlowsemicondensed": [
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/barlowsemicondensed/BarlowSemiCondensed-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/barriecito": [
+    "fonts/sources/google-fonts/ofl/barriecito/Barriecito-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/beaurivage": [
+    "fonts/sources/google-fonts/ofl/beaurivage/BeauRivage-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/beiruti": [
+    "fonts/sources/google-fonts/ofl/beiruti/Beiruti[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bellota": [
+    "fonts/sources/google-fonts/ofl/bellota/Bellota-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/bellota/Bellota-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bellota/Bellota-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/bellota/Bellota-Light.woff2",
+    "fonts/sources/google-fonts/ofl/bellota/Bellota-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bellota/Bellota-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bellotatext": [
+    "fonts/sources/google-fonts/ofl/bellotatext/BellotaText-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/bellotatext/BellotaText-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bellotatext/BellotaText-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/bellotatext/BellotaText-Light.woff2",
+    "fonts/sources/google-fonts/ofl/bellotatext/BellotaText-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bellotatext/BellotaText-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bevan": [
+    "fonts/sources/google-fonts/ofl/bevan/Bevan-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/bevan/Bevan-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bevietnampro": [
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-Black.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-Light.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/bevietnampro/BeVietnamPro-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/bhavuka": [
+    "fonts/sources/google-fonts/ofl/bhavuka/Bhavuka-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bigshoulders": [
+    "fonts/sources/google-fonts/ofl/bigshoulders/BigShoulders[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersdisplay": [
+    "fonts/sources/google-fonts/ofl/bigshouldersdisplay/BigShouldersDisplay[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersdisplaysc": [
+    "fonts/sources/google-fonts/ofl/bigshouldersdisplaysc/BigShouldersDisplaySC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersinline": [
+    "fonts/sources/google-fonts/ofl/bigshouldersinline/BigShouldersInline[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersinlinedisplay": [
+    "fonts/sources/google-fonts/ofl/bigshouldersinlinedisplay/BigShouldersInlineDisplay[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersinlinedisplaysc": [
+    "fonts/sources/google-fonts/ofl/bigshouldersinlinedisplaysc/BigShouldersInlineDisplaySC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersinlinetext": [
+    "fonts/sources/google-fonts/ofl/bigshouldersinlinetext/BigShouldersInlineText[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersinlinetextsc": [
+    "fonts/sources/google-fonts/ofl/bigshouldersinlinetextsc/BigShouldersInlineTextSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersstencil": [
+    "fonts/sources/google-fonts/ofl/bigshouldersstencil/BigShouldersStencil[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersstencildisplay": [
+    "fonts/sources/google-fonts/ofl/bigshouldersstencildisplay/BigShouldersStencilDisplay[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersstencildisplaysc": [
+    "fonts/sources/google-fonts/ofl/bigshouldersstencildisplaysc/BigShouldersStencilDisplaySC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersstenciltext": [
+    "fonts/sources/google-fonts/ofl/bigshouldersstenciltext/BigShouldersStencilText[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshouldersstenciltextsc": [
+    "fonts/sources/google-fonts/ofl/bigshouldersstenciltextsc/BigShouldersStencilTextSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshoulderstext": [
+    "fonts/sources/google-fonts/ofl/bigshoulderstext/BigShouldersText[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bigshoulderstextsc": [
+    "fonts/sources/google-fonts/ofl/bigshoulderstextsc/BigShouldersTextSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bilbo": [
+    "fonts/sources/google-fonts/ofl/bilbo/Bilbo-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/birthstone": [
+    "fonts/sources/google-fonts/ofl/birthstone/Birthstone-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/birthstonebounce": [
+    "fonts/sources/google-fonts/ofl/birthstonebounce/BirthstoneBounce-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/birthstonebounce/BirthstoneBounce-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bitter": [
+    "fonts/sources/google-fonts/ofl/bitter/Bitter-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/bitter/Bitter[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/blackopsone": [
+    "fonts/sources/google-fonts/ofl/blackopsone/BlackOpsOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bonanova": [
+    "fonts/sources/google-fonts/ofl/bonanova/BonaNova-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/bonanova/BonaNova-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/bonanova/BonaNova-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bonanovasc": [
+    "fonts/sources/google-fonts/ofl/bonanovasc/BonaNovaSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/bonanovasc/BonaNovaSC-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/bonanovasc/BonaNovaSC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bonheurroyale": [
+    "fonts/sources/google-fonts/ofl/bonheurroyale/BonheurRoyale-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/borel": [
+    "fonts/sources/google-fonts/ofl/borel/Borel-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/braahone": [
+    "fonts/sources/google-fonts/ofl/braahone/BraahOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bricolagegrotesque": [
+    "fonts/sources/google-fonts/ofl/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/briemhand": [
+    "fonts/sources/google-fonts/ofl/briemhand/BriemHand[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/brygada1918": [
+    "fonts/sources/google-fonts/ofl/brygada1918/Brygada1918-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/brygada1918/Brygada1918[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/buenard": [
+    "fonts/sources/google-fonts/ofl/buenard/Buenard[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/bungee": [
+    "fonts/sources/google-fonts/ofl/bungee/Bungee-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bungeehairline": [
+    "fonts/sources/google-fonts/ofl/bungeehairline/BungeeHairline-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bungeeinline": [
+    "fonts/sources/google-fonts/ofl/bungeeinline/BungeeInline-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bungeeoutline": [
+    "fonts/sources/google-fonts/ofl/bungeeoutline/BungeeOutline-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bungeeshade": [
+    "fonts/sources/google-fonts/ofl/bungeeshade/BungeeShade-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bungeespice": [
+    "fonts/sources/google-fonts/ofl/bungeespice/BungeeSpice-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/bungeetint": [
+    "fonts/sources/google-fonts/ofl/bungeetint/BungeeTint-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/cabin": [
+    "fonts/sources/google-fonts/ofl/cabin/Cabin-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/cabin/Cabin[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/cabincondensed": [
+    "fonts/sources/google-fonts/ofl/cabincondensed/CabinCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/cabincondensed/CabinCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/cabincondensed/CabinCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/cabincondensed/CabinCondensed-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/cactusclassicalserif": [
+    "fonts/sources/google-fonts/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/calistoga": [
+    "fonts/sources/google-fonts/ofl/calistoga/Calistoga-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/calsans": [
+    "fonts/sources/google-fonts/ofl/calsans/CalSans-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/capriola": [
+    "fonts/sources/google-fonts/ofl/capriola/Capriola[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/caramel": [
+    "fonts/sources/google-fonts/ofl/caramel/Caramel-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/carattere": [
+    "fonts/sources/google-fonts/ofl/carattere/Carattere-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/carlito": [
+    "fonts/sources/google-fonts/ofl/carlito/Carlito-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/carlito/Carlito-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/carlito/Carlito-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/carlito/Carlito-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/cascadiacode": [
+    "fonts/sources/google-fonts/ofl/cascadiacode/CascadiaCode-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/cascadiacode/CascadiaCode[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/cascadiamono": [
+    "fonts/sources/google-fonts/ofl/cascadiamono/CascadiaMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/cascadiamono/CascadiaMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/caudex": [
+    "fonts/sources/google-fonts/ofl/caudex/Caudex-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/caudex/Caudex-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/caudex/Caudex-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/caudex/Caudex-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/chakrapetch": [
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-Light.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/chakrapetch/ChakraPetch-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/charissil": [
+    "fonts/sources/google-fonts/ofl/charissil/CharisSIL-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/charissil/CharisSIL-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/charissil/CharisSIL-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/charissil/CharisSIL-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/charm": [
+    "fonts/sources/google-fonts/ofl/charm/Charm-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/charm/Charm-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/charmonman": [
+    "fonts/sources/google-fonts/ofl/charmonman/Charmonman-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/charmonman/Charmonman-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/cherish": [
+    "fonts/sources/google-fonts/ofl/cherish/Cherish-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/cherrybombone": [
+    "fonts/sources/google-fonts/ofl/cherrybombone/CherryBombOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/chirongoroundtc": [
+    "fonts/sources/google-fonts/ofl/chirongoroundtc/ChironGoRoundTC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/chironheihk": [
+    "fonts/sources/google-fonts/ofl/chironheihk/ChironHeiHK-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/chironheihk/ChironHeiHK[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/chironsunghk": [
+    "fonts/sources/google-fonts/ofl/chironsunghk/ChironSungHK-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/chironsunghk/ChironSungHK[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/chivo": [
+    "fonts/sources/google-fonts/ofl/chivo/Chivo-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/chivo/Chivo[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/chivomono": [
+    "fonts/sources/google-fonts/ofl/chivomono/ChivoMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/chivomono/ChivoMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/chocolateclassicalsans": [
+    "fonts/sources/google-fonts/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/chokokutai": [
+    "fonts/sources/google-fonts/ofl/chokokutai/Chokokutai-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/chonburi": [
+    "fonts/sources/google-fonts/ofl/chonburi/Chonburi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/coiny": [
+    "fonts/sources/google-fonts/ofl/coiny/Coiny-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/comfortaa": [
+    "fonts/sources/google-fonts/ofl/comfortaa/Comfortaa[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/comforter": [
+    "fonts/sources/google-fonts/ofl/comforter/Comforter-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/comforterbrush": [
+    "fonts/sources/google-fonts/ofl/comforterbrush/ComforterBrush-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/commissioner": [
+    "fonts/sources/google-fonts/ofl/commissioner/Commissioner[FLAR,VOLM,slnt,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/corinthia": [
+    "fonts/sources/google-fonts/ofl/corinthia/Corinthia-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/corinthia/Corinthia-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/cormorant": [
+    "fonts/sources/google-fonts/ofl/cormorant/Cormorant-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/cormorant/Cormorant[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/cormorantgaramond": [
+    "fonts/sources/google-fonts/ofl/cormorantgaramond/CormorantGaramond-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/cormorantgaramond/CormorantGaramond[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/cormorantinfant": [
+    "fonts/sources/google-fonts/ofl/cormorantinfant/CormorantInfant-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/cormorantinfant/CormorantInfant[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/cormorantsc": [
+    "fonts/sources/google-fonts/ofl/cormorantsc/CormorantSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantsc/CormorantSC-Light.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantsc/CormorantSC-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantsc/CormorantSC-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantsc/CormorantSC-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/cormorantunicase": [
+    "fonts/sources/google-fonts/ofl/cormorantunicase/CormorantUnicase-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantunicase/CormorantUnicase-Light.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantunicase/CormorantUnicase-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantunicase/CormorantUnicase-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantunicase/CormorantUnicase-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/cormorantupright": [
+    "fonts/sources/google-fonts/ofl/cormorantupright/CormorantUpright-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantupright/CormorantUpright-Light.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantupright/CormorantUpright-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantupright/CormorantUpright-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/cormorantupright/CormorantUpright-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/cousine": [
+    "fonts/sources/google-fonts/ofl/cousine/Cousine-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/cousine/Cousine-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/cousine/Cousine-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/cousine/Cousine-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/crimsonpro": [
+    "fonts/sources/google-fonts/ofl/crimsonpro/CrimsonPro-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/crimsonpro/CrimsonPro[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/crimsontext": [
+    "fonts/sources/google-fonts/ofl/crimsontext/CrimsonText-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/crimsontext/CrimsonText-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/crimsontext/CrimsonText-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/crimsontext/CrimsonText-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/crimsontext/CrimsonText-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/crimsontext/CrimsonText-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/cuprum": [
+    "fonts/sources/google-fonts/ofl/cuprum/Cuprum-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/cuprum/Cuprum[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/dancingscript": [
+    "fonts/sources/google-fonts/ofl/dancingscript/DancingScript[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/danfo": [
+    "fonts/sources/google-fonts/ofl/danfo/Danfo[ELSH].woff2"
+  ],
+  "sources/google-fonts/ofl/darkergrotesque": [
+    "fonts/sources/google-fonts/ofl/darkergrotesque/DarkerGrotesque[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/davidlibre": [
+    "fonts/sources/google-fonts/ofl/davidlibre/DavidLibre-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/davidlibre/DavidLibre-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/davidlibre/DavidLibre-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/delagothicone": [
+    "fonts/sources/google-fonts/ofl/delagothicone/DelaGothicOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/denkone": [
+    "fonts/sources/google-fonts/ofl/denkone/DenkOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/dongle": [
+    "fonts/sources/google-fonts/ofl/dongle/Dongle-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/dongle/Dongle-Light.woff2",
+    "fonts/sources/google-fonts/ofl/dongle/Dongle-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/dosis": [
+    "fonts/sources/google-fonts/ofl/dosis/Dosis[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/ebgaramond": [
+    "fonts/sources/google-fonts/ofl/ebgaramond/EBGaramond-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/ebgaramond/EBGaramond[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/elmssans": [
+    "fonts/sources/google-fonts/ofl/elmssans/ElmsSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/elmssans/ElmsSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/encodesans": [
+    "fonts/sources/google-fonts/ofl/encodesans/EncodeSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/encodesanscondensed": [
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanscondensed/EncodeSansCondensed-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/encodesansexpanded": [
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-Black.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-Light.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesansexpanded/EncodeSansExpanded-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/encodesanssc": [
+    "fonts/sources/google-fonts/ofl/encodesanssc/EncodeSansSC[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/encodesanssemicondensed": [
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemicondensed/EncodeSansSemiCondensed-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/encodesanssemiexpanded": [
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-Black.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-Light.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/encodesanssemiexpanded/EncodeSansSemiExpanded-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/enriqueta": [
+    "fonts/sources/google-fonts/ofl/enriqueta/Enriqueta-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/enriqueta/Enriqueta-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/enriqueta/Enriqueta-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/enriqueta/Enriqueta-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/ephesis": [
+    "fonts/sources/google-fonts/ofl/ephesis/Ephesis-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/epilogue": [
+    "fonts/sources/google-fonts/ofl/epilogue/Epilogue-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/epilogue/Epilogue[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/estedad": [
+    "fonts/sources/google-fonts/ofl/estedad/Estedad[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/estonia": [
+    "fonts/sources/google-fonts/ofl/estonia/Estonia-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/exo": [
+    "fonts/sources/google-fonts/ofl/exo/Exo-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/exo/Exo[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/exo2": [
+    "fonts/sources/google-fonts/ofl/exo2/Exo2-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/exo2/Exo2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/explora": [
+    "fonts/sources/google-fonts/ofl/explora/Explora-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/fahkwang": [
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-Light.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/fahkwang/Fahkwang-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/familjengrotesk": [
+    "fonts/sources/google-fonts/ofl/familjengrotesk/FamiljenGrotesk-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/familjengrotesk/FamiljenGrotesk[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/farsan": [
+    "fonts/sources/google-fonts/ofl/farsan/Farsan-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/faustina": [
+    "fonts/sources/google-fonts/ofl/faustina/Faustina-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/faustina/Faustina[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/festive": [
+    "fonts/sources/google-fonts/ofl/festive/Festive-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/finlandicaheadline": [
+    "fonts/sources/google-fonts/ofl/finlandicaheadline/FinlandicaHeadline-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/finlandicaheadline/FinlandicaHeadline[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/finlandicatext": [
+    "fonts/sources/google-fonts/ofl/finlandicatext/FinlandicaText-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/finlandicatext/FinlandicaText[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/firasans": [
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-Black.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-Light.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/firasans/FiraSans-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/firasanscondensed": [
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/firasanscondensed/FiraSansCondensed-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/firasansextracondensed": [
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/firasansextracondensed/FiraSansExtraCondensed-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/fjallaone": [
+    "fonts/sources/google-fonts/ofl/fjallaone/FjallaOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/fleurdeleah": [
+    "fonts/sources/google-fonts/ofl/fleurdeleah/FleurDeLeah-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/flowblock": [
+    "fonts/sources/google-fonts/ofl/flowblock/FlowBlock-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/flowcircular": [
+    "fonts/sources/google-fonts/ofl/flowcircular/FlowCircular-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/flowrounded": [
+    "fonts/sources/google-fonts/ofl/flowrounded/FlowRounded-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/foldit": [
+    "fonts/sources/google-fonts/ofl/foldit/Foldit[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/francoisone": [
+    "fonts/sources/google-fonts/ofl/francoisone/FrancoisOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/fraunces": [
+    "fonts/sources/google-fonts/ofl/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/freeman": [
+    "fonts/sources/google-fonts/ofl/freeman/Freeman-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/fruktur": [
+    "fonts/sources/google-fonts/ofl/fruktur/Fruktur-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/fruktur/Fruktur-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/fuggles": [
+    "fonts/sources/google-fonts/ofl/fuggles/Fuggles-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/fuzzybubbles": [
+    "fonts/sources/google-fonts/ofl/fuzzybubbles/FuzzyBubbles-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/fuzzybubbles/FuzzyBubbles-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gamaamli": [
+    "fonts/sources/google-fonts/ofl/gamaamli/GaMaamli-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/geist": [
+    "fonts/sources/google-fonts/ofl/geist/Geist-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/geist/Geist[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/geistmono": [
+    "fonts/sources/google-fonts/ofl/geistmono/GeistMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/geistmono/GeistMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/gelasio": [
+    "fonts/sources/google-fonts/ofl/gelasio/Gelasio-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/gelasio/Gelasio[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/genos": [
+    "fonts/sources/google-fonts/ofl/genos/Genos-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/genos/Genos[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/gentiumbookplus": [
+    "fonts/sources/google-fonts/ofl/gentiumbookplus/GentiumBookPlus-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/gentiumbookplus/GentiumBookPlus-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/gentiumbookplus/GentiumBookPlus-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/gentiumbookplus/GentiumBookPlus-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gentiumplus": [
+    "fonts/sources/google-fonts/ofl/gentiumplus/GentiumPlus-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/gentiumplus/GentiumPlus-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/gentiumplus/GentiumPlus-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/gentiumplus/GentiumPlus-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/geologica": [
+    "fonts/sources/google-fonts/ofl/geologica/Geologica[CRSV,SHRP,slnt,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/georama": [
+    "fonts/sources/google-fonts/ofl/georama/Georama-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/georama/Georama[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/gfsdidot": [
+    "fonts/sources/google-fonts/ofl/gfsdidot/GFSDidot-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gfsneohellenic": [
+    "fonts/sources/google-fonts/ofl/gfsneohellenic/GFSNeohellenic.woff2",
+    "fonts/sources/google-fonts/ofl/gfsneohellenic/GFSNeohellenicBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/gfsneohellenic/GFSNeohellenicItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/gideonroman": [
+    "fonts/sources/google-fonts/ofl/gideonroman/GideonRoman-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gidole": [
+    "fonts/sources/google-fonts/ofl/gidole/Gidole-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/glory": [
+    "fonts/sources/google-fonts/ofl/glory/Glory-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/glory/Glory[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/gluten": [
+    "fonts/sources/google-fonts/ofl/gluten/Gluten[slnt,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/goldman": [
+    "fonts/sources/google-fonts/ofl/goldman/Goldman-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/goldman/Goldman-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/googlesans": [
+    "fonts/sources/google-fonts/ofl/googlesans/GoogleSans-Italic[GRAD,opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/googlesans/GoogleSans[GRAD,opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/googlesanscode": [
+    "fonts/sources/google-fonts/ofl/googlesanscode/GoogleSansCode-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/googlesanscode/GoogleSansCode[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/googlesansflex": [
+    "fonts/sources/google-fonts/ofl/googlesansflex/GoogleSansFlex[GRAD,ROND,opsz,slnt,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/gothica1": [
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-Black.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-Light.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/gothica1/GothicA1-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/gotu": [
+    "fonts/sources/google-fonts/ofl/gotu/Gotu-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gowunbatang": [
+    "fonts/sources/google-fonts/ofl/gowunbatang/GowunBatang-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/gowunbatang/GowunBatang-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gowundodum": [
+    "fonts/sources/google-fonts/ofl/gowundodum/GowunDodum-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/grandstander": [
+    "fonts/sources/google-fonts/ofl/grandstander/Grandstander-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/grandstander/Grandstander[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/grapenuts": [
+    "fonts/sources/google-fonts/ofl/grapenuts/GrapeNuts-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/greatvibes": [
+    "fonts/sources/google-fonts/ofl/greatvibes/GreatVibes-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/grechenfuemen": [
+    "fonts/sources/google-fonts/ofl/grechenfuemen/GrechenFuemen-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/grenze": [
+    "fonts/sources/google-fonts/ofl/grenze/Grenze-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/grenze/Grenze[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/grenzegotisch": [
+    "fonts/sources/google-fonts/ofl/grenzegotisch/GrenzeGotisch[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/greyqo": [
+    "fonts/sources/google-fonts/ofl/greyqo/GreyQo-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gurajada": [
+    "fonts/sources/google-fonts/ofl/gurajada/Gurajada-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/gwendolyn": [
+    "fonts/sources/google-fonts/ofl/gwendolyn/Gwendolyn-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/gwendolyn/Gwendolyn-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/hahmlet": [
+    "fonts/sources/google-fonts/ofl/hahmlet/Hahmlet[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/handjet": [
+    "fonts/sources/google-fonts/ofl/handjet/Handjet[ELGR,ELSH,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/hankengrotesk": [
+    "fonts/sources/google-fonts/ofl/hankengrotesk/HankenGrotesk-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/hankengrotesk/HankenGrotesk[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/heptaslab": [
+    "fonts/sources/google-fonts/ofl/heptaslab/HeptaSlab[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/hinamincho": [
+    "fonts/sources/google-fonts/ofl/hinamincho/HinaMincho-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/honk": [
+    "fonts/sources/google-fonts/ofl/honk/Honk[MORF,SHLN].woff2"
+  ],
+  "sources/google-fonts/ofl/hubotsans": [
+    "fonts/sources/google-fonts/ofl/hubotsans/HubotSans-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/hubotsans/HubotSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/huninn": [
+    "fonts/sources/google-fonts/ofl/huninn/Huninn-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/hurricane": [
+    "fonts/sources/google-fonts/ofl/hurricane/Hurricane-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/ibmplexmono": [
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-Light.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexmono/IBMPlexMono-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/ibmplexsans": [
+    "fonts/sources/google-fonts/ofl/ibmplexsans/IBMPlexSans-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsans/IBMPlexSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/ibmplexsanscondensed": [
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/ibmplexserif": [
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-Light.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/ibmplexserif/IBMPlexSerif-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/imbue": [
+    "fonts/sources/google-fonts/ofl/imbue/Imbue[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/imperialscript": [
+    "fonts/sources/google-fonts/ofl/imperialscript/ImperialScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/inclusivesans": [
+    "fonts/sources/google-fonts/ofl/inclusivesans/InclusiveSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/inclusivesans/InclusiveSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/inconsolata": [
+    "fonts/sources/google-fonts/ofl/inconsolata/Inconsolata[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/inconsolata/static": [
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Black.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Condensed.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Expanded.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensed.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpanded.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Light.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensed.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpanded.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensed.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpanded.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedBlack.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedLight.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedMedium.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedRegular.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedSemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Ligconsolata-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/inconsolata/static/Ligconsolata-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/indieflower": [
+    "fonts/sources/google-fonts/ofl/indieflower/IndieFlower-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/ingriddarling": [
+    "fonts/sources/google-fonts/ofl/ingriddarling/IngridDarling-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/inspiration": [
+    "fonts/sources/google-fonts/ofl/inspiration/Inspiration-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/intelonemono": [
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-Light.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/intelonemono/IntelOneMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/inter": [
+    "fonts/sources/google-fonts/ofl/inter/Inter-Italic[opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/inter/Inter[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/intertight": [
+    "fonts/sources/google-fonts/ofl/intertight/InterTight-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/intertight/InterTight[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/iosevkacharon": [
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-Light.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharon/IosevkaCharon-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/iosevkacharonmono": [
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-Light.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/iosevkacharonmono/IosevkaCharonMono-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/islandmoments": [
+    "fonts/sources/google-fonts/ofl/islandmoments/IslandMoments-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/italianno": [
+    "fonts/sources/google-fonts/ofl/italianno/Italianno-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/itim": [
+    "fonts/sources/google-fonts/ofl/itim/Itim-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/jaldi": [
+    "fonts/sources/google-fonts/ofl/jaldi/Jaldi-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/jaldi/Jaldi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/jaro": [
+    "fonts/sources/google-fonts/ofl/jaro/Jaro[opsz].woff2"
+  ],
+  "sources/google-fonts/ofl/jetbrainsmono": [
+    "fonts/sources/google-fonts/ofl/jetbrainsmono/JetBrainsMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/jetbrainsmono/JetBrainsMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/josefinsans": [
+    "fonts/sources/google-fonts/ofl/josefinsans/JosefinSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/josefinsans/JosefinSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/judson": [
+    "fonts/sources/google-fonts/ofl/judson/Judson-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/judson/Judson-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/judson/Judson-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/jura": [
+    "fonts/sources/google-fonts/ofl/jura/Jura[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/k2d": [
+    "fonts/sources/google-fonts/ofl/k2d/K2D-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-Light.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/k2d/K2D-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/kablammo": [
+    "fonts/sources/google-fonts/ofl/kablammo/Kablammo[MORF].woff2"
+  ],
+  "sources/google-fonts/ofl/kanit": [
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-Black.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-Light.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/kanit/Kanit-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/kings": [
+    "fonts/sources/google-fonts/ofl/kings/Kings-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/kodchasan": [
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-Light.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/kodchasan/Kodchasan-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/koho": [
+    "fonts/sources/google-fonts/ofl/koho/KoHo-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-Light.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/koho/KoHo-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/kolkerbrush": [
+    "fonts/sources/google-fonts/ofl/kolkerbrush/KolkerBrush-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/kripa": [
+    "fonts/sources/google-fonts/ofl/kripa/Kripa[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/krub": [
+    "fonts/sources/google-fonts/ofl/krub/Krub-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-Light.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/krub/Krub-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/kufam": [
+    "fonts/sources/google-fonts/ofl/kufam/Kufam-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/kufam/Kufam[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/labrada": [
+    "fonts/sources/google-fonts/ofl/labrada/Labrada-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/labrada/Labrada[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lalezar": [
+    "fonts/sources/google-fonts/ofl/lalezar/Lalezar-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/lato": [
+    "fonts/sources/google-fonts/ofl/lato/Lato-Black.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-Light.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/lato/Lato-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/lavishlyyours": [
+    "fonts/sources/google-fonts/ofl/lavishlyyours/LavishlyYours-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/leaguegothic": [
+    "fonts/sources/google-fonts/ofl/leaguegothic/LeagueGothic[wdth].woff2"
+  ],
+  "sources/google-fonts/ofl/leaguespartan": [
+    "fonts/sources/google-fonts/ofl/leaguespartan/LeagueSpartan[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lemonada": [
+    "fonts/sources/google-fonts/ofl/lemonada/Lemonada[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lemonadavfbeta": [
+    "fonts/sources/google-fonts/ofl/lemonadavfbeta/LemonadaVFBeta.woff2"
+  ],
+  "sources/google-fonts/ofl/lexend": [
+    "fonts/sources/google-fonts/ofl/lexend/Lexend[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lexenddeca": [
+    "fonts/sources/google-fonts/ofl/lexenddeca/LexendDeca[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lexendexa": [
+    "fonts/sources/google-fonts/ofl/lexendexa/LexendExa[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lexendgiga": [
+    "fonts/sources/google-fonts/ofl/lexendgiga/LexendGiga[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lexendmega": [
+    "fonts/sources/google-fonts/ofl/lexendmega/LexendMega[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lexendpeta": [
+    "fonts/sources/google-fonts/ofl/lexendpeta/LexendPeta[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lexendtera": [
+    "fonts/sources/google-fonts/ofl/lexendtera/LexendTera[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lexendzetta": [
+    "fonts/sources/google-fonts/ofl/lexendzetta/LexendZetta[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/libertinusmath": [
+    "fonts/sources/google-fonts/ofl/libertinusmath/LibertinusMath-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/libertinussans": [
+    "fonts/sources/google-fonts/ofl/libertinussans/LibertinusSans-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/libertinussans/LibertinusSans-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/libertinussans/LibertinusSans-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/libertinusserif": [
+    "fonts/sources/google-fonts/ofl/libertinusserif/LibertinusSerif-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/libertinusserif/LibertinusSerif-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/libertinusserif/LibertinusSerif-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/libertinusserif/LibertinusSerif-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/libertinusserif/LibertinusSerif-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/librebodoni": [
+    "fonts/sources/google-fonts/ofl/librebodoni/LibreBodoni-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/librebodoni/LibreBodoni[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/librefranklin": [
+    "fonts/sources/google-fonts/ofl/librefranklin/LibreFranklin-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/librefranklin/LibreFranklin[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/licorice": [
+    "fonts/sources/google-fonts/ofl/licorice/Licorice-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/lilex": [
+    "fonts/sources/google-fonts/ofl/lilex/Lilex-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/lilex/Lilex[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/literata": [
+    "fonts/sources/google-fonts/ofl/literata/Literata-Italic[opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/literata/Literata[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/livvic": [
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-Black.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-Light.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/livvic/Livvic-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/lobster": [
+    "fonts/sources/google-fonts/ofl/lobster/Lobster-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/lora": [
+    "fonts/sources/google-fonts/ofl/lora/Lora-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/lora/Lora[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/lovelight": [
+    "fonts/sources/google-fonts/ofl/lovelight/LoveLight-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/loversquarrel": [
+    "fonts/sources/google-fonts/ofl/loversquarrel/LoversQuarrel-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/lunasima": [
+    "fonts/sources/google-fonts/ofl/lunasima/Lunasima-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/lunasima/Lunasima-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/luxuriousroman": [
+    "fonts/sources/google-fonts/ofl/luxuriousroman/LuxuriousRoman-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/luxuriousscript": [
+    "fonts/sources/google-fonts/ofl/luxuriousscript/LuxuriousScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/lxgwmarkergothic": [
+    "fonts/sources/google-fonts/ofl/lxgwmarkergothic/LXGWMarkerGothic-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/lxgwwenkaimonotc": [
+    "fonts/sources/google-fonts/ofl/lxgwwenkaimonotc/LXGWWenKaiMonoTC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/lxgwwenkaimonotc/LXGWWenKaiMonoTC-Light.woff2",
+    "fonts/sources/google-fonts/ofl/lxgwwenkaimonotc/LXGWWenKaiMonoTC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/lxgwwenkaitc": [
+    "fonts/sources/google-fonts/ofl/lxgwwenkaitc/LXGWWenKaiTC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/lxgwwenkaitc/LXGWWenKaiTC-Light.woff2",
+    "fonts/sources/google-fonts/ofl/lxgwwenkaitc/LXGWWenKaiTC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/magra": [
+    "fonts/sources/google-fonts/ofl/magra/Magra-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/magra/Magra-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/maitree": [
+    "fonts/sources/google-fonts/ofl/maitree/Maitree-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/maitree/Maitree-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/maitree/Maitree-Light.woff2",
+    "fonts/sources/google-fonts/ofl/maitree/Maitree-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/maitree/Maitree-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/maitree/Maitree-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/majormonodisplay": [
+    "fonts/sources/google-fonts/ofl/majormonodisplay/MajorMonoDisplay-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/mali": [
+    "fonts/sources/google-fonts/ofl/mali/Mali-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-Light.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/mali/Mali-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/maname": [
+    "fonts/sources/google-fonts/ofl/maname/Maname-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/manrope": [
+    "fonts/sources/google-fonts/ofl/manrope/Manrope[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/mansalva": [
+    "fonts/sources/google-fonts/ofl/mansalva/Mansalva-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/manuale": [
+    "fonts/sources/google-fonts/ofl/manuale/Manuale-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/manuale/Manuale[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/markazitext": [
+    "fonts/sources/google-fonts/ofl/markazitext/MarkaziText[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/markazitextvfbeta": [
+    "fonts/sources/google-fonts/ofl/markazitextvfbeta/MarkaziText-VF.woff2"
+  ],
+  "sources/google-fonts/ofl/marmelad": [
+    "fonts/sources/google-fonts/ofl/marmelad/Marmelad-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/mavenpro": [
+    "fonts/sources/google-fonts/ofl/mavenpro/MavenPro[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/mavenprovfbeta": [
+    "fonts/sources/google-fonts/ofl/mavenprovfbeta/MavenProVFBeta.woff2"
+  ],
+  "sources/google-fonts/ofl/meaculpa": [
+    "fonts/sources/google-fonts/ofl/meaculpa/MeaCulpa-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/menbere": [
+    "fonts/sources/google-fonts/ofl/menbere/Menbere[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/meowscript": [
+    "fonts/sources/google-fonts/ofl/meowscript/MeowScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/merienda": [
+    "fonts/sources/google-fonts/ofl/merienda/Merienda[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/merriweather": [
+    "fonts/sources/google-fonts/ofl/merriweather/Merriweather-Italic[opsz,wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/merriweather/Merriweather[opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/merriweathersans": [
+    "fonts/sources/google-fonts/ofl/merriweathersans/MerriweatherSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/merriweathersans/MerriweatherSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/metrophobic": [
+    "fonts/sources/google-fonts/ofl/metrophobic/Metrophobic-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/miama": [
+    "fonts/sources/google-fonts/ofl/miama/Miama-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/mitr": [
+    "fonts/sources/google-fonts/ofl/mitr/Mitr-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/mitr/Mitr-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/mitr/Mitr-Light.woff2",
+    "fonts/sources/google-fonts/ofl/mitr/Mitr-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/mitr/Mitr-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/mitr/Mitr-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/momosignature": [
+    "fonts/sources/google-fonts/ofl/momosignature/MomoSignature-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/momotrustdisplay": [
+    "fonts/sources/google-fonts/ofl/momotrustdisplay/MomoTrustDisplay-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/momotrustsans": [
+    "fonts/sources/google-fonts/ofl/momotrustsans/MomoTrustSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/monasans": [
+    "fonts/sources/google-fonts/ofl/monasans/MonaSans-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/monasans/MonaSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/monda": [
+    "fonts/sources/google-fonts/ofl/monda/Monda[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/montaguslab": [
+    "fonts/sources/google-fonts/ofl/montaguslab/MontaguSlab[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/montecarlo": [
+    "fonts/sources/google-fonts/ofl/montecarlo/MonteCarlo-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/montserrat": [
+    "fonts/sources/google-fonts/ofl/montserrat/Montserrat-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/montserrat/Montserrat[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/montserratalternates": [
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-Black.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-Light.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/montserratalternates/MontserratAlternates-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/montserratunderline": [
+    "fonts/sources/google-fonts/ofl/montserratunderline/MontserratUnderline-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/montserratunderline/MontserratUnderline[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/moolahlah": [
+    "fonts/sources/google-fonts/ofl/moolahlah/MooLahLah-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/moondance": [
+    "fonts/sources/google-fonts/ofl/moondance/MoonDance-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/mplus1": [
+    "fonts/sources/google-fonts/ofl/mplus1/MPLUS1[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/mplus1code": [
+    "fonts/sources/google-fonts/ofl/mplus1code/MPLUS1Code[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/mplus1p": [
+    "fonts/sources/google-fonts/ofl/mplus1p/MPLUS1p-Black.woff2",
+    "fonts/sources/google-fonts/ofl/mplus1p/MPLUS1p-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/mplus1p/MPLUS1p-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/mplus1p/MPLUS1p-Light.woff2",
+    "fonts/sources/google-fonts/ofl/mplus1p/MPLUS1p-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/mplus1p/MPLUS1p-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/mplus1p/MPLUS1p-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/mplus2": [
+    "fonts/sources/google-fonts/ofl/mplus2/MPLUS2[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/mpluscodelatin": [
+    "fonts/sources/google-fonts/ofl/mpluscodelatin/MPLUSCodeLatin[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/mplusrounded1c": [
+    "fonts/sources/google-fonts/ofl/mplusrounded1c/MPLUSRounded1c-Black.woff2",
+    "fonts/sources/google-fonts/ofl/mplusrounded1c/MPLUSRounded1c-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/mplusrounded1c/MPLUSRounded1c-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/mplusrounded1c/MPLUSRounded1c-Light.woff2",
+    "fonts/sources/google-fonts/ofl/mplusrounded1c/MPLUSRounded1c-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/mplusrounded1c/MPLUSRounded1c-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/mplusrounded1c/MPLUSRounded1c-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/mplusu": [
+    "fonts/sources/google-fonts/ofl/mplusu/MPLUSU[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/msmadi": [
+    "fonts/sources/google-fonts/ofl/msmadi/MsMadi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/mulish": [
+    "fonts/sources/google-fonts/ofl/mulish/Mulish-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/mulish/Mulish[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/museomoderno": [
+    "fonts/sources/google-fonts/ofl/museomoderno/MuseoModerno-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/museomoderno/MuseoModerno[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/mynerve": [
+    "fonts/sources/google-fonts/ofl/mynerve/Mynerve-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/mysoul": [
+    "fonts/sources/google-fonts/ofl/mysoul/MySoul-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/natasans": [
+    "fonts/sources/google-fonts/ofl/natasans/NataSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/nationalpark": [
+    "fonts/sources/google-fonts/ofl/nationalpark/NationalPark[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/neonderthaw": [
+    "fonts/sources/google-fonts/ofl/neonderthaw/Neonderthaw-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/newscycle": [
+    "fonts/sources/google-fonts/ofl/newscycle/NewsCycle-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/newsreader": [
+    "fonts/sources/google-fonts/ofl/newsreader/Newsreader-Italic[opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/newsreader/Newsreader[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/niramit": [
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-Light.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/niramit/Niramit-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/noticiatext": [
+    "fonts/sources/google-fonts/ofl/noticiatext/NoticiaText-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/noticiatext/NoticiaText-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/noticiatext/NoticiaText-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/noticiatext/NoticiaText-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/notosans": [
+    "fonts/sources/google-fonts/ofl/notosans/NotoSans-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/notosans/NotoSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notosansdisplay": [
+    "fonts/sources/google-fonts/ofl/notosansdisplay/NotoSansDisplay-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/notosansdisplay/NotoSansDisplay[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notosanshk": [
+    "fonts/sources/google-fonts/ofl/notosanshk/NotoSansHK[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notosansjp": [
+    "fonts/sources/google-fonts/ofl/notosansjp/NotoSansJP[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notosanskr": [
+    "fonts/sources/google-fonts/ofl/notosanskr/NotoSansKR[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notosansmono": [
+    "fonts/sources/google-fonts/ofl/notosansmono/NotoSansMono[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notosanssc": [
+    "fonts/sources/google-fonts/ofl/notosanssc/NotoSansSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notosanstc": [
+    "fonts/sources/google-fonts/ofl/notosanstc/NotoSansTC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoserif": [
+    "fonts/sources/google-fonts/ofl/notoserif/NotoSerif-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/notoserif/NotoSerif[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoserifdisplay": [
+    "fonts/sources/google-fonts/ofl/notoserifdisplay/NotoSerifDisplay-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/notoserifdisplay/NotoSerifDisplay[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoserifhk": [
+    "fonts/sources/google-fonts/ofl/notoserifhk/NotoSerifHK[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoserifjp": [
+    "fonts/sources/google-fonts/ofl/notoserifjp/NotoSerifJP[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoserifkr": [
+    "fonts/sources/google-fonts/ofl/notoserifkr/NotoSerifKR[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoserifsc": [
+    "fonts/sources/google-fonts/ofl/notoserifsc/NotoSerifSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoseriftc": [
+    "fonts/sources/google-fonts/ofl/notoseriftc/NotoSerifTC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/nunito": [
+    "fonts/sources/google-fonts/ofl/nunito/Nunito-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/nunito/Nunito[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/nunitosans": [
+    "fonts/sources/google-fonts/ofl/nunitosans/NunitoSans-Italic[YTLC,opsz,wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/nunitosans/NunitoSans[YTLC,opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/oi": [
+    "fonts/sources/google-fonts/ofl/oi/Oi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/ojuju": [
+    "fonts/sources/google-fonts/ofl/ojuju/Ojuju[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/oldstandardtt": [
+    "fonts/sources/google-fonts/ofl/oldstandardtt/OldStandard-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/oldstandardtt/OldStandard-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/oldstandardtt/OldStandard-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/ole": [
+    "fonts/sources/google-fonts/ofl/ole/Ole-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/onest": [
+    "fonts/sources/google-fonts/ofl/onest/Onest[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/ooohbaby": [
+    "fonts/sources/google-fonts/ofl/ooohbaby/OoohBaby-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/opensans": [
+    "fonts/sources/google-fonts/ofl/opensans/OpenSans-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/opensans/OpenSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/oswald": [
+    "fonts/sources/google-fonts/ofl/oswald/Oswald[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/overpass": [
+    "fonts/sources/google-fonts/ofl/overpass/Overpass-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/overpass/Overpass[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/overpassmono": [
+    "fonts/sources/google-fonts/ofl/overpassmono/OverpassMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/pacifico": [
+    "fonts/sources/google-fonts/ofl/pacifico/Pacifico-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/pangolin": [
+    "fonts/sources/google-fonts/ofl/pangolin/Pangolin-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/parastoo": [
+    "fonts/sources/google-fonts/ofl/parastoo/Parastoo[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/passionsconflict": [
+    "fonts/sources/google-fonts/ofl/passionsconflict/PassionsConflict-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/pathwayextreme": [
+    "fonts/sources/google-fonts/ofl/pathwayextreme/PathwayExtreme-Italic[opsz,wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/pathwayextreme/PathwayExtreme[opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/patrickhand": [
+    "fonts/sources/google-fonts/ofl/patrickhand/PatrickHand-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/patrickhandsc": [
+    "fonts/sources/google-fonts/ofl/patrickhandsc/PatrickHandSC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/pattaya": [
+    "fonts/sources/google-fonts/ofl/pattaya/Pattaya-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/paytoneone": [
+    "fonts/sources/google-fonts/ofl/paytoneone/PaytoneOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/petemoss": [
+    "fonts/sources/google-fonts/ofl/petemoss/Petemoss-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/petrona": [
+    "fonts/sources/google-fonts/ofl/petrona/Petrona-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/petrona/Petrona[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/philosopher": [
+    "fonts/sources/google-fonts/ofl/philosopher/Philosopher-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/philosopher/Philosopher-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/philosopher/Philosopher-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/philosopher/Philosopher-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/phudu": [
+    "fonts/sources/google-fonts/ofl/phudu/Phudu[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/piazzolla": [
+    "fonts/sources/google-fonts/ofl/piazzolla/Piazzolla-Italic[opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/piazzolla/Piazzolla[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/pinyonscript": [
+    "fonts/sources/google-fonts/ofl/pinyonscript/PinyonScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/platypi": [
+    "fonts/sources/google-fonts/ofl/platypi/Platypi-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/platypi/Platypi[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/play": [
+    "fonts/sources/google-fonts/ofl/play/Play-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/play/Play-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playball": [
+    "fonts/sources/google-fonts/ofl/playball/Playball-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playfair": [
+    "fonts/sources/google-fonts/ofl/playfair/Playfair-Italic[opsz,wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/playfair/Playfair[opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playfairdisplay": [
+    "fonts/sources/google-fonts/ofl/playfairdisplay/PlayfairDisplay-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/playfairdisplay/PlayfairDisplay[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playfairdisplaysc": [
+    "fonts/sources/google-fonts/ofl/playfairdisplaysc/PlayfairDisplaySC-Black.woff2",
+    "fonts/sources/google-fonts/ofl/playfairdisplaysc/PlayfairDisplaySC-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/playfairdisplaysc/PlayfairDisplaySC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/playfairdisplaysc/PlayfairDisplaySC-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/playfairdisplaysc/PlayfairDisplaySC-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/playfairdisplaysc/PlayfairDisplaySC-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playpensans": [
+    "fonts/sources/google-fonts/ofl/playpensans/PlaypenSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritear": [
+    "fonts/sources/google-fonts/ofl/playwritear/PlaywriteAR[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritearguides": [
+    "fonts/sources/google-fonts/ofl/playwritearguides/PlaywriteARGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteat": [
+    "fonts/sources/google-fonts/ofl/playwriteat/PlaywriteAT-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/playwriteat/PlaywriteAT[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteatguides": [
+    "fonts/sources/google-fonts/ofl/playwriteatguides/PlaywriteATGuides-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/playwriteatguides/PlaywriteATGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteaunsw": [
+    "fonts/sources/google-fonts/ofl/playwriteaunsw/PlaywriteAUNSW[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteaunswguides": [
+    "fonts/sources/google-fonts/ofl/playwriteaunswguides/PlaywriteAUNSWGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteauqld": [
+    "fonts/sources/google-fonts/ofl/playwriteauqld/PlaywriteAUQLD[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteauqldguides": [
+    "fonts/sources/google-fonts/ofl/playwriteauqldguides/PlaywriteAUQLDGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteausa": [
+    "fonts/sources/google-fonts/ofl/playwriteausa/PlaywriteAUSA[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteausaguides": [
+    "fonts/sources/google-fonts/ofl/playwriteausaguides/PlaywriteAUSAGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteautas": [
+    "fonts/sources/google-fonts/ofl/playwriteautas/PlaywriteAUTAS[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteautasguides": [
+    "fonts/sources/google-fonts/ofl/playwriteautasguides/PlaywriteAUTASGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteauvic": [
+    "fonts/sources/google-fonts/ofl/playwriteauvic/PlaywriteAUVIC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteauvicguides": [
+    "fonts/sources/google-fonts/ofl/playwriteauvicguides/PlaywriteAUVICGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritebevlg": [
+    "fonts/sources/google-fonts/ofl/playwritebevlg/PlaywriteBEVLG[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritebevlgguides": [
+    "fonts/sources/google-fonts/ofl/playwritebevlgguides/PlaywriteBEVLGGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritebewal": [
+    "fonts/sources/google-fonts/ofl/playwritebewal/PlaywriteBEWAL[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritebewalguides": [
+    "fonts/sources/google-fonts/ofl/playwritebewalguides/PlaywriteBEWALGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritebr": [
+    "fonts/sources/google-fonts/ofl/playwritebr/PlaywriteBR[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritebrguides": [
+    "fonts/sources/google-fonts/ofl/playwritebrguides/PlaywriteBRGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteca": [
+    "fonts/sources/google-fonts/ofl/playwriteca/PlaywriteCA[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritecaguides": [
+    "fonts/sources/google-fonts/ofl/playwritecaguides/PlaywriteCAGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritecl": [
+    "fonts/sources/google-fonts/ofl/playwritecl/PlaywriteCL[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteclguides": [
+    "fonts/sources/google-fonts/ofl/playwriteclguides/PlaywriteCLGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteco": [
+    "fonts/sources/google-fonts/ofl/playwriteco/PlaywriteCO[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritecoguides": [
+    "fonts/sources/google-fonts/ofl/playwritecoguides/PlaywriteCOGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritecu": [
+    "fonts/sources/google-fonts/ofl/playwritecu/PlaywriteCU[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritecuguides": [
+    "fonts/sources/google-fonts/ofl/playwritecuguides/PlaywriteCUGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritecz": [
+    "fonts/sources/google-fonts/ofl/playwritecz/PlaywriteCZ[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteczguides": [
+    "fonts/sources/google-fonts/ofl/playwriteczguides/PlaywriteCZGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedegrund": [
+    "fonts/sources/google-fonts/ofl/playwritedegrund/PlaywriteDEGrund[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedegrundguides": [
+    "fonts/sources/google-fonts/ofl/playwritedegrundguides/PlaywriteDEGrundGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedela": [
+    "fonts/sources/google-fonts/ofl/playwritedela/PlaywriteDELA[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedelaguides": [
+    "fonts/sources/google-fonts/ofl/playwritedelaguides/PlaywriteDELAGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedesas": [
+    "fonts/sources/google-fonts/ofl/playwritedesas/PlaywriteDESAS[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedesasguides": [
+    "fonts/sources/google-fonts/ofl/playwritedesasguides/PlaywriteDESASGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedeva": [
+    "fonts/sources/google-fonts/ofl/playwritedeva/PlaywriteDEVA[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedevaguides": [
+    "fonts/sources/google-fonts/ofl/playwritedevaguides/PlaywriteDEVAGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedkloopet": [
+    "fonts/sources/google-fonts/ofl/playwritedkloopet/PlaywriteDKLoopet[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedkloopetguides": [
+    "fonts/sources/google-fonts/ofl/playwritedkloopetguides/PlaywriteDKLoopetGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedkuloopet": [
+    "fonts/sources/google-fonts/ofl/playwritedkuloopet/PlaywriteDKUloopet[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritedkuloopetguides": [
+    "fonts/sources/google-fonts/ofl/playwritedkuloopetguides/PlaywriteDKUloopetGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritees": [
+    "fonts/sources/google-fonts/ofl/playwritees/PlaywriteES[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteesdeco": [
+    "fonts/sources/google-fonts/ofl/playwriteesdeco/PlaywriteESDeco[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteesdecoguides": [
+    "fonts/sources/google-fonts/ofl/playwriteesdecoguides/PlaywriteESDecoGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteesguides": [
+    "fonts/sources/google-fonts/ofl/playwriteesguides/PlaywriteESGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritefrmoderne": [
+    "fonts/sources/google-fonts/ofl/playwritefrmoderne/PlaywriteFRModerne[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritefrmoderneguides": [
+    "fonts/sources/google-fonts/ofl/playwritefrmoderneguides/PlaywriteFRModerneGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritefrtrad": [
+    "fonts/sources/google-fonts/ofl/playwritefrtrad/PlaywriteFRTrad[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritefrtradguides": [
+    "fonts/sources/google-fonts/ofl/playwritefrtradguides/PlaywriteFRTradGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritegbj": [
+    "fonts/sources/google-fonts/ofl/playwritegbj/PlaywriteGBJ-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/playwritegbj/PlaywriteGBJ[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritegbjguides": [
+    "fonts/sources/google-fonts/ofl/playwritegbjguides/PlaywriteGBJGuides-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/playwritegbjguides/PlaywriteGBJGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritegbs": [
+    "fonts/sources/google-fonts/ofl/playwritegbs/PlaywriteGBS-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/playwritegbs/PlaywriteGBS[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritegbsguides": [
+    "fonts/sources/google-fonts/ofl/playwritegbsguides/PlaywriteGBSGuides-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/playwritegbsguides/PlaywriteGBSGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritehr": [
+    "fonts/sources/google-fonts/ofl/playwritehr/PlaywriteHR[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritehrguides": [
+    "fonts/sources/google-fonts/ofl/playwritehrguides/PlaywriteHRGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritehrlijeva": [
+    "fonts/sources/google-fonts/ofl/playwritehrlijeva/PlaywriteHRLijeva[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritehrlijevaguides": [
+    "fonts/sources/google-fonts/ofl/playwritehrlijevaguides/PlaywriteHRLijevaGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritehu": [
+    "fonts/sources/google-fonts/ofl/playwritehu/PlaywriteHU[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritehuguides": [
+    "fonts/sources/google-fonts/ofl/playwritehuguides/PlaywriteHUGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteid": [
+    "fonts/sources/google-fonts/ofl/playwriteid/PlaywriteID[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteidguides": [
+    "fonts/sources/google-fonts/ofl/playwriteidguides/PlaywriteIDGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteie": [
+    "fonts/sources/google-fonts/ofl/playwriteie/PlaywriteIE[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteieguides": [
+    "fonts/sources/google-fonts/ofl/playwriteieguides/PlaywriteIEGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritein": [
+    "fonts/sources/google-fonts/ofl/playwritein/PlaywriteIN[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteinguides": [
+    "fonts/sources/google-fonts/ofl/playwriteinguides/PlaywriteINGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteis": [
+    "fonts/sources/google-fonts/ofl/playwriteis/PlaywriteIS[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteisguides": [
+    "fonts/sources/google-fonts/ofl/playwriteisguides/PlaywriteISGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteitmoderna": [
+    "fonts/sources/google-fonts/ofl/playwriteitmoderna/PlaywriteITModerna[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteitmodernaguides": [
+    "fonts/sources/google-fonts/ofl/playwriteitmodernaguides/PlaywriteITModernaGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteittrad": [
+    "fonts/sources/google-fonts/ofl/playwriteittrad/PlaywriteITTrad[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteittradguides": [
+    "fonts/sources/google-fonts/ofl/playwriteittradguides/PlaywriteITTradGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritemx": [
+    "fonts/sources/google-fonts/ofl/playwritemx/PlaywriteMX[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritemxguides": [
+    "fonts/sources/google-fonts/ofl/playwritemxguides/PlaywriteMXGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritengmodern": [
+    "fonts/sources/google-fonts/ofl/playwritengmodern/PlaywriteNGModern[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritengmodernguides": [
+    "fonts/sources/google-fonts/ofl/playwritengmodernguides/PlaywriteNGModernGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritenl": [
+    "fonts/sources/google-fonts/ofl/playwritenl/PlaywriteNL[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritenlguides": [
+    "fonts/sources/google-fonts/ofl/playwritenlguides/PlaywriteNLGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteno": [
+    "fonts/sources/google-fonts/ofl/playwriteno/PlaywriteNO[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritenoguides": [
+    "fonts/sources/google-fonts/ofl/playwritenoguides/PlaywriteNOGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritenz": [
+    "fonts/sources/google-fonts/ofl/playwritenz/PlaywriteNZ[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritenzbasic": [
+    "fonts/sources/google-fonts/ofl/playwritenzbasic/PlaywriteNZBasic[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritenzbasicguides": [
+    "fonts/sources/google-fonts/ofl/playwritenzbasicguides/PlaywriteNZBasicGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritenzguides": [
+    "fonts/sources/google-fonts/ofl/playwritenzguides/PlaywriteNZGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritepe": [
+    "fonts/sources/google-fonts/ofl/playwritepe/PlaywritePE[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritepeguides": [
+    "fonts/sources/google-fonts/ofl/playwritepeguides/PlaywritePEGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritepl": [
+    "fonts/sources/google-fonts/ofl/playwritepl/PlaywritePL[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteplguides": [
+    "fonts/sources/google-fonts/ofl/playwriteplguides/PlaywritePLGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritept": [
+    "fonts/sources/google-fonts/ofl/playwritept/PlaywritePT[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteptguides": [
+    "fonts/sources/google-fonts/ofl/playwriteptguides/PlaywritePTGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritero": [
+    "fonts/sources/google-fonts/ofl/playwritero/PlaywriteRO[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteroguides": [
+    "fonts/sources/google-fonts/ofl/playwriteroguides/PlaywriteROGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritesk": [
+    "fonts/sources/google-fonts/ofl/playwritesk/PlaywriteSK[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteskguides": [
+    "fonts/sources/google-fonts/ofl/playwriteskguides/PlaywriteSKGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritetz": [
+    "fonts/sources/google-fonts/ofl/playwritetz/PlaywriteTZ[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritetzguides": [
+    "fonts/sources/google-fonts/ofl/playwritetzguides/PlaywriteTZGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteusmodern": [
+    "fonts/sources/google-fonts/ofl/playwriteusmodern/PlaywriteUSModern[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteusmodernguides": [
+    "fonts/sources/google-fonts/ofl/playwriteusmodernguides/PlaywriteUSModernGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteustrad": [
+    "fonts/sources/google-fonts/ofl/playwriteustrad/PlaywriteUSTrad[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteustradguides": [
+    "fonts/sources/google-fonts/ofl/playwriteustradguides/PlaywriteUSTradGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwritevn": [
+    "fonts/sources/google-fonts/ofl/playwritevn/PlaywriteVN[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritevnguides": [
+    "fonts/sources/google-fonts/ofl/playwritevnguides/PlaywriteVNGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/playwriteza": [
+    "fonts/sources/google-fonts/ofl/playwriteza/PlaywriteZA[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/playwritezaguides": [
+    "fonts/sources/google-fonts/ofl/playwritezaguides/PlaywriteZAGuides-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/plusjakartasans": [
+    "fonts/sources/google-fonts/ofl/plusjakartasans/PlusJakartaSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/plusjakartasans/PlusJakartaSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/podkova": [
+    "fonts/sources/google-fonts/ofl/podkova/Podkova[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/podkovavfbeta": [
+    "fonts/sources/google-fonts/ofl/podkovavfbeta/PodkovaVFBeta.woff2"
+  ],
+  "sources/google-fonts/ofl/poiretone": [
+    "fonts/sources/google-fonts/ofl/poiretone/PoiretOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/poltawskinowy": [
+    "fonts/sources/google-fonts/ofl/poltawskinowy/PoltawskiNowy-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/poltawskinowy/PoltawskiNowy[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/pottaone": [
+    "fonts/sources/google-fonts/ofl/pottaone/PottaOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/praise": [
+    "fonts/sources/google-fonts/ofl/praise/Praise-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/prata": [
+    "fonts/sources/google-fonts/ofl/prata/Prata-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/pridi": [
+    "fonts/sources/google-fonts/ofl/pridi/Pridi-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/pridi/Pridi-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/pridi/Pridi-Light.woff2",
+    "fonts/sources/google-fonts/ofl/pridi/Pridi-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/pridi/Pridi-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/pridi/Pridi-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/prompt": [
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-Black.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-Light.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/prompt/Prompt-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/protestguerrilla": [
+    "fonts/sources/google-fonts/ofl/protestguerrilla/ProtestGuerrilla-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/protestrevolution": [
+    "fonts/sources/google-fonts/ofl/protestrevolution/ProtestRevolution-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/protestriot": [
+    "fonts/sources/google-fonts/ofl/protestriot/ProtestRiot-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/proteststrike": [
+    "fonts/sources/google-fonts/ofl/proteststrike/ProtestStrike-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/publicsans": [
+    "fonts/sources/google-fonts/ofl/publicsans/PublicSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/publicsans/PublicSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/puppiesplay": [
+    "fonts/sources/google-fonts/ofl/puppiesplay/PuppiesPlay-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/pushster": [
+    "fonts/sources/google-fonts/ofl/pushster/Pushster-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/questrial": [
+    "fonts/sources/google-fonts/ofl/questrial/Questrial-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/quicksand": [
+    "fonts/sources/google-fonts/ofl/quicksand/Quicksand[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/qwigley": [
+    "fonts/sources/google-fonts/ofl/qwigley/Qwigley-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/qwitchergrypen": [
+    "fonts/sources/google-fonts/ofl/qwitchergrypen/QwitcherGrypen-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/qwitchergrypen/QwitcherGrypen-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/radiocanada": [
+    "fonts/sources/google-fonts/ofl/radiocanada/RadioCanada-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/radiocanada/RadioCanada[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/raleway": [
+    "fonts/sources/google-fonts/ofl/raleway/Raleway-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/raleway/Raleway[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/rasa": [
+    "fonts/sources/google-fonts/ofl/rasa/Rasa-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/rasa/Rasa[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/readexpro": [
+    "fonts/sources/google-fonts/ofl/readexpro/ReadexPro[HEXP,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/recursive": [
+    "fonts/sources/google-fonts/ofl/recursive/Recursive[CASL,CRSV,MONO,slnt,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/redditmono": [
+    "fonts/sources/google-fonts/ofl/redditmono/RedditMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/redditsans": [
+    "fonts/sources/google-fonts/ofl/redditsans/RedditSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/redditsans/RedditSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/redditsanscondensed": [
+    "fonts/sources/google-fonts/ofl/redditsanscondensed/RedditSansCondensed[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/redrose": [
+    "fonts/sources/google-fonts/ofl/redrose/RedRose[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/reemkufi": [
+    "fonts/sources/google-fonts/ofl/reemkufi/ReemKufi[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/reemkufifun": [
+    "fonts/sources/google-fonts/ofl/reemkufifun/ReemKufiFun[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/reemkufiink": [
+    "fonts/sources/google-fonts/ofl/reemkufiink/ReemKufiInk-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/rem": [
+    "fonts/sources/google-fonts/ofl/rem/REM-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/rem/REM[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/roadrage": [
+    "fonts/sources/google-fonts/ofl/roadrage/RoadRage-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/roboto": [
+    "fonts/sources/google-fonts/ofl/roboto/Roboto-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/roboto/Roboto[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/robotocondensed": [
+    "fonts/sources/google-fonts/ofl/robotocondensed/RobotoCondensed-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/robotocondensed/RobotoCondensed[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/robotoflex": [
+    "fonts/sources/google-fonts/ofl/robotoflex/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/robotomono": [
+    "fonts/sources/google-fonts/ofl/robotomono/RobotoMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/robotomono/RobotoMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/robotoserif": [
+    "fonts/sources/google-fonts/ofl/robotoserif/RobotoSerif-Italic[GRAD,opsz,wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/robotoserif/RobotoSerif[GRAD,opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/rokkitt": [
+    "fonts/sources/google-fonts/ofl/rokkitt/Rokkitt-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/rokkitt/Rokkitt[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/rokkittvfbeta": [
+    "fonts/sources/google-fonts/ofl/rokkittvfbeta/RokkittVFBeta.woff2"
+  ],
+  "sources/google-fonts/ofl/rosario": [
+    "fonts/sources/google-fonts/ofl/rosario/Rosario-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/rosario/Rosario[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/roundedmplus1c": [
+    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Black.woff2",
+    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Light.woff2",
+    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/rowdies": [
+    "fonts/sources/google-fonts/ofl/rowdies/Rowdies-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/rowdies/Rowdies-Light.woff2",
+    "fonts/sources/google-fonts/ofl/rowdies/Rowdies-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/ruda": [
+    "fonts/sources/google-fonts/ofl/ruda/Ruda[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/rugeboogie": [
+    "fonts/sources/google-fonts/ofl/rugeboogie/RugeBoogie-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/ruthie": [
+    "fonts/sources/google-fonts/ofl/ruthie/Ruthie-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/saira": [
+    "fonts/sources/google-fonts/ofl/saira/Saira-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/saira/Saira[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sairacondensed": [
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/sairacondensed/SairaCondensed-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/sairaextracondensed": [
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/sairaextracondensed/SairaExtraCondensed-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/sairasemicondensed": [
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-Black.woff2",
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-Light.woff2",
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/sairasemicondensed/SairaSemiCondensed-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/sairastencil": [
+    "fonts/sources/google-fonts/ofl/sairastencil/SairaStencil-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/sairastencil/SairaStencil[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sairastencilone": [
+    "fonts/sources/google-fonts/ofl/sairastencilone/SairaStencilOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sankofadisplay": [
+    "fonts/sources/google-fonts/ofl/sankofadisplay/SankofaDisplay-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sansitaswashed": [
+    "fonts/sources/google-fonts/ofl/sansitaswashed/SansitaSwashed[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sarabun": [
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-Light.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/sarabun/Sarabun-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/sassyfrass": [
+    "fonts/sources/google-fonts/ofl/sassyfrass/SassyFrass-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sawarabigothic": [
+    "fonts/sources/google-fonts/ofl/sawarabigothic/SawarabiGothic-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sawarabimincho": [
+    "fonts/sources/google-fonts/ofl/sawarabimincho/SawarabiMincho-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sciencegothic": [
+    "fonts/sources/google-fonts/ofl/sciencegothic/ScienceGothic[CTRS,slnt,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/scoutiesans": [
+    "fonts/sources/google-fonts/ofl/scoutiesans/ScoutieSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/scoutiesans/ScoutieSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sedgwickave": [
+    "fonts/sources/google-fonts/ofl/sedgwickave/SedgwickAve-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sedgwickavedisplay": [
+    "fonts/sources/google-fonts/ofl/sedgwickavedisplay/SedgwickAveDisplay-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sendflowers": [
+    "fonts/sources/google-fonts/ofl/sendflowers/SendFlowers-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/shalimar": [
+    "fonts/sources/google-fonts/ofl/shalimar/Shalimar-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/shantellsans": [
+    "fonts/sources/google-fonts/ofl/shantellsans/ShantellSans-Italic[BNCE,INFM,SPAC,wght].woff2",
+    "fonts/sources/google-fonts/ofl/shantellsans/ShantellSans[BNCE,INFM,SPAC,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sigmar": [
+    "fonts/sources/google-fonts/ofl/sigmar/Sigmar-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sigmarone": [
+    "fonts/sources/google-fonts/ofl/sigmarone/SigmarOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/signika": [
+    "fonts/sources/google-fonts/ofl/signika/Signika[GRAD,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/signikanegative": [
+    "fonts/sources/google-fonts/ofl/signikanegative/SignikaNegative[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/signikanegativesc": [
+    "fonts/sources/google-fonts/ofl/signikanegativesc/SignikaNegativeSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/signikanegativesc/SignikaNegativeSC-Light.woff2",
+    "fonts/sources/google-fonts/ofl/signikanegativesc/SignikaNegativeSC-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/signikanegativesc/SignikaNegativeSC-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/signikasc": [
+    "fonts/sources/google-fonts/ofl/signikasc/SignikaSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/smooch": [
+    "fonts/sources/google-fonts/ofl/smooch/Smooch-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/smoochsans": [
+    "fonts/sources/google-fonts/ofl/smoochsans/SmoochSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/snpro": [
+    "fonts/sources/google-fonts/ofl/snpro/SNPro-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/snpro/SNPro[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sono": [
+    "fonts/sources/google-fonts/ofl/sono/Sono[MONO,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sourcecodepro": [
+    "fonts/sources/google-fonts/ofl/sourcecodepro/SourceCodePro-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/sourcecodepro/SourceCodePro[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sourcesans3": [
+    "fonts/sources/google-fonts/ofl/sourcesans3/SourceSans3-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/sourcesans3/SourceSans3[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sourceserif4": [
+    "fonts/sources/google-fonts/ofl/sourceserif4/SourceSerif4-Italic[opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/sourceserif4/SourceSerif4[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/spacegrotesk": [
+    "fonts/sources/google-fonts/ofl/spacegrotesk/SpaceGrotesk[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/spacemono": [
+    "fonts/sources/google-fonts/ofl/spacemono/SpaceMono-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/spacemono/SpaceMono-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spacemono/SpaceMono-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/spacemono/SpaceMono-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/spectral": [
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-Light.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/spectral/Spectral-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/spectralsc": [
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-Light.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-SemiBoldItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/splash": [
+    "fonts/sources/google-fonts/ofl/splash/Splash-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/squarepeg": [
+    "fonts/sources/google-fonts/ofl/squarepeg/SquarePeg-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/srisakdi": [
+    "fonts/sources/google-fonts/ofl/srisakdi/Srisakdi-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/srisakdi/Srisakdi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/stixtwomath": [
+    "fonts/sources/google-fonts/ofl/stixtwomath/STIXTwoMath-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/stixtwotext": [
+    "fonts/sources/google-fonts/ofl/stixtwotext/STIXTwoText-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/stixtwotext/STIXTwoText[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/storyscript": [
+    "fonts/sources/google-fonts/ofl/storyscript/StoryScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/stylescript": [
+    "fonts/sources/google-fonts/ofl/stylescript/StyleScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/suse": [
+    "fonts/sources/google-fonts/ofl/suse/SUSE-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/suse/SUSE[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/susemono": [
+    "fonts/sources/google-fonts/ofl/susemono/SUSEMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/susemono/SUSEMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/tacone": [
+    "fonts/sources/google-fonts/ofl/tacone/TacOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/taiheritagepro": [
+    "fonts/sources/google-fonts/ofl/taiheritagepro/TaiHeritagePro-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/taiheritagepro/TaiHeritagePro-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/tapestry": [
+    "fonts/sources/google-fonts/ofl/tapestry/Tapestry-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/taviraj": [
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Black.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Light.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/taviraj/Taviraj-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/tektur": [
+    "fonts/sources/google-fonts/ofl/tektur/Tektur[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/texturina": [
+    "fonts/sources/google-fonts/ofl/texturina/Texturina-Italic[opsz,wght].woff2",
+    "fonts/sources/google-fonts/ofl/texturina/Texturina[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/thasadith": [
+    "fonts/sources/google-fonts/ofl/thasadith/Thasadith-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/thasadith/Thasadith-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/thasadith/Thasadith-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/thasadith/Thasadith-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/thenautigal": [
+    "fonts/sources/google-fonts/ofl/thenautigal/TheNautigal-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/thenautigal/TheNautigal-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/tiktoksans": [
+    "fonts/sources/google-fonts/ofl/tiktoksans/TikTokSans[opsz,slnt,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/tiltneon": [
+    "fonts/sources/google-fonts/ofl/tiltneon/TiltNeon[XROT,YROT].woff2"
+  ],
+  "sources/google-fonts/ofl/tiltprism": [
+    "fonts/sources/google-fonts/ofl/tiltprism/TiltPrism[XROT,YROT].woff2"
+  ],
+  "sources/google-fonts/ofl/tinos": [
+    "fonts/sources/google-fonts/ofl/tinos/Tinos-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/tinos/Tinos-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tinos/Tinos-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/tinos/Tinos-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/tiny5duo": [
+    "fonts/sources/google-fonts/ofl/tiny5duo/Tiny5Duo-Italic[BLED,JITT,ROND,wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/tiny5duo/Tiny5Duo[BLED,JITT,ROND,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/tomorrow": [
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Black.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Light.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/tourney": [
+    "fonts/sources/google-fonts/ofl/tourney/Tourney-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/tourney/Tourney[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/trirong": [
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-Black.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-BlackItalic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-ExtraBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-ExtraLight.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-ExtraLightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-Light.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-LightItalic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-SemiBoldItalic.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-Thin.woff2",
+    "fonts/sources/google-fonts/ofl/trirong/Trirong-ThinItalic.woff2"
+  ],
+  "sources/google-fonts/ofl/trispace": [
+    "fonts/sources/google-fonts/ofl/trispace/Trispace[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/truculenta": [
+    "fonts/sources/google-fonts/ofl/truculenta/Truculenta[opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/twinklestar": [
+    "fonts/sources/google-fonts/ofl/twinklestar/TwinkleStar-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/unbounded": [
+    "fonts/sources/google-fonts/ofl/unbounded/Unbounded[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/unicaone": [
+    "fonts/sources/google-fonts/ofl/unicaone/UnicaOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/updock": [
+    "fonts/sources/google-fonts/ofl/updock/Updock-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/varela": [
+    "fonts/sources/google-fonts/ofl/varela/Varela-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/varelaround": [
+    "fonts/sources/google-fonts/ofl/varelaround/VarelaRound-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/varta": [
+    "fonts/sources/google-fonts/ofl/varta/Varta[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/vazirmatn": [
+    "fonts/sources/google-fonts/ofl/vazirmatn/Vazirmatn[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/viaodalibre": [
+    "fonts/sources/google-fonts/ofl/viaodalibre/ViaodaLibre-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/victormono": [
+    "fonts/sources/google-fonts/ofl/victormono/VictorMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/victormono/VictorMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/vinasans": [
+    "fonts/sources/google-fonts/ofl/vinasans/VinaSans-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/voces": [
+    "fonts/sources/google-fonts/ofl/voces/Voces-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/vollkorn": [
+    "fonts/sources/google-fonts/ofl/vollkorn/Vollkorn-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/vollkorn/Vollkorn[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/vollkornsc": [
+    "fonts/sources/google-fonts/ofl/vollkornsc/VollkornSC-Black.woff2",
+    "fonts/sources/google-fonts/ofl/vollkornsc/VollkornSC-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/vollkornsc/VollkornSC-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/vollkornsc/VollkornSC-SemiBold.woff2"
+  ],
+  "sources/google-fonts/ofl/voltaire": [
+    "fonts/sources/google-fonts/ofl/voltaire/Voltaire-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/vt323": [
+    "fonts/sources/google-fonts/ofl/vt323/VT323-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/vujahdayscript": [
+    "fonts/sources/google-fonts/ofl/vujahdayscript/VujahdayScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/waterbrush": [
+    "fonts/sources/google-fonts/ofl/waterbrush/WaterBrush-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/waterfall": [
+    "fonts/sources/google-fonts/ofl/waterfall/Waterfall-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/whisper": [
+    "fonts/sources/google-fonts/ofl/whisper/Whisper-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/windsong": [
+    "fonts/sources/google-fonts/ofl/windsong/WindSong-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/windsong/WindSong-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/wixmadefordisplay": [
+    "fonts/sources/google-fonts/ofl/wixmadefordisplay/WixMadeforDisplay[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/wixmadefortext": [
+    "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText-Bold.woff2",
+    "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText-ExtraBold.woff2",
+    "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText-Medium.woff2",
+    "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText-Regular.woff2",
+    "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText-SemiBold.woff2",
+    "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/worksans": [
+    "fonts/sources/google-fonts/ofl/worksans/WorkSans-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/worksans/WorkSans[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/xanhmono": [
+    "fonts/sources/google-fonts/ofl/xanhmono/XanhMono-Italic.woff2",
+    "fonts/sources/google-fonts/ofl/xanhmono/XanhMono-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/yanonekaffeesatz": [
+    "fonts/sources/google-fonts/ofl/yanonekaffeesatz/YanoneKaffeesatz[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/yesevaone": [
+    "fonts/sources/google-fonts/ofl/yesevaone/YesevaOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/yomogi": [
+    "fonts/sources/google-fonts/ofl/yomogi/Yomogi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/yrsa": [
+    "fonts/sources/google-fonts/ofl/yrsa/Yrsa-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/yrsa/Yrsa[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/ysabeau": [
+    "fonts/sources/google-fonts/ofl/ysabeau/Ysabeau-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/ysabeau/Ysabeau[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/ysabeauinfant": [
+    "fonts/sources/google-fonts/ofl/ysabeauinfant/YsabeauInfant-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/ysabeauinfant/YsabeauInfant[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/ysabeauoffice": [
+    "fonts/sources/google-fonts/ofl/ysabeauoffice/YsabeauOffice-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/ysabeauoffice/YsabeauOffice[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/ysabeausc": [
+    "fonts/sources/google-fonts/ofl/ysabeausc/YsabeauSC[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/zalandosans": [
+    "fonts/sources/google-fonts/ofl/zalandosans/ZalandoSans-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ofl/zalandosans/ZalandoSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/zalandosansexpanded": [
+    "fonts/sources/google-fonts/ofl/zalandosansexpanded/ZalandoSansExpanded-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/zalandosansexpanded/ZalandoSansExpanded[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/zalandosanssemiexpanded": [
+    "fonts/sources/google-fonts/ofl/zalandosanssemiexpanded/ZalandoSansSemiExpanded-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ofl/zalandosanssemiexpanded/ZalandoSansSemiExpanded[wght].woff2"
+  ],
+  "sources/google-fonts/ufl/ubuntu": [
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-Bold.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-Italic.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-Light.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-LightItalic.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-Medium.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-MediumItalic.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-Regular.woff2"
+  ],
+  "sources/google-fonts/ufl/ubuntucondensed": [
+    "fonts/sources/google-fonts/ufl/ubuntucondensed/UbuntuCondensed-Regular.woff2"
+  ],
+  "sources/google-fonts/ufl/ubuntumono": [
+    "fonts/sources/google-fonts/ufl/ubuntumono/UbuntuMono-Bold.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntumono/UbuntuMono-BoldItalic.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntumono/UbuntuMono-Italic.woff2",
+    "fonts/sources/google-fonts/ufl/ubuntumono/UbuntuMono-Regular.woff2"
+  ],
+  "sources/google-fonts/ufl/ubuntusans": [
+    "fonts/sources/google-fonts/ufl/ubuntusans/UbuntuSans-Italic[wdth,wght].woff2",
+    "fonts/sources/google-fonts/ufl/ubuntusans/UbuntuSans[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ufl/ubuntusansmono": [
+    "fonts/sources/google-fonts/ufl/ubuntusansmono/UbuntuSansMono-Italic[wght].woff2",
+    "fonts/sources/google-fonts/ufl/ubuntusansmono/UbuntuSansMono[wght].woff2"
+  ]
+}
