@@ -42,7 +42,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   const archive: Record<string, Uint8Array> = {};
   let totalBytes = 0;
   for (const asset of assets) {
-    const response = await fetch(asset.url, { cache: "no-store" });
+    const response = await fetch(asset.url, { cache: "no-store", headers: { "User-Agent": "Mozilla/5.0" } });
     if (!response.ok) return NextResponse.json({ error: "A font asset could not be downloaded" }, { status: 502 });
     const data = new Uint8Array(await response.arrayBuffer());
     totalBytes += data.byteLength;
