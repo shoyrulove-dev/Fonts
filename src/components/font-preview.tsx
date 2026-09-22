@@ -11,7 +11,7 @@ function descriptor(file: string) {
   return { weight: match ? weights[match as keyof typeof weights] : 400, italic };
 }
 
-export default function FontPreview({ files, sample }: { files: string[]; sample: string }) {
+export default function FontPreview({ files, sample, slug }: { files: string[]; sample: string; slug?: string }) {
   const [text, setText] = useState(sample);
   const [weight, setWeight] = useState(400);
   const [italic, setItalic] = useState(false);
@@ -20,7 +20,7 @@ export default function FontPreview({ files, sample }: { files: string[]; sample
     return "@font-face{font-family:'BlissPreview';font-style:" + (info.italic ? "italic" : "normal") + ";font-weight:" + info.weight + ";src:url('https://assets.blissbiovn.com/" + file + "') format('woff2');font-display:swap;}";
   }).join(""), [files]);
   const availableWeights = [...new Set(files.map((file) => descriptor(file).weight))].sort((a, b) => a - b);
-  useEffect(() => { if (files.length) void fetch("/api/metrics", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ event: "font_view", slug: files[0].split("/")[2] || "unknown" }) }); }, [files]);
+  useEffect(() => { if (slug) void fetch("/api/metrics", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ event: "font_view", slug }) }); }, [slug]);
 
   return (
     <>
