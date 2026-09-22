@@ -18,6 +18,8 @@ export const metadata: Metadata = {
   authors: [{ name: "Bliss Fonts" }],
   creator: "Bliss Fonts",
   alternates: { canonical: siteUrl },
+  manifest: "/site.webmanifest",
+  themeColor: "#1d241f",
   icons: { icon: "/icon.svg", shortcut: "/icon.svg", apple: "/icon.svg" },
   openGraph: {
     type: "website",

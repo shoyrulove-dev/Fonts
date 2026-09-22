@@ -1,0 +1,15 @@
+{
+  "name": "Bliss Fonts — Kho font tiếng Việt",
+  "short_name": "Bliss Fonts",
+  "description": "Khám phá và thử font hỗ trợ tiếng Việt với license rõ ràng.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#1d241f",
+  "icons": [{
+    "src": "/icon.svg",
+    "sizes": "any",
+    "type": "image/svg+xml",
+    "purpose": "any maskable"
+  }]
+}
