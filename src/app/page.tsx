@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import FontExplorer from "@/components/font-explorer";
+import { NativeBanner } from "@/components/ad-units";
 import { getPublicFonts, type CatalogFont } from "@/lib/catalog";
 
 type FontRecord = CatalogFont;
@@ -71,6 +72,7 @@ export default async function Home() {
         </section>
 
         <FontExplorer fonts={fonts} />
+        <NativeBanner />
 
         <section id="vietnamese" className="pt-24">
           <div className="flex flex-wrap items-end justify-between gap-5"><div><p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">Vietnamese coverage</p><h2 className="mt-3 text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">Made for every accent.</h2></div><span className="rounded-full border border-[#c9ccc1] px-4 py-2 text-sm text-[#697169]">{vietnameseFonts.length} typefaces</span></div>
