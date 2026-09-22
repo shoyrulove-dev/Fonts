@@ -1,0 +1,25 @@
+"use client";
+
+import { useState } from "react";
+
+export default function ProfileSettings() {
+  const [currentPassword, setCurrentPassword] = useState("");
+  const [newPassword, setNewPassword] = useState("");
+  const [confirm, setConfirm] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  async function submit(event: React.FormEvent) {
+    event.preventDefault();
+    setMessage("");
+    setError("");
+    if (newPassword !== confirm) return setError("New passwords do not match.");
+    const response = await fetch("/api/admin/profile", { method: "PATCH", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ currentPassword, newPassword }) });
+    const data = await response.json();
+    if (!response.ok) return setError(data.error || "Unable to update password.");
+    setCurrentPassword("");
+    setNewPassword("");
+    setConfirm("");
+    setMessage("Password updated. Your current session remains active.");
+  }
+  return <section className="max-w-xl rounded-3xl border border-[#dce3dd] bg-white p-7"><p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#829087]">Profile & security</p><h2 className="mt-2 text-2xl font-semibold">Change admin password</h2><p className="mt-3 text-sm leading-6 text-[#69756c]">Your password is hashed and stored in MongoDB. Use at least 12 characters.</p><form onSubmit={submit} className="mt-7 space-y-4"><label className="block text-sm font-medium">Current password<input type="password" value={currentPassword} onChange={(event) => setCurrentPassword(event.target.value)} className="mt-2 h-12 w-full rounded-xl border border-[#dce3dd] px-4 outline-none focus:border-[#5e7965]" required /></label><label className="block text-sm font-medium">New password<input type="password" value={newPassword} onChange={(event) => setNewPassword(event.target.value)} className="mt-2 h-12 w-full rounded-xl border border-[#dce3dd] px-4 outline-none focus:border-[#5e7965]" minLength={12} required /></label><label className="block text-sm font-medium">Confirm new password<input type="password" value={confirm} onChange={(event) => setConfirm(event.target.value)} className="mt-2 h-12 w-full rounded-xl border border-[#dce3dd] px-4 outline-none focus:border-[#5e7965]" minLength={12} required /></label>{error && <p className="rounded-xl bg-[#fbe9e5] px-4 py-3 text-sm text-[#9a4f42]">{error}</p>}{message && <p className="rounded-xl bg-[#e2eee4] px-4 py-3 text-sm text-[#3e6046]">{message}</p>}<button className="rounded-full bg-[#1d241f] px-5 py-3 text-sm font-medium text-white">Update password</button></form></section>;
+}

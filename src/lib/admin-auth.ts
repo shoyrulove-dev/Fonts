@@ -1,6 +1,8 @@
 import type { NextRequest } from "next/server";
+import { adminCookieName, verifySession } from "@/lib/session";
 
-export function isAdminRequest(request: NextRequest) {
+export async function isAdminRequest(request: NextRequest) {
+  if (await verifySession(request.cookies.get(adminCookieName)?.value)) return true;
   const expectedUser = process.env.ADMIN_USER;
   const expectedPassword = process.env.ADMIN_PASSWORD;
   const authorization = request.headers.get("authorization");

@@ -21,7 +21,7 @@ async function seedIfEmpty() {
 }
 
 export async function GET(request: NextRequest) {
-  if (!isAdminRequest(request)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (!(await isAdminRequest(request))) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   const collection = await seedIfEmpty();
   const url = new URL(request.url);
   const query = url.searchParams.get("q")?.trim();
@@ -37,7 +37,7 @@ export async function GET(request: NextRequest) {
 }
 
 export async function PATCH(request: NextRequest) {
-  if (!isAdminRequest(request)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (!(await isAdminRequest(request))) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   const body = await request.json();
   if (!body.id) return NextResponse.json({ error: "id is required" }, { status: 400 });
   const updates = Object.fromEntries(Object.entries(body).filter(([key]) => ["name", "designer", "category", "license", "supportsVietnamese", "tags", "status"].includes(key)));
