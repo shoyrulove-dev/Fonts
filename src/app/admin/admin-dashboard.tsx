@@ -6,6 +6,7 @@ import fonts from "@/data/google-fonts.json";
 import ProfileSettings from "./profile-settings";
 import EditFontForm from "./edit-font-form";
 import AddFontForm from "./add-font-form";
+import BulkImportForm from "./bulk-import-form";
 
 type FontRecord = (typeof fonts)[number];
 
@@ -13,6 +14,7 @@ export default function AdminDashboard({ fonts }: { fonts: FontRecord[] }) {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<FontRecord | null>(null);
   const [adding, setAdding] = useState(false);
+  const [bulkImporting, setBulkImporting] = useState(false);
   const [section, setSection] = useState("Overview");
   const [catalog, setCatalog] = useState(fonts);
   const [syncState, setSyncState] = useState("Syncing MongoDB…");
@@ -49,8 +51,10 @@ export default function AdminDashboard({ fonts }: { fonts: FontRecord[] }) {
           </div>
         </section>
       </div>
+      <button type="button" onClick={() => setBulkImporting(true)} className="fixed bottom-6 right-6 z-10 rounded-full border border-[#dce3dd] bg-white px-4 py-3 text-sm font-medium text-[#52745b] shadow-lg">Import metadata</button>
       {selected && <EditFontForm font={selected} onClose={() => setSelected(null)} onSaved={handleSaved} />}
       {adding && <AddFontForm onClose={() => setAdding(false)} onSaved={handleAdded} />}
+      {bulkImporting && <BulkImportForm onClose={() => setBulkImporting(false)} />}
     </main>
   );
 }

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import fonts from "@/data/google-fonts.json";
 import FontExplorer from "@/components/font-explorer";
+import { getPublicFonts, type CatalogFont } from "@/lib/catalog";
 
-type FontRecord = (typeof fonts)[number];
+type FontRecord = CatalogFont;
 
 const categories = [
   { key: "SANS_SERIF", label: "Sans Serif", note: "Clean and versatile" },
@@ -15,7 +15,8 @@ const categories = [
 
 const categoryLabel = (category: string | null) => category?.replace("_", " ") ?? "Other";
 
-export default function Home() {
+export default async function Home() {
+  const fonts = await getPublicFonts();
   const vietnameseFonts = fonts.filter((font: FontRecord) => font.supportsVietnamese);
   const featured = vietnameseFonts.slice(0, 8);
 

@@ -1,17 +1,17 @@
 import { NextResponse } from "next/server";
 import { zipSync, strToU8 } from "fflate";
-import fonts from "@/data/google-fonts.json";
 import woff2Manifest from "@/data/woff2-manifest.json";
+import { getPublicFonts } from "@/lib/catalog";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const font = fonts.find((item) => item.slug === slug);
+  const font = (await getPublicFonts()).find((item) => item.slug === slug);
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
 
-  const files = woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
+  const files = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
   if (!files.length) return NextResponse.json({ error: "No webfont files available" }, { status: 404 });
 
   const archive: Record<string, Uint8Array> = {};

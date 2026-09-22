@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
-import fonts from "@/data/google-fonts.json";
+import { getPublicFonts } from "@/lib/catalog";
 
 const baseUrl = "https://fonts.blissbiovn.com";
 const categories = ["sans_serif", "serif", "display", "handwriting", "monospace"];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const fonts = await getPublicFonts();
   const updated = new Date();
   return [
     { url: baseUrl, lastModified: updated, changeFrequency: "daily", priority: 1 },
