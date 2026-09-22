@@ -11,6 +11,10 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   const font = (await getPublicFonts()).find((item) => item.slug === slug);
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
 
+  if (font.bundleKey) {
+    const bundled = await fetch(`https://assets.blissbiovn.com/${font.bundleKey}`, { cache: "no-store" });
+    if (bundled.ok) return new NextResponse(await bundled.arrayBuffer(), { headers: { "Content-Type": "application/zip", "Content-Disposition": `attachment; filename="${font.slug}-bliss-fonts.zip"`, "Cache-Control": "public, max-age=86400" } });
+  }
   const files = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
   if (!files.length) return NextResponse.json({ error: "No webfont files available" }, { status: 404 });
   try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() })); } catch { /* Analytics must never block downloads. */ }

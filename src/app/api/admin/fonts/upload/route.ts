@@ -36,6 +36,6 @@ export async function POST(request: NextRequest) {
   const key = `fonts/manual/${font.slug}/${safeName}`;
   const client = new S3Client({ region: "auto", endpoint, credentials: { accessKeyId: process.env.R2_ACCESS_KEY_ID, secretAccessKey: process.env.R2_SECRET_ACCESS_KEY } });
   await client.send(new PutObjectCommand({ Bucket: bucket, Key: key, Body: Buffer.from(await file.arrayBuffer()), ContentType: contentType(file.name), CacheControl: "public, max-age=31536000, immutable" }));
-  await collection.updateOne({ id }, { $addToSet: { files: key }, $set: { updatedAt: new Date() } });
+  await collection.updateOne({ id }, { $addToSet: { files: key }, $unset: { bundleKey: "" }, $set: { updatedAt: new Date() } });
   return NextResponse.json({ ok: true, key, publicUrl: `${process.env.R2_PUBLIC_URL || "https://assets.blissbiovn.com"}/${key}` });
 }

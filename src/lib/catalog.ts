@@ -4,6 +4,7 @@ import { getDatabase } from "@/lib/mongodb";
 export type CatalogFont = (typeof baseFonts)[number] & {
   status?: string;
   files?: string[];
+  bundleKey?: string;
   updatedAt?: Date | string;
 };
 
