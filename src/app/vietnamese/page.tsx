@@ -14,6 +14,7 @@ export default async function VietnamesePage() {
   const fonts = allFonts.filter((font) => font.id.startsWith("vietnamese/") || Boolean(font.sourceGroup));
   const collectionIds = new Set(fonts.map((font) => font.id));
   const compatible = allFonts.filter((font) => font.supportsVietnamese && !collectionIds.has(font.id)).length;
+  const explorerFonts = fonts.map(({ id, slug, name, designer, category, license, sourceGroup }) => ({ id, slug, name, designer, category, license, sourceGroup }));
 
   return <main className="min-h-screen bg-[#f6f4ee] text-[#1d241f]">
     <div className="mx-auto max-w-7xl px-5 py-6 sm:px-8 lg:px-12">
@@ -29,7 +30,7 @@ export default async function VietnamesePage() {
           <div className="rounded-2xl bg-[#dce8dc] p-4"><p className="text-2xl font-semibold">{compatible.toLocaleString("en-US")}</p><p className="mt-1 text-xs text-[#697169]">Compatible families</p></div>
         </div>
       </header>
-      <VietnameseExplorer fonts={fonts} />
+      <VietnameseExplorer fonts={explorerFonts} />
       <SiteFooter />
     </div>
   </main>;

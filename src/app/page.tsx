@@ -18,6 +18,7 @@ export default async function Home() {
   const fonts = await getPublicFonts();
   const vietnameseFonts = fonts.filter((font: CatalogFont) => font.supportsVietnamese);
   const featured = vietnameseFonts.slice(0, 8);
+  const explorerFonts = fonts.map(({ id, slug, name, designer, category, license, supportsVietnamese }) => ({ id, slug, name, designer, category, license, supportsVietnamese }));
 
   return <main className="min-h-screen overflow-hidden bg-[#f6f4ee] text-[#1d241f]">
     <section className="relative mx-auto max-w-7xl px-5 pb-10 pt-5 sm:px-8 lg:px-12">
@@ -49,7 +50,7 @@ export default async function Home() {
         <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">{categories.map((category, index) => { const count = fonts.filter((font: CatalogFont) => font.category === category.key).length; return <Link data-reveal href={`/category/${category.slug}`} key={category.key} className={`group rounded-2xl p-5 transition-transform hover:-translate-y-0.5 ${index % 2 === 0 ? "bg-white" : "bg-[#dce8dc]"}`}><div className="flex items-start justify-between"><span className="text-2xl font-light">0{index + 1}</span><span className="opacity-50 transition-transform group-hover:translate-x-1">↗</span></div><p className="mt-9 font-semibold">{category.label}</p><p className="mt-1 text-sm text-[#697169]">{category.note}</p><p className="mt-4 text-xs uppercase tracking-wider text-[#889087]">{count} families</p></Link>; })}</div>
       </section>
 
-      <FontExplorer fonts={fonts} />
+      <FontExplorer fonts={explorerFonts} />
       <NativeBanner />
 
       <section id="vietnamese" className="pt-16">

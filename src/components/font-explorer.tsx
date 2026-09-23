@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { CatalogFont } from "@/lib/catalog";
 
-export default function FontExplorer({ fonts }: { fonts: CatalogFont[] }) {
+type ExplorerFont = Pick<CatalogFont, "id" | "slug" | "name" | "designer" | "category" | "license" | "supportsVietnamese">;
+
+export default function FontExplorer({ fonts }: { fonts: ExplorerFont[] }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("ALL");
   const [vietnameseOnly, setVietnameseOnly] = useState(false);
