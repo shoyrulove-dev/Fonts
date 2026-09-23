@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import fonts from "@/data/google-fonts.json";
+import { allFonts } from "@/lib/catalog";
 import AdminDashboard from "./admin-dashboard";
 
 export const metadata: Metadata = {
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function AdminPage() {
-  return <AdminDashboard fonts={fonts} username={process.env.ADMIN_USER || "admin"} />;
+  return <AdminDashboard fonts={allFonts} username={process.env.ADMIN_USER || "admin"} />;
 }

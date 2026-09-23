@@ -37,7 +37,7 @@ export default function AdminDashboard({ fonts: initialFonts, username }: { font
       setLogoutError("Could not sign out. Please try again.");
     }
   }
-  useEffect(() => { Promise.all([fetch("/api/admin/fonts?limit=2030", { credentials: "include" }), fetch("/api/metrics?days=30", { credentials: "include" })]).then(async ([fontResponse, metricResponse]) => { if (fontResponse.ok) setCatalog((await fontResponse.json()).fonts); if (metricResponse.ok) setMetrics(await metricResponse.json()); }).catch(() => {}); }, []);
+  useEffect(() => { Promise.all([fetch("/api/admin/fonts?limit=5000", { credentials: "include" }), fetch("/api/metrics?days=30", { credentials: "include" })]).then(async ([fontResponse, metricResponse]) => { if (fontResponse.ok) setCatalog((await fontResponse.json()).fonts); if (metricResponse.ok) setMetrics(await metricResponse.json()); }).catch(() => {}); }, []);
   const vietnamese = catalog.filter((font) => font.supportsVietnamese).length; const drafts = catalog.filter((font) => font.status === "draft").length; const archived = catalog.filter((font) => font.status === "archived").length; const published = catalog.length - drafts - archived;
   const results = useMemo(() => { const needle = query.trim().toLowerCase(); return catalog.filter((font) => !needle || [font.name, font.designer, font.category].join(" ").toLowerCase().includes(needle)).slice(0, 30); }, [catalog, query]);
   const savedBundles = catalog.filter((font) => font.bundleKey).length;

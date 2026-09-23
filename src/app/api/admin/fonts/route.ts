@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import fonts from "@/data/google-fonts.json";
+import vietnameseFonts from "@/data/vietnamese-fonts.json";
 import { isAdminRequest } from "@/lib/admin-auth";
 import { getDatabase } from "@/lib/mongodb";
 
@@ -12,10 +13,13 @@ type FontRecord = (typeof fonts)[number];
 async function seedIfEmpty() {
   const db = await getDatabase();
   const collection = db.collection<FontRecord>("fonts");
+  const catalog = [...fonts, ...vietnameseFonts] as FontRecord[];
   if (await collection.estimatedDocumentCount() === 0) {
     await collection.createIndex({ slug: 1 }, { unique: true });
     await collection.createIndex({ category: 1, supportsVietnamese: 1 });
-    await collection.insertMany(fonts as FontRecord[], { ordered: false });
+    await collection.insertMany(catalog, { ordered: false });
+  } else {
+    await collection.bulkWrite(vietnameseFonts.map((font) => ({ updateOne: { filter: { id: font.id }, update: { $setOnInsert: font }, upsert: true } })), { ordered: false });
   }
   return collection;
 }
@@ -27,7 +31,7 @@ export async function GET(request: NextRequest) {
   const query = url.searchParams.get("q")?.trim();
   const category = url.searchParams.get("category");
   const vietnamese = url.searchParams.get("vietnamese") === "true";
-  const limit = Math.min(Number(url.searchParams.get("limit") || 50), 2030);
+  const limit = Math.min(Number(url.searchParams.get("limit") || 50), 5000);
   const filter: Record<string, unknown> = {};
   if (category && category !== "ALL") filter.category = category;
   if (vietnamese) filter.supportsVietnamese = true;

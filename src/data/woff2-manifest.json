@@ -7202,5 +7202,2417 @@
   "sources/google-fonts/ufl/ubuntusansmono": [
     "fonts/sources/google-fonts/ufl/ubuntusansmono/UbuntuSansMono-Italic[wght].woff2",
     "fonts/sources/google-fonts/ufl/ubuntusansmono/UbuntuSansMono[wght].woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuadinekirnbergregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuadinekirnbergregular/SFUAdineKirnbergRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuagbuchstencilbqmedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuagbuchstencilbqmedium/SFUAGBuchStencilBQMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuamericantypebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuamericantypebold/SFUAmericanTypeBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuamericantypemedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuamericantypemedium/SFUAmericanTypeMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuangieblack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuangieblack/SFUAngieBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuangiebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuangiebold/SFUAngieBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuangieitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuangieitalic/SFUAngieItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuangieregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuangieregular/SFUAngieRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuaristonregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuaristonregular/SFUAristonRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuauchonregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuauchonregular/SFUAuchonRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuballetengravedregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuballetengravedregular/SFUBalletEngravedRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubaskervillebookitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubaskervillebookitalic/SFUBaskervilleBookItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubaskervillebookmedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubaskervillebookmedium/SFUBaskervilleBookMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubaskervillebookmediumitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubaskervillebookmediumitalic/SFUBaskervilleBookMediumItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubaskervillebookregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubaskervillebookregular/SFUBaskervilleBookRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubelleregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubelleregular/SFUBelleRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubembobold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubembobold/SFUBemboBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubembobolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubembobolditalic/SFUBemboBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubemboextrabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubemboextrabold/SFUBemboExtraBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubemboextrabolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubemboextrabolditalic/SFUBemboExtraBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubemboitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubemboitalic/SFUBemboItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubemboldmediumttf": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubemboldmediumttf/SFUBemboldMediumTTF.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfublackoutregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfublackoutregular/SFUBlackoutRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfubodoniboldcondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfubodoniboldcondensed/SFUBodoniBoldCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtbold/SFUCenturySchoolbookBTBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtboldcondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtboldcondensed/SFUCenturySchoolbookBTBoldCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtbolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtbolditalic/SFUCenturySchoolbookBTBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtitalic/SFUCenturySchoolbookBTItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtroman": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucenturyschoolbookbtroman/SFUCenturySchoolbookBTRoman.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuclearfaceblack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuclearfaceblack/SFUClearfaceBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucleargothicbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucleargothicbold/SFUClearGothicBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucleargothicextralightoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucleargothicextralightoblique/SFUClearGothicExtraLightOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucleargothicregularoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucleargothicregularoblique/SFUClearGothicRegularOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucooperblack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucooperblack/SFUCooperBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucooperblackitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucooperblackitalic/SFUCooperBlackItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfucornetregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfucornetregular/SFUCornetRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudaxcondensedbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudaxcondensedbold/SFUDaxCondensedBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudaxcondensedextrabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudaxcondensedextrabold/SFUDaxCondensedExtraBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudaxcondensedlight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudaxcondensedlight/SFUDaxCondensedLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudaxcondensedmedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudaxcondensedmedium/SFUDaxCondensedMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudaxcondensedregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudaxcondensedregular/SFUDaxCondensedRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudinengalt": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudinengalt/SFUDinEngAlt.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudinengschrift": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudinengschrift/SFUDinEngschrift.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudinlight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudinlight/SFUDinLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudinmitalt": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudinmitalt/SFUDinMitAlt.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudinmittelschrift": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudinmittelschrift/SFUDinMittelschrift.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudinneugroboldcondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudinneugroboldcondensed/SFUDinNeuGroBoldCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfudinneugrolight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfudinneugrolight/SFUDinNeuGroLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuedwardianscriptregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuedwardianscriptregular/SFUEdwardianScriptRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuempirebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuempirebold/SFUEmpireBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuempireregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuempireregular/SFUEmpireRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuergoeregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuergoeregular/SFUErgoeRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostilebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostilebold/SFUEurostileBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostileboldcondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostileboldcondensed/SFUEurostileBoldCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostileboldextendedtwo": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostileboldextendedtwo/SFUEurostileBoldExtendedTwo_.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostileboldoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostileboldoblique/SFUEurostileBoldOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostilecondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostilecondensed/SFUEurostileCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostiledemi": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostiledemi/SFUEurostileDemi.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostiledemioblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostiledemioblique/SFUEurostileDemiOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostileextendedtwo": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostileextendedtwo/SFUEurostileExtendedTwo.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostileoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostileoblique/SFUEurostileOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfueurostileregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfueurostileregular/SFUEurostileRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufenicebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufenicebold/SFUFeniceBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufeniceboldoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufeniceboldoblique/SFUFeniceBoldOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufenicelight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufenicelight/SFUFeniceLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufenicelightoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufenicelightoblique/SFUFeniceLightOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufeniceoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufeniceoblique/SFUFeniceOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufeniceregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufeniceregular/SFUFeniceRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufeniceultra": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufeniceultra/SFUFeniceUltra.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufeniceultraoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufeniceultraoblique/SFUFeniceUltraOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothicbook": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothicbook/SFUFranklinGothicBook.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothicbookoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothicbookoblique/SFUFranklinGothicBookOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothiccondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothiccondensed/SFUFranklinGothicCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothicdemi": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothicdemi/SFUFranklinGothicDemi.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothicdemioblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothicdemioblique/SFUFranklinGothicDemiOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothicheavy": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothicheavy/SFUFranklinGothicHeavy.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothicheavyoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothicheavyoblique/SFUFranklinGothicHeavyOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufranklingothicroman": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufranklingothicroman/SFUFranklinGothicRoman.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufreewayblack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufreewayblack/SFUFreewayBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufreewaydemi": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufreewaydemi/SFUFreewayDemi.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufreewaylight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufreewaylight/SFUFreewayLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufreewayroman": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufreewayroman/SFUFreewayRoman.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensed/SFUFunctionCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensedbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensedbold/SFUFunctionCondensedBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensedboldoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensedboldoblique/SFUFunctionCondensedBoldOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensedheavy": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensedheavy/SFUFunctionCondensedHeavy.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensedheavyoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensedheavyoblique/SFUFunctionCondensedHeavyOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensedlight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensedlight/SFUFunctionCondensedLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensedlightoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensedlightoblique/SFUFunctionCondensedLightOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufunctioncondensedoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufunctioncondensedoblique/SFUFunctionCondensedOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturabold/SFUFuturaBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturaboldoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturaboldoblique/SFUFuturaBoldOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturabook": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturabook/SFUFuturaBook.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturabookoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturabookoblique/SFUFuturaBookOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturaextrabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturaextrabold/SFUFuturaExtraBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturaextraboldoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturaextraboldoblique/SFUFuturaExtraBoldOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturaheavy": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturaheavy/SFUFuturaHeavy.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturaheavyoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturaheavyoblique/SFUFuturaHeavyOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturalight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturalight/SFUFuturaLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturalightoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturalightoblique/SFUFuturaLightOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturaobliquettf": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturaobliquettf/SFUFuturaObliqueTTF.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfufuturaregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfufuturaregular/SFUFuturaRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondcondensedbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondcondensedbold/SFUGaramondCondensedBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondcondensedbolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondcondensedbolditalic/SFUGaramondCondensedBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondcondensedlight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondcondensedlight/SFUGaramondCondensedLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondcondensedlightitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondcondensedlightitalic/SFUGaramondCondensedLightItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondthreebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondthreebold/SFUGaramondThreeBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondthreebolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondthreebolditalic/SFUGaramondThreeBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondthreeitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondthreeitalic/SFUGaramondThreeItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugaramondthreeregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugaramondthreeregular/SFUGaramondThreeRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugillsansbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugillsansbold/SFUGillSansBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugillsansbolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugillsansbolditalic/SFUGillSansBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugillsansextrabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugillsansextrabold/SFUGillSansExtraBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugillsansitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugillsansitalic/SFUGillSansItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugillsanslight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugillsanslight/SFUGillSansLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugillsansregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugillsansregular/SFUGillSansRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuglytusbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuglytusbold/SFUGlytusBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuglytusbolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuglytusbolditalic/SFUGlytusBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuglytusitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuglytusitalic/SFUGlytusItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuglytuslight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuglytuslight/SFUGlytusLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuglytuslightitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuglytuslightitalic/SFUGlytusLightItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuglytusregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuglytusregular/SFUGlytusRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugoudymedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugoudymedium/SFUGoudyMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugrenobleextrabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugrenobleextrabold/SFUGrenobleExtraBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugrenoblelight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugrenoblelight/SFUGrenobleLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfugrenoblemedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfugrenoblemedium/SFUGrenobleMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticablack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticablack/SFUHelveticaBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticablackoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticablackoblique/SFUHelveticaBlackOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticabold/SFUHelveticaBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacompressed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacompressed/SFUHelveticaCompressed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensed/SFUHelveticaCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensedblack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensedblack/SFUHelveticaCondensedBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensedblackoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensedblackoblique/SFUHelveticaCondensedBlackOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensedbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensedbold/SFUHelveticaCondensedBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensedboldoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensedboldoblique/SFUHelveticaCondensedBoldOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensedlight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensedlight/SFUHelveticaCondensedLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensedlightoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensedlightoblique/SFUHelveticaCondensedLightOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticacondensedoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticacondensedoblique/SFUHelveticaCondensedOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticaextracompressed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticaextracompressed/SFUHelveticaExtraCompressed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticalight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticalight/SFUHelveticaLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticalightoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticalightoblique/SFUHelveticaLightOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticanarrow": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticanarrow/SFUHelveticaNarrow.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticanarrowbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticanarrowbold/SFUHelveticaNarrowBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticaneueultralight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticaneueultralight/SFUHelveticaNeueUltraLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticaoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticaoblique/SFUHelveticaOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticaregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticaregular/SFUHelveticaRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhelveticaultracompressed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhelveticaultracompressed/SFUHelveticaUltraCompressed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuhoneymoonregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuhoneymoonregular/SFUHoneymoonRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuincised901regular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuincised901regular/SFUIncised901Regular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuinsigniaregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuinsigniaregular/SFUInsigniaRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuisadorabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuisadorabold/SFUIsadoraBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuisadoraregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuisadoraregular/SFUIsadoraRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfujamaicaregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfujamaicaregular/SFUJamaicaRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfulifebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfulifebold/SFULifeBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfulifeitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfulifeitalic/SFULifeItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuliferoman": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuliferoman/SFULifeRoman.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfulightsoutregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfulightsoutregular/SFULightsOutRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumachineregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumachineregular/SFUMachineRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumatrixbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumatrixbold/SFUMatrixBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumatrixregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumatrixregular/SFUMatrixRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumeliorbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumeliorbold/SFUMeliorBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumeliorregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumeliorregular/SFUMeliorRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumetabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumetabold/SFUMetaBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumetacaps": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumetacaps/SFUMetaCaps.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumetanormal": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumetanormal/SFUMetaNormal.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumonalisaregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumonalisaregular/SFUMonalisaRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumonotypeoldstylemtboldoutline": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumonotypeoldstylemtboldoutline/SFUMonotypeOldStyleMTBoldOutline.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumtimesnewromanboldcondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumtimesnewromanboldcondensed/SFUMTimesNewRomanBoldCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumtimesnewromancondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumtimesnewromancondensed/SFUMTimesNewRomanCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfumtimesnewromancondenseditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfumtimesnewromancondenseditalic/SFUMTimesNewRomanCondensedItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunapolilight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunapolilight/SFUNapoliLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunovaresebold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunovaresebold/SFUNovareseBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunovaresebolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunovaresebolditalic/SFUNovareseBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunovaresebook": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunovaresebook/SFUNovareseBook.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunovaresebookitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunovaresebookitalic/SFUNovareseBookItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunovaresemedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunovaresemedium/SFUNovareseMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunovaresemediumitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunovaresemediumitalic/SFUNovareseMediumItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfunovareseultra": [
+    "fonts/sources/vietnamese/sfu/sfu-sfunovareseultra/SFUNovareseUltra.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuonyxmtregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuonyxmtregular/SFUOnyxMTRegular_.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuquadradbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuquadradbold/SFUQuadradBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuquagmireboldextended": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuquagmireboldextended/SFUQuagmireBoldExtended.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfurhythmregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfurhythmregular/SFURhythmRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusalutregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusalutregular/SFUSalutRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusalzburgmedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusalzburgmedium/SFUSalzburgMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusaxonylight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusaxonylight/SFUSaxonyLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusaxonyxlight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusaxonyxlight/SFUSaxonyXlight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuschadowbtblackcondensed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuschadowbtblackcondensed/SFUSchadowBTBlackCondensed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfushannonbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfushannonbold/SFUShannonBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfushannonboldoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfushannonboldoblique/SFUShannonBoldOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfushannonbook": [
+    "fonts/sources/vietnamese/sfu/sfu-sfushannonbook/SFUShannonBook.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfushannonextrabold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfushannonextrabold/SFUShannonExtraBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfushannonoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfushannonoblique/SFUShannonOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusigvardemibold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusigvardemibold/SFUSigvarDemiBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusigvardemibolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusigvardemibolditalic/SFUSigvarDemiBoldItalic_.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusigvarlight": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusigvarlight/SFUSigvarLight.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusigvarregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusigvarregular/SFUSigvarRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusigvarregularitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusigvarregularitalic/SFUSigvarRegularItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusolexblack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusolexblack/SFUSolexBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusolexbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusolexbold/SFUSolexBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusolexmedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusolexmedium/SFUSolexMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusolexregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusolexregular/SFUSolexRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusouvenirbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusouvenirbold/SFUSouvenirBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusouvenirbolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusouvenirbolditalic/SFUSouvenirBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfustaffordbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfustaffordbold/SFUStaffordBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfustonesansbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfustonesansbold/SFUStoneSansBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfustonesansbolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfustonesansbolditalic/SFUStoneSansBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfustonesansitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfustonesansitalic/SFUStoneSansItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfustonesansregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfustonesansregular/SFUStoneSansRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfustonesanssemibold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfustonesanssemibold/SFUStoneSansSemiBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfustonesanssemibolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfustonesanssemibolditalic/SFUStoneSansSemiBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuswissbtextracompressed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuswissbtextracompressed/SFUSwissBTExtraCompressed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuswissbtregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuswissbtregular/SFUSwissBTRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuswissbtultracompressed": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuswissbtultracompressed/SFUSwissBTUltraCompressed.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusydneyheavy": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusydneyheavy/SFUSydneyHeavy.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusydneymedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusydneymedium/SFUSydneyMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusydneyregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusydneyregular/SFUSydneyRegular.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusyntaxblack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusyntaxblack/SFUSyntaxBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusyntaxbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusyntaxbold/SFUSyntaxBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusyntaxitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusyntaxitalic/SFUSyntaxItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusyntaxroman": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusyntaxroman/SFUSyntaxRoman.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfusyntaxultrablack": [
+    "fonts/sources/vietnamese/sfu/sfu-sfusyntaxultrablack/SFUSyntaxUltraBlack.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuthesansboldplain": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuthesansboldplain/SFUTheSansBoldPlain.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuthesansextraboldcaps": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuthesansextraboldcaps/SFUTheSansExtraBoldCaps.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuthesansextrabolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuthesansextrabolditalic/SFUTheSansExtraBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuthesansitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuthesansitalic/SFUTheSansItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuthesanslightitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuthesanslightitalic/SFUTheSansLightItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuthesanslightplain": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuthesanslightplain/SFUTheSansLightPlain.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfuthesansplain": [
+    "fonts/sources/vietnamese/sfu/sfu-sfuthesansplain/SFUTheSansPlain.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutimestenbold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutimestenbold/SFUTimesTenBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutimestenbolditalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutimestenbolditalic/SFUTimesTenBoldItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutimestenitalic": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutimestenitalic/SFUTimesTenItalic.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutimestenroman": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutimestenroman/SFUTimesTenRoman.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutoledobold": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutoledobold/SFUToledoBold.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutoledomedium": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutoledomedium/SFUToledoMedium.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutradegothicboldcondensedtwenty": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutradegothicboldcondensedtwenty/SFUTradeGothicBoldCondensedTwenty.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutradegothicboldcondensedtwentyoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutradegothicboldcondensedtwentyoblique/SFUTradeGothicBoldCondensedTwentyOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutradegothiccondensedeighteenoblique": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutradegothiccondensedeighteenoblique/SFUTradeGothicCondensedEighteenOblique.woff2"
+  ],
+  "sources/vietnamese/sfu/sfu-sfutrajanregular": [
+    "fonts/sources/vietnamese/sfu/sfu-sfutrajanregular/SFUTrajanRegular.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-a-love-of-thunder": [
+    "fonts/sources/vietnamese/svn/svn-svn-a-love-of-thunder/SVN-A Love Of Thunder.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-adam-gorry": [
+    "fonts/sources/vietnamese/svn/svn-svn-adam-gorry/SVN-Adam Gorry.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-agency-fb": [
+    "fonts/sources/vietnamese/svn/svn-svn-agency-fb/SVN-Agency FB.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-agency-fb-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-agency-fb-bold/SVN-Agency FB Bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-androgyne": [
+    "fonts/sources/vietnamese/svn/svn-svn-androgyne/SVN-Androgyne.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-apple": [
+    "fonts/sources/vietnamese/svn/svn-svn-apple/SVN-Apple.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-appleberry": [
+    "fonts/sources/vietnamese/svn/svn-svn-appleberry/SVN-Appleberry.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-aptima": [
+    "fonts/sources/vietnamese/svn/svn-svn-aptima/SVN-Aptima.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-aptima-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-aptima-bold/SVN-Aptima bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-aptima-bold-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-aptima-bold-italic/SVN-Aptima bold italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-aptima-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-aptima-italic/SVN-Aptima italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-avo": [
+    "fonts/sources/vietnamese/svn/svn-svn-avo/SVN-Avo.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-avo-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-avo-bold/SVN-Avo bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-avo-bold-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-avo-bold-italic/SVN-Avo bold italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-avo-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-avo-italic/SVN-Avo italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-bear": [
+    "fonts/sources/vietnamese/svn/svn-svn-bear/SVN-Bear.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-beast": [
+    "fonts/sources/vietnamese/svn/svn-svn-beast/SVN-Beast.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-berkshire-swash": [
+    "fonts/sources/vietnamese/svn/svn-svn-berkshire-swash/SVN-Berkshire Swash.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-billo": [
+    "fonts/sources/vietnamese/svn/svn-svn-billo/SVN-Billo.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-bira": [
+    "fonts/sources/vietnamese/svn/svn-svn-bira/SVN-Bira.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-birth-of-a-hero": [
+    "fonts/sources/vietnamese/svn/svn-svn-birth-of-a-hero/SVN-Birth Of A Hero.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-blade-runner": [
+    "fonts/sources/vietnamese/svn/svn-svn-blade-runner/SVN-Blade runner.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-block": [
+    "fonts/sources/vietnamese/svn/svn-svn-block/SVN-Block.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-blue": [
+    "fonts/sources/vietnamese/svn/svn-svn-blue/SVN-Blue.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-book-antiqua": [
+    "fonts/sources/vietnamese/svn/svn-svn-book-antiqua/SVN-Book Antiqua.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-book-antiqua-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-book-antiqua-bold/SVN-Book Antiqua bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-book-antiqua-bold-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-book-antiqua-bold-italic/SVN-Book Antiqua bold italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-book-antiqua-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-book-antiqua-italic/SVN-Book Antiqua italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-bradley-hand": [
+    "fonts/sources/vietnamese/svn/svn-svn-bradley-hand/SVN-Bradley Hand.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-cafe-lounge-19": [
+    "fonts/sources/vietnamese/svn/svn-svn-cafe-lounge-19/SVN-Cafe Lounge 19.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-carington": [
+    "fonts/sources/vietnamese/svn/svn-svn-carington/SVN-Carington.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-channel": [
+    "fonts/sources/vietnamese/svn/svn-svn-channel/SVN-Channel.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-comic-sans-ms": [
+    "fonts/sources/vietnamese/svn/svn-svn-comic-sans-ms/SVN-Comic Sans MS.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-cookie": [
+    "fonts/sources/vietnamese/svn/svn-svn-cookie/SVN-Cookie.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-cookies": [
+    "fonts/sources/vietnamese/svn/svn-svn-cookies/SVN-Cookies.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-dancing-script": [
+    "fonts/sources/vietnamese/svn/svn-svn-dancing-script/SVN-Dancing script.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-elle-novac-extra-light": [
+    "fonts/sources/vietnamese/svn/svn-svn-elle-novac-extra-light/SVN-Elle NovaC Extra Light.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-fff-tusj": [
+    "fonts/sources/vietnamese/svn/svn-svn-fff-tusj/SVN-FFF Tusj.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-fiolex-girls": [
+    "fonts/sources/vietnamese/svn/svn-svn-fiolex-girls/SVN-Fiolex Girls.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-franko": [
+    "fonts/sources/vietnamese/svn/svn-svn-franko/SVN-Franko.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-gidry": [
+    "fonts/sources/vietnamese/svn/svn-svn-gidry/SVN-Gidry.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-good-dog": [
+    "fonts/sources/vietnamese/svn/svn-svn-good-dog/SVN-Good Dog.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-gretoon": [
+    "fonts/sources/vietnamese/svn/svn-svn-gretoon/SVN-Gretoon.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-harabaras": [
+    "fonts/sources/vietnamese/svn/svn-svn-harabaras/SVN-Harabaras.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helves": [
+    "fonts/sources/vietnamese/svn/svn-svn-helves/SVN-Helves.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helves-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-helves-bold/SVN-Helves bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helves-bold-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-helves-bold-italic/SVN-Helves bold italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helves-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-helves-italic/SVN-Helves italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helvetica-neue-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-helvetica-neue-bold/SVN-Helvetica Neue Bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helvetica-neue-bold-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-helvetica-neue-bold-italic/SVN-Helvetica Neue Bold Italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helvetica-neue-heavy": [
+    "fonts/sources/vietnamese/svn/svn-svn-helvetica-neue-heavy/SVN-Helvetica Neue Heavy.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helvetica-neue-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-helvetica-neue-italic/SVN-Helvetica Neue Italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helvetica-neue-light": [
+    "fonts/sources/vietnamese/svn/svn-svn-helvetica-neue-light/SVN-Helvetica Neue Light.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-helvetica-neue-regular": [
+    "fonts/sources/vietnamese/svn/svn-svn-helvetica-neue-regular/SVN-Helvetica Neue Regular.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-hemi-head": [
+    "fonts/sources/vietnamese/svn/svn-svn-hemi-head/SVN-Hemi Head.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-hole-hearted": [
+    "fonts/sources/vietnamese/svn/svn-svn-hole-hearted/SVN-Hole Hearted.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-holidays": [
+    "fonts/sources/vietnamese/svn/svn-svn-holidays/SVN-Holidays.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-internation": [
+    "fonts/sources/vietnamese/svn/svn-svn-internation/SVN-Internation.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-kg-ten-thousand-reasons": [
+    "fonts/sources/vietnamese/svn/svn-svn-kg-ten-thousand-reasons/SVN-KG Ten Thousand Reasons.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-kimberley": [
+    "fonts/sources/vietnamese/svn/svn-svn-kimberley/SVN-Kimberley.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-linux-libertine-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-linux-libertine-bold/SVN-Linux Libertine bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-linux-libertine-bold-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-linux-libertine-bold-italic/SVN-Linux Libertine bold italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-linux-libertine-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-linux-libertine-italic/SVN-Linux Libertine Italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-linux-libertine-regular": [
+    "fonts/sources/vietnamese/svn/svn-svn-linux-libertine-regular/SVN-Linux Libertine regular.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-lobster": [
+    "fonts/sources/vietnamese/svn/svn-svn-lobster/SVN-Lobster.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-moon-star": [
+    "fonts/sources/vietnamese/svn/svn-svn-moon-star/SVN-Moon Star.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-motion-picture": [
+    "fonts/sources/vietnamese/svn/svn-svn-motion-picture/SVN-Motion Picture.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-mutlu": [
+    "fonts/sources/vietnamese/svn/svn-svn-mutlu/SVN-Mutlu.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-neogrey": [
+    "fonts/sources/vietnamese/svn/svn-svn-neogrey/SVN-Neogrey.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-newton": [
+    "fonts/sources/vietnamese/svn/svn-svn-newton/SVN-Newton.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-nickel": [
+    "fonts/sources/vietnamese/svn/svn-svn-nickel/SVN-Nickel.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-olivier": [
+    "fonts/sources/vietnamese/svn/svn-svn-olivier/SVN-Olivier.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-poky-s": [
+    "fonts/sources/vietnamese/svn/svn-svn-poky-s/SVN-Poky_s.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-prima": [
+    "fonts/sources/vietnamese/svn/svn-svn-prima/SVN-Prima.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-ready": [
+    "fonts/sources/vietnamese/svn/svn-svn-ready/SVN-Ready.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-redressed": [
+    "fonts/sources/vietnamese/svn/svn-svn-redressed/SVN-Redressed.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-reliant": [
+    "fonts/sources/vietnamese/svn/svn-svn-reliant/SVN-Reliant.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-revolution": [
+    "fonts/sources/vietnamese/svn/svn-svn-revolution/SVN-Revolution.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-rex": [
+    "fonts/sources/vietnamese/svn/svn-svn-rex/SVN-Rex.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-riesling": [
+    "fonts/sources/vietnamese/svn/svn-svn-riesling/SVN-Riesling.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-rocker": [
+    "fonts/sources/vietnamese/svn/svn-svn-rocker/SVN-Rocker.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-rounded": [
+    "fonts/sources/vietnamese/svn/svn-svn-rounded/SVN-Rounded.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-russell": [
+    "fonts/sources/vietnamese/svn/svn-svn-russell/SVN-Russell.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-saf": [
+    "fonts/sources/vietnamese/svn/svn-svn-saf/SVN-SAF.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-sansation": [
+    "fonts/sources/vietnamese/svn/svn-svn-sansation/SVN-Sansation.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-segoe-print": [
+    "fonts/sources/vietnamese/svn/svn-svn-segoe-print/SVN-Segoe Print.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-segoe-script": [
+    "fonts/sources/vietnamese/svn/svn-svn-segoe-script/SVN-Segoe Script.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-sliced": [
+    "fonts/sources/vietnamese/svn/svn-svn-sliced/SVN-Sliced.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-snail": [
+    "fonts/sources/vietnamese/svn/svn-svn-snail/SVN-Snail.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-sofia": [
+    "fonts/sources/vietnamese/svn/svn-svn-sofia/SVN-Sofia.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-square": [
+    "fonts/sources/vietnamese/svn/svn-svn-square/SVN-Square.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-student": [
+    "fonts/sources/vietnamese/svn/svn-svn-student/SVN-Student.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-the-voice-heavy-italic": [
+    "fonts/sources/vietnamese/svn/svn-svn-the-voice-heavy-italic/SVN-The Voice Heavy Italic.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-the-voice-light": [
+    "fonts/sources/vietnamese/svn/svn-svn-the-voice-light/SVN-The Voice Light.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-the-voice-regular": [
+    "fonts/sources/vietnamese/svn/svn-svn-the-voice-regular/SVN-The Voice Regular.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-titillium-bold": [
+    "fonts/sources/vietnamese/svn/svn-svn-titillium-bold/SVN-Titillium bold.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-titillium-light": [
+    "fonts/sources/vietnamese/svn/svn-svn-titillium-light/SVN-Titillium light.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-titillium-medium": [
+    "fonts/sources/vietnamese/svn/svn-svn-titillium-medium/SVN-Titillium medium.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-transformer": [
+    "fonts/sources/vietnamese/svn/svn-svn-transformer/SVN-Transformer.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-trebuchets": [
+    "fonts/sources/vietnamese/svn/svn-svn-trebuchets/SVN-Trebuchets.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-vanessas-valentine": [
+    "fonts/sources/vietnamese/svn/svn-svn-vanessas-valentine/SVN-Vanessas Valentine.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-whimsy": [
+    "fonts/sources/vietnamese/svn/svn-svn-whimsy/SVN-Whimsy.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-yahoo": [
+    "fonts/sources/vietnamese/svn/svn-svn-yahoo/SVN-Yahoo.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-zebra": [
+    "fonts/sources/vietnamese/svn/svn-svn-zebra/SVN-Zebra.woff2"
+  ],
+  "sources/vietnamese/svn/svn-svn-zero": [
+    "fonts/sources/vietnamese/svn/svn-svn-zero/SVN-Zero.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-a-s-graceland": [
+    "fonts/sources/vietnamese/utm/utm-utm-a-s-graceland/UTM A_S Graceland.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-a-s-heartbeat": [
+    "fonts/sources/vietnamese/utm/utm-utm-a-s-heartbeat/UTM A_S Heartbeat.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-a-s-signwriter": [
+    "fonts/sources/vietnamese/utm/utm-utm-a-s-signwriter/UTM A_S Signwriter.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-agin": [
+    "fonts/sources/vietnamese/utm/utm-utm-agin/UTM Agin.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aircona": [
+    "fonts/sources/vietnamese/utm/utm-utm-aircona/UTM Aircona.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-akashi": [
+    "fonts/sources/vietnamese/utm/utm-utm-akashi/UTM Akashi.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-alba-matter": [
+    "fonts/sources/vietnamese/utm/utm-utm-alba-matter/UTM Alba Matter.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-alberta-heavy": [
+    "fonts/sources/vietnamese/utm/utm-utm-alberta-heavy/UTM Alberta Heavy.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-alexander": [
+    "fonts/sources/vietnamese/utm/utm-utm-alexander/UTM Alexander.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-alpine-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-alpine-kt/UTM Alpine KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-alter-gothic": [
+    "fonts/sources/vietnamese/utm/utm-utm-alter-gothic/UTM Alter Gothic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-ambrose": [
+    "fonts/sources/vietnamese/utm/utm-utm-ambrose/UTM Ambrose.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-ambrosia": [
+    "fonts/sources/vietnamese/utm/utm-utm-ambrosia/UTM Ambrosia.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-american-sans": [
+    "fonts/sources/vietnamese/utm/utm-utm-american-sans/UTM American Sans.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-americana": [
+    "fonts/sources/vietnamese/utm/utm-utm-americana/UTM Americana.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-americanab": [
+    "fonts/sources/vietnamese/utm/utm-utm-americanab/UTM AmericanaB.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-americanabex": [
+    "fonts/sources/vietnamese/utm/utm-utm-americanabex/UTM AmericanaBEx.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-americanaitalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-americanaitalic/UTM AmericanaItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-amerika-sans": [
+    "fonts/sources/vietnamese/utm/utm-utm-amerika-sans/UTM Amerika Sans.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-amherst": [
+    "fonts/sources/vietnamese/utm/utm-utm-amherst/UTM Amherst.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-androgyne": [
+    "fonts/sources/vietnamese/utm/utm-utm-androgyne/UTM Androgyne.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aptima": [
+    "fonts/sources/vietnamese/utm/utm-utm-aptima/UTM Aptima.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aptimabold": [
+    "fonts/sources/vietnamese/utm/utm-utm-aptimabold/UTM AptimaBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aptimabolditalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-aptimabolditalic/UTM AptimaBoldItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aptimaitalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-aptimaitalic/UTM AptimaItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aquarelle": [
+    "fonts/sources/vietnamese/utm/utm-utm-aquarelle/UTM Aquarelle.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aristote": [
+    "fonts/sources/vietnamese/utm/utm-utm-aristote/UTM Aristote.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-arruba": [
+    "fonts/sources/vietnamese/utm/utm-utm-arruba/UTM Arruba.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-atlas": [
+    "fonts/sources/vietnamese/utm/utm-utm-atlas/UTM Atlas.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-atlas-solid": [
+    "fonts/sources/vietnamese/utm/utm-utm-atlas-solid/UTM Atlas_Solid.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-aurora": [
+    "fonts/sources/vietnamese/utm/utm-utm-aurora/UTM Aurora.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-avenida": [
+    "fonts/sources/vietnamese/utm/utm-utm-avenida/UTM Avenida.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-avo": [
+    "fonts/sources/vietnamese/utm/utm-utm-avo/UTM Avo.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-avobold": [
+    "fonts/sources/vietnamese/utm/utm-utm-avobold/UTM AvoBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-avobold-italic": [
+    "fonts/sources/vietnamese/utm/utm-utm-avobold-italic/UTM AvoBold_Italic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-avoitalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-avoitalic/UTM AvoItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-azuki": [
+    "fonts/sources/vietnamese/utm/utm-utm-azuki/UTM Azuki.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-banqueb": [
+    "fonts/sources/vietnamese/utm/utm-utm-banqueb/UTM BanqueB.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-banquer": [
+    "fonts/sources/vietnamese/utm/utm-utm-banquer/UTM BanqueR.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-beautiful-caps": [
+    "fonts/sources/vietnamese/utm/utm-utm-beautiful-caps/UTM Beautiful Caps.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-bebas": [
+    "fonts/sources/vietnamese/utm/utm-utm-bebas/UTM Bebas.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-bell": [
+    "fonts/sources/vietnamese/utm/utm-utm-bell/UTM Bell.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-bienvenue": [
+    "fonts/sources/vietnamese/utm/utm-utm-bienvenue/UTM Bienvenue.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-billhead-1910": [
+    "fonts/sources/vietnamese/utm/utm-utm-billhead-1910/UTM Billhead 1910.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-bitsumishi-pro": [
+    "fonts/sources/vietnamese/utm/utm-utm-bitsumishi-pro/UTM Bitsumishi Pro.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-brewers-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-brewers-kt/UTM Brewers KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-brushtip-c": [
+    "fonts/sources/vietnamese/utm/utm-utm-brushtip-c/UTM Brushtip-C.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-bryantlg": [
+    "fonts/sources/vietnamese/utm/utm-utm-bryantlg/UTM BryantLG.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-bryantlg-b": [
+    "fonts/sources/vietnamese/utm/utm-utm-bryantlg-b/UTM BryantLG_B.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-bustamalaka": [
+    "fonts/sources/vietnamese/utm/utm-utm-bustamalaka/UTM Bustamalaka.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-cabaret": [
+    "fonts/sources/vietnamese/utm/utm-utm-cabaret/UTM Cabaret.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-cafeta": [
+    "fonts/sources/vietnamese/utm/utm-utm-cafeta/UTM Cafeta.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-camellia": [
+    "fonts/sources/vietnamese/utm/utm-utm-camellia/UTM Camellia.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-camellia-f": [
+    "fonts/sources/vietnamese/utm/utm-utm-camellia-f/UTM Camellia F.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-candombe": [
+    "fonts/sources/vietnamese/utm/utm-utm-candombe/UTM Candombe.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-caviar": [
+    "fonts/sources/vietnamese/utm/utm-utm-caviar/UTM Caviar.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-centur": [
+    "fonts/sources/vietnamese/utm/utm-utm-centur/UTM Centur.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-centurbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-centurbold/UTM CenturBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-centurbolditalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-centurbolditalic/UTM CenturBoldItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-centuritalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-centuritalic/UTM CenturItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-charlemagne": [
+    "fonts/sources/vietnamese/utm/utm-utm-charlemagne/UTM Charlemagne.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-charlotte": [
+    "fonts/sources/vietnamese/utm/utm-utm-charlotte/UTM Charlotte.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-chickenhawk": [
+    "fonts/sources/vietnamese/utm/utm-utm-chickenhawk/UTM Chickenhawk.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-classizismantiqua": [
+    "fonts/sources/vietnamese/utm/utm-utm-classizismantiqua/UTM ClassizismAntiqua.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-colossalis": [
+    "fonts/sources/vietnamese/utm/utm-utm-colossalis/UTM Colossalis.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-conestoga": [
+    "fonts/sources/vietnamese/utm/utm-utm-conestoga/UTM Conestoga.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-cookies": [
+    "fonts/sources/vietnamese/utm/utm-utm-cookies/UTM Cookies.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-cool-blue": [
+    "fonts/sources/vietnamese/utm/utm-utm-cool-blue/UTM Cool Blue.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-cooper-black": [
+    "fonts/sources/vietnamese/utm/utm-utm-cooper-black/UTM Cooper Black.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-cooper-blackitalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-cooper-blackitalic/UTM Cooper BlackItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-copperplate": [
+    "fonts/sources/vietnamese/utm/utm-utm-copperplate/UTM Copperplate.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-copperplateb": [
+    "fonts/sources/vietnamese/utm/utm-utm-copperplateb/UTM CopperplateB.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-dai-co-viet": [
+    "fonts/sources/vietnamese/utm/utm-utm-dai-co-viet/UTM Dai Co Viet.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-davida": [
+    "fonts/sources/vietnamese/utm/utm-utm-davida/UTM Davida.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-dax": [
+    "fonts/sources/vietnamese/utm/utm-utm-dax/UTM Dax.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-daxbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-daxbold/UTM DaxBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-daxmedium": [
+    "fonts/sources/vietnamese/utm/utm-utm-daxmedium/UTM DaxMedium.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-demian-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-demian-kt/UTM Demian KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-deutsch-gothic": [
+    "fonts/sources/vietnamese/utm/utm-utm-deutsch-gothic/UTM Deutsch Gothic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-diana": [
+    "fonts/sources/vietnamese/utm/utm-utm-diana/UTM Diana.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-dinh-tran": [
+    "fonts/sources/vietnamese/utm/utm-utm-dinh-tran/UTM Dinh Tran.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-duepuntozero": [
+    "fonts/sources/vietnamese/utm/utm-utm-duepuntozero/UTM Duepuntozero.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-duepuntozerobold": [
+    "fonts/sources/vietnamese/utm/utm-utm-duepuntozerobold/UTM DuepuntozeroBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-edwardianb": [
+    "fonts/sources/vietnamese/utm/utm-utm-edwardianb/UTM EdwardianB.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-edwardiankt": [
+    "fonts/sources/vietnamese/utm/utm-utm-edwardiankt/UTM EdwardianKT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-eremitage": [
+    "fonts/sources/vietnamese/utm/utm-utm-eremitage/UTM Eremitage.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-ericsson-capital": [
+    "fonts/sources/vietnamese/utm/utm-utm-ericsson-capital/UTM Ericsson Capital.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-erie-black": [
+    "fonts/sources/vietnamese/utm/utm-utm-erie-black/UTM Erie Black.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-essendine-caps": [
+    "fonts/sources/vietnamese/utm/utm-utm-essendine-caps/UTM Essendine Caps.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-essendine-capsbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-essendine-capsbold/UTM Essendine CapsBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-facebook": [
+    "fonts/sources/vietnamese/utm/utm-utm-facebook/UTM Facebook.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-facebookb-k-t": [
+    "fonts/sources/vietnamese/utm/utm-utm-facebookb-k-t/UTM FacebookB K_T.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-facebookk-tbolditalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-facebookk-tbolditalic/UTM FacebookK_TBoldItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-facebookr-k-t": [
+    "fonts/sources/vietnamese/utm/utm-utm-facebookr-k-t/UTM FacebookR K_T.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-faltura": [
+    "fonts/sources/vietnamese/utm/utm-utm-faltura/UTM Faltura.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-fancy-full": [
+    "fonts/sources/vietnamese/utm/utm-utm-fancy-full/UTM Fancy Full.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-fire-house": [
+    "fonts/sources/vietnamese/utm/utm-utm-fire-house/UTM Fire House.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-flamenco": [
+    "fonts/sources/vietnamese/utm/utm-utm-flamenco/UTM Flamenco.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-flavour": [
+    "fonts/sources/vietnamese/utm/utm-utm-flavour/UTM Flavour.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-fleur": [
+    "fonts/sources/vietnamese/utm/utm-utm-fleur/UTM Fleur.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-french-vanilla": [
+    "fonts/sources/vietnamese/utm/utm-utm-french-vanilla/UTM French Vanilla.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-futura-extra": [
+    "fonts/sources/vietnamese/utm/utm-utm-futura-extra/UTM Futura Extra.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-gill-sans-con": [
+    "fonts/sources/vietnamese/utm/utm-utm-gill-sans-con/UTM Gill Sans_Con.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-gille-classic": [
+    "fonts/sources/vietnamese/utm/utm-utm-gille-classic/UTM Gille Classic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-gloria": [
+    "fonts/sources/vietnamese/utm/utm-utm-gloria/UTM Gloria.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-god-s-wordbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-god-s-wordbold/UTM God_s WordBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-god-s-wordbolditalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-god-s-wordbolditalic/UTM God_s WordBoldItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-god-s-wordr": [
+    "fonts/sources/vietnamese/utm/utm-utm-god-s-wordr/UTM God_s WordR.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-god-s-wordritalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-god-s-wordritalic/UTM God_s WordRItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-gradoo": [
+    "fonts/sources/vietnamese/utm/utm-utm-gradoo/UTM Gradoo.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-guanine": [
+    "fonts/sources/vietnamese/utm/utm-utm-guanine/UTM Guanine.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-habano": [
+    "fonts/sources/vietnamese/utm/utm-utm-habano/UTM Habano.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-hanzel": [
+    "fonts/sources/vietnamese/utm/utm-utm-hanzel/UTM Hanzel.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-helve": [
+    "fonts/sources/vietnamese/utm/utm-utm-helve/UTM Helve.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-helve-italic": [
+    "fonts/sources/vietnamese/utm/utm-utm-helve-italic/UTM Helve_Italic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-helvebold": [
+    "fonts/sources/vietnamese/utm/utm-utm-helvebold/UTM HelveBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-helvebold-italic": [
+    "fonts/sources/vietnamese/utm/utm-utm-helvebold-italic/UTM HelveBold_Italic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-helvetins": [
+    "fonts/sources/vietnamese/utm/utm-utm-helvetins/UTM HelvetIns.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-impact": [
+    "fonts/sources/vietnamese/utm/utm-utm-impact/UTM Impact.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-iron-gothic": [
+    "fonts/sources/vietnamese/utm/utm-utm-iron-gothic/UTM Iron Gothic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-isadorabold": [
+    "fonts/sources/vietnamese/utm/utm-utm-isadorabold/UTM IsadoraBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-isadorar": [
+    "fonts/sources/vietnamese/utm/utm-utm-isadorar/UTM IsadoraR.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-kabel-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-kabel-kt/UTM Kabel KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-karate": [
+    "fonts/sources/vietnamese/utm/utm-utm-karate/UTM Karate.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-khuccamta": [
+    "fonts/sources/vietnamese/utm/utm-utm-khuccamta/UTM Khuccamta.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-kona-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-kona-kt/UTM Kona KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-libel-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-libel-kt/UTM Libel KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-linotypezapfino-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-linotypezapfino-kt/UTM LinotypeZapfino KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-loko": [
+    "fonts/sources/vietnamese/utm/utm-utm-loko/UTM Loko.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-mabella": [
+    "fonts/sources/vietnamese/utm/utm-utm-mabella/UTM Mabella.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-magnesium": [
+    "fonts/sources/vietnamese/utm/utm-utm-magnesium/UTM Magnesium.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-marlboro": [
+    "fonts/sources/vietnamese/utm/utm-utm-marlboro/UTM Marlboro.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-micra": [
+    "fonts/sources/vietnamese/utm/utm-utm-micra/UTM Micra.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-mobifone-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-mobifone-kt/UTM Mobifone KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-mother": [
+    "fonts/sources/vietnamese/utm/utm-utm-mother/UTM Mother.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-neo-sans-intel": [
+    "fonts/sources/vietnamese/utm/utm-utm-neo-sans-intel/UTM Neo Sans Intel.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-neo-sans-intel-italic": [
+    "fonts/sources/vietnamese/utm/utm-utm-neo-sans-intel-italic/UTM Neo Sans Intel_Italic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-neo-sans-intelbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-neo-sans-intelbold/UTM Neo Sans IntelBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-neo-sans-intelbold-italic": [
+    "fonts/sources/vietnamese/utm/utm-utm-neo-sans-intelbold-italic/UTM Neo Sans IntelBold_Italic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-netmuc-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-netmuc-kt/UTM Netmuc KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-neutra": [
+    "fonts/sources/vietnamese/utm/utm-utm-neutra/UTM Neutra.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-ngha-01": [
+    "fonts/sources/vietnamese/utm/utm-utm-ngha-01/UTM NGHA 01.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-nguyenha-02": [
+    "fonts/sources/vietnamese/utm/utm-utm-nguyenha-02/UTM NguyenHa 02.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-niagara": [
+    "fonts/sources/vietnamese/utm/utm-utm-niagara/UTM Niagara.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-nokia": [
+    "fonts/sources/vietnamese/utm/utm-utm-nokia/UTM Nokia.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-nokia-standard": [
+    "fonts/sources/vietnamese/utm/utm-utm-nokia-standard/UTM Nokia Standard.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-nokia-standardb": [
+    "fonts/sources/vietnamese/utm/utm-utm-nokia-standardb/UTM Nokia StandardB.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-novido": [
+    "fonts/sources/vietnamese/utm/utm-utm-novido/UTM Novido.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-nyala": [
+    "fonts/sources/vietnamese/utm/utm-utm-nyala/UTM Nyala.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-omni": [
+    "fonts/sources/vietnamese/utm/utm-utm-omni/UTM Omni.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-ong-do-gia": [
+    "fonts/sources/vietnamese/utm/utm-utm-ong-do-gia/UTM Ong Do Gia.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-ong-do-tre": [
+    "fonts/sources/vietnamese/utm/utm-utm-ong-do-tre/UTM Ong Do Tre.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-pacific-standard": [
+    "fonts/sources/vietnamese/utm/utm-utm-pacific-standard/UTM Pacific Standard.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-penumbra": [
+    "fonts/sources/vietnamese/utm/utm-utm-penumbra/UTM Penumbra.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-penumbrabold": [
+    "fonts/sources/vietnamese/utm/utm-utm-penumbrabold/UTM PenumbraBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-pierre": [
+    "fonts/sources/vietnamese/utm/utm-utm-pierre/UTM Pierre.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-raven": [
+    "fonts/sources/vietnamese/utm/utm-utm-raven/UTM Raven.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-rockwell": [
+    "fonts/sources/vietnamese/utm/utm-utm-rockwell/UTM Rockwell.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-roman-classic": [
+    "fonts/sources/vietnamese/utm/utm-utm-roman-classic/UTM Roman Classic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-sarah": [
+    "fonts/sources/vietnamese/utm/utm-utm-sarah/UTM Sarah.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-scriptina-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-scriptina-kt/UTM Scriptina KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-seagullbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-seagullbold/UTM SeagullBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-seagullbolditalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-seagullbolditalic/UTM SeagullBoldItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-sharnay": [
+    "fonts/sources/vietnamese/utm/utm-utm-sharnay/UTM Sharnay.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-showcard": [
+    "fonts/sources/vietnamese/utm/utm-utm-showcard/UTM Showcard.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-silk-script": [
+    "fonts/sources/vietnamese/utm/utm-utm-silk-script/UTM Silk Script.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-sloop-1": [
+    "fonts/sources/vietnamese/utm/utm-utm-sloop-1/UTM Sloop 1.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-soraya": [
+    "fonts/sources/vietnamese/utm/utm-utm-soraya/UTM Soraya.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-spring": [
+    "fonts/sources/vietnamese/utm/utm-utm-spring/UTM Spring.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-staccato": [
+    "fonts/sources/vietnamese/utm/utm-utm-staccato/UTM Staccato.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-swashes": [
+    "fonts/sources/vietnamese/utm/utm-utm-swashes/UTM Swashes.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-swiss-721-black-condensed": [
+    "fonts/sources/vietnamese/utm/utm-utm-swiss-721-black-condensed/UTM Swiss 721 Black Condensed.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-swiss-condensed": [
+    "fonts/sources/vietnamese/utm/utm-utm-swiss-condensed/UTM Swiss Condensed.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-swiss-condensedbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-swiss-condensedbold/UTM Swiss CondensedBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-talling": [
+    "fonts/sources/vietnamese/utm/utm-utm-talling/UTM Talling.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-tallingbold": [
+    "fonts/sources/vietnamese/utm/utm-utm-tallingbold/UTM TallingBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-tam-le": [
+    "fonts/sources/vietnamese/utm/utm-utm-tam-le/UTM Tam Le.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-thanchientranh": [
+    "fonts/sources/vietnamese/utm/utm-utm-thanchientranh/UTM ThanChienTranh.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-thanh-nhac-tl": [
+    "fonts/sources/vietnamese/utm/utm-utm-thanh-nhac-tl/UTM Thanh Nhac TL.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-thuphap-thien-an": [
+    "fonts/sources/vietnamese/utm/utm-utm-thuphap-thien-an/UTM ThuPhap Thien An.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-times": [
+    "fonts/sources/vietnamese/utm/utm-utm-times/UTM Times.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-timesitalic": [
+    "fonts/sources/vietnamese/utm/utm-utm-timesitalic/UTM TimesItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-trajan-pro-bold": [
+    "fonts/sources/vietnamese/utm/utm-utm-trajan-pro-bold/UTM Trajan Pro Bold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-viceroyjf": [
+    "fonts/sources/vietnamese/utm/utm-utm-viceroyjf/UTM ViceroyJF.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-wedding-k-t": [
+    "fonts/sources/vietnamese/utm/utm-utm-wedding-k-t/UTM Wedding K_T.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-windsor-bt": [
+    "fonts/sources/vietnamese/utm/utm-utm-windsor-bt/UTM Windsor BT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-yen-tu": [
+    "fonts/sources/vietnamese/utm/utm-utm-yen-tu/UTM Yen Tu.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-yves-kt": [
+    "fonts/sources/vietnamese/utm/utm-utm-yves-kt/UTM Yves KT.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-yves-kt-bold": [
+    "fonts/sources/vietnamese/utm/utm-utm-yves-kt-bold/UTM Yves KT_Bold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-yves-kt-bold-italic": [
+    "fonts/sources/vietnamese/utm/utm-utm-yves-kt-bold-italic/UTM Yves KT_Bold_Italic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-zebrawood": [
+    "fonts/sources/vietnamese/utm/utm-utm-zebrawood/UTM Zebrawood.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utm-zirkon": [
+    "fonts/sources/vietnamese/utm/utm-utm-zirkon/UTM Zirkon.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utmfacebookk-titalic": [
+    "fonts/sources/vietnamese/utm/utm-utmfacebookk-titalic/UTMFacebookK_TItalic.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utmtimesbold": [
+    "fonts/sources/vietnamese/utm/utm-utmtimesbold/UTMTimesBold.woff2"
+  ],
+  "sources/vietnamese/utm/utm-utmtimesbold-italic": [
+    "fonts/sources/vietnamese/utm/utm-utmtimesbold-italic/UTMTimesBold Italic.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-utm-facebook": [
+    "fonts/sources/vietnamese/uvf/uvf-utm-facebook/UTM Facebook.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-utm-facebookb-k-t": [
+    "fonts/sources/vietnamese/uvf/uvf-utm-facebookb-k-t/UTM FacebookB K_T.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-utm-facebookk-tbolditalic": [
+    "fonts/sources/vietnamese/uvf/uvf-utm-facebookk-tbolditalic/UTM FacebookK_TBoldItalic.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-utm-facebookr-k-t": [
+    "fonts/sources/vietnamese/uvf/uvf-utm-facebookr-k-t/UTM FacebookR K_T.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-a-charming-expanded": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-a-charming-expanded/UVF A Charming Expanded.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-abrilfatface-regular": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-abrilfatface-regular/UVF AbrilFatface Regular.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-aire-roman-std": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-aire-roman-std/UVF Aire Roman Std.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-angelic-war": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-angelic-war/UVF Angelic War.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-aphrodite-pro": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-aphrodite-pro/UVF Aphrodite Pro.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-aquus-regular": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-aquus-regular/UVF AQUUS-Regular.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-assassin": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-assassin/UVF Assassin.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-barmbrack": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-barmbrack/UVF Barmbrack.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-bleeding-cowboys": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-bleeding-cowboys/UVF Bleeding Cowboys.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-buttermilk-script": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-buttermilk-script/UVF Buttermilk Script.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-centeria": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-centeria/UVF Centeria.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-champion-script-pro": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-champion-script-pro/UVF Champion Script Pro.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-chikita": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-chikita/UVF Chikita.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-chops-normal": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-chops-normal/UVF Chops Normal.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-cider-script": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-cider-script/UVF Cider Script.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-daddys-girl": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-daddys-girl/UVF Daddys Girl.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-didot-lt-std": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-didot-lt-std/UVF Didot LT Std.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-fiolexgirlvh": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-fiolexgirlvh/UVF FiolexGirlVH.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-geotica-2012": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-geotica-2012/UVF Geotica 2012.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-ginga": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-ginga/UVF ginga.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-haymaker": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-haymaker/UVF Haymaker.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-herabig-black": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-herabig-black/UVF HeraBig-Black.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-intro-inline": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-intro-inline/UVF Intro Inline.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-jellyka-endless-voyage": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-jellyka-endless-voyage/UVF Jellyka Endless Voyage.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-kaileen": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-kaileen/UVF Kaileen.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-kingthings-petrock-vi": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-kingthings-petrock-vi/UVF Kingthings_Petrock_vi.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-lavanderia-regular": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-lavanderia-regular/UVF Lavanderia Regular.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-lobster12": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-lobster12/UVF Lobster12.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-metroscript": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-metroscript/UVF Metroscript.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-mishka": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-mishka/UVF Mishka.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-mussicaswash": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-mussicaswash/UVF MussicaSwash.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-narziss-drops": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-narziss-drops/UVF Narziss-Drops.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-narziss-swirls": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-narziss-swirls/UVF Narziss Swirls.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-parfait-scrip-stylistic": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-parfait-scrip-stylistic/UVF Parfait Scrip Stylistic.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-pepita-script": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-pepita-script/UVF Pepita Script.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-perla": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-perla/UVF Perla.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-pistilli-roman": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-pistilli-roman/UVF Pistilli-Roman.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-rapture-heavenly": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-rapture-heavenly/UVF Rapture Heavenly.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-reina-12-pro": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-reina-12-pro/UVF Reina 12 Pro.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-rixlovefool": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-rixlovefool/UVF RixLoveFool.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-slimtony": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-slimtony/UVF SlimTony.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-sofia-regular": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-sofia-regular/UVF Sofia Regular.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-someweatz-with-swashes": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-someweatz-with-swashes/UVF SomeWeatz_with_swashes.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-sreda": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-sreda/UVF Sreda.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-turbayne": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-turbayne/UVF Turbayne.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-wazaltpro": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-wazaltpro/UVF WazaLTPro.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-uvf-youngblood": [
+    "fonts/sources/vietnamese/uvf/uvf-uvf-youngblood/UVF Youngblood.woff2"
+  ],
+  "sources/vietnamese/uvf/uvf-vnf-shelia-regular": [
+    "fonts/sources/vietnamese/uvf/uvf-vnf-shelia-regular/VNF Shelia  Regular.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnaicap-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnaicap-b/UVNAiCap_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnaicap-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnaicap-r/UVNAiCap_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnaicapnang": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnaicapnang/UVNAiCapNang.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnaicapnhe": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnaicapnhe/UVNAiCapNhe.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnanhhai-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnanhhai-b/UVNAnhHai_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnanhhai-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnanhhai-bi/UVNAnhHai_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnanhhai-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnanhhai-i/UVNAnhHai_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnanhhai-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnanhhai-r/UVNAnhHai_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnanhhainhe-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnanhhainhe-i/UVNAnhHaiNhe_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnanhhainhe-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnanhhainhe-r/UVNAnhHaiNhe_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnanhsang": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnanhsang/UVNAnhSang.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachdang-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachdang-b/UVNBachDang_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachdang-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachdang-bi/UVNBachDang_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachdang-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachdang-i/UVNBachDang_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachdang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachdang-r/UVNBachDang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachdangnang-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachdangnang-i/UVNBachDangNang_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachdangnang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachdangnang-r/UVNBachDangNang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachtuyet-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachtuyet-b/UVNBachTuyet_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachtuyet-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachtuyet-bi/UVNBachTuyet_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachtuyet-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachtuyet-i/UVNBachTuyet_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachtuyet-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachtuyet-r/UVNBachTuyet_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachtuyetnang-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachtuyetnang-i/UVNBachTuyetNang_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbachtuyetnang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbachtuyetnang-r/UVNBachTuyetNang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaihoc-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaihoc-b/UVNBaiHoc_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaihoc-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaihoc-bi/UVNBaiHoc_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaihoc-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaihoc-i/UVNBaiHoc_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaihoc-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaihoc-r/UVNBaiHoc_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaisau-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaisau-b/UVNBaiSau_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaisau-n": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaisau-n/UVNBaiSau_N.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaisau-nh": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaisau-nh/UVNBaiSau_Nh.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaisau-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaisau-r/UVNBaiSau_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbale": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbale/UVNBaLe.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbanhmi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbanhmi/UVNBanhMi.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbantay": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbantay/UVNBanTay.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaybuom-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaybuom-b/UVNBayBuom_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaybuom-n": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaybuom-n/UVNBayBuom_N.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaybuom-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaybuom-r/UVNBayBuom_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaybuomhep-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaybuomhep-b/UVNBayBuomHep_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaybuomhep-n": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaybuomhep-n/UVNBayBuomHep_N.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbaybuomhep-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbaybuomhep-r/UVNBayBuomHep_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbenxuan-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbenxuan-b/UVNBenXuan_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbenxuan-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbenxuan-r/UVNBenXuan_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbinhduong": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbinhduong/UVNBinhDuong.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnboquen": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnboquen/UVNBoQuen.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbucthu": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbucthu/UVNBucThu.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbuidoi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbuidoi/UVNBuiDoi.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbutlong1": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbutlong1/UVNButLong1.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnbutlong2": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnbutlong2/UVNButLong2.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncatbien-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncatbien-b/UVNCatBien_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncatbien-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncatbien-bi/UVNCatBien_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncatbien-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncatbien-i/UVNCatBien_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncatbien-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncatbien-r/UVNCatBien_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncatbiennhe-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncatbiennhe-i/UVNCatBienNhe_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncatbiennhe-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncatbiennhe-r/UVNCatBienNhe_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchimbien-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchimbien-b/UVNChimBien_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchimbien-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchimbien-r/UVNChimBien_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchimbiennang": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchimbiennang/UVNChimBienNang.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchimbiennhe": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchimbiennhe/UVNChimBienNhe.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchinhluan-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchinhluan-b/UVNChinhLuan_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchinhluan-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchinhluan-bi/UVNChinhLuan_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchinhluan-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchinhluan-i/UVNChinhLuan_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchinhluan-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchinhluan-r/UVNChinhLuan_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnchuky": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnchuky/UVNCHUKY.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncodien-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncodien-b/UVNCoDien_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvncodien-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvncodien-r/UVNCoDien_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnconthuy": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnconthuy/UVNConThuy.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndalat-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndalat-b/UVNDaLat_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndalat-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndalat-r/UVNDaLat_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndamcuoi-h": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndamcuoi-h/UVNDamCuoi_H.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndamcuoi-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndamcuoi-r/UVNDamCuoi_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndinhhon": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndinhhon/UVNDinhHon.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndoimoi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndoimoi/UVNDoiMoi.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndungdan": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndungdan/UVNDungDan.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvndzungdakao": [
+    "fonts/sources/vietnamese/uvn/uvn-uvndzungdakao/UVNDzungDakao.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinh-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinh-b/UVNGiaDinh_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinh-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinh-bi/UVNGiaDinh_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinh-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinh-i/UVNGiaDinh_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinh-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinh-r/UVNGiaDinh_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinhhep-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinhhep-b/UVNGiaDinhHep_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinhhep-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinhhep-bi/UVNGiaDinhHep_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinhhep-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinhhep-i/UVNGiaDinhHep_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiadinhhep-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiadinhhep-r/UVNGiaDinhHep_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiaytrang-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiaytrang-b/UVNGiayTrang_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiaytrang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiaytrang-r/UVNGiayTrang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiomay-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiomay-b/UVNGioMay_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiomay-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiomay-bi/UVNGioMay_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiomay-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiomay-i/UVNGioMay_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiomay-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiomay-r/UVNGioMay_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiomaynhe-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiomaynhe-i/UVNGioMayNhe_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiomaynhe-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiomaynhe-r/UVNGioMayNhe_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiongsong-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiongsong-b/UVNGiongSong_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiongsong-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiongsong-bi/UVNGiongSong_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiongsong-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiongsong-i/UVNGiongSong_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvngiongsong-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvngiongsong-r/UVNGiongSong_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhaibatrung": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhaibatrung/UVNHaiBaTrung.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhailong": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhailong/UVNHaiLong.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhanviet": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhanviet/UVNHanViet.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhoadao": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhoadao/UVNHoaDao.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhoaky": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhoaky/UVNHOAKY.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhoatay1": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhoatay1/UVNHoaTay1.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhongha-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhongha-b/UVNHongHa_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhongha-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhongha-bi/UVNHongHa_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhongha-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhongha-i/UVNHongHa_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhongha-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhongha-r/UVNHongHa_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhonghahep-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhonghahep-b/UVNHongHaHep_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhonghahep-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhonghahep-bi/UVNHongHaHep_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhonghahep-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhonghahep-i/UVNHongHaHep_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhonghahep-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhonghahep-r/UVNHongHaHep_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhuongque-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhuongque-b/UVNHuongQue_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhuongque-n": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhuongque-n/UVNHuongQue_N.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnhuongque-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnhuongque-r/UVNHuongQue_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnkechuyen1": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnkechuyen1/UVNKeChuyen1.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnkechuyen2": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnkechuyen2/UVNKeChuyen2.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnkechuyen3": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnkechuyen3/UVNKeChuyen3.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnkieu-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnkieu-b/UVNKieu_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnkieu-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnkieu-r/UVNKieu_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnkythuat": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnkythuat/UVNKyThuat.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnlaclongquan-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnlaclongquan-b/UVNLacLongQuan_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnlaclongquan-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnlaclongquan-r/UVNLacLongQuan_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnlaxanh-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnlaxanh-b/UVNLaXanh_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnlaxanh-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnlaxanh-bi/UVNLaXanh_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnlaxanh-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnlaxanh-i/UVNLaXanh_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnlaxanh-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnlaxanh-r/UVNLaXanh_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnlydo": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnlydo/UVNLYDO_.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmangcau-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmangcau-b/UVNMangCau_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmangcau-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmangcau-bi/UVNMangCau_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmangcau-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmangcau-i/UVNMangCau_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmangcau-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmangcau-r/UVNMangCau_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmangcaunang-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmangcaunang-i/UVNMangCauNang_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmangcaunang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmangcaunang-r/UVNMangCauNang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmangtre": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmangtre/UVNMangTre.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmautim1": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmautim1/UVNMauTim1.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmautim2": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmautim2/UVNMauTim2.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmaychup-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmaychup-b/UVNMayChuP_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmaychup-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmaychup-bi/UVNMayChuP_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmaychup-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmaychup-i/UVNMayChuP_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmaychup-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmaychup-r/UVNMayChuP_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnminhmap": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnminhmap/UVNMinhMap.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmoihong": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmoihong/UVNMoiHong.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmotmoi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmotmoi/UVNMotMoi.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmuathu": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmuathu/UVNMuaThu.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnmuccham": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnmuccham/UVNMucCham.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnguyendu": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnguyendu/UVNNguyenDu.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhan-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhan-b/UVNNhan_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhan-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhan-bi/UVNNhan_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhan-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhan-i/UVNNhan_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhan-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhan-r/UVNNhan_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhannang-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhannang-i/UVNNhanNang_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhannang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhannang-r/UVNNhanNang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhatky-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhatky-b/UVNNhatKy_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhatky-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhatky-bi/UVNNhatKy_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhatky-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhatky-i/UVNNhatKy_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnnhatky-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnnhatky-r/UVNNhatKy_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnphuongtay": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnphuongtay/UVNPhuongTay.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsachvo-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsachvo-b/UVNSachVo_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsachvo-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsachvo-bi/UVNSachVo_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsachvo-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsachvo-i/UVNSachVo_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsachvo-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsachvo-r/UVNSachVo_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsaigon-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsaigon-b/UVNSaigon_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsaigon-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsaigon-bi/UVNSaigon_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsaigon-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsaigon-i/UVNSaigon_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsaigon-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsaigon-r/UVNSaigon_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsangsong-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsangsong-b/UVNSangSong_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsangsong-n": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsangsong-n/UVNSangSong_N.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnsangsong-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnsangsong-r/UVNSangSong_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthanggieng-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthanggieng-i/UVNThangGieng_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthanggieng-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthanggieng-r/UVNThangGieng_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthangvu": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthangvu/UVNThangVu.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthanhbinh": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthanhbinh/UVNThanhBinh.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthanhpho-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthanhpho-b/UVNThanhPho_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthanhpho-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthanhpho-r/UVNThanhPho_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthanhphonang": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthanhphonang/UVNThanhPhoNang.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiao-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiao-b/UVNThayGiao_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiao-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiao-bi/UVNThayGiao_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiao-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiao-i/UVNThayGiao_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiao-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiao-r/UVNThayGiao_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiaonang-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiaonang-i/UVNThayGiaoNang_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiaonang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiaonang-r/UVNThayGiaoNang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiaonhe-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiaonhe-i/UVNThayGiaoNhe_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthaygiaonhe-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthaygiaonhe-r/UVNThayGiaoNhe_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoidai1": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoidai1/UVNThoiDai1.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoidai2": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoidai2/UVNThoiDai2.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoinay-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoinay-b/UVNThoiNay_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoinay-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoinay-bi/UVNThoiNay_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoinay-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoinay-i/UVNThoiNay_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoinay-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoinay-r/UVNThoiNay_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoinaynang-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoinaynang-i/UVNThoiNayNang_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthoinaynang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthoinaynang-r/UVNThoiNayNang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnthutu": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnthutu/UVNThuTu.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuc-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuc-b/UVNTinTuc_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuc-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuc-bi/UVNTinTuc_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuc-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuc-i/UVNTinTuc_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuc-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuc-r/UVNTinTuc_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuchep-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuchep-b/UVNTinTucHep_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuchep-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuchep-bi/UVNTinTucHep_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuchep-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuchep-i/UVNTinTucHep_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuchep-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuchep-r/UVNTinTucHep_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuchepthem-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuchepthem-b/UVNTinTucHepThem_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintuchepthem-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintuchepthem-r/UVNTinTucHepThem_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintucnhe-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintucnhe-i/UVNTinTucNhe_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvntintucnhe-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvntintucnhe-r/UVNTinTucNhe_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvan-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvan-b/UVNVan_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvan-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvan-r/UVNVan_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvanchuong-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvanchuong-b/UVNVanChuong_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvanchuong-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvanchuong-i/UVNVanChuong_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvanchuong-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvanchuong-r/UVNVanChuong_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvanchuongnang-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvanchuongnang-r/UVNVanChuongNang_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnviendu": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnviendu/UVNVienDu.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvietsach-b": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvietsach-b/UVNVietSach_B.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvietsach-bi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvietsach-bi/UVNVietSach_BI.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvietsach-i": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvietsach-i/UVNVietSach_I.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvietsach-r": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvietsach-r/UVNVietSach_R.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvivi": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvivi/UVNViVi.woff2"
+  ],
+  "sources/vietnamese/uvn/uvn-uvnvungtau": [
+    "fonts/sources/vietnamese/uvn/uvn-uvnvungtau/UVNVungTau.woff2"
   ]
 }
