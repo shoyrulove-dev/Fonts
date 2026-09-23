@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { zipSync, strToU8 } from "fflate";
+import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import woff2Manifest from "@/data/woff2-manifest.json";
 import { getPublicFonts } from "@/lib/catalog";
 
@@ -10,6 +11,17 @@ type DownloadAsset = { url: string; name: string; key?: string };
 
 async function recordDownloadError(slug: string, message: string) {
   try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("system_events").insertOne({ level: "error", type: "download", slug, message, createdAt: new Date() })); } catch { /* Monitoring must not affect downloads. */ }
+}
+
+async function savePackage(slug: string, zip: Uint8Array) {
+  try {
+    const accountId = process.env.R2_ACCOUNT_ID;
+    const endpoint = process.env.R2_ENDPOINT || (accountId ? `https://${accountId}.r2.cloudflarestorage.com` : "");
+    const bucket = process.env.R2_BUCKET_NAME;
+    if (!endpoint || !bucket || !process.env.R2_ACCESS_KEY_ID || !process.env.R2_SECRET_ACCESS_KEY) return;
+    const client = new S3Client({ region: "auto", endpoint, credentials: { accessKeyId: process.env.R2_ACCESS_KEY_ID, secretAccessKey: process.env.R2_SECRET_ACCESS_KEY } });
+    await client.send(new PutObjectCommand({ Bucket: bucket, Key: `fonts/bundles/${slug}/${slug}-bliss-fonts.zip`, Body: Buffer.from(zip), ContentType: "application/zip", ContentDisposition: `attachment; filename="${slug}-bliss-fonts.zip"`, CacheControl: "public, max-age=86400" }));
+  } catch { /* The generated ZIP is still returned even when it cannot be saved for later. */ }
 }
 
 async function googleFontAssets(font: { name: string }): Promise<DownloadAsset[]> {
@@ -50,6 +62,12 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   const font = (await getPublicFonts()).find((item) => item.slug === slug);
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
 
+  const cachedKey = `fonts/bundles/${font.slug}/${font.slug}-bliss-fonts.zip`;
+  try {
+    const cached = await fetch(`https://assets.blissbiovn.com/${cachedKey}`, { cache: "no-store", signal: AbortSignal.timeout(10_000) });
+    if (cached.ok) return new NextResponse(await cached.arrayBuffer(), { headers: { "Content-Type": "application/zip", "Content-Disposition": `attachment; filename="${font.slug}-bliss-fonts.zip"`, "Cache-Control": "public, max-age=86400" } });
+  } catch { /* Build a fresh package below. */ }
+
   if (font.bundleKey) {
     try {
       const bundled = await fetch(`https://assets.blissbiovn.com/${font.bundleKey}`, { cache: "no-store", signal: AbortSignal.timeout(20_000) });
@@ -84,6 +102,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   archive["README.txt"] = strToU8(readme);
 
   const zip = zipSync(archive, { level: 6 });
+  void savePackage(font.slug, zip);
   const filename = `${font.slug}-bliss-fonts.zip`;
   return new NextResponse(Buffer.from(zip), {
     headers: {
