@@ -118,21 +118,22 @@ export default async function Home() {
         <div className="relative grid gap-9 py-14 lg:grid-cols-[1.12fr_.88fr] lg:items-center lg:py-20">
           <div data-reveal>
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-[#5e7965]">
-              A calmer way to find type
+              Find your next typeface
             </p>
-            <h1 className="max-w-4xl text-5xl font-semibold leading-[0.96] tracking-[-0.07em] sm:text-7xl">
-              Find the font that makes your idea feel right.
+            <h1 className="max-w-3xl text-5xl font-semibold leading-[0.94] tracking-[-0.065em] sm:text-6xl xl:text-[5.5rem]">
+              <span className="block">Find a font</span>
+              <span className="block">that feels right.</span>
             </h1>
-            <p className="mt-6 max-w-xl text-base leading-7 text-[#697169]">
-              A carefully indexed collection of beautiful typefaces. Preview
-              every family, check its license, and choose with confidence.
+            <p className="mt-6 max-w-lg text-base leading-7 text-[#697169]">
+              Preview, compare and download beautiful typefaces with clear
+              license details.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
                 href="#catalog"
                 className="rounded-full bg-[#1d241f] px-5 py-2.5 text-sm font-medium text-white transition-transform hover:-translate-y-0.5"
               >
-                Explore all fonts <span className="ml-2">↘</span>
+                Explore fonts <span className="ml-2">↘</span>
               </a>
               <a
                 href="#explore"
