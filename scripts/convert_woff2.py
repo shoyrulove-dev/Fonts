@@ -63,6 +63,9 @@ def main() -> None:
             continue
         source = ROOT / Path(item["path"])
         target = OUTPUT / source.relative_to(ROOT).with_suffix(".woff2")
+        if source.stat().st_size > 10 * 1024 * 1024:
+            skipped += 1
+            continue
         if target.exists() and target.stat().st_mtime >= source.stat().st_mtime:
             skipped += 1
             continue
