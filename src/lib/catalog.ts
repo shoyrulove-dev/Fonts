@@ -1,6 +1,7 @@
 import baseFonts from "@/data/google-fonts.json";
 import vietnameseFonts from "@/data/vietnamese-fonts.json";
 import { getDatabase } from "@/lib/mongodb";
+import { cache } from "react";
 
 export type CatalogFont = (typeof baseFonts)[number] & {
   status?: string;
@@ -12,6 +13,27 @@ export type CatalogFont = (typeof baseFonts)[number] & {
 };
 
 export const allFonts = [...baseFonts, ...vietnameseFonts] as CatalogFont[];
+const staticFontsBySlug = new Map(allFonts.map((font) => [font.slug, font]));
+
+export const getPublicFontBySlug = cache(async (slug: string): Promise<CatalogFont | null> => {
+  const fallback = staticFontsBySlug.get(slug) ?? null;
+  if (!process.env.MONGODB_URI) return fallback;
+  try {
+    const collection = (await getDatabase()).collection<CatalogFont>("fonts");
+    const record = await collection.findOne({ slug });
+    if (!record) return fallback;
+    if (record.status === "draft" || record.status === "archived") return null;
+    return { ...fallback, ...record } as CatalogFont;
+  } catch {
+    return fallback;
+  }
+});
+
+export function getStaticRelatedFonts(font: CatalogFont, limit = 6) {
+  return allFonts
+    .filter((item) => item.category === font.category && item.id !== font.id)
+    .slice(0, limit);
+}
 
 export async function getPublicFonts(): Promise<CatalogFont[]> {
   if (!process.env.MONGODB_URI) return allFonts;

@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { zipSync, strToU8 } from "fflate";
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import woff2Manifest from "@/data/woff2-manifest.json";
-import { getPublicFonts } from "@/lib/catalog";
+import { getPublicFontBySlug } from "@/lib/catalog";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -68,10 +68,38 @@ async function archiveAssets(assets: DownloadAsset[]) {
   return archive;
 }
 
+async function assetExists(url: string) {
+  try {
+    const response = await fetch(url, { method: "HEAD", cache: "no-store", signal: AbortSignal.timeout(12_000) });
+    await response.body?.cancel();
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+export async function HEAD(_request: Request, { params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const font = await getPublicFontBySlug(slug);
+  if (!font) return new NextResponse(null, { status: 404 });
+  const cachedKey = `fonts/bundles/${font.slug}/${font.slug}-bliss-fonts.zip`;
+  if (await assetExists(`https://assets.blissbiovn.com/${cachedKey}`)) return new NextResponse(null, { status: 204, headers: { "X-Bliss-Asset": "cached-package" } });
+  if (font.bundleKey && await assetExists(`https://assets.blissbiovn.com/${font.bundleKey}`)) return new NextResponse(null, { status: 204, headers: { "X-Bliss-Asset": "source-package" } });
+  const files = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
+  if (files.length) {
+    const ready = await Promise.all(files.map((file) => assetExists(`https://assets.blissbiovn.com/${file}`)));
+    if (ready.every(Boolean)) return new NextResponse(null, { status: 204, headers: { "X-Bliss-Asset": "font-files", "X-Bliss-Files": String(files.length) } });
+  }
+  const googleAssets = await googleFontAssets(font);
+  if (googleAssets.length && (await Promise.all(googleAssets.map((asset) => assetExists(asset.url)))).every(Boolean)) return new NextResponse(null, { status: 204, headers: { "X-Bliss-Asset": "google-fonts", "X-Bliss-Files": String(googleAssets.length) } });
+  await recordDownloadError(slug, "No downloadable asset could be resolved");
+  return new NextResponse(null, { status: 502 });
+}
+
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const countAsVisitor = request.headers.get("x-bliss-verification") !== "1";
-  const font = (await getPublicFonts()).find((item) => item.slug === slug);
+  const font = await getPublicFontBySlug(slug);
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
 
   const cachedKey = `fonts/bundles/${font.slug}/${font.slug}-bliss-fonts.zip`;

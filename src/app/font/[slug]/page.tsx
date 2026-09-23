@@ -5,11 +5,11 @@ import woff2Manifest from "@/data/woff2-manifest.json";
 import FontPreview from "@/components/font-preview";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { NativeBanner, PopunderDownload } from "@/components/ad-units";
-import { getPublicFonts, type CatalogFont } from "@/lib/catalog";
+import { getPublicFontBySlug, getStaticRelatedFonts, type CatalogFont } from "@/lib/catalog";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const font = (await getPublicFonts()).find((item) => item.slug === slug);
+  const font = await getPublicFontBySlug(slug);
   if (!font) return { title: "Font not found" };
   const category = font.category?.toLowerCase().replace("_", " ") ?? "typeface";
   return { title: `${font.name} — Bliss Fonts`, description: `${font.name} is a ${font.supportsVietnamese ? "Vietnamese-ready " : ""}${category} typeface with a clear ${font.license} license and live preview.`, alternates: { canonical: `/font/${font.slug}` } };
@@ -17,10 +17,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function FontPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const fonts = await getPublicFonts();
-  const font = fonts.find((item) => item.slug === slug);
+  const font = await getPublicFontBySlug(slug);
   if (!font) notFound();
-  const related = fonts.filter((item: CatalogFont) => item.category === font.category && item.id !== font.id).slice(0, 6);
+  const related = getStaticRelatedFonts(font);
   const sample = font.supportsVietnamese ? "Ăn ở ấm áp — Tiếng Việt đẹp cùng kiểu chữ này" : "Every idea deserves its own type.";
   const fontFiles = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
   const sourceLabel = font.sourceGroup || "Google Fonts";

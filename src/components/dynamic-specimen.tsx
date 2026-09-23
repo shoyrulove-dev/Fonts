@@ -46,7 +46,7 @@ export default function DynamicSpecimen({ fonts }: { fonts: SpecimenFont[] }) {
             type="button"
             onClick={chooseFont}
             className="text-xs uppercase tracking-[0.22em] text-[#b5cbb6] transition hover:text-white"
-            aria-label="Show another font"
+            aria-label="New specimen"
           >
             New specimen ↻
           </button>

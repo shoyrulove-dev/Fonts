@@ -2,13 +2,14 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import fonts from "@/data/google-fonts.json";
 import vietnameseFonts from "@/data/vietnamese-fonts.json";
+import type { CatalogFont } from "@/lib/catalog";
 import { isAdminRequest } from "@/lib/admin-auth";
 import { getDatabase } from "@/lib/mongodb";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-type FontRecord = (typeof fonts)[number];
+type FontRecord = CatalogFont;
 
 async function seedIfEmpty() {
   const db = await getDatabase();
@@ -18,10 +19,6 @@ async function seedIfEmpty() {
     await collection.createIndex({ slug: 1 }, { unique: true });
     await collection.createIndex({ category: 1, supportsVietnamese: 1 });
     await collection.insertMany(catalog, { ordered: false });
-  } else {
-    const existingIds = new Set((await collection.find({}, { projection: { id: 1 } }).toArray()).map((font) => font.id));
-    const missing = catalog.filter((font) => !existingIds.has(font.id));
-    if (missing.length) await collection.insertMany(missing, { ordered: false });
   }
   return collection;
 }
@@ -33,13 +30,36 @@ export async function GET(request: NextRequest) {
   const query = url.searchParams.get("q")?.trim();
   const category = url.searchParams.get("category");
   const vietnamese = url.searchParams.get("vietnamese") === "true";
-  const limit = Math.min(Number(url.searchParams.get("limit") || 50), 5000);
-  const filter: Record<string, unknown> = {};
-  if (category && category !== "ALL") filter.category = category;
-  if (vietnamese) filter.supportsVietnamese = true;
-  if (query) filter.$or = [{ name: { $regex: query, $options: "i" } }, { designer: { $regex: query, $options: "i" } }, { category: { $regex: query, $options: "i" } }];
-  const result = await collection.find(filter).sort({ name: 1 }).limit(limit).toArray();
-  return NextResponse.json({ count: result.length, total: await collection.countDocuments(), fonts: result });
+  const archiveOnly = url.searchParams.get("collection") === "vietnamese";
+  const group = url.searchParams.get("group") || "ALL";
+  const hasAssets = url.searchParams.get("hasAssets") === "true";
+  const page = Math.max(1, Number(url.searchParams.get("page")) || 1);
+  const limit = Math.min(Math.max(Number(url.searchParams.get("limit") || 30), 1), 100);
+  const clauses: Record<string, unknown>[] = [];
+  if (category && category !== "ALL") clauses.push({ category });
+  if (vietnamese) clauses.push({ supportsVietnamese: true });
+  if (archiveOnly) clauses.push({ $or: [{ id: /^vietnamese\// }, { sourceGroup: { $exists: true, $nin: [""] } }] });
+  if (group !== "ALL") clauses.push({ sourceGroup: group });
+  if (hasAssets) clauses.push({ $or: [{ sourcePath: { $exists: true, $nin: [null, ""] } }, { files: { $exists: true, $ne: [] } }, { bundleKey: { $exists: true, $nin: [null, ""] } }] });
+  if (query) {
+    const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const pattern = { $regex: escaped, $options: "i" };
+    clauses.push({ $or: [{ name: pattern }, { designer: pattern }, { category: pattern }, { sourceGroup: pattern }] });
+  }
+  const filter = clauses.length ? { $and: clauses } : {};
+  const archiveFilter = { $or: [{ id: /^vietnamese\// }, { sourceGroup: { $exists: true, $nin: [""] } }] };
+  const compatibleFilter = { supportsVietnamese: true, $nor: [archiveFilter] };
+  const [result, filteredTotal, total, published, hidden, archive, compatible, personalUse] = await Promise.all([
+    collection.find(filter).sort({ name: 1 }).skip((page - 1) * limit).limit(limit).toArray(),
+    collection.countDocuments(filter),
+    collection.countDocuments(),
+    collection.countDocuments({ status: { $nin: ["draft", "archived"] } }),
+    collection.countDocuments({ status: { $in: ["draft", "archived"] } }),
+    collection.countDocuments(archiveFilter),
+    collection.countDocuments(compatibleFilter),
+    collection.countDocuments({ ...archiveFilter, license: "Personal Use" }),
+  ]);
+  return NextResponse.json({ count: result.length, total: filteredTotal, page, pages: Math.max(1, Math.ceil(filteredTotal / limit)), fonts: result, summary: { total, published, hidden, archive, international: Math.max(total - archive, 0), compatible, personalUse } });
 }
 
 export async function PATCH(request: NextRequest) {

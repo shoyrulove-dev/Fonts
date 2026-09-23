@@ -50,7 +50,7 @@ export default async function Home() {
   );
   const internationalFonts = fonts.length - vietnameseArchive.length;
   const featured = vietnameseArchive.slice(0, 8);
-  const explorerFonts = fonts.map(
+  const explorerFonts = fonts.slice(0, 24).map(
     ({ id, slug, name, designer, category, license, supportsVietnamese }) => ({
       id,
       slug,
@@ -220,7 +220,7 @@ export default async function Home() {
           </div>
         </section>
 
-        <FontExplorer fonts={explorerFonts} />
+        <FontExplorer fonts={explorerFonts} total={fonts.length} />
         <NativeBanner />
 
         <section id="vietnamese" className="pt-16">

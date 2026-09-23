@@ -3,23 +3,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
-import fonts from "@/data/google-fonts.json";
-import assetManifest from "@/data/woff2-manifest.json";
+import { useEffect, useState } from "react";
+import type { CatalogFont } from "@/lib/catalog";
 import ProfileSettings from "./profile-settings";
 import EditFontForm from "./edit-font-form";
 import AddFontForm from "./add-font-form";
 import BulkImportForm from "./bulk-import-form";
 
-type FontRecord = (typeof fonts)[number] & {
-  status?: string;
-  tags?: string[];
-  files?: string[];
-  bundleKey?: string;
-  sourceGroup?: string;
-  sourcePath?: string;
-  sourceFile?: string;
-};
+type FontRecord = CatalogFont & { tags?: string[] };
+type CatalogSummary = { total: number; published: number; hidden: number; archive: number; international: number; compatible: number; personalUse: number };
 type MetricData = {
   download?: number;
   font_view?: number;
@@ -36,23 +28,26 @@ const sections = [
   "Search visibility",
 ] as const;
 type Section = (typeof sections)[number] | "Profile";
-const assetFiles = Object.values(assetManifest).flat().length;
-const assetFamilies = Object.keys(assetManifest).length;
-const vietnameseGroups = new Set(["SFU", "SVN", "UTM", "UVF", "UVN", "iCIEL"]);
-const isVietnameseCollectionFont = (font: FontRecord) =>
-  font.id.startsWith("vietnamese/") ||
-  Boolean(font.sourceGroup && vietnameseGroups.has(font.sourceGroup));
-
 export default function AdminDashboard({
   fonts: initialFonts,
   username,
+  initialSummary,
+  assetFiles,
+  assetFamilies,
 }: {
   fonts: FontRecord[];
   username: string;
+  initialSummary: CatalogSummary;
+  assetFiles: number;
+  assetFamilies: number;
 }) {
   const router = useRouter();
   const [catalog, setCatalog] = useState(initialFonts);
+  const [summary, setSummary] = useState(initialSummary);
   const [query, setQuery] = useState("");
+  const [page, setPage] = useState(1);
+  const [pages, setPages] = useState(Math.max(1, Math.ceil(initialSummary.total / 30)));
+  const [loadingFonts, setLoadingFonts] = useState(false);
   const [section, setSection] = useState<Section>("Overview");
   const [selected, setSelected] = useState<FontRecord | null>(null);
   const [adding, setAdding] = useState(false);
@@ -78,41 +73,26 @@ export default function AdminDashboard({
     }
   }
   useEffect(() => {
-    Promise.all([
-      fetch("/api/admin/fonts?limit=5000", { credentials: "include" }),
-      fetch("/api/metrics?days=30", { credentials: "include" }),
-    ])
-      .then(async ([fontResponse, metricResponse]) => {
-        if (fontResponse.ok) setCatalog((await fontResponse.json()).fonts);
-        if (metricResponse.ok) setMetrics(await metricResponse.json());
-      })
-      .catch(() => {});
+    fetch("/api/metrics?days=30", { credentials: "include" }).then(async (response) => { if (response.ok) setMetrics(await response.json()); }).catch(() => {});
   }, []);
-  const vietnameseCollection = catalog.filter(isVietnameseCollectionFont);
-  const international = catalog.length - vietnameseCollection.length;
-  const vietnamese = catalog.filter((font) => font.supportsVietnamese).length;
-  const vietnameseCompatible = Math.max(
-    vietnamese - vietnameseCollection.length,
-    0,
-  );
-  const drafts = catalog.filter((font) => font.status === "draft").length;
-  const archived = catalog.filter((font) => font.status === "archived").length;
-  const published = catalog.length - drafts - archived;
-  const hidden = drafts + archived;
-  const results = useMemo(() => {
-    const needle = query.trim().toLowerCase();
-    return catalog
-      .filter(
-        (font) =>
-          !needle ||
-          [font.name, font.designer, font.category]
-            .join(" ")
-            .toLowerCase()
-            .includes(needle),
-      )
-      .slice(0, 30);
-  }, [catalog, query]);
-  const savedBundles = catalog.filter((font) => font.bundleKey).length;
+  useEffect(() => {
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      setLoadingFonts(true);
+      const params = new URLSearchParams({ limit: "30", page: String(page) });
+      if (query.trim()) params.set("q", query.trim());
+      try {
+        const response = await fetch(`/api/admin/fonts?${params}`, { credentials: "include", signal: controller.signal });
+        if (response.ok) {
+          const data = await response.json();
+          setCatalog(data.fonts);
+          setPages(data.pages);
+          if (data.summary) setSummary(data.summary);
+        }
+      } finally { if (!controller.signal.aborted) setLoadingFonts(false); }
+    }, 250);
+    return () => { window.clearTimeout(timer); controller.abort(); };
+  }, [page, query]);
   const handleSaved = (updated: FontRecord) => {
     setCatalog((current) =>
       current.map((font) =>
@@ -123,6 +103,7 @@ export default function AdminDashboard({
   };
   const handleAdded = (created: FontRecord) => {
     setCatalog((current) => [created, ...current]);
+    setSummary((current) => ({ ...current, total: current.total + 1, hidden: current.hidden + 1 }));
     setAdding(false);
   };
   return (
@@ -162,7 +143,7 @@ export default function AdminDashboard({
                 <div
                   className="h-1.5 rounded-full bg-[#b5cbb6]"
                   style={{
-                    width: `${Math.min((assetFamilies / Math.max(catalog.length, 1)) * 100, 100)}%`,
+                    width: `${Math.min((assetFamilies / Math.max(summary.total, 1)) * 100, 100)}%`,
                   }}
                 />
               </div>
@@ -277,27 +258,29 @@ export default function AdminDashboard({
               <ProfileSettings username={username} />
             ) : section === "Overview" ? (
               <Overview
-                catalog={catalog}
-                vietnamese={vietnameseCollection.length}
-                international={international}
-                compatible={vietnameseCompatible}
-                published={published}
-                hidden={hidden}
+                summary={summary}
+                assetFiles={assetFiles}
+                assetFamilies={assetFamilies}
                 metrics={metrics}
               />
             ) : section === "Font library" ? (
               <Library
-                results={results}
+                results={catalog}
                 query={query}
-                setQuery={setQuery}
+                setQuery={(value) => { setQuery(value); setPage(1); }}
+                page={page}
+                pages={pages}
+                loading={loadingFonts}
+                setPage={setPage}
                 onAdd={() => setAdding(true)}
                 onImport={() => setImporting(true)}
                 onSelect={setSelected}
               />
             ) : section === "Vietnamese collection" ? (
               <VietnameseCollection
-                fonts={vietnameseCollection}
-                compatibleCount={vietnameseCompatible}
+                archiveCount={summary.archive}
+                compatibleCount={summary.compatible}
+                personalUseCount={summary.personalUse}
                 onSelect={setSelected}
               />
             ) : section === "File library" ? (
@@ -305,10 +288,9 @@ export default function AdminDashboard({
                 catalog={catalog}
                 assetFiles={assetFiles}
                 assetFamilies={assetFamilies}
-                savedBundles={savedBundles}
               />
             ) : (
-              <SearchVisibility totalPages={published + 15} />
+              <SearchVisibility totalPages={summary.published + 15} />
             )}
           </div>
         </div>
@@ -329,20 +311,14 @@ export default function AdminDashboard({
 }
 
 function Overview({
-  catalog,
-  vietnamese,
-  international,
-  compatible,
-  published,
-  hidden,
+  summary,
+  assetFiles,
+  assetFamilies,
   metrics,
 }: {
-  catalog: FontRecord[];
-  vietnamese: number;
-  international: number;
-  compatible: number;
-  published: number;
-  hidden: number;
+  summary: CatalogSummary;
+  assetFiles: number;
+  assetFamilies: number;
   metrics: MetricData;
 }) {
   return (
@@ -350,17 +326,17 @@ function Overview({
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         <Metric
           label="Total catalog"
-          value={catalog.length.toLocaleString("en-US")}
-          note={`${published.toLocaleString("en-US")} published · ${hidden.toLocaleString("en-US")} hidden`}
+          value={summary.total.toLocaleString("en-US")}
+          note={`${summary.published.toLocaleString("en-US")} published · ${summary.hidden.toLocaleString("en-US")} hidden`}
         />
         <Metric
           label="International families"
-          value={international.toLocaleString("en-US")}
-          note={`${compatible.toLocaleString("en-US")} also support Vietnamese`}
+          value={summary.international.toLocaleString("en-US")}
+          note={`${summary.compatible.toLocaleString("en-US")} also support Vietnamese`}
         />
         <Metric
           label="Vietnamese archive"
-          value={vietnamese.toLocaleString("en-US")}
+          value={summary.archive.toLocaleString("en-US")}
           note="Imported Vietnamese font families"
         />
         <Metric
@@ -474,6 +450,10 @@ function Library({
   onAdd,
   onImport,
   onSelect,
+  page,
+  pages,
+  loading,
+  setPage,
 }: {
   results: FontRecord[];
   query: string;
@@ -481,6 +461,10 @@ function Library({
   onAdd: () => void;
   onImport: () => void;
   onSelect: (font: FontRecord) => void;
+  page: number;
+  pages: number;
+  loading: boolean;
+  setPage: (page: number) => void;
 }) {
   return (
     <section className="rounded-3xl border border-[#dce3dd] bg-white p-6">
@@ -512,7 +496,7 @@ function Library({
         className="mt-6 h-12 w-full rounded-xl border border-[#dce3dd] px-4 outline-none focus:border-[#5e7965]"
         placeholder="Search by name, designer or style…"
       />
-      <div className="mt-5 overflow-x-auto">
+      <div aria-busy={loading} className={`mt-5 overflow-x-auto ${loading ? "opacity-60" : ""}`}>
         <table className="w-full min-w-[720px] text-left text-sm">
           <thead className="border-b border-[#edf0ec] text-xs uppercase tracking-wider text-[#92a097]">
             <tr>
@@ -556,45 +540,52 @@ function Library({
           </tbody>
         </table>
       </div>
+      <div className="mt-5 flex items-center justify-between gap-3 text-sm text-[#69756c]">
+        <span>Page {page} of {pages}</span>
+        <div className="flex gap-2"><button disabled={page <= 1 || loading} onClick={() => setPage(page - 1)} className="rounded-full border border-[#dce3dd] px-4 py-2 disabled:opacity-40">Previous</button><button disabled={page >= pages || loading} onClick={() => setPage(page + 1)} className="rounded-full border border-[#dce3dd] px-4 py-2 disabled:opacity-40">Next</button></div>
+      </div>
     </section>
   );
 }
 function VietnameseCollection({
-  fonts,
+  archiveCount,
   compatibleCount,
+  personalUseCount,
   onSelect,
 }: {
-  fonts: FontRecord[];
+  archiveCount: number;
   compatibleCount: number;
+  personalUseCount: number;
   onSelect: (font: FontRecord) => void;
 }) {
+  const [fonts, setFonts] = useState<FontRecord[]>([]);
   const [query, setQuery] = useState("");
   const [group, setGroup] = useState("ALL");
-  const groups = [
-    "ALL",
-    ...Array.from(
-      new Set(fonts.map((font) => font.sourceGroup || "Other")),
-    ).sort(),
-  ];
-  const results = fonts
-    .filter((font) => {
-      const needle = query.trim().toLowerCase();
-      return (
-        (!needle ||
-          [font.name, font.designer, font.sourceGroup, font.category]
-            .join(" ")
-            .toLowerCase()
-            .includes(needle)) &&
-        (group === "ALL" || (font.sourceGroup || "Other") === group)
-      );
-    })
-    .slice(0, 100);
+  const [page, setPage] = useState(1);
+  const [pages, setPages] = useState(1);
+  const [total, setTotal] = useState(archiveCount);
+  const [loading, setLoading] = useState(false);
+  const groups = ["ALL", "SFU", "SVN", "UTM", "UVF", "UVN", "iCIEL"];
+  useEffect(() => {
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      setLoading(true);
+      const params = new URLSearchParams({ collection: "vietnamese", limit: "40", page: String(page), group });
+      if (query.trim()) params.set("q", query.trim());
+      try {
+        const response = await fetch(`/api/admin/fonts?${params}`, { credentials: "include", signal: controller.signal });
+        if (response.ok) { const data = await response.json(); setFonts(data.fonts); setPages(data.pages); setTotal(data.total); }
+      } finally { if (!controller.signal.aborted) setLoading(false); }
+    }, 250);
+    return () => { window.clearTimeout(timer); controller.abort(); };
+  }, [group, page, query]);
+  const results = fonts;
   return (
     <section>
       <div className="grid gap-4 sm:grid-cols-3">
         <Metric
           label="Vietnamese archive"
-          value={fonts.length.toLocaleString("en-US")}
+          value={archiveCount.toLocaleString("en-US")}
           note="Actual Vietnamese font packages"
         />
         <Metric
@@ -604,9 +595,7 @@ function VietnameseCollection({
         />
         <Metric
           label="Personal Use"
-          value={fonts
-            .filter((font) => font.license === "Personal Use")
-            .length.toLocaleString("en-US")}
+          value={personalUseCount.toLocaleString("en-US")}
           note="Review each original license"
         />
       </div>
@@ -636,13 +625,13 @@ function VietnameseCollection({
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <input
             value={query}
-            onChange={(event) => setQuery(event.target.value)}
+            onChange={(event) => { setQuery(event.target.value); setPage(1); }}
             className="h-11 flex-1 rounded-xl border border-[#dce3dd] px-4 text-sm outline-none focus:border-[#5e7965]"
             placeholder="Search Vietnamese fonts or source…"
           />
           <select
             value={group}
-            onChange={(event) => setGroup(event.target.value)}
+            onChange={(event) => { setGroup(event.target.value); setPage(1); }}
             className="h-11 rounded-xl border border-[#dce3dd] bg-white px-4 text-sm"
           >
             {groups.map((item) => (
@@ -652,7 +641,7 @@ function VietnameseCollection({
             ))}
           </select>
         </div>
-        <div className="mt-5 overflow-x-auto">
+        <div aria-busy={loading} className={loading ? "mt-5 overflow-x-auto opacity-60" : "mt-5 overflow-x-auto"}>
           <table className="w-full min-w-[760px] text-left text-sm">
             <thead className="border-b border-[#edf0ec] text-xs uppercase tracking-wider text-[#92a097]">
               <tr>
@@ -697,9 +686,9 @@ function VietnameseCollection({
           </table>
         </div>
         <p className="mt-4 text-xs text-[#829087]">
-          Showing {results.length} of {fonts.length.toLocaleString("en-US")}{" "}
-          packages. Use the Font library for bulk import and upload.
+          Showing {results.length} of {total.toLocaleString("en-US")} packages.
         </p>
+        <div className="mt-4 flex items-center justify-between text-sm text-[#69756c]"><span>Page {page} of {pages}</span><div className="flex gap-2"><button disabled={page <= 1 || loading} onClick={() => setPage(page - 1)} className="rounded-full border border-[#dce3dd] px-4 py-2 disabled:opacity-40">Previous</button><button disabled={page >= pages || loading} onClick={() => setPage(page + 1)} className="rounded-full border border-[#dce3dd] px-4 py-2 disabled:opacity-40">Next</button></div></div>
       </div>
     </section>
   );
@@ -712,7 +701,6 @@ function FileLibrary({
   catalog: FontRecord[];
   assetFiles: number;
   assetFamilies: number;
-  savedBundles: number;
 }) {
   const prepared = catalog
     .filter((font) => font.files?.length || font.bundleKey || font.sourcePath)
