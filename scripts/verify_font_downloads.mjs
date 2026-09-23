@@ -17,7 +17,9 @@ const queue = [...fonts];
 async function check(font) {
   try {
     const response = await fetch(`${baseUrl}/api/fonts/${font.slug}/download`, { signal: AbortSignal.timeout(timeoutMs) });
-    if (!response.ok || !response.headers.get("content-type")?.includes("application/zip")) failures.push({ slug: font.slug, status: response.status, contentType: response.headers.get("content-type") });
+    const bytes = new Uint8Array(await response.arrayBuffer());
+    const zip = bytes.length > 22 && bytes[0] === 0x50 && bytes[1] === 0x4b;
+    if (!response.ok || !response.headers.get("content-type")?.includes("application/zip") || !zip) failures.push({ slug: font.slug, status: response.status, contentType: response.headers.get("content-type"), bytes: bytes.length });
   } catch (error) { failures.push({ slug: font.slug, error: error.name }); }
   completed++;
   if (completed % 25 === 0 || completed === fonts.length) console.log(`checked=${completed}/${fonts.length} failures=${failures.length}`);
