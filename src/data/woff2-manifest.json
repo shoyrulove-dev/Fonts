@@ -7203,6 +7203,564 @@
     "fonts/sources/google-fonts/ufl/ubuntusansmono/UbuntuSansMono-Italic[wght].woff2",
     "fonts/sources/google-fonts/ufl/ubuntusansmono/UbuntuSansMono[wght].woff2"
   ],
+  "sources/vietnamese/iciel/iciel-andesroundedlight": [
+    "fonts/sources/vietnamese/iciel/iciel-andesroundedlight/AndesRoundedLight.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-auther-typeface": [
+    "fonts/sources/vietnamese/iciel/iciel-auther-typeface/Auther Typeface.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-balihoscript": [
+    "fonts/sources/vietnamese/iciel/iciel-balihoscript/BalihoScript.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-balihoscript-2": [
+    "fonts/sources/vietnamese/iciel/iciel-balihoscript-2/BalihoScript.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-becool-swash1": [
+    "fonts/sources/vietnamese/iciel/iciel-becool-swash1/becool_swash1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-blooming-elegant-hand1": [
+    "fonts/sources/vietnamese/iciel/iciel-blooming-elegant-hand1/Blooming Elegant Hand1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-blooming-elegant-sans1": [
+    "fonts/sources/vietnamese/iciel/iciel-blooming-elegant-sans1/Blooming Elegant Sans1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-bloomingelegant1": [
+    "fonts/sources/vietnamese/iciel/iciel-bloomingelegant1/BloomingElegant1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-breeserif": [
+    "fonts/sources/vietnamese/iciel/iciel-breeserif/BreeSerif.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-butcherandblock": [
+    "fonts/sources/vietnamese/iciel/iciel-butcherandblock/Butcherandblock.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-butcherandblockextras1": [
+    "fonts/sources/vietnamese/iciel/iciel-butcherandblockextras1/ButcherandBlockExtras1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-butterscotch": [
+    "fonts/sources/vietnamese/iciel/iciel-butterscotch/ButterScotch.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-butterscotch-ornaments": [
+    "fonts/sources/vietnamese/iciel/iciel-butterscotch-ornaments/Butterscotch_Ornaments.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-ciao-bella-flowers": [
+    "fonts/sources/vietnamese/iciel/iciel-ciao-bella-flowers/Ciao Bella Flowers.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-ciao-bella-laurels": [
+    "fonts/sources/vietnamese/iciel/iciel-ciao-bella-laurels/Ciao Bella Laurels.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-ciao-bella-leaves": [
+    "fonts/sources/vietnamese/iciel/iciel-ciao-bella-leaves/Ciao Bella Leaves.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-ciao-bella-stems": [
+    "fonts/sources/vietnamese/iciel/iciel-ciao-bella-stems/Ciao Bella Stems.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-cucho": [
+    "fonts/sources/vietnamese/iciel/iciel-cucho/Cucho.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-cucho-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-cucho-bold/Cucho Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-cucho-ornament": [
+    "fonts/sources/vietnamese/iciel/iciel-cucho-ornament/Cucho Ornament.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-enyoserif-italic": [
+    "fonts/sources/vietnamese/iciel/iciel-enyoserif-italic/EnyoSerif-Italic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-enyoserif-light": [
+    "fonts/sources/vietnamese/iciel/iciel-enyoserif-light/EnyoSerif-Light.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-enyoserif-lightitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-enyoserif-lightitalic/EnyoSerif-LightItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-enyoserif-medium": [
+    "fonts/sources/vietnamese/iciel/iciel-enyoserif-medium/EnyoSerif-Medium.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-enyoserif-mediumitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-enyoserif-mediumitalic/EnyoSerif-MediumItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-enyoserif-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-enyoserif-regular/EnyoSerif-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-fairy-tales": [
+    "fonts/sources/vietnamese/iciel/iciel-fairy-tales/Fairy Tales.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-fairy-tales-2": [
+    "fonts/sources/vietnamese/iciel/iciel-fairy-tales-2/Fairy Tales.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-fetridge": [
+    "fonts/sources/vietnamese/iciel/iciel-fetridge/Fetridge.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-fort-foundry-rift-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-fort-foundry-rift-regular/Fort Foundry - Rift-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-gotham-medium": [
+    "fonts/sources/vietnamese/iciel/iciel-gotham-medium/Gotham-Medium.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-gotham-thin": [
+    "fonts/sources/vietnamese/iciel/iciel-gotham-thin/Gotham-Thin.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-gotham-ultra": [
+    "fonts/sources/vietnamese/iciel/iciel-gotham-ultra/Gotham-Ultra.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-hapnaslabserif-light": [
+    "fonts/sources/vietnamese/iciel/iciel-hapnaslabserif-light/HapnaSlabSerif-Light.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-helena": [
+    "fonts/sources/vietnamese/iciel/iciel-helena/Helena.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-helena-2": [
+    "fonts/sources/vietnamese/iciel/iciel-helena-2/Helena.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-hipsteria": [
+    "fonts/sources/vietnamese/iciel/iciel-hipsteria/Hipsteria.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-humblehearts": [
+    "fonts/sources/vietnamese/iciel/iciel-humblehearts/HumbleHearts.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-alina": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-alina/iCiel Alina.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-altus": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-altus/iCiel Altus.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-altus-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-2/iCiel Altus.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-altus-extra": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-extra/iCiel Altus Extra.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-altus-extra-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-extra-2/iCiel Altus Extra.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-altus-serif": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-serif/iCiel Altus Serif.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-altus-serif-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-serif-2/iCiel Altus Serif.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-brush-up": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-brush-up/iCiel Brush Up.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-brush-up-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-brush-up-2/iCiel Brush Up.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-cadena": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-cadena/iciel Cadena.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-ciaobella": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-ciaobella/iCiel Ciaobella.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-crocante": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-crocante/iCiel Crocante.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-finch": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-finch/iCiel Finch.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-finch-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-2/iCiel Finch.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-finch-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-bold/iCiel Finch bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-finch-bold-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-bold-2/iCiel Finch bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-finch-ornaments": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-ornaments/iCiel Finch ornaments.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-finch-ornaments-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-ornaments-2/iCiel Finch ornaments.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-grandma": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-grandma/iCiel Grandma.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-grandma-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-grandma-bold/iCiel Grandma Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-kermel": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-kermel/iCiel Kermel.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-kermel-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-kermel-2/iCiel Kermel.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-koni-black": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-koni-black/iCiel Koni Black.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-koni-black-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-koni-black-2/iCiel Koni Black.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-koni-ornament-black/iCiel Koni Ornament Black.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-koni-ornament-black-2/iCiel Koni Ornament Black.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-lachicpro": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-lachicpro/iCiel LachicPro.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-lachicprooutline": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-lachicprooutline/iCiel LachicProOutline.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-lachicproshaded": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-lachicproshaded/iCiel LaChicProShaded.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1/iCiel LadyRene Style 1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1-2/iCiel LadyRene Style 1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2/iCiel LadyRene Style 2.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2-2/iCiel LadyRene Style 2.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-lousiane": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-lousiane/iCiel LOUSIANE.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-pacifico": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-pacifico/iCiel Pacifico.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-pacifico-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-pacifico-2/iCiel Pacifico.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-qiber": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-qiber/iCiel Qiber.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-qiber-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-qiber-2/iCiel Qiber.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-rukola": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-rukola/iCiel Rukola.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-rukola-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-rukola-2/iCiel Rukola.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-simplifica": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-simplifica/iCiel Simplifica.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-simplifica-2": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-simplifica-2/iCiel Simplifica.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciel-taluhla": [
+    "fonts/sources/vietnamese/iciel/iciel-iciel-taluhla/iCiel TALUHLA.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielamerigraf": [
+    "fonts/sources/vietnamese/iciel/iciel-icielamerigraf/iCielAmerigraf.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbambola": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbambola/iCielBambola.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbambola-2": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbambola-2/iCielBambola.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbcbostlyscript-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbcbostlyscript-regular/iCielBCBostlyScript-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbccubano-normal": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbccubano-normal/iCielBCCubano-Normal.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbcddchardwarerough-compressed": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbcddchardwarerough-compressed/iCielBCDDCHardwareRough-Compressed.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbcdowntown-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbcdowntown-regular/iCielBCDowntown-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbcmatchbooktxture-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbcmatchbooktxture-regular/iCielBCMatchbookTxture-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbcoldstyle-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbcoldstyle-regular/iCielBCOldStyle-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbcrostrum-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbcrostrum-regular/iCielBCRostrum-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbcseinnagrace-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbcseinnagrace-regular/iCielBCSeinnaGrace-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielbecool-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-icielbecool-regular/iCielBeCool-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielcadena": [
+    "fonts/sources/vietnamese/iciel/iciel-icielcadena/iCielCadena.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielliebeerika": [
+    "fonts/sources/vietnamese/iciel/iciel-icielliebeerika/iCielLiebeErika.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielliebeerika-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-icielliebeerika-bold/iCielLiebeErika-Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-iciellousiane": [
+    "fonts/sources/vietnamese/iciel/iciel-iciellousiane/iCielLOUSIANE.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielnovecentosans-demibold": [
+    "fonts/sources/vietnamese/iciel/iciel-icielnovecentosans-demibold/iCielNovecentosans-DemiBold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielnovecentosans-extralight": [
+    "fonts/sources/vietnamese/iciel/iciel-icielnovecentosans-extralight/iCielNovecentosans-ExtraLight.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielnovecentosans-light": [
+    "fonts/sources/vietnamese/iciel/iciel-icielnovecentosans-light/iCielNovecentosans-Light.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielnovecentosans-medium": [
+    "fonts/sources/vietnamese/iciel/iciel-icielnovecentosans-medium/iCielNovecentosans-Medium.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielnovecentosans-normal": [
+    "fonts/sources/vietnamese/iciel/iciel-icielnovecentosans-normal/iCielNovecentosans-Normal.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielnovecentosans-ultrabold": [
+    "fonts/sources/vietnamese/iciel/iciel-icielnovecentosans-ultrabold/iCielNovecentosans-UltraBold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpanton-black": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpanton-black/iCielPanton-Black.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpanton-blackitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpanton-blackitalic/iCielPanton-BlackItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpanton-light": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpanton-light/iCielPanton-Light.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpanton-lightitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpanton-lightitalic/iCielPanton-LightItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielparisserif-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-icielparisserif-bold/iCielParisSerif-Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielparisserif-bold-2": [
+    "fonts/sources/vietnamese/iciel/iciel-icielparisserif-bold-2/iCielParisSerif-Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena/iCielPequena.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-english": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-english/iCielPequena-English.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-france": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-france/iCielPequena-France.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-german": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-german/iCielPequena-German.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-italian": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-italian/iCielPequena-Italian.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-ornament": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-ornament/iCielPequena-Ornament.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-portugues": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-portugues/iCielPequena-Portugues.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-russian": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-russian/iCielPequena-Russian.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-spain": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-spain/iCielPequena-Spain.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielpequena-swash": [
+    "fonts/sources/vietnamese/iciel/iciel-icielpequena-swash/iCielPequena-Swash.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielsoupofjustice": [
+    "fonts/sources/vietnamese/iciel/iciel-icielsoupofjustice/iCielSoupofJustice.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielsoupofjustice-2": [
+    "fonts/sources/vietnamese/iciel/iciel-icielsoupofjustice-2/iCielSoupofJustice.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-icielstringfellows-news": [
+    "fonts/sources/vietnamese/iciel/iciel-icielstringfellows-news/iCielStringfellows-News.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-kermel-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-kermel-regular/Kermel-regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-la-chic-flourishes": [
+    "fonts/sources/vietnamese/iciel/iciel-la-chic-flourishes/La Chic Flourishes.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-la-chic-flourishes-outline": [
+    "fonts/sources/vietnamese/iciel/iciel-la-chic-flourishes-outline/La Chic Flourishes Outline.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-la-chic-frames": [
+    "fonts/sources/vietnamese/iciel/iciel-la-chic-frames/La Chic Frames.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-la-chic-frames-shaded": [
+    "fonts/sources/vietnamese/iciel/iciel-la-chic-frames-shaded/La Chic Frames Shaded.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-la-chich-flourishes-shaded": [
+    "fonts/sources/vietnamese/iciel/iciel-la-chich-flourishes-shaded/La Chich Flourishes Shaded.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-la-chich-frames-outline": [
+    "fonts/sources/vietnamese/iciel/iciel-la-chich-frames-outline/La Chich Frames Outline.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-latinotype-queulat-uni": [
+    "fonts/sources/vietnamese/iciel/iciel-latinotype-queulat-uni/Latinotype - Queulat Uni.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-lesfruits": [
+    "fonts/sources/vietnamese/iciel/iciel-lesfruits/LesFruits.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-liebeerika": [
+    "fonts/sources/vietnamese/iciel/iciel-liebeerika/LiebeErika.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-liebeerika-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-liebeerika-bold/LiebeErika-Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-mijas-ultra": [
+    "fonts/sources/vietnamese/iciel/iciel-mijas-ultra/Mijas-Ultra.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-nabila": [
+    "fonts/sources/vietnamese/iciel/iciel-nabila/Nabila.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-outfitter-script": [
+    "fonts/sources/vietnamese/iciel/iciel-outfitter-script/Outfitter Script.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-pony": [
+    "fonts/sources/vietnamese/iciel/iciel-pony/Pony.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-port-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-port-regular/port_regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanelma": [
+    "fonts/sources/vietnamese/iciel/iciel-sanelma/Sanelma.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanelma-2": [
+    "fonts/sources/vietnamese/iciel/iciel-sanelma-2/Sanelma.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-black": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-black/SanFranciscoDisplay-Black.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-bold/SanFranciscoDisplay-Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-heavy": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-heavy/SanFranciscoDisplay-Heavy.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-light": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-light/SanFranciscoDisplay-Light.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-medium": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-medium/SanFranciscoDisplay-Medium.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-regular/SanFranciscoDisplay-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-semibold": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-semibold/SanFranciscoDisplay-Semibold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-thin": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-thin/SanFranciscoDisplay-Thin.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscodisplay-ultralight": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-ultralight/SanFranciscoDisplay-Ultralight.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-bold": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-bold/SanFranciscoText-Bold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg1": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-boldg1/SanFranciscoText-BoldG1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg2": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-boldg2/SanFranciscoText-BoldG2.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg3": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-boldg3/SanFranciscoText-BoldG3.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalic": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalic/SanFranciscoText-BoldItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg1": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg1/SanFranciscoText-BoldItalicG1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg2": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg2/SanFranciscoText-BoldItalicG2.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg3": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg3/SanFranciscoText-BoldItalicG3.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-heavy": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-heavy/SanFranciscoText-Heavy.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-heavyitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-heavyitalic/SanFranciscoText-HeavyItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-italic": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-italic/SanFranciscoText-Italic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg1": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-italicg1/SanFranciscoText-ItalicG1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg2": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-italicg2/SanFranciscoText-ItalicG2.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg3": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-italicg3/SanFranciscoText-ItalicG3.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-light": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-light/SanFranciscoText-Light.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-lightitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-lightitalic/SanFranciscoText-LightItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-medium": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-medium/SanFranciscoText-Medium.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-mediumitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-mediumitalic/SanFranciscoText-MediumItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-regular/SanFranciscoText-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg1": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-regularg1/SanFranciscoText-RegularG1.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg2": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-regularg2/SanFranciscoText-RegularG2.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg3": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-regularg3/SanFranciscoText-RegularG3.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-semibold": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-semibold/SanFranciscoText-Semibold.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-semibolditalic": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-semibolditalic/SanFranciscoText-SemiboldItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-thin": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-thin/SanFranciscoText-Thin.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-sanfranciscotext-thinitalic": [
+    "fonts/sources/vietnamese/iciel/iciel-sanfranciscotext-thinitalic/SanFranciscoText-ThinItalic.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-showcasesans": [
+    "fonts/sources/vietnamese/iciel/iciel-showcasesans/ShowcaseSans.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-showcasescript": [
+    "fonts/sources/vietnamese/iciel/iciel-showcasescript/ShowcaseScript.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-smoothy-cursive": [
+    "fonts/sources/vietnamese/iciel/iciel-smoothy-cursive/Smoothy-Cursive.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-smoothy-sans": [
+    "fonts/sources/vietnamese/iciel/iciel-smoothy-sans/Smoothy-Sans.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-stabile-regular": [
+    "fonts/sources/vietnamese/iciel/iciel-stabile-regular/Stabile-Regular.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-stabile-toys": [
+    "fonts/sources/vietnamese/iciel/iciel-stabile-toys/Stabile Toys.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-stringfellows": [
+    "fonts/sources/vietnamese/iciel/iciel-stringfellows/Stringfellows.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-taluhla-borders": [
+    "fonts/sources/vietnamese/iciel/iciel-taluhla-borders/TALUHLA Borders.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-thinpaw": [
+    "fonts/sources/vietnamese/iciel/iciel-thinpaw/Thinpaw.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-thinpaw-2": [
+    "fonts/sources/vietnamese/iciel/iciel-thinpaw-2/Thinpaw.woff2"
+  ],
+  "sources/vietnamese/iciel/iciel-zitronefy": [
+    "fonts/sources/vietnamese/iciel/iciel-zitronefy/zitroneFY.woff2"
+  ],
   "sources/vietnamese/sfu/sfu-sfuadinekirnbergregular": [
     "fonts/sources/vietnamese/sfu/sfu-sfuadinekirnbergregular/SFUAdineKirnbergRegular.woff2"
   ],

@@ -17686,5 +17686,4097 @@
       "UVF",
       "Personal Use"
     ]
+  },
+  {
+    "id": "vietnamese/iciel/andesroundedlight",
+    "slug": "iciel-andesroundedlight",
+    "name": "AndesRoundedLight",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-andesroundedlight",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-andesroundedlight/AndesRoundedLight.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/auther-typeface",
+    "slug": "iciel-auther-typeface",
+    "name": "Auther Typeface",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-auther-typeface",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-auther-typeface/Auther Typeface.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/balihoscript",
+    "slug": "iciel-balihoscript",
+    "name": "BalihoScript",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-balihoscript",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-balihoscript/BalihoScript.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/balihoscript",
+    "slug": "iciel-balihoscript-2",
+    "name": "BalihoScript",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-balihoscript-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-balihoscript-2/BalihoScript.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/becool-swash1",
+    "slug": "iciel-becool-swash1",
+    "name": "becool_swash1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-becool-swash1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-becool-swash1/becool_swash1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/blooming-elegant-hand1",
+    "slug": "iciel-blooming-elegant-hand1",
+    "name": "Blooming Elegant Hand1",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-blooming-elegant-hand1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-blooming-elegant-hand1/Blooming Elegant Hand1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/blooming-elegant-sans1",
+    "slug": "iciel-blooming-elegant-sans1",
+    "name": "Blooming Elegant Sans1",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-blooming-elegant-sans1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-blooming-elegant-sans1/Blooming Elegant Sans1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/bloomingelegant1",
+    "slug": "iciel-bloomingelegant1",
+    "name": "BloomingElegant1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-bloomingelegant1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-bloomingelegant1/BloomingElegant1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/breeserif",
+    "slug": "iciel-breeserif",
+    "name": "BreeSerif",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-breeserif",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-breeserif/BreeSerif.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/butcherandblock",
+    "slug": "iciel-butcherandblock",
+    "name": "Butcherandblock",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-butcherandblock",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-butcherandblock/Butcherandblock.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/butcherandblockextras1",
+    "slug": "iciel-butcherandblockextras1",
+    "name": "ButcherandBlockExtras1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-butcherandblockextras1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-butcherandblockextras1/ButcherandBlockExtras1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/butterscotch",
+    "slug": "iciel-butterscotch",
+    "name": "ButterScotch",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-butterscotch",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-butterscotch/ButterScotch.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/butterscotch-ornaments",
+    "slug": "iciel-butterscotch-ornaments",
+    "name": "Butterscotch_Ornaments",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-butterscotch-ornaments",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-butterscotch-ornaments/Butterscotch_Ornaments.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/ciao-bella-flowers",
+    "slug": "iciel-ciao-bella-flowers",
+    "name": "Ciao Bella Flowers",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-ciao-bella-flowers",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-ciao-bella-flowers/Ciao Bella Flowers.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/ciao-bella-laurels",
+    "slug": "iciel-ciao-bella-laurels",
+    "name": "Ciao Bella Laurels",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-ciao-bella-laurels",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-ciao-bella-laurels/Ciao Bella Laurels.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/ciao-bella-leaves",
+    "slug": "iciel-ciao-bella-leaves",
+    "name": "Ciao Bella Leaves",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-ciao-bella-leaves",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-ciao-bella-leaves/Ciao Bella Leaves.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/ciao-bella-stems",
+    "slug": "iciel-ciao-bella-stems",
+    "name": "Ciao Bella Stems",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-ciao-bella-stems",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-ciao-bella-stems/Ciao Bella Stems.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/cucho",
+    "slug": "iciel-cucho",
+    "name": "Cucho",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-cucho",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-cucho/Cucho.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/cucho-bold",
+    "slug": "iciel-cucho-bold",
+    "name": "Cucho Bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-cucho-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-cucho-bold/Cucho Bold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/cucho-ornament",
+    "slug": "iciel-cucho-ornament",
+    "name": "Cucho Ornament",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-cucho-ornament",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-cucho-ornament/Cucho Ornament.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/enyoserif-italic",
+    "slug": "iciel-enyoserif-italic",
+    "name": "EnyoSerif-Italic",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-enyoserif-italic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-enyoserif-italic/EnyoSerif-Italic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/enyoserif-light",
+    "slug": "iciel-enyoserif-light",
+    "name": "EnyoSerif-Light",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-enyoserif-light",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-enyoserif-light/EnyoSerif-Light.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/enyoserif-lightitalic",
+    "slug": "iciel-enyoserif-lightitalic",
+    "name": "EnyoSerif-LightItalic",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-enyoserif-lightitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-enyoserif-lightitalic/EnyoSerif-LightItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/enyoserif-medium",
+    "slug": "iciel-enyoserif-medium",
+    "name": "EnyoSerif-Medium",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-enyoserif-medium",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-enyoserif-medium/EnyoSerif-Medium.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/enyoserif-mediumitalic",
+    "slug": "iciel-enyoserif-mediumitalic",
+    "name": "EnyoSerif-MediumItalic",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-enyoserif-mediumitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-enyoserif-mediumitalic/EnyoSerif-MediumItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/enyoserif-regular",
+    "slug": "iciel-enyoserif-regular",
+    "name": "EnyoSerif-Regular",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-enyoserif-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-enyoserif-regular/EnyoSerif-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/fairy-tales",
+    "slug": "iciel-fairy-tales",
+    "name": "Fairy Tales",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-fairy-tales",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-fairy-tales/Fairy Tales.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/fairy-tales",
+    "slug": "iciel-fairy-tales-2",
+    "name": "Fairy Tales",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-fairy-tales-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-fairy-tales-2/Fairy Tales.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/fetridge",
+    "slug": "iciel-fetridge",
+    "name": "Fetridge",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-fetridge",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-fetridge/Fetridge.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/fort-foundry-rift-regular",
+    "slug": "iciel-fort-foundry-rift-regular",
+    "name": "Fort Foundry - Rift-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-fort-foundry-rift-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-fort-foundry-rift-regular/Fort Foundry - Rift-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/gotham-medium",
+    "slug": "iciel-gotham-medium",
+    "name": "Gotham-Medium",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-gotham-medium",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-gotham-medium/Gotham-Medium.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/gotham-thin",
+    "slug": "iciel-gotham-thin",
+    "name": "Gotham-Thin",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-gotham-thin",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-gotham-thin/Gotham-Thin.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/gotham-ultra",
+    "slug": "iciel-gotham-ultra",
+    "name": "Gotham-Ultra",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-gotham-ultra",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-gotham-ultra/Gotham-Ultra.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/hapnaslabserif-light",
+    "slug": "iciel-hapnaslabserif-light",
+    "name": "HapnaSlabSerif-Light",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-hapnaslabserif-light",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-hapnaslabserif-light/HapnaSlabSerif-Light.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/helena",
+    "slug": "iciel-helena",
+    "name": "Helena",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-helena",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-helena/Helena.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/helena",
+    "slug": "iciel-helena-2",
+    "name": "Helena",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-helena-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-helena-2/Helena.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/hipsteria",
+    "slug": "iciel-hipsteria",
+    "name": "Hipsteria",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-hipsteria",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-hipsteria/Hipsteria.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/humblehearts",
+    "slug": "iciel-humblehearts",
+    "name": "HumbleHearts",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-humblehearts",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-humblehearts/HumbleHearts.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-alina",
+    "slug": "iciel-iciel-alina",
+    "name": "iCiel Alina",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-alina",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-alina/iCiel Alina.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-altus",
+    "slug": "iciel-iciel-altus",
+    "name": "iCiel Altus",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-altus",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-altus/iCiel Altus.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-altus",
+    "slug": "iciel-iciel-altus-2",
+    "name": "iCiel Altus",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-altus-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-altus-2/iCiel Altus.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-altus-extra",
+    "slug": "iciel-iciel-altus-extra",
+    "name": "iCiel Altus Extra",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-altus-extra",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-altus-extra/iCiel Altus Extra.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-altus-extra",
+    "slug": "iciel-iciel-altus-extra-2",
+    "name": "iCiel Altus Extra",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-altus-extra-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-altus-extra-2/iCiel Altus Extra.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-altus-serif",
+    "slug": "iciel-iciel-altus-serif",
+    "name": "iCiel Altus Serif",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-altus-serif",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-altus-serif/iCiel Altus Serif.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-altus-serif",
+    "slug": "iciel-iciel-altus-serif-2",
+    "name": "iCiel Altus Serif",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-altus-serif-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-altus-serif-2/iCiel Altus Serif.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-brush-up",
+    "slug": "iciel-iciel-brush-up",
+    "name": "iCiel Brush Up",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-brush-up",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-brush-up/iCiel Brush Up.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-brush-up",
+    "slug": "iciel-iciel-brush-up-2",
+    "name": "iCiel Brush Up",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-brush-up-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-brush-up-2/iCiel Brush Up.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-cadena",
+    "slug": "iciel-iciel-cadena",
+    "name": "iciel Cadena",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-cadena",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-cadena/iciel Cadena.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-ciaobella",
+    "slug": "iciel-iciel-ciaobella",
+    "name": "iCiel Ciaobella",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-ciaobella",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-ciaobella/iCiel Ciaobella.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-crocante",
+    "slug": "iciel-iciel-crocante",
+    "name": "iCiel Crocante",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-crocante",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-crocante/iCiel Crocante.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-finch",
+    "slug": "iciel-iciel-finch",
+    "name": "iCiel Finch",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-finch",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-finch/iCiel Finch.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-finch",
+    "slug": "iciel-iciel-finch-2",
+    "name": "iCiel Finch",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-finch-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-finch-2/iCiel Finch.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-finch-bold",
+    "slug": "iciel-iciel-finch-bold",
+    "name": "iCiel Finch bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-finch-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-finch-bold/iCiel Finch bold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-finch-bold",
+    "slug": "iciel-iciel-finch-bold-2",
+    "name": "iCiel Finch bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-finch-bold-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-finch-bold-2/iCiel Finch bold.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-finch-ornaments",
+    "slug": "iciel-iciel-finch-ornaments",
+    "name": "iCiel Finch ornaments",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-finch-ornaments",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-finch-ornaments/iCiel Finch ornaments.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-finch-ornaments",
+    "slug": "iciel-iciel-finch-ornaments-2",
+    "name": "iCiel Finch ornaments",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-finch-ornaments-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-finch-ornaments-2/iCiel Finch ornaments.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-grandma",
+    "slug": "iciel-iciel-grandma",
+    "name": "iCiel Grandma",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-grandma",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-grandma/iCiel Grandma.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-grandma-bold",
+    "slug": "iciel-iciel-grandma-bold",
+    "name": "iCiel Grandma Bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-grandma-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-grandma-bold/iCiel Grandma Bold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-kermel",
+    "slug": "iciel-iciel-kermel",
+    "name": "iCiel Kermel",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-kermel",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-kermel/iCiel Kermel.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-kermel",
+    "slug": "iciel-iciel-kermel-2",
+    "name": "iCiel Kermel",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-kermel-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-kermel-2/iCiel Kermel.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-koni-black",
+    "slug": "iciel-iciel-koni-black",
+    "name": "iCiel Koni Black",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-koni-black",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-koni-black/iCiel Koni Black.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-koni-black",
+    "slug": "iciel-iciel-koni-black-2",
+    "name": "iCiel Koni Black",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-koni-black-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-koni-black-2/iCiel Koni Black.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-koni-ornament-black",
+    "slug": "iciel-iciel-koni-ornament-black",
+    "name": "iCiel Koni Ornament Black",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black/iCiel Koni Ornament Black.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-koni-ornament-black",
+    "slug": "iciel-iciel-koni-ornament-black-2",
+    "name": "iCiel Koni Ornament Black",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black-2/iCiel Koni Ornament Black.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-lachicpro",
+    "slug": "iciel-iciel-lachicpro",
+    "name": "iCiel LachicPro",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-lachicpro",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-lachicpro/iCiel LachicPro.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-lachicprooutline",
+    "slug": "iciel-iciel-lachicprooutline",
+    "name": "iCiel LachicProOutline",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-lachicprooutline",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-lachicprooutline/iCiel LachicProOutline.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-lachicproshaded",
+    "slug": "iciel-iciel-lachicproshaded",
+    "name": "iCiel LaChicProShaded",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-lachicproshaded",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-lachicproshaded/iCiel LaChicProShaded.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-ladyrene-style-1",
+    "slug": "iciel-iciel-ladyrene-style-1",
+    "name": "iCiel LadyRene Style 1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1/iCiel LadyRene Style 1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-ladyrene-style-1",
+    "slug": "iciel-iciel-ladyrene-style-1-2",
+    "name": "iCiel LadyRene Style 1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1-2/iCiel LadyRene Style 1.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-ladyrene-style-2",
+    "slug": "iciel-iciel-ladyrene-style-2",
+    "name": "iCiel LadyRene Style 2",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2/iCiel LadyRene Style 2.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-ladyrene-style-2",
+    "slug": "iciel-iciel-ladyrene-style-2-2",
+    "name": "iCiel LadyRene Style 2",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2-2/iCiel LadyRene Style 2.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-lousiane",
+    "slug": "iciel-iciel-lousiane",
+    "name": "iCiel LOUSIANE",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-lousiane",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-lousiane/iCiel LOUSIANE.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-pacifico",
+    "slug": "iciel-iciel-pacifico",
+    "name": "iCiel Pacifico",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-pacifico",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-pacifico/iCiel Pacifico.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-pacifico",
+    "slug": "iciel-iciel-pacifico-2",
+    "name": "iCiel Pacifico",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-pacifico-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-pacifico-2/iCiel Pacifico.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-qiber",
+    "slug": "iciel-iciel-qiber",
+    "name": "iCiel Qiber",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-qiber",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-qiber/iCiel Qiber.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-qiber",
+    "slug": "iciel-iciel-qiber-2",
+    "name": "iCiel Qiber",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-qiber-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-qiber-2/iCiel Qiber.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-rukola",
+    "slug": "iciel-iciel-rukola",
+    "name": "iCiel Rukola",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-rukola",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-rukola/iCiel Rukola.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-rukola",
+    "slug": "iciel-iciel-rukola-2",
+    "name": "iCiel Rukola",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-rukola-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-rukola-2/iCiel Rukola.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-simplifica",
+    "slug": "iciel-iciel-simplifica",
+    "name": "iCiel Simplifica",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-simplifica",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-simplifica/iCiel Simplifica.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-simplifica",
+    "slug": "iciel-iciel-simplifica-2",
+    "name": "iCiel Simplifica",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-simplifica-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-simplifica-2/iCiel Simplifica.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciel-taluhla",
+    "slug": "iciel-iciel-taluhla",
+    "name": "iCiel TALUHLA",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciel-taluhla",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciel-taluhla/iCiel TALUHLA.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielamerigraf",
+    "slug": "iciel-icielamerigraf",
+    "name": "iCielAmerigraf",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielamerigraf",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielamerigraf/iCielAmerigraf.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbambola",
+    "slug": "iciel-icielbambola",
+    "name": "iCielBambola",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbambola",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbambola/iCielBambola.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbambola",
+    "slug": "iciel-icielbambola-2",
+    "name": "iCielBambola",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbambola-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbambola-2/iCielBambola.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbcbostlyscript-regular",
+    "slug": "iciel-icielbcbostlyscript-regular",
+    "name": "iCielBCBostlyScript-Regular",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbcbostlyscript-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbcbostlyscript-regular/iCielBCBostlyScript-Regular.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbccubano-normal",
+    "slug": "iciel-icielbccubano-normal",
+    "name": "iCielBCCubano-Normal",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbccubano-normal",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbccubano-normal/iCielBCCubano-Normal.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbcddchardwarerough-compressed",
+    "slug": "iciel-icielbcddchardwarerough-compressed",
+    "name": "iCielBCDDCHardwareRough-Compressed",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbcddchardwarerough-compressed",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbcddchardwarerough-compressed/iCielBCDDCHardwareRough-Compressed.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbcdowntown-regular",
+    "slug": "iciel-icielbcdowntown-regular",
+    "name": "iCielBCDowntown-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbcdowntown-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbcdowntown-regular/iCielBCDowntown-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbcmatchbooktxture-regular",
+    "slug": "iciel-icielbcmatchbooktxture-regular",
+    "name": "iCielBCMatchbookTxture-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbcmatchbooktxture-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbcmatchbooktxture-regular/iCielBCMatchbookTxture-Regular.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbcoldstyle-regular",
+    "slug": "iciel-icielbcoldstyle-regular",
+    "name": "iCielBCOldStyle-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbcoldstyle-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbcoldstyle-regular/iCielBCOldStyle-Regular.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbcrostrum-regular",
+    "slug": "iciel-icielbcrostrum-regular",
+    "name": "iCielBCRostrum-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbcrostrum-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbcrostrum-regular/iCielBCRostrum-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbcseinnagrace-regular",
+    "slug": "iciel-icielbcseinnagrace-regular",
+    "name": "iCielBCSeinnaGrace-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbcseinnagrace-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbcseinnagrace-regular/iCielBCSeinnaGrace-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielbecool-regular",
+    "slug": "iciel-icielbecool-regular",
+    "name": "iCielBeCool-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielbecool-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielbecool-regular/iCielBeCool-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielcadena",
+    "slug": "iciel-icielcadena",
+    "name": "iCielCadena",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielcadena",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielcadena/iCielCadena.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielliebeerika",
+    "slug": "iciel-icielliebeerika",
+    "name": "iCielLiebeErika",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielliebeerika",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielliebeerika/iCielLiebeErika.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielliebeerika-bold",
+    "slug": "iciel-icielliebeerika-bold",
+    "name": "iCielLiebeErika-Bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielliebeerika-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielliebeerika-bold/iCielLiebeErika-Bold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/iciellousiane",
+    "slug": "iciel-iciellousiane",
+    "name": "iCielLOUSIANE",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-iciellousiane",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-iciellousiane/iCielLOUSIANE.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielnovecentosans-demibold",
+    "slug": "iciel-icielnovecentosans-demibold",
+    "name": "iCielNovecentosans-DemiBold",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielnovecentosans-demibold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielnovecentosans-demibold/iCielNovecentosans-DemiBold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielnovecentosans-extralight",
+    "slug": "iciel-icielnovecentosans-extralight",
+    "name": "iCielNovecentosans-ExtraLight",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielnovecentosans-extralight",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielnovecentosans-extralight/iCielNovecentosans-ExtraLight.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielnovecentosans-light",
+    "slug": "iciel-icielnovecentosans-light",
+    "name": "iCielNovecentosans-Light",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielnovecentosans-light",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielnovecentosans-light/iCielNovecentosans-Light.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielnovecentosans-medium",
+    "slug": "iciel-icielnovecentosans-medium",
+    "name": "iCielNovecentosans-Medium",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielnovecentosans-medium",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielnovecentosans-medium/iCielNovecentosans-Medium.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielnovecentosans-normal",
+    "slug": "iciel-icielnovecentosans-normal",
+    "name": "iCielNovecentosans-Normal",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielnovecentosans-normal",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielnovecentosans-normal/iCielNovecentosans-Normal.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielnovecentosans-ultrabold",
+    "slug": "iciel-icielnovecentosans-ultrabold",
+    "name": "iCielNovecentosans-UltraBold",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielnovecentosans-ultrabold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielnovecentosans-ultrabold/iCielNovecentosans-UltraBold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpanton-black",
+    "slug": "iciel-icielpanton-black",
+    "name": "iCielPanton-Black",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpanton-black",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpanton-black/iCielPanton-Black.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpanton-blackitalic",
+    "slug": "iciel-icielpanton-blackitalic",
+    "name": "iCielPanton-BlackItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpanton-blackitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpanton-blackitalic/iCielPanton-BlackItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpanton-light",
+    "slug": "iciel-icielpanton-light",
+    "name": "iCielPanton-Light",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpanton-light",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpanton-light/iCielPanton-Light.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpanton-lightitalic",
+    "slug": "iciel-icielpanton-lightitalic",
+    "name": "iCielPanton-LightItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpanton-lightitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpanton-lightitalic/iCielPanton-LightItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielparisserif-bold",
+    "slug": "iciel-icielparisserif-bold",
+    "name": "iCielParisSerif-Bold",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielparisserif-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielparisserif-bold/iCielParisSerif-Bold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielparisserif-bold",
+    "slug": "iciel-icielparisserif-bold-2",
+    "name": "iCielParisSerif-Bold",
+    "designer": "iCiel",
+    "category": "SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielparisserif-bold-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielparisserif-bold-2/iCielParisSerif-Bold.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena",
+    "slug": "iciel-icielpequena",
+    "name": "iCielPequena",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena/iCielPequena.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-english",
+    "slug": "iciel-icielpequena-english",
+    "name": "iCielPequena-English",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-english",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-english/iCielPequena-English.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-france",
+    "slug": "iciel-icielpequena-france",
+    "name": "iCielPequena-France",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-france",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-france/iCielPequena-France.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-german",
+    "slug": "iciel-icielpequena-german",
+    "name": "iCielPequena-German",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-german",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-german/iCielPequena-German.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-italian",
+    "slug": "iciel-icielpequena-italian",
+    "name": "iCielPequena-Italian",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-italian",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-italian/iCielPequena-Italian.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-ornament",
+    "slug": "iciel-icielpequena-ornament",
+    "name": "iCielPequena-Ornament",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-ornament",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-ornament/iCielPequena-Ornament.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-portugues",
+    "slug": "iciel-icielpequena-portugues",
+    "name": "iCielPequena-Portugues",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-portugues",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-portugues/iCielPequena-Portugues.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-russian",
+    "slug": "iciel-icielpequena-russian",
+    "name": "iCielPequena-Russian",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-russian",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-russian/iCielPequena-Russian.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-spain",
+    "slug": "iciel-icielpequena-spain",
+    "name": "iCielPequena-Spain",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-spain",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-spain/iCielPequena-Spain.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielpequena-swash",
+    "slug": "iciel-icielpequena-swash",
+    "name": "iCielPequena-Swash",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielpequena-swash",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielpequena-swash/iCielPequena-Swash.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielsoupofjustice",
+    "slug": "iciel-icielsoupofjustice",
+    "name": "iCielSoupofJustice",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielsoupofjustice",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielsoupofjustice/iCielSoupofJustice.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielsoupofjustice",
+    "slug": "iciel-icielsoupofjustice-2",
+    "name": "iCielSoupofJustice",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielsoupofjustice-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielsoupofjustice-2/iCielSoupofJustice.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/icielstringfellows-news",
+    "slug": "iciel-icielstringfellows-news",
+    "name": "iCielStringfellows-News",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-icielstringfellows-news",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-icielstringfellows-news/iCielStringfellows-News.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/kermel-regular",
+    "slug": "iciel-kermel-regular",
+    "name": "Kermel-regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-kermel-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-kermel-regular/Kermel-regular.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/la-chic-flourishes",
+    "slug": "iciel-la-chic-flourishes",
+    "name": "La Chic Flourishes",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-la-chic-flourishes",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-la-chic-flourishes/La Chic Flourishes.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/la-chic-flourishes-outline",
+    "slug": "iciel-la-chic-flourishes-outline",
+    "name": "La Chic Flourishes Outline",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-la-chic-flourishes-outline",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-la-chic-flourishes-outline/La Chic Flourishes Outline.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/la-chic-frames",
+    "slug": "iciel-la-chic-frames",
+    "name": "La Chic Frames",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-la-chic-frames",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-la-chic-frames/La Chic Frames.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/la-chic-frames-shaded",
+    "slug": "iciel-la-chic-frames-shaded",
+    "name": "La Chic Frames Shaded",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-la-chic-frames-shaded",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-la-chic-frames-shaded/La Chic Frames Shaded.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/la-chich-flourishes-shaded",
+    "slug": "iciel-la-chich-flourishes-shaded",
+    "name": "La Chich Flourishes Shaded",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-la-chich-flourishes-shaded",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-la-chich-flourishes-shaded/La Chich Flourishes Shaded.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/la-chich-frames-outline",
+    "slug": "iciel-la-chich-frames-outline",
+    "name": "La Chich Frames Outline",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-la-chich-frames-outline",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-la-chich-frames-outline/La Chich Frames Outline.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/latinotype-queulat-uni",
+    "slug": "iciel-latinotype-queulat-uni",
+    "name": "Latinotype - Queulat Uni",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-latinotype-queulat-uni",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-latinotype-queulat-uni/Latinotype - Queulat Uni.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/lesfruits",
+    "slug": "iciel-lesfruits",
+    "name": "LesFruits",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-lesfruits",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-lesfruits/LesFruits.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/liebeerika",
+    "slug": "iciel-liebeerika",
+    "name": "LiebeErika",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-liebeerika",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-liebeerika/LiebeErika.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/liebeerika-bold",
+    "slug": "iciel-liebeerika-bold",
+    "name": "LiebeErika-Bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-liebeerika-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-liebeerika-bold/LiebeErika-Bold.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/mijas-ultra",
+    "slug": "iciel-mijas-ultra",
+    "name": "Mijas-Ultra",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-mijas-ultra",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-mijas-ultra/Mijas-Ultra.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/nabila",
+    "slug": "iciel-nabila",
+    "name": "Nabila",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-nabila",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-nabila/Nabila.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/outfitter-script",
+    "slug": "iciel-outfitter-script",
+    "name": "Outfitter Script",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-outfitter-script",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-outfitter-script/Outfitter Script.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/pony",
+    "slug": "iciel-pony",
+    "name": "Pony",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-pony",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-pony/Pony.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/port-regular",
+    "slug": "iciel-port-regular",
+    "name": "port_regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-port-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-port-regular/port_regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanelma",
+    "slug": "iciel-sanelma",
+    "name": "Sanelma",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanelma",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanelma/Sanelma.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanelma",
+    "slug": "iciel-sanelma-2",
+    "name": "Sanelma",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanelma-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanelma-2/Sanelma.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-black",
+    "slug": "iciel-sanfranciscodisplay-black",
+    "name": "SanFranciscoDisplay-Black",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-black",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-black/SanFranciscoDisplay-Black.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-bold",
+    "slug": "iciel-sanfranciscodisplay-bold",
+    "name": "SanFranciscoDisplay-Bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-bold/SanFranciscoDisplay-Bold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-heavy",
+    "slug": "iciel-sanfranciscodisplay-heavy",
+    "name": "SanFranciscoDisplay-Heavy",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-heavy",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-heavy/SanFranciscoDisplay-Heavy.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-light",
+    "slug": "iciel-sanfranciscodisplay-light",
+    "name": "SanFranciscoDisplay-Light",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-light",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-light/SanFranciscoDisplay-Light.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-medium",
+    "slug": "iciel-sanfranciscodisplay-medium",
+    "name": "SanFranciscoDisplay-Medium",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-medium",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-medium/SanFranciscoDisplay-Medium.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-regular",
+    "slug": "iciel-sanfranciscodisplay-regular",
+    "name": "SanFranciscoDisplay-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-regular/SanFranciscoDisplay-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-semibold",
+    "slug": "iciel-sanfranciscodisplay-semibold",
+    "name": "SanFranciscoDisplay-Semibold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-semibold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-semibold/SanFranciscoDisplay-Semibold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-thin",
+    "slug": "iciel-sanfranciscodisplay-thin",
+    "name": "SanFranciscoDisplay-Thin",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-thin",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-thin/SanFranciscoDisplay-Thin.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscodisplay-ultralight",
+    "slug": "iciel-sanfranciscodisplay-ultralight",
+    "name": "SanFranciscoDisplay-Ultralight",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-ultralight",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscodisplay-ultralight/SanFranciscoDisplay-Ultralight.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-bold",
+    "slug": "iciel-sanfranciscotext-bold",
+    "name": "SanFranciscoText-Bold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-bold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-bold/SanFranciscoText-Bold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-boldg1",
+    "slug": "iciel-sanfranciscotext-boldg1",
+    "name": "SanFranciscoText-BoldG1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg1/SanFranciscoText-BoldG1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-boldg2",
+    "slug": "iciel-sanfranciscotext-boldg2",
+    "name": "SanFranciscoText-BoldG2",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg2/SanFranciscoText-BoldG2.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-boldg3",
+    "slug": "iciel-sanfranciscotext-boldg3",
+    "name": "SanFranciscoText-BoldG3",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg3",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-boldg3/SanFranciscoText-BoldG3.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-bolditalic",
+    "slug": "iciel-sanfranciscotext-bolditalic",
+    "name": "SanFranciscoText-BoldItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalic/SanFranciscoText-BoldItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-bolditalicg1",
+    "slug": "iciel-sanfranciscotext-bolditalicg1",
+    "name": "SanFranciscoText-BoldItalicG1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg1/SanFranciscoText-BoldItalicG1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-bolditalicg2",
+    "slug": "iciel-sanfranciscotext-bolditalicg2",
+    "name": "SanFranciscoText-BoldItalicG2",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg2/SanFranciscoText-BoldItalicG2.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-bolditalicg3",
+    "slug": "iciel-sanfranciscotext-bolditalicg3",
+    "name": "SanFranciscoText-BoldItalicG3",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg3",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-bolditalicg3/SanFranciscoText-BoldItalicG3.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-heavy",
+    "slug": "iciel-sanfranciscotext-heavy",
+    "name": "SanFranciscoText-Heavy",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-heavy",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-heavy/SanFranciscoText-Heavy.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-heavyitalic",
+    "slug": "iciel-sanfranciscotext-heavyitalic",
+    "name": "SanFranciscoText-HeavyItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-heavyitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-heavyitalic/SanFranciscoText-HeavyItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-italic",
+    "slug": "iciel-sanfranciscotext-italic",
+    "name": "SanFranciscoText-Italic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-italic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-italic/SanFranciscoText-Italic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-italicg1",
+    "slug": "iciel-sanfranciscotext-italicg1",
+    "name": "SanFranciscoText-ItalicG1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg1/SanFranciscoText-ItalicG1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-italicg2",
+    "slug": "iciel-sanfranciscotext-italicg2",
+    "name": "SanFranciscoText-ItalicG2",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg2/SanFranciscoText-ItalicG2.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-italicg3",
+    "slug": "iciel-sanfranciscotext-italicg3",
+    "name": "SanFranciscoText-ItalicG3",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg3",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-italicg3/SanFranciscoText-ItalicG3.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-light",
+    "slug": "iciel-sanfranciscotext-light",
+    "name": "SanFranciscoText-Light",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-light",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-light/SanFranciscoText-Light.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-lightitalic",
+    "slug": "iciel-sanfranciscotext-lightitalic",
+    "name": "SanFranciscoText-LightItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-lightitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-lightitalic/SanFranciscoText-LightItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-medium",
+    "slug": "iciel-sanfranciscotext-medium",
+    "name": "SanFranciscoText-Medium",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-medium",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-medium/SanFranciscoText-Medium.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-mediumitalic",
+    "slug": "iciel-sanfranciscotext-mediumitalic",
+    "name": "SanFranciscoText-MediumItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-mediumitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-mediumitalic/SanFranciscoText-MediumItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-regular",
+    "slug": "iciel-sanfranciscotext-regular",
+    "name": "SanFranciscoText-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-regular/SanFranciscoText-Regular.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-regularg1",
+    "slug": "iciel-sanfranciscotext-regularg1",
+    "name": "SanFranciscoText-RegularG1",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg1",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg1/SanFranciscoText-RegularG1.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-regularg2",
+    "slug": "iciel-sanfranciscotext-regularg2",
+    "name": "SanFranciscoText-RegularG2",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg2/SanFranciscoText-RegularG2.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-regularg3",
+    "slug": "iciel-sanfranciscotext-regularg3",
+    "name": "SanFranciscoText-RegularG3",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg3",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-regularg3/SanFranciscoText-RegularG3.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-semibold",
+    "slug": "iciel-sanfranciscotext-semibold",
+    "name": "SanFranciscoText-Semibold",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-semibold",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-semibold/SanFranciscoText-Semibold.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-semibolditalic",
+    "slug": "iciel-sanfranciscotext-semibolditalic",
+    "name": "SanFranciscoText-SemiboldItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-semibolditalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-semibolditalic/SanFranciscoText-SemiboldItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-thin",
+    "slug": "iciel-sanfranciscotext-thin",
+    "name": "SanFranciscoText-Thin",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-thin",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-thin/SanFranciscoText-Thin.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/sanfranciscotext-thinitalic",
+    "slug": "iciel-sanfranciscotext-thinitalic",
+    "name": "SanFranciscoText-ThinItalic",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-sanfranciscotext-thinitalic",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-sanfranciscotext-thinitalic/SanFranciscoText-ThinItalic.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/showcasesans",
+    "slug": "iciel-showcasesans",
+    "name": "ShowcaseSans",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-showcasesans",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-showcasesans/ShowcaseSans.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/showcasescript",
+    "slug": "iciel-showcasescript",
+    "name": "ShowcaseScript",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-showcasescript",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-showcasescript/ShowcaseScript.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/smoothy-cursive",
+    "slug": "iciel-smoothy-cursive",
+    "name": "Smoothy-Cursive",
+    "designer": "iCiel",
+    "category": "HANDWRITING",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-smoothy-cursive",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-smoothy-cursive/Smoothy-Cursive.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/smoothy-sans",
+    "slug": "iciel-smoothy-sans",
+    "name": "Smoothy-Sans",
+    "designer": "iCiel",
+    "category": "SANS_SERIF",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-smoothy-sans",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-smoothy-sans/Smoothy-Sans.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/stabile-toys",
+    "slug": "iciel-stabile-toys",
+    "name": "Stabile Toys",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-stabile-toys",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-stabile-toys/Stabile Toys.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/stabile-regular",
+    "slug": "iciel-stabile-regular",
+    "name": "Stabile-Regular",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-stabile-regular",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-stabile-regular/Stabile-Regular.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/stringfellows",
+    "slug": "iciel-stringfellows",
+    "name": "Stringfellows",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-stringfellows",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-stringfellows/Stringfellows.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/taluhla-borders",
+    "slug": "iciel-taluhla-borders",
+    "name": "TALUHLA Borders",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-taluhla-borders",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-taluhla-borders/TALUHLA Borders.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/thinpaw",
+    "slug": "iciel-thinpaw",
+    "name": "Thinpaw",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-thinpaw",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-thinpaw/Thinpaw.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/thinpaw",
+    "slug": "iciel-thinpaw-2",
+    "name": "Thinpaw",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-thinpaw-2",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-thinpaw-2/Thinpaw.ttf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
+  },
+  {
+    "id": "vietnamese/iciel/zitronefy",
+    "slug": "iciel-zitronefy",
+    "name": "zitroneFY",
+    "designer": "iCiel",
+    "category": "DISPLAY",
+    "license": "Personal Use",
+    "subsets": [
+      "vietnamese"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/vietnamese/iciel/iciel-zitronefy",
+    "sourceUrl": "https://fonts.blissbiovn.com/vietnamese",
+    "sourceGroup": "iCIEL",
+    "sourceFile": "sources/vietnamese/iciel/iciel-zitronefy/zitroneFY.otf",
+    "status": "published",
+    "tags": [
+      "Vietnamese",
+      "iCiel",
+      "Personal Use"
+    ]
   }
 ]
