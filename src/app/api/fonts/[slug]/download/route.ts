@@ -13,13 +13,14 @@ async function recordDownloadError(slug: string, message: string) {
   try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("system_events").insertOne({ level: "error", type: "download", slug, message, createdAt: new Date() })); } catch { /* Monitoring must not affect downloads. */ }
 }
 
-async function recordDownload(slug: string) {
+async function recordDownload(slug: string, countAsVisitor = true) {
   try {
     const db = await (await import("@/lib/mongodb")).getDatabase();
-    await Promise.all([
-      db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() }),
+    const updates: Promise<unknown>[] = [
       db.collection("system_events").updateMany({ type: "download", slug, level: "error", resolvedAt: { $exists: false } }, { $set: { resolvedAt: new Date() } }),
-    ]);
+    ];
+    if (countAsVisitor) updates.push(db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() }));
+    await Promise.all(updates);
   } catch { /* Analytics must never block downloads. */ }
 }
 
@@ -69,6 +70,7 @@ async function archiveAssets(assets: DownloadAsset[]) {
 
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const countAsVisitor = request.headers.get("x-bliss-verification") !== "1";
   const font = (await getPublicFonts()).find((item) => item.slug === slug);
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
 
@@ -76,14 +78,14 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   try {
     const cached = await fetch(`https://assets.blissbiovn.com/${cachedKey}`, { cache: "no-store", signal: AbortSignal.timeout(10_000) });
     await cached.body?.cancel();
-    if (cached.ok) { await recordDownload(slug); return NextResponse.redirect(`https://assets.blissbiovn.com/${cachedKey}`, 302); }
+    if (cached.ok) { await recordDownload(slug, countAsVisitor); return NextResponse.redirect(`https://assets.blissbiovn.com/${cachedKey}`, 302); }
   } catch { /* Build a fresh package below. */ }
 
   if (font.bundleKey) {
     try {
       const bundled = await fetch(`https://assets.blissbiovn.com/${font.bundleKey}`, { cache: "no-store", signal: AbortSignal.timeout(20_000) });
       await bundled.body?.cancel();
-      if (bundled.ok) { await recordDownload(slug); return NextResponse.redirect(`https://assets.blissbiovn.com/${font.bundleKey}`, 302); }
+      if (bundled.ok) { await recordDownload(slug, countAsVisitor); return NextResponse.redirect(`https://assets.blissbiovn.com/${font.bundleKey}`, 302); }
     } catch { /* Fall back to the source files below. */ }
   }
   const files = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
@@ -98,7 +100,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   if (!assets.length) { await recordDownloadError(slug, "No downloadable asset could be resolved"); return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 }); }
   if (!archive) { await recordDownloadError(slug, "Resolved assets could not be archived"); return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 }); }
 
-  await recordDownload(slug);
+  await recordDownload(slug, countAsVisitor);
 
   const readme = [
     `${font.name} - Bliss Fonts`,

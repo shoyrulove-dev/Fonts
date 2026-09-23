@@ -33,3 +33,4 @@ Thumbs.db
 manifests/woff2-conversion*.log
 manifests/woff2-conversion.json
 manifests/download-verification.json
+manifests/download-verification-progress.json
