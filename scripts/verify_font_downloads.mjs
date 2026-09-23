@@ -6,6 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const baseUrl = process.env.FONT_SITE_URL || "https://fonts.blissbiovn.com";
 const limit = Number(process.env.FONT_VERIFY_LIMIT || 0);
 const offset = Number(process.env.FONT_VERIFY_OFFSET || 0);
+const timeoutMs = Number(process.env.FONT_VERIFY_TIMEOUT_MS || 45000);
 const concurrency = Math.max(1, Number(process.env.FONT_VERIFY_CONCURRENCY || 2));
 const catalog = JSON.parse(await fs.readFile(path.join(root, "src", "data", "google-fonts.json"), "utf8"));
 const fonts = limit > 0 ? catalog.slice(offset, offset + limit) : catalog.slice(offset);
@@ -15,7 +16,7 @@ const queue = [...fonts];
 
 async function check(font) {
   try {
-    const response = await fetch(`${baseUrl}/api/fonts/${font.slug}/download`, { signal: AbortSignal.timeout(45000) });
+    const response = await fetch(`${baseUrl}/api/fonts/${font.slug}/download`, { signal: AbortSignal.timeout(timeoutMs) });
     if (!response.ok || !response.headers.get("content-type")?.includes("application/zip")) failures.push({ slug: font.slug, status: response.status, contentType: response.headers.get("content-type") });
   } catch (error) { failures.push({ slug: font.slug, error: error.name }); }
   completed++;
