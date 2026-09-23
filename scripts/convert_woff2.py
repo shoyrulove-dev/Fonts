@@ -26,7 +26,7 @@ def convert_one(source: Path, target: Path) -> None:
 
 def run_worker(source: Path, target: Path, display: str) -> dict | None:
     try:
-        subprocess.run([sys.executable, __file__, "--worker", str(source), str(target)], check=True, timeout=75, capture_output=True)
+        subprocess.run([sys.executable, __file__, "--worker", str(source), str(target)], check=True, timeout=20, capture_output=True)
         return None
     except subprocess.TimeoutExpired:
         return {"source": display, "error": "Timeout"}

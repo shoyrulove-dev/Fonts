@@ -32,3 +32,4 @@ Thumbs.db
 *.tsbuildinfo
 manifests/woff2-conversion*.log
 manifests/woff2-conversion.json
+manifests/download-verification.json
