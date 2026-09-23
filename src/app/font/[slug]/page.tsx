@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import woff2Manifest from "@/data/woff2-manifest.json";
 import FontPreview from "@/components/font-preview";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
-import { PopunderDownload } from "@/components/ad-units";
+import { NativeBanner, PopunderDownload } from "@/components/ad-units";
 import { getPublicFonts, type CatalogFont } from "@/lib/catalog";
 
 type FontRecord = CatalogFont;
@@ -59,6 +59,8 @@ export default async function FontPage({ params }: { params: Promise<{ slug: str
           <div className="mt-7 flex flex-wrap gap-3"><PopunderDownload href={`/api/fonts/${font.slug}/download`}>Download font ZIP ↓</PopunderDownload><span className="rounded-full border border-white/15 px-5 py-3 text-sm text-[#b7c0b8]">Font files included</span></div>
           {fontFiles.length > 0 && <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{fontFiles.map((file) => { const filename = file.split("/").pop() ?? file; return <a key={file} href={`https://assets.blissbiovn.com/${file}`} download className="flex items-center justify-between rounded-2xl border border-white/15 px-4 py-3 text-sm transition-colors hover:bg-white/10"><span className="truncate pr-3">{filename}</span><span className="text-[#b5cbb6]">↓</span></a>; })}</div>}
         </section>
+
+        <NativeBanner />
 
         <section className="mt-16"><div className="flex items-end justify-between"><h2 className="text-2xl font-semibold tracking-tight">Related typefaces</h2><span className="text-sm text-[#697169]">{font.category?.replace("_", " ")}</span></div><div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-6">{related.map((item: FontRecord) => <Link href={`/font/${item.slug}`} key={item.id} className="rounded-2xl border border-[#d8d7cc] bg-white p-4 transition-transform hover:-translate-y-1 hover:border-[#78907c]"><p className="font-medium">{item.name}</p><p className="mt-3 text-xs text-[#697169]">{item.supportsVietnamese ? "Vietnamese ready" : item.category?.replace("_", " ")}</p></Link>)}</div></section>
         <SiteFooter />
