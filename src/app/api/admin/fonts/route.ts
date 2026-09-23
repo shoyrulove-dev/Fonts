@@ -19,7 +19,9 @@ async function seedIfEmpty() {
     await collection.createIndex({ category: 1, supportsVietnamese: 1 });
     await collection.insertMany(catalog, { ordered: false });
   } else {
-    await collection.bulkWrite(vietnameseFonts.map((font) => ({ updateOne: { filter: { id: font.id }, update: { $setOnInsert: font }, upsert: true } })), { ordered: false });
+    const existingIds = new Set((await collection.find({}, { projection: { id: 1 } }).toArray()).map((font) => font.id));
+    const missing = catalog.filter((font) => !existingIds.has(font.id));
+    if (missing.length) await collection.insertMany(missing, { ordered: false });
   }
   return collection;
 }

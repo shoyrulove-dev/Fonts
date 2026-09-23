@@ -17,10 +17,14 @@ export async function getPublicFonts(): Promise<CatalogFont[]> {
   if (!process.env.MONGODB_URI) return allFonts;
   try {
     const collection = (await getDatabase()).collection<CatalogFont>("fonts");
-    const records = await collection.find({ $or: [{ status: { $exists: false } }, { status: "published" }] }).sort({ name: 1 }).toArray();
+    const records = await collection.find({}).toArray();
     if (!records.length) return allFonts;
-    const existing = new Set(records.map((font) => font.id));
-    return [...records, ...vietnameseFonts.filter((font) => !existing.has(font.id))] as CatalogFont[];
+    const merged = new Map(allFonts.map((font) => [font.id, font]));
+    for (const record of records) {
+      if (record.status === "draft" || record.status === "archived") merged.delete(record.id);
+      else merged.set(record.id, { ...merged.get(record.id), ...record } as CatalogFont);
+    }
+    return [...merged.values()].sort((a, b) => a.name.localeCompare(b.name));
   } catch {
     return allFonts;
   }

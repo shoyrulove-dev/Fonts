@@ -14,7 +14,13 @@ async function recordDownloadError(slug: string, message: string) {
 }
 
 async function recordDownload(slug: string) {
-  try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() })); } catch { /* Analytics must never block downloads. */ }
+  try {
+    const db = await (await import("@/lib/mongodb")).getDatabase();
+    await Promise.all([
+      db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() }),
+      db.collection("system_events").updateMany({ type: "download", slug, level: "error", resolvedAt: { $exists: false } }, { $set: { resolvedAt: new Date() } }),
+    ]);
+  } catch { /* Analytics must never block downloads. */ }
 }
 
 async function savePackage(slug: string, zip: Uint8Array) {

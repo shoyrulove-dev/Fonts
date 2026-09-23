@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: "Bliss Fonts — Vietnamese Font Library", template: "%s | Bliss Fonts" },
-  description: "Discover, preview and download curated fonts with clear licensing and Vietnamese language support.",
+  title: { default: "Bliss Fonts — Curated Font Library", template: "%s | Bliss Fonts" },
+  description: "Discover, preview and download international and Vietnamese fonts with clear licensing.",
   applicationName: "Bliss Fonts",
   keywords: ["Vietnamese fonts", "font Việt hóa", "Google Fonts", "free fonts", "design fonts"],
   authors: [{ name: "Bliss Fonts" }],
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   alternates: { canonical: siteUrl },
   manifest: "/site.webmanifest",
   icons: { icon: "/icon.svg", shortcut: "/icon.svg", apple: "/icon.svg" },
-  openGraph: { type: "website", locale: "en_US", url: siteUrl, siteName: "Bliss Fonts", title: "Bliss Fonts — Vietnamese Font Library", description: "Discover and preview curated fonts with clear licensing and Vietnamese support.", images: [{ url: "/og-bliss-fonts.png", width: 1536, height: 1024, alt: "Bliss Fonts font library" }] },
-  twitter: { card: "summary_large_image", title: "Bliss Fonts — Vietnamese Font Library", description: "Discover and preview curated fonts with clear licensing and Vietnamese support.", images: ["/og-bliss-fonts.png"] },
+  openGraph: { type: "website", locale: "en_US", url: siteUrl, siteName: "Bliss Fonts", title: "Bliss Fonts — Curated Font Library", description: "Discover and preview international and Vietnamese fonts with clear licensing.", images: [{ url: "/og-bliss-fonts.png", width: 1536, height: 1024, alt: "Bliss Fonts font library" }] },
+  twitter: { card: "summary_large_image", title: "Bliss Fonts — Curated Font Library", description: "Discover and preview international and Vietnamese fonts with clear licensing.", images: ["/og-bliss-fonts.png"] },
 };
 
 export const viewport: Viewport = { themeColor: "#1d241f", colorScheme: "light" };

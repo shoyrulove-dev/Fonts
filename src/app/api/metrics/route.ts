@@ -22,7 +22,12 @@ export async function GET(request: NextRequest) {
     events.aggregate([{ $match: { createdAt: { $gte: since } } }, { $group: { _id: "$event", count: { $sum: 1 } } }]).toArray(),
     events.aggregate([{ $match: { event: "download", createdAt: { $gte: since } } }, { $group: { _id: "$slug", count: { $sum: 1 } } }, { $sort: { count: -1 } }, { $limit: 5 }]).toArray(),
     events.aggregate([{ $match: { event: "download", createdAt: { $gte: since } } }, { $group: { _id: { $dateToString: { format: "%Y-%m-%d", date: "$createdAt" } }, count: { $sum: 1 } } }, { $sort: { _id: 1 } }]).toArray(),
-    (await getDatabase()).collection("system_events").find({ createdAt: { $gte: since }, level: "error" }).sort({ createdAt: -1 }).limit(10).toArray(),
+    (await getDatabase()).collection("system_events").aggregate([
+      { $match: { createdAt: { $gte: since }, level: "error", resolvedAt: { $exists: false } } },
+      { $sort: { createdAt: -1 } },
+      { $group: { _id: "$slug", slug: { $first: "$slug" }, message: { $first: "$message" }, createdAt: { $first: "$createdAt" } } },
+      { $limit: 10 },
+    ]).toArray(),
   ]);
   return NextResponse.json({ ...Object.fromEntries(rows.map((row) => [row._id, row.count])), topDownloads, dailyDownloads, recentErrors });
 }
