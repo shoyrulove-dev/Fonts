@@ -733,7 +733,7 @@ function FileLibrary({
         <Metric
           label="Download packages"
           value="On demand"
-          note="Created on first download; cache total is not indexed"
+          note="ZIPs are created on the first download"
         />
       </div>
       <div className="mt-6 rounded-3xl border border-[#dce3dd] bg-white p-6">

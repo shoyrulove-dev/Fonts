@@ -187,8 +187,8 @@ export default async function Home() {
                 Start with a direction.
               </h2>
             </div>
-            <p className="max-w-xs text-sm leading-6 text-[#697169]">
-              From quiet editorial serifs to expressive display faces.
+            <p className="max-w-sm text-sm leading-6 text-[#697169]">
+              Editorial serifs to bold display fonts.
             </p>
           </header>
           <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
