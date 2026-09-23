@@ -29,5 +29,16 @@ export async function GET(request: NextRequest) {
       { $limit: 10 },
     ]).toArray(),
   ]);
-  return NextResponse.json({ ...Object.fromEntries(rows.map((row) => [row._id, row.count])), topDownloads, dailyDownloads, recentErrors });
+  const checkedErrors = await Promise.all(recentErrors.map(async (item) => {
+    const slug = String(item.slug || "");
+    if (!slug) return { item, resolved: false };
+    try {
+      const response = await fetch(`https://assets.blissbiovn.com/fonts/bundles/${slug}/${slug}-bliss-fonts.zip`, { method: "HEAD", cache: "no-store", signal: AbortSignal.timeout(4000) });
+      return { item, resolved: response.ok };
+    } catch { return { item, resolved: false }; }
+  }));
+  const resolvedSlugs = checkedErrors.filter((entry) => entry.resolved).map((entry) => String(entry.item.slug));
+  if (resolvedSlugs.length) await (await getDatabase()).collection("system_events").updateMany({ type: "download", slug: { $in: resolvedSlugs }, level: "error", resolvedAt: { $exists: false } }, { $set: { resolvedAt: new Date() } });
+  const activeErrors = checkedErrors.filter((entry) => !entry.resolved).map((entry) => entry.item);
+  return NextResponse.json({ ...Object.fromEntries(rows.map((row) => [row._id, row.count])), topDownloads, dailyDownloads, recentErrors: activeErrors });
 }
