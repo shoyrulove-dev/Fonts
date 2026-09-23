@@ -15,6 +15,13 @@ from fontTools.ttLib import TTFont
 ROOT = Path(__file__).resolve().parents[1]
 REPORT = ROOT / "manifests" / "font-validation.json"
 OUTPUT = ROOT / "converted" / "woff2"
+SKIP = {
+    "sources/google-fonts/ofl/bpmfzihikaistd/BpmfZihiKaiStd-Regular.ttf",
+    "sources/google-fonts/ofl/gamjaflower/GamjaFlower-Regular.ttf",
+    "sources/google-fonts/ofl/gungsuh/Gungsuh-Regular.ttf",
+    "sources/google-fonts/ofl/gungsuhche/GungsuhChe-Regular.ttf",
+    "sources/google-fonts/ofl/himelody/HiMelody-Regular.ttf",
+}
 
 
 def convert_one(source: Path, target: Path) -> None:
@@ -50,6 +57,9 @@ def main() -> None:
     skipped = 0
     for item in report["files"]:
         if item["status"] != "valid":
+            continue
+        if item["path"] in SKIP:
+            skipped += 1
             continue
         source = ROOT / Path(item["path"])
         target = OUTPUT / source.relative_to(ROOT).with_suffix(".woff2")
