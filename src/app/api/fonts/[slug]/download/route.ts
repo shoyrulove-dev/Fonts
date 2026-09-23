@@ -8,6 +8,10 @@ export const dynamic = "force-dynamic";
 
 type DownloadAsset = { url: string; name: string; key?: string };
 
+async function recordDownloadError(slug: string, message: string) {
+  try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("system_events").insertOne({ level: "error", type: "download", slug, message, createdAt: new Date() })); } catch { /* Monitoring must not affect downloads. */ }
+}
+
 async function googleFontAssets(font: { name: string }): Promise<DownloadAsset[]> {
   const family = encodeURIComponent(font.name).replace(/%20/g, "+");
   const response = await fetch(`https://fonts.googleapis.com/css2?family=${family}&display=swap`, {
@@ -61,10 +65,10 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
     assets = await googleFontAssets(font);
     archive = assets.length ? await archiveAssets(assets) : null;
   }
-  if (!assets.length) return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 });
+  if (!assets.length) { await recordDownloadError(slug, "No downloadable asset could be resolved"); return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 }); }
   try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() })); } catch { /* Analytics must never block downloads. */ }
 
-  if (!archive) return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 });
+  if (!archive) { await recordDownloadError(slug, "Resolved assets could not be archived"); return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 }); }
 
   const readme = [
     `${font.name} - Bliss Fonts`,

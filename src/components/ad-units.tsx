@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Script from "next/script";
 
 export function NativeBanner() {
+  useEffect(() => { void fetch("/api/metrics", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ event: "ad_impression", slug: window.location.pathname }) }); }, []);
   return <div className="my-10 overflow-hidden rounded-2xl border border-[#e3e2da] bg-white/60 p-3" aria-label="Advertisement"><Script async src="https://pl31454296.profitableratecpmnetwork.com/0931eb84b45db03f8398c51ccfcbb210/invoke.js" data-cfasync="false" /><div id="container-0931eb84b45db03f8398c51ccfcbb210" /></div>;
 }
 
