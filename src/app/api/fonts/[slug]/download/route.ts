@@ -23,32 +23,48 @@ async function googleFontAssets(font: { name: string }): Promise<DownloadAsset[]
   }));
 }
 
+async function archiveAssets(assets: DownloadAsset[]) {
+  const archive: Record<string, Uint8Array> = {};
+  let totalBytes = 0;
+  for (const asset of assets) {
+    const response = await fetch(asset.url, {
+      cache: "no-store",
+      headers: { "User-Agent": "Mozilla/5.0" },
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (!response.ok) return null;
+    const data = new Uint8Array(await response.arrayBuffer());
+    totalBytes += data.byteLength;
+    if (totalBytes > 25 * 1024 * 1024) return null;
+    archive[`fonts/${asset.name}`] = data;
+  }
+  return archive;
+}
+
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const font = (await getPublicFonts()).find((item) => item.slug === slug);
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
 
   if (font.bundleKey) {
-    const bundled = await fetch(`https://assets.blissbiovn.com/${font.bundleKey}`, { cache: "no-store" });
-    if (bundled.ok) return new NextResponse(await bundled.arrayBuffer(), { headers: { "Content-Type": "application/zip", "Content-Disposition": `attachment; filename="${font.slug}-bliss-fonts.zip"`, "Cache-Control": "public, max-age=86400" } });
+    try {
+      const bundled = await fetch(`https://assets.blissbiovn.com/${font.bundleKey}`, { cache: "no-store", signal: AbortSignal.timeout(20_000) });
+      if (bundled.ok) return new NextResponse(await bundled.arrayBuffer(), { headers: { "Content-Type": "application/zip", "Content-Disposition": `attachment; filename="${font.slug}-bliss-fonts.zip"`, "Cache-Control": "public, max-age=86400" } });
+    } catch { /* Fall back to the source files below. */ }
   }
   const files = font.files?.length ? font.files : woff2Manifest[font.sourcePath as keyof typeof woff2Manifest] ?? [];
-  const assets: DownloadAsset[] = files.length
+  let assets: DownloadAsset[] = files.length
     ? files.map((file) => ({ key: file, url: `https://assets.blissbiovn.com/${file}`, name: file.split("/").pop() ?? file }))
-    : await googleFontAssets(font);
+    : [];
+  let archive = assets.length ? await archiveAssets(assets) : null;
+  if (!archive) {
+    assets = await googleFontAssets(font);
+    archive = assets.length ? await archiveAssets(assets) : null;
+  }
   if (!assets.length) return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 });
   try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("site_events").insertOne({ event: "download", slug, createdAt: new Date() })); } catch { /* Analytics must never block downloads. */ }
 
-  const archive: Record<string, Uint8Array> = {};
-  let totalBytes = 0;
-  for (const asset of assets) {
-    const response = await fetch(asset.url, { cache: "no-store", headers: { "User-Agent": "Mozilla/5.0" } });
-    if (!response.ok) return NextResponse.json({ error: "A font asset could not be downloaded" }, { status: 502 });
-    const data = new Uint8Array(await response.arrayBuffer());
-    totalBytes += data.byteLength;
-    if (totalBytes > 25 * 1024 * 1024) return NextResponse.json({ error: "This font bundle is larger than the 25 MB download limit" }, { status: 413 });
-    archive[`fonts/${asset.name}`] = data;
-  }
+  if (!archive) return NextResponse.json({ error: "This font is temporarily unavailable" }, { status: 502 });
 
   const readme = [
     `${font.name} - Bliss Fonts`,
