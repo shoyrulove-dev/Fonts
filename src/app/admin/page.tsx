@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function AdminPage() {
-  return <AdminDashboard fonts={fonts} />;
+  return <AdminDashboard fonts={fonts} username={process.env.ADMIN_USER || "admin"} />;
 }
