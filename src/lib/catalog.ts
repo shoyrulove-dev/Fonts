@@ -2,6 +2,7 @@ import baseFonts from "@/data/google-fonts.json";
 import vietnameseFonts from "@/data/vietnamese-fonts.json";
 import { getDatabase } from "@/lib/mongodb";
 import { cache } from "react";
+import { unstable_cache } from "next/cache";
 
 export type CatalogFont = (typeof baseFonts)[number] & {
   status?: string;
@@ -15,7 +16,7 @@ export type CatalogFont = (typeof baseFonts)[number] & {
 export const allFonts = [...baseFonts, ...vietnameseFonts] as CatalogFont[];
 const staticFontsBySlug = new Map(allFonts.map((font) => [font.slug, font]));
 
-export const getPublicFontBySlug = cache(async (slug: string): Promise<CatalogFont | null> => {
+async function findPublicFontBySlug(slug: string): Promise<CatalogFont | null> {
   const fallback = staticFontsBySlug.get(slug) ?? null;
   if (!process.env.MONGODB_URI) return fallback;
   try {
@@ -27,7 +28,10 @@ export const getPublicFontBySlug = cache(async (slug: string): Promise<CatalogFo
   } catch {
     return fallback;
   }
-});
+}
+
+const getCachedPublicFontBySlug = unstable_cache(findPublicFontBySlug, ["public-font-by-slug"], { revalidate: 60 });
+export const getPublicFontBySlug = cache((slug: string) => getCachedPublicFontBySlug(slug));
 
 export function getStaticRelatedFonts(font: CatalogFont, limit = 6) {
   return allFonts
@@ -51,3 +55,5 @@ export async function getPublicFonts(): Promise<CatalogFont[]> {
     return allFonts;
   }
 }
+
+export const getCachedPublicFonts = unstable_cache(getPublicFonts, ["public-font-catalog"], { revalidate: 60 });
