@@ -4,6 +4,7 @@ import FontExplorer from "@/components/font-explorer";
 import DynamicSpecimen from "@/components/dynamic-specimen";
 import { NativeBanner } from "@/components/ad-units";
 import { getPublicFonts, type CatalogFont } from "@/lib/catalog";
+import { useCases } from "@/data/collections";
 import woff2Manifest from "@/data/woff2-manifest.json";
 
 const categories = [
@@ -103,9 +104,8 @@ export default async function Home() {
             </span>
           </Link>
           <div className="flex items-center gap-5 text-sm text-[#697169]">
-            <a href="#explore" className="hidden hover:text-[#1d241f] sm:block">
-              Explore
-            </a>
+            <a href="#collections" className="hidden hover:text-[#1d241f] sm:block">Collections</a>
+            <Link href="/fonts" className="hidden hover:text-[#1d241f] sm:block">All fonts</Link>
             <Link
               href="/vietnamese"
               className="rounded-full bg-[#1d241f] px-4 py-2 text-white"
@@ -136,7 +136,7 @@ export default async function Home() {
                 Explore fonts <span className="ml-2">↘</span>
               </a>
               <a
-                href="#explore"
+                href="#collections"
                 className="rounded-full border border-[#c9ccc1] bg-white/60 px-5 py-2.5 text-sm font-medium hover:bg-white"
               >
                 Browse categories
@@ -177,7 +177,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <section id="explore" className="pt-16">
+        <section id="collections" className="pt-16">
           <header className="flex flex-wrap items-end justify-between gap-5">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">
@@ -218,9 +218,16 @@ export default async function Home() {
               );
             })}
           </div>
+          <div className="mt-5 flex justify-end"><Link href="/fonts" className="rounded-full border border-[#c9ccc1] bg-white px-5 py-2.5 text-sm font-medium hover:bg-[#dce8dc]">Browse the complete catalog →</Link></div>
+        </section>
+
+        <section className="pt-16" aria-labelledby="project-collections-title">
+          <header className="flex flex-wrap items-end justify-between gap-5"><div><p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">Browse by project</p><h2 id="project-collections-title" className="mt-2 text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">Start with what you are making.</h2></div><p className="max-w-sm text-sm leading-6 text-[#697169]">Curated paths connect useful styles to common design work.</p></header>
+          <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{useCases.map((useCase) => <Link key={useCase.slug} href={`/use/${useCase.slug}`} className="group rounded-2xl bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#1d241f]/5"><div className="flex items-start justify-between gap-4"><h3 className="text-xl font-semibold tracking-[-0.03em]">{useCase.title}</h3><span className="text-[#78907c] transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></div><p className="mt-3 text-sm leading-6 text-[#697169]">{useCase.description}</p></Link>)}</div>
         </section>
 
         <FontExplorer fonts={explorerFonts} total={fonts.length} />
+        <div className="mt-7 rounded-2xl border border-[#d8d7cc] bg-white p-5 text-center"><p className="text-sm text-[#697169]">Search interactively above, or move through every permanent catalog page.</p><Link href="/fonts" className="mt-3 inline-block font-medium text-[#1d241f]">Browse all {fonts.length.toLocaleString("en-US")} fonts →</Link></div>
         <NativeBanner />
 
         <section id="vietnamese" className="pt-16">

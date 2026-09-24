@@ -1,0 +1,21 @@
+import Link from "next/link";
+import { CatalogSiloNav } from "@/components/catalog-silo-nav";
+import { DirectoryPagination, FontDirectoryGrid } from "@/components/font-directory";
+import { SiteFooter, SiteHeader } from "@/components/site-chrome";
+import type { CatalogFont } from "@/lib/catalog";
+
+type Breadcrumb = { href: string; label: string };
+
+export function FontDirectoryPage({ eyebrow, title, description, fonts, total, currentPage, totalPages, basePath, breadcrumbs = [] }: {
+  eyebrow: string; title: string; description: string; fonts: CatalogFont[]; total: number; currentPage: number; totalPages: number; basePath: string; breadcrumbs?: Breadcrumb[];
+}) {
+  return <main className="min-h-screen bg-[#f6f4ee] text-[#1d241f]"><div className="mx-auto max-w-7xl px-5 py-6 sm:px-8 lg:px-12">
+    <SiteHeader />
+    <nav aria-label="Breadcrumb" className="mt-6 flex flex-wrap items-center gap-2 text-sm text-[#697169]"><Link href="/" className="hover:text-[#1d241f]">Bliss Fonts</Link>{breadcrumbs.map((item) => <span key={item.href} className="contents"><span aria-hidden="true">/</span><Link href={item.href} className="hover:text-[#1d241f]">{item.label}</Link></span>)}<span aria-hidden="true">/</span><span>Page {currentPage}</span></nav>
+    <header className="grid gap-7 py-12 lg:grid-cols-[1fr_22rem] lg:items-end lg:py-16"><div><p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#78907c]">{eyebrow}</p><h1 className="mt-4 max-w-4xl text-5xl font-semibold leading-[0.98] tracking-[-0.065em] sm:text-7xl">{title}</h1></div><div><p className="text-base leading-7 text-[#697169]">{description}</p><p className="mt-4 text-sm font-medium text-[#5e7965]">{total.toLocaleString("en-US")} font families · Page {currentPage} of {totalPages}</p></div></header>
+    <FontDirectoryGrid fonts={fonts} />
+    <DirectoryPagination basePath={basePath} currentPage={currentPage} totalPages={totalPages} />
+    <CatalogSiloNav compact />
+    <SiteFooter />
+  </div></main>;
+}

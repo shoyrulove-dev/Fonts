@@ -1,3 +1,18 @@
+export const fontCategories = [
+  { key: "SANS_SERIF", slug: "sans_serif", label: "Sans Serif", title: "Sans Serif Fonts", note: "Clean and versatile", description: "Clean, flexible typefaces for interfaces, brands and everyday reading." },
+  { key: "SERIF", slug: "serif", label: "Serif", title: "Serif Fonts", note: "Editorial and timeless", description: "Editorial and timeless fonts for long-form reading, invitations and refined identities." },
+  { key: "DISPLAY", slug: "display", label: "Display", title: "Display Fonts", note: "Made to be noticed", description: "Expressive display faces designed to make headlines, posters and campaigns stand out." },
+  { key: "HANDWRITING", slug: "handwriting", label: "Handwriting", title: "Handwriting Fonts", note: "Personal and expressive", description: "Personal script and handwritten styles for warm, human and creative designs." },
+  { key: "MONOSPACE", slug: "monospace", label: "Monospace", title: "Monospace Fonts", note: "For code and systems", description: "Structured monospaced families for code, technical layouts and digital products." },
+] as const;
+
+export type FontCategory = (typeof fontCategories)[number];
+
+export function getFontCategory(value: string) {
+  const normalized = value.toLowerCase();
+  return fontCategories.find((category) => category.slug === normalized) ?? null;
+}
+
 export const useCases = [
   { slug: "logo", title: "Fonts for logos", description: "Distinctive typefaces for brand marks, packaging and identity work.", categories: ["SANS_SERIF", "SERIF", "DISPLAY"] },
   { slug: "wedding", title: "Fonts for weddings", description: "Elegant serif and handwriting families for invitations and keepsakes.", categories: ["SERIF", "HANDWRITING"] },
