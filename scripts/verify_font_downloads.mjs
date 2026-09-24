@@ -12,7 +12,16 @@ const mode = process.env.FONT_VERIFY_MODE || "availability";
 const international = JSON.parse(await fs.readFile(path.join(root, "src", "data", "google-fonts.json"), "utf8"));
 const vietnamese = JSON.parse(await fs.readFile(path.join(root, "src", "data", "vietnamese-fonts.json"), "utf8"));
 const catalog = [...international, ...vietnamese];
-const fonts = limit > 0 ? catalog.slice(offset, offset + limit) : catalog.slice(offset);
+let selectedCatalog = catalog;
+if (process.env.FONT_VERIFY_SLUGS) {
+  const requested = new Set(process.env.FONT_VERIFY_SLUGS.split(",").map((slug) => slug.trim()).filter(Boolean));
+  selectedCatalog = catalog.filter((font) => requested.has(font.slug));
+} else if (process.env.FONT_VERIFY_RECHECK_FAILURES === "1") {
+  const previous = JSON.parse(await fs.readFile(path.join(root, "manifests", "download-verification.json"), "utf8"));
+  const failed = new Set(previous.failures.map((item) => item.slug));
+  selectedCatalog = catalog.filter((font) => failed.has(font.slug));
+}
+const fonts = limit > 0 ? selectedCatalog.slice(offset, offset + limit) : selectedCatalog.slice(offset);
 const failures = [];
 const results = [];
 let completed = 0;

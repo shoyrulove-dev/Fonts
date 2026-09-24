@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { allFonts, type CatalogFont } from "@/lib/catalog";
+import { allFonts, getPublicFonts, type CatalogFont } from "@/lib/catalog";
 import { getDatabase } from "@/lib/mongodb";
 
 export const runtime = "nodejs";
@@ -52,10 +52,12 @@ export async function GET(request: Request) {
       collection.find(filter, { projection: fields }).sort({ name: 1 }).skip((page - 1) * limit).limit(limit).toArray(),
       collection.countDocuments(filter),
     ]);
-    return NextResponse.json({ fonts, total, page, pages: Math.max(1, Math.ceil(total / limit)) });
-  } catch {
+    return NextResponse.json({ fonts, total, page, pages: Math.max(1, Math.ceil(total / limit)) }, { headers: { "X-Bliss-Source": "database" } });
+  } catch (error) {
+    console.error("Public font query fell back to the merged catalog", error);
+    const fallbackFonts = process.env.MONGODB_URI ? await getPublicFonts() : allFonts;
     const needle = query.toLowerCase();
-    const filtered = allFonts.filter((font) =>
+    const filtered = fallbackFonts.filter((font) =>
       (!needle || [font.name, font.designer, font.category, font.sourceGroup].join(" ").toLowerCase().includes(needle)) &&
       (category === "ALL" || font.category === category) &&
       (!vietnameseOnly || font.supportsVietnamese) &&
@@ -64,6 +66,6 @@ export async function GET(request: Request) {
     );
     const start = (page - 1) * limit;
     const fonts = filtered.slice(start, start + limit).map(({ id, slug, name, designer, category: style, license, supportsVietnamese, sourceGroup }) => ({ id, slug, name, designer, category: style, license, supportsVietnamese, sourceGroup }));
-    return NextResponse.json({ fonts, total: filtered.length, page, pages: Math.max(1, Math.ceil(filtered.length / limit)) });
+    return NextResponse.json({ fonts, total: filtered.length, page, pages: Math.max(1, Math.ceil(filtered.length / limit)) }, { headers: { "X-Bliss-Source": "merged-fallback" } });
   }
 }
