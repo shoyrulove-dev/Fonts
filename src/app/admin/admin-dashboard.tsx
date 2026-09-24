@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { CatalogFont } from "@/lib/catalog";
 import ProfileSettings from "./profile-settings";
 import EditFontForm from "./edit-font-form";
@@ -27,7 +27,7 @@ type MetricData = {
 };
 type StorageData = { packages: number; bytes: number; latest: string | null; scannedAt: string };
 type FontCollection = { name: string; families: number; previewFamilies: number; files: number; packages: number; published: number; hidden: number; personalUse: number };
-type FontCollectionsData = { collections: FontCollection[]; totals: { collections: number; families: number; files: number } };
+export type FontCollectionsData = { collections: FontCollection[]; totals: { collections: number; families: number; files: number } };
 const sections = [
   "Overview",
   "Fonts Manager",
@@ -43,12 +43,16 @@ export default function AdminDashboard({
   initialSummary,
   assetFiles,
   assetFamilies,
+  initialCollections,
+  initialVietnameseFonts,
 }: {
   fonts: FontRecord[];
   username: string;
   initialSummary: CatalogSummary;
   assetFiles: number;
   assetFamilies: number;
+  initialCollections: FontCollectionsData;
+  initialVietnameseFonts: FontRecord[];
 }) {
   const router = useRouter();
   const [catalog, setCatalog] = useState(initialFonts);
@@ -65,7 +69,8 @@ export default function AdminDashboard({
   const [metricDays, setMetricDays] = useState(30);
   const [metricTimezone, setMetricTimezone] = useState("Asia/Bangkok");
   const [storage, setStorage] = useState<StorageData | null>(null);
-  const [fontCollections, setFontCollections] = useState<FontCollectionsData | null>(null);
+  const [fontCollections, setFontCollections] = useState<FontCollectionsData>(initialCollections);
+  const fontCollectionsRequested = useRef(false);
   const [accountOpen, setAccountOpen] = useState(false);
   const [loggingOut, setLoggingOut] = useState(false);
   const [logoutError, setLogoutError] = useState("");
@@ -100,18 +105,22 @@ export default function AdminDashboard({
     }
   }
   useEffect(() => {
+    if (section !== "Overview") return;
+    if (metrics.days === metricDays && metrics.timezone === metricTimezone) return;
     const params = new URLSearchParams({ days: String(metricDays), timezone: metricTimezone });
     fetch(`/api/metrics?${params}`, { credentials: "include" }).then(async (response) => { if (response.ok) setMetrics(await response.json()); }).catch(() => {});
-  }, [metricDays, metricTimezone]);
+  }, [section, metricDays, metricTimezone, metrics.days, metrics.timezone]);
   useEffect(() => {
     if (section !== "File Library" || storage) return;
     fetch("/api/admin/storage", { credentials: "include" }).then(async (response) => { if (response.ok) setStorage(await response.json()); }).catch(() => {});
   }, [section, storage]);
   useEffect(() => {
-    if (section !== "Fonts Manager" || fontCollections) return;
-    fetch("/api/admin/fonts?view=collections", { credentials: "include" }).then(async (response) => { if (response.ok) setFontCollections(await response.json()); }).catch(() => {});
-  }, [section, fontCollections]);
+    if (section !== "Fonts Manager" || fontCollectionsRequested.current) return;
+    fontCollectionsRequested.current = true;
+    fetch("/api/admin/fonts?view=collections", { credentials: "include" }).then(async (response) => { if (response.ok) setFontCollections(await response.json()); else fontCollectionsRequested.current = false; }).catch(() => { fontCollectionsRequested.current = false; });
+  }, [section]);
   useEffect(() => {
+    if (section !== "Font Library") return;
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
       setLoadingFonts(true);
@@ -128,7 +137,7 @@ export default function AdminDashboard({
       } finally { if (!controller.signal.aborted) setLoadingFonts(false); }
     }, 250);
     return () => { window.clearTimeout(timer); controller.abort(); };
-  }, [page, query]);
+  }, [section, page, query]);
   const handleSaved = (updated: FontRecord) => {
     setCatalog((current) =>
       current.map((font) =>
@@ -323,6 +332,7 @@ export default function AdminDashboard({
               <FontsManager data={fontCollections} />
             ) : section === "Vietnamese Collection" ? (
               <VietnameseCollection
+                initialFonts={initialVietnameseFonts}
                 archiveCount={summary.archive}
                 compatibleCount={summary.compatible}
                 personalUseCount={summary.personalUse}
@@ -368,8 +378,7 @@ const collectionDescriptions: Record<string, string> = {
   "Other sources": "Fonts from other collections",
 };
 
-function FontsManager({ data }: { data: FontCollectionsData | null }) {
-  if (!data) return <section className="rounded-3xl border border-[#dce3dd] bg-white p-6 text-sm text-[#69756c]">Loading font collections…</section>;
+function FontsManager({ data }: { data: FontCollectionsData }) {
   return (
     <section>
       <div className="grid gap-4 sm:grid-cols-3">
@@ -708,17 +717,19 @@ function Library({
   );
 }
 function VietnameseCollection({
+  initialFonts,
   archiveCount,
   compatibleCount,
   personalUseCount,
   onSelect,
 }: {
+  initialFonts: FontRecord[];
   archiveCount: number;
   compatibleCount: number;
   personalUseCount: number;
   onSelect: (font: FontRecord) => void;
 }) {
-  const [fonts, setFonts] = useState<FontRecord[]>([]);
+  const [fonts, setFonts] = useState<FontRecord[]>(initialFonts);
   const [query, setQuery] = useState("");
   const [group, setGroup] = useState("ALL");
   const [page, setPage] = useState(1);

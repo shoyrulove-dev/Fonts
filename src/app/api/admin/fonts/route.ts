@@ -29,24 +29,42 @@ export async function GET(request: NextRequest) {
   const collection = await seedIfEmpty();
   const url = new URL(request.url);
   if (url.searchParams.get("view") === "collections") {
-    const records = await collection.find({}, { projection: { sourceGroup: 1, sourcePath: 1, id: 1, files: 1, bundleKey: 1, status: 1, license: 1 } }).toArray();
     const manifest = assets as Record<string, string[]>;
-    const grouped = new Map<string, { name: string; families: number; previewFamilies: number; files: number; packages: number; published: number; hidden: number; personalUse: number }>();
-    for (const font of records) {
-      const name = font.sourceGroup || (font.sourcePath?.startsWith("sources/google-fonts/") ? "Google Fonts" : font.id?.startsWith("manual/") ? "Manual imports" : "Other sources");
-      const current = grouped.get(name) || { name, families: 0, previewFamilies: 0, files: 0, packages: 0, published: 0, hidden: 0, personalUse: 0 };
-      const preparedFiles = new Set([...(manifest[font.sourcePath || ""] || []), ...(font.files || [])]);
-      current.families += 1;
-      current.files += preparedFiles.size;
-      current.previewFamilies += preparedFiles.size > 0 ? 1 : 0;
-      current.packages += font.bundleKey ? 1 : 0;
-      current.published += ["draft", "archived"].includes(font.status || "published") ? 0 : 1;
-      current.hidden += ["draft", "archived"].includes(font.status || "published") ? 1 : 0;
-      current.personalUse += font.license === "Personal Use" ? 1 : 0;
-      grouped.set(name, current);
+    const staticAssets = new Map<string, { files: number; previewFamilies: number }>();
+    for (const font of [...fonts, ...vietnameseFonts] as FontRecord[]) {
+      const name = font.sourceGroup || (font.sourcePath?.startsWith("sources/google-fonts/") ? "Google Fonts" : "Other sources");
+      const current = staticAssets.get(name) || { files: 0, previewFamilies: 0 };
+      const fileCount = manifest[font.sourcePath || ""]?.length || 0;
+      current.files += fileCount;
+      current.previewFamilies += fileCount > 0 ? 1 : 0;
+      staticAssets.set(name, current);
     }
+    type CollectionRow = { _id: string; families: number; dynamicPreviewFamilies: number; dynamicFiles: number; packages: number; published: number; hidden: number; personalUse: number };
+    const rows = await collection.aggregate<CollectionRow>([
+      { $project: {
+        sourceName: { $switch: { branches: [
+          { case: { $and: [{ $eq: [{ $type: "$sourceGroup" }, "string"] }, { $ne: ["$sourceGroup", ""] }] }, then: "$sourceGroup" },
+          { case: { $regexMatch: { input: { $ifNull: ["$sourcePath", ""] }, regex: "^sources/google-fonts/" } }, then: "Google Fonts" },
+          { case: { $regexMatch: { input: { $ifNull: ["$id", ""] }, regex: "^manual/" } }, then: "Manual imports" },
+        ], default: "Other sources" } },
+        status: { $ifNull: ["$status", "published"] }, license: 1, bundleKey: 1,
+        dynamicFiles: { $size: { $ifNull: ["$files", []] } },
+      } },
+      { $group: {
+        _id: "$sourceName", families: { $sum: 1 }, dynamicFiles: { $sum: "$dynamicFiles" },
+        dynamicPreviewFamilies: { $sum: { $cond: [{ $gt: ["$dynamicFiles", 0] }, 1, 0] } },
+        packages: { $sum: { $cond: [{ $and: [{ $eq: [{ $type: "$bundleKey" }, "string"] }, { $ne: ["$bundleKey", ""] }] }, 1, 0] } },
+        published: { $sum: { $cond: [{ $in: ["$status", ["draft", "archived"]] }, 0, 1] } },
+        hidden: { $sum: { $cond: [{ $in: ["$status", ["draft", "archived"]] }, 1, 0] } },
+        personalUse: { $sum: { $cond: [{ $eq: ["$license", "Personal Use"] }, 1, 0] } },
+      } },
+    ]).toArray();
+    const collections = rows.map((row) => {
+      const prepared = staticAssets.get(row._id) || { files: 0, previewFamilies: 0 };
+      return { name: row._id, families: row.families, previewFamilies: Math.min(row.families, prepared.previewFamilies + row.dynamicPreviewFamilies), files: prepared.files + row.dynamicFiles, packages: row.packages, published: row.published, hidden: row.hidden, personalUse: row.personalUse };
+    });
     const order = ["Google Fonts", "iCIEL", "SVN", "SFU", "UTM", "UVF", "UVN", "Manual imports", "Other sources"];
-    const collections = [...grouped.values()].sort((a, b) => {
+    collections.sort((a, b) => {
       const aIndex = order.indexOf(a.name);
       const bIndex = order.indexOf(b.name);
       return (aIndex < 0 ? order.length : aIndex) - (bIndex < 0 ? order.length : bIndex) || b.families - a.families;
