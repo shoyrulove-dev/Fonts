@@ -75,26 +75,6 @@
     "fonts/sources/google-fonts/apache/mountainsofchristmas/MountainsofChristmas-Bold.woff2",
     "fonts/sources/google-fonts/apache/mountainsofchristmas/MountainsofChristmas-Regular.woff2"
   ],
-  "sources/google-fonts/apache/opensanshebrew": [
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-Bold.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-BoldItalic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-ExtraBold.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-ExtraBoldItalic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-Italic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-Light.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-LightItalic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrew/OpenSansHebrew-Regular.woff2"
-  ],
-  "sources/google-fonts/apache/opensanshebrewcondensed": [
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-Bold.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-BoldItalic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-ExtraBold.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-ExtraBoldItalic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-Italic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-Light.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-LightItalic.woff2",
-    "fonts/sources/google-fonts/apache/opensanshebrewcondensed/OpenSansHebrewCondensed-Regular.woff2"
-  ],
   "sources/google-fonts/apache/permanentmarker": [
     "fonts/sources/google-fonts/apache/permanentmarker/PermanentMarker-Regular.woff2"
   ],
@@ -229,9 +209,6 @@
   ],
   "sources/google-fonts/ofl/akronim": [
     "fonts/sources/google-fonts/ofl/akronim/Akronim-Regular.woff2"
-  ],
-  "sources/google-fonts/ofl/aksarabaligalang": [
-    "fonts/sources/google-fonts/ofl/aksarabaligalang/AksaraBaliGalang-Regular.woff2"
   ],
   "sources/google-fonts/ofl/akshar": [
     "fonts/sources/google-fonts/ofl/akshar/Akshar[CTRS,wght].woff2"
@@ -442,9 +419,6 @@
   "sources/google-fonts/ofl/amita": [
     "fonts/sources/google-fonts/ofl/amita/Amita-Bold.woff2",
     "fonts/sources/google-fonts/ofl/amita/Amita-Regular.woff2"
-  ],
-  "sources/google-fonts/ofl/amstelvaralpha": [
-    "fonts/sources/google-fonts/ofl/amstelvaralpha/AmstelvarAlpha-VF.woff2"
   ],
   "sources/google-fonts/ofl/anaheim": [
     "fonts/sources/google-fonts/ofl/anaheim/Anaheim[wght].woff2"
@@ -1824,9 +1798,6 @@
   "sources/google-fonts/ofl/daysone": [
     "fonts/sources/google-fonts/ofl/daysone/DaysOne-Regular.woff2"
   ],
-  "sources/google-fonts/ofl/decovaralpha": [
-    "fonts/sources/google-fonts/ofl/decovaralpha/DecovarAlpha-VF.woff2"
-  ],
   "sources/google-fonts/ofl/dekko": [
     "fonts/sources/google-fonts/ofl/dekko/Dekko-Regular.woff2"
   ],
@@ -2716,12 +2687,6 @@
     "fonts/sources/google-fonts/ofl/hankengrotesk/HankenGrotesk-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/hankengrotesk/HankenGrotesk[wght].woff2"
   ],
-  "sources/google-fonts/ofl/hanna": [
-    "fonts/sources/google-fonts/ofl/hanna/BM-HANNA.woff2"
-  ],
-  "sources/google-fonts/ofl/hannari": [
-    "fonts/sources/google-fonts/ofl/hannari/Hannari-Regular.woff2"
-  ],
   "sources/google-fonts/ofl/hanuman": [
     "fonts/sources/google-fonts/ofl/hanuman/Hanuman[wght].woff2"
   ],
@@ -3040,90 +3005,6 @@
   "sources/google-fonts/ofl/inconsolata": [
     "fonts/sources/google-fonts/ofl/inconsolata/Inconsolata[wdth,wght].woff2"
   ],
-  "sources/google-fonts/ofl/inconsolata/static": [
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Black.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Bold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Condensed.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-CondensedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Expanded.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExpandedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensed.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraCondensedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpanded.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraExpandedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-ExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Light.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Medium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-Regular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensed.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiCondensedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpanded.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-SemiExpandedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensed.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraCondensedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpanded.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedBlack.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedExtraLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedLight.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedMedium.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedRegular.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Inconsolata-UltraExpandedSemiBold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Ligconsolata-Bold.woff2",
-    "fonts/sources/google-fonts/ofl/inconsolata/static/Ligconsolata-Regular.woff2"
-  ],
   "sources/google-fonts/ofl/inder": [
     "fonts/sources/google-fonts/ofl/inder/Inder-Regular.woff2"
   ],
@@ -3272,9 +3153,6 @@
   ],
   "sources/google-fonts/ofl/jaro": [
     "fonts/sources/google-fonts/ofl/jaro/Jaro[opsz].woff2"
-  ],
-  "sources/google-fonts/ofl/jejugothic": [
-    "fonts/sources/google-fonts/ofl/jejugothic/JejuGothic-Regular.woff2"
   ],
   "sources/google-fonts/ofl/jersey10": [
     "fonts/sources/google-fonts/ofl/jersey10/Jersey10-Regular.woff2"
@@ -3524,9 +3402,6 @@
     "fonts/sources/google-fonts/ofl/khula/Khula-Regular.woff2",
     "fonts/sources/google-fonts/ofl/khula/Khula-SemiBold.woff2"
   ],
-  "sources/google-fonts/ofl/khyay": [
-    "fonts/sources/google-fonts/ofl/khyay/Khyay-Regular.woff2"
-  ],
   "sources/google-fonts/ofl/kings": [
     "fonts/sources/google-fonts/ofl/kings/Kings-Regular.woff2"
   ],
@@ -3582,9 +3457,6 @@
     "fonts/sources/google-fonts/ofl/kohsantepheap/KohSantepheap-Light.woff2",
     "fonts/sources/google-fonts/ofl/kohsantepheap/KohSantepheap-Regular.woff2",
     "fonts/sources/google-fonts/ofl/kohsantepheap/KohSantepheap-Thin.woff2"
-  ],
-  "sources/google-fonts/ofl/kokoro": [
-    "fonts/sources/google-fonts/ofl/kokoro/Kokoro-Regular.woff2"
   ],
   "sources/google-fonts/ofl/kolkerbrush": [
     "fonts/sources/google-fonts/ofl/kolkerbrush/KolkerBrush-Regular.woff2"
@@ -3738,9 +3610,6 @@
   ],
   "sources/google-fonts/ofl/lemonada": [
     "fonts/sources/google-fonts/ofl/lemonada/Lemonada[wght].woff2"
-  ],
-  "sources/google-fonts/ofl/lemonadavfbeta": [
-    "fonts/sources/google-fonts/ofl/lemonadavfbeta/LemonadaVFBeta.woff2"
   ],
   "sources/google-fonts/ofl/lexend": [
     "fonts/sources/google-fonts/ofl/lexend/Lexend[wght].woff2"
@@ -3924,9 +3793,6 @@
   "sources/google-fonts/ofl/lohitbengali": [
     "fonts/sources/google-fonts/ofl/lohitbengali/Lohit-Bengali.woff2"
   ],
-  "sources/google-fonts/ofl/lohitdevanagari": [
-    "fonts/sources/google-fonts/ofl/lohitdevanagari/Lohit-Devanagari.woff2"
-  ],
   "sources/google-fonts/ofl/lohittamil": [
     "fonts/sources/google-fonts/ofl/lohittamil/Lohit-Tamil.woff2"
   ],
@@ -4089,9 +3955,6 @@
   "sources/google-fonts/ofl/markazitext": [
     "fonts/sources/google-fonts/ofl/markazitext/MarkaziText[wght].woff2"
   ],
-  "sources/google-fonts/ofl/markazitextvfbeta": [
-    "fonts/sources/google-fonts/ofl/markazitextvfbeta/MarkaziText-VF.woff2"
-  ],
   "sources/google-fonts/ofl/markoone": [
     "fonts/sources/google-fonts/ofl/markoone/MarkoOne-Regular.woff2"
   ],
@@ -4143,9 +4006,6 @@
   ],
   "sources/google-fonts/ofl/mavenpro": [
     "fonts/sources/google-fonts/ofl/mavenpro/MavenPro[wght].woff2"
-  ],
-  "sources/google-fonts/ofl/mavenprovfbeta": [
-    "fonts/sources/google-fonts/ofl/mavenprovfbeta/MavenProVFBeta.woff2"
   ],
   "sources/google-fonts/ofl/mclaren": [
     "fonts/sources/google-fonts/ofl/mclaren/McLaren-Regular.woff2"
@@ -4489,9 +4349,6 @@
     "fonts/sources/google-fonts/ofl/museomoderno/MuseoModerno-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/museomoderno/MuseoModerno[wght].woff2"
   ],
-  "sources/google-fonts/ofl/myanmarsanspro": [
-    "fonts/sources/google-fonts/ofl/myanmarsanspro/MyanmarSansPro-Regular.woff2"
-  ],
   "sources/google-fonts/ofl/mynerve": [
     "fonts/sources/google-fonts/ofl/mynerve/Mynerve-Regular.woff2"
   ],
@@ -4582,14 +4439,8 @@
   "sources/google-fonts/ofl/newtegomin": [
     "fonts/sources/google-fonts/ofl/newtegomin/preview-subset.woff2"
   ],
-  "sources/google-fonts/ofl/nicomoji": [
-    "fonts/sources/google-fonts/ofl/nicomoji/NicoMoji-Regular.woff2"
-  ],
   "sources/google-fonts/ofl/niconne": [
     "fonts/sources/google-fonts/ofl/niconne/Niconne-Regular.woff2"
-  ],
-  "sources/google-fonts/ofl/nikukyu": [
-    "fonts/sources/google-fonts/ofl/nikukyu/Nikukyu-Regular.woff2"
   ],
   "sources/google-fonts/ofl/niramit": [
     "fonts/sources/google-fonts/ofl/niramit/Niramit-Bold.woff2",
@@ -6033,9 +5884,6 @@
   "sources/google-fonts/ofl/podkova": [
     "fonts/sources/google-fonts/ofl/podkova/Podkova[wght].woff2"
   ],
-  "sources/google-fonts/ofl/podkovavfbeta": [
-    "fonts/sources/google-fonts/ofl/podkovavfbeta/PodkovaVFBeta.woff2"
-  ],
   "sources/google-fonts/ofl/poetsenone": [
     "fonts/sources/google-fonts/ofl/poetsenone/PoetsenOne-Regular.woff2"
   ],
@@ -6443,9 +6291,6 @@
     "fonts/sources/google-fonts/ofl/rokkitt/Rokkitt-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/rokkitt/Rokkitt[wght].woff2"
   ],
-  "sources/google-fonts/ofl/rokkittvfbeta": [
-    "fonts/sources/google-fonts/ofl/rokkittvfbeta/RokkittVFBeta.woff2"
-  ],
   "sources/google-fonts/ofl/romanesco": [
     "fonts/sources/google-fonts/ofl/romanesco/Romanesco-Regular.woff2"
   ],
@@ -6463,15 +6308,6 @@
   ],
   "sources/google-fonts/ofl/rougescript": [
     "fonts/sources/google-fonts/ofl/rougescript/RougeScript-Regular.woff2"
-  ],
-  "sources/google-fonts/ofl/roundedmplus1c": [
-    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Black.woff2",
-    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Bold.woff2",
-    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-ExtraBold.woff2",
-    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Light.woff2",
-    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Medium.woff2",
-    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Regular.woff2",
-    "fonts/sources/google-fonts/ofl/roundedmplus1c/RoundedMplus1c-Thin.woff2"
   ],
   "sources/google-fonts/ofl/rowdies": [
     "fonts/sources/google-fonts/ofl/rowdies/Rowdies-Bold.woff2",
@@ -7821,9 +7657,6 @@
   "sources/vietnamese/iciel/iciel-balihoscript": [
     "fonts/sources/vietnamese/iciel/iciel-balihoscript/BalihoScript.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-balihoscript-2": [
-    "fonts/sources/vietnamese/iciel/iciel-balihoscript-2/BalihoScript.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-becool-swash1": [
     "fonts/sources/vietnamese/iciel/iciel-becool-swash1/becool_swash1.woff2"
   ],
@@ -7893,9 +7726,6 @@
   "sources/vietnamese/iciel/iciel-fairy-tales": [
     "fonts/sources/vietnamese/iciel/iciel-fairy-tales/Fairy Tales.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-fairy-tales-2": [
-    "fonts/sources/vietnamese/iciel/iciel-fairy-tales-2/Fairy Tales.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-fetridge": [
     "fonts/sources/vietnamese/iciel/iciel-fetridge/Fetridge.woff2"
   ],
@@ -7917,9 +7747,6 @@
   "sources/vietnamese/iciel/iciel-helena": [
     "fonts/sources/vietnamese/iciel/iciel-helena/Helena.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-helena-2": [
-    "fonts/sources/vietnamese/iciel/iciel-helena-2/Helena.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-hipsteria": [
     "fonts/sources/vietnamese/iciel/iciel-hipsteria/Hipsteria.woff2"
   ],
@@ -7932,26 +7759,14 @@
   "sources/vietnamese/iciel/iciel-iciel-altus": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-altus/iCiel Altus.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-altus-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-2/iCiel Altus.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-altus-extra": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-altus-extra/iCiel Altus Extra.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-iciel-altus-extra-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-extra-2/iCiel Altus Extra.woff2"
   ],
   "sources/vietnamese/iciel/iciel-iciel-altus-serif": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-altus-serif/iCiel Altus Serif.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-altus-serif-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-altus-serif-2/iCiel Altus Serif.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-brush-up": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-brush-up/iCiel Brush Up.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-iciel-brush-up-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-brush-up-2/iCiel Brush Up.woff2"
   ],
   "sources/vietnamese/iciel/iciel-iciel-cadena": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-cadena/iciel Cadena.woff2"
@@ -7965,20 +7780,11 @@
   "sources/vietnamese/iciel/iciel-iciel-finch": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-finch/iCiel Finch.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-finch-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-2/iCiel Finch.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-finch-bold": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-finch-bold/iCiel Finch bold.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-finch-bold-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-bold-2/iCiel Finch bold.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-finch-ornaments": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-finch-ornaments/iCiel Finch ornaments.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-iciel-finch-ornaments-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-finch-ornaments-2/iCiel Finch ornaments.woff2"
   ],
   "sources/vietnamese/iciel/iciel-iciel-grandma": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-grandma/iCiel Grandma.woff2"
@@ -7989,20 +7795,11 @@
   "sources/vietnamese/iciel/iciel-iciel-kermel": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-kermel/iCiel Kermel.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-kermel-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-kermel-2/iCiel Kermel.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-koni-black": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-koni-black/iCiel Koni Black.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-koni-black-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-koni-black-2/iCiel Koni Black.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-koni-ornament-black/iCiel Koni Ornament Black.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-iciel-koni-ornament-black-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-koni-ornament-black-2/iCiel Koni Ornament Black.woff2"
   ],
   "sources/vietnamese/iciel/iciel-iciel-lachicpro": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-lachicpro/iCiel LachicPro.woff2"
@@ -8016,14 +7813,8 @@
   "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1/iCiel LadyRene Style 1.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-1-2/iCiel LadyRene Style 1.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2/iCiel LadyRene Style 2.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-ladyrene-style-2-2/iCiel LadyRene Style 2.woff2"
   ],
   "sources/vietnamese/iciel/iciel-iciel-lousiane": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-lousiane/iCiel LOUSIANE.woff2"
@@ -8031,26 +7822,14 @@
   "sources/vietnamese/iciel/iciel-iciel-pacifico": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-pacifico/iCiel Pacifico.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-pacifico-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-pacifico-2/iCiel Pacifico.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-qiber": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-qiber/iCiel Qiber.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-iciel-qiber-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-qiber-2/iCiel Qiber.woff2"
   ],
   "sources/vietnamese/iciel/iciel-iciel-rukola": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-rukola/iCiel Rukola.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-iciel-rukola-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-rukola-2/iCiel Rukola.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-iciel-simplifica": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-simplifica/iCiel Simplifica.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-iciel-simplifica-2": [
-    "fonts/sources/vietnamese/iciel/iciel-iciel-simplifica-2/iCiel Simplifica.woff2"
   ],
   "sources/vietnamese/iciel/iciel-iciel-taluhla": [
     "fonts/sources/vietnamese/iciel/iciel-iciel-taluhla/iCiel TALUHLA.woff2"
@@ -8060,9 +7839,6 @@
   ],
   "sources/vietnamese/iciel/iciel-icielbambola": [
     "fonts/sources/vietnamese/iciel/iciel-icielbambola/iCielBambola.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-icielbambola-2": [
-    "fonts/sources/vietnamese/iciel/iciel-icielbambola-2/iCielBambola.woff2"
   ],
   "sources/vietnamese/iciel/iciel-icielbcbostlyscript-regular": [
     "fonts/sources/vietnamese/iciel/iciel-icielbcbostlyscript-regular/iCielBCBostlyScript-Regular.woff2"
@@ -8136,9 +7912,6 @@
   "sources/vietnamese/iciel/iciel-icielparisserif-bold": [
     "fonts/sources/vietnamese/iciel/iciel-icielparisserif-bold/iCielParisSerif-Bold.woff2"
   ],
-  "sources/vietnamese/iciel/iciel-icielparisserif-bold-2": [
-    "fonts/sources/vietnamese/iciel/iciel-icielparisserif-bold-2/iCielParisSerif-Bold.woff2"
-  ],
   "sources/vietnamese/iciel/iciel-icielpequena": [
     "fonts/sources/vietnamese/iciel/iciel-icielpequena/iCielPequena.woff2"
   ],
@@ -8171,9 +7944,6 @@
   ],
   "sources/vietnamese/iciel/iciel-icielsoupofjustice": [
     "fonts/sources/vietnamese/iciel/iciel-icielsoupofjustice/iCielSoupofJustice.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-icielsoupofjustice-2": [
-    "fonts/sources/vietnamese/iciel/iciel-icielsoupofjustice-2/iCielSoupofJustice.woff2"
   ],
   "sources/vietnamese/iciel/iciel-icielstringfellows-news": [
     "fonts/sources/vietnamese/iciel/iciel-icielstringfellows-news/iCielStringfellows-News.woff2"
@@ -8228,9 +7998,6 @@
   ],
   "sources/vietnamese/iciel/iciel-sanelma": [
     "fonts/sources/vietnamese/iciel/iciel-sanelma/Sanelma.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-sanelma-2": [
-    "fonts/sources/vietnamese/iciel/iciel-sanelma-2/Sanelma.woff2"
   ],
   "sources/vietnamese/iciel/iciel-sanfranciscodisplay-black": [
     "fonts/sources/vietnamese/iciel/iciel-sanfranciscodisplay-black/SanFranciscoDisplay-Black.woff2"
@@ -8363,9 +8130,6 @@
   ],
   "sources/vietnamese/iciel/iciel-thinpaw": [
     "fonts/sources/vietnamese/iciel/iciel-thinpaw/Thinpaw.woff2"
-  ],
-  "sources/vietnamese/iciel/iciel-thinpaw-2": [
-    "fonts/sources/vietnamese/iciel/iciel-thinpaw-2/Thinpaw.woff2"
   ],
   "sources/vietnamese/iciel/iciel-zitronefy": [
     "fonts/sources/vietnamese/iciel/iciel-zitronefy/zitroneFY.woff2"

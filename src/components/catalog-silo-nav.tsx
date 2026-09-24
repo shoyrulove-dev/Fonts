@@ -3,7 +3,7 @@ import { fontCategories, useCases } from "@/data/collections";
 
 export function CatalogSiloNav({ compact = false }: { compact?: boolean }) {
   return (
-    <aside className={`${compact ? "mt-10" : "mt-14"} rounded-3xl bg-[#dce8dc] p-6 sm:p-8`} aria-label="Explore font collections">
+    <aside className={`${compact ? "mt-8" : "mt-10"} rounded-3xl bg-[#dce8dc] p-6 sm:p-8`} aria-label="Explore font collections">
       <div className="grid gap-8 lg:grid-cols-2">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#5e7965]">Browse by style</p>

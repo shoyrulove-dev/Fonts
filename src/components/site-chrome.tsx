@@ -15,7 +15,7 @@ export function SiteHeader({ backLabel = "Home" }: { backLabel?: string }) {
 }
 
 export function SiteFooter() {
-  return <footer className="mt-16 border-t border-[#d8d7cc] py-8 text-sm text-[#697169]">
+  return <footer className="mt-10 border-t border-[#d8d7cc] py-6 text-sm text-[#697169] sm:mt-12">
     <div className="grid gap-8 md:grid-cols-[1fr_1fr_1fr]">
       <div><Link href="/" className="flex items-center gap-2 font-medium text-[#1d241f]"><Image src="/icon.svg" alt="" width={22} height={22} />Bliss Fonts</Link><p className="mt-3 max-w-xs leading-6">Preview and explore typefaces through a clearly organized catalog.</p><Link href="/fonts" className="mt-4 inline-block font-medium text-[#1d241f]">Browse all fonts →</Link></div>
       <div><p className="font-medium text-[#1d241f]">Styles</p><div className="mt-3 flex flex-wrap gap-x-4 gap-y-2">{fontCategories.map((category) => <Link key={category.slug} href={`/category/${category.slug}`} className="hover:text-[#1d241f]">{category.label}</Link>)}</div></div>

@@ -23,7 +23,7 @@ export default async function VietnamesePage() {
   return <main className="min-h-screen bg-[#f6f4ee] text-[#1d241f]">
     <div className="mx-auto max-w-7xl px-5 py-6 sm:px-8 lg:px-12">
       <SiteHeader />
-      <header data-reveal className="grid gap-8 py-12 lg:grid-cols-[1fr_auto] lg:items-end lg:py-16">
+      <header data-reveal className="grid gap-6 py-9 lg:grid-cols-[1fr_auto] lg:items-end lg:py-12">
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[.22em] text-[#78907c]">Vietnamese archive</p>
           <h1 className="mt-4 text-5xl font-semibold leading-[.98] tracking-[-.065em] sm:text-7xl">Vietnamese fonts,<br />clearly organized.</h1>

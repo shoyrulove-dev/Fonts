@@ -115,7 +115,7 @@ export default async function Home() {
           </div>
         </nav>
 
-        <div className="relative grid gap-9 py-14 lg:grid-cols-[1.12fr_.88fr] lg:items-center lg:py-20">
+        <div className="relative grid gap-8 py-10 lg:grid-cols-[1.12fr_.88fr] lg:items-center lg:py-14">
           <div data-reveal>
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-[#5e7965]">
               Find your next typeface
@@ -177,7 +177,7 @@ export default async function Home() {
           </div>
         </div>
 
-        <section id="collections" className="pt-16">
+        <section id="collections" className="pt-10 sm:pt-12">
           <header className="flex flex-wrap items-end justify-between gap-5">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">
@@ -221,16 +221,16 @@ export default async function Home() {
           <div className="mt-5 flex justify-end"><Link href="/fonts" className="rounded-full border border-[#c9ccc1] bg-white px-5 py-2.5 text-sm font-medium hover:bg-[#dce8dc]">Browse the complete catalog →</Link></div>
         </section>
 
-        <section className="pt-16" aria-labelledby="project-collections-title">
-          <header className="flex flex-wrap items-end justify-between gap-5"><div><p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">Browse by project</p><h2 id="project-collections-title" className="mt-2 text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">Start with what you are making.</h2></div><p className="max-w-sm text-sm leading-6 text-[#697169]">Curated paths connect useful styles to common design work.</p></header>
-          <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{useCases.map((useCase) => <Link key={useCase.slug} href={`/use/${useCase.slug}`} className="group rounded-2xl bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#1d241f]/5"><div className="flex items-start justify-between gap-4"><h3 className="text-xl font-semibold tracking-[-0.03em]">{useCase.title}</h3><span className="text-[#78907c] transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></div><p className="mt-3 text-sm leading-6 text-[#697169]">{useCase.description}</p></Link>)}</div>
+        <section className="pt-10 sm:pt-12" aria-labelledby="project-collections-title">
+          <header className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">Browse by project</p><h2 id="project-collections-title" className="mt-2 text-4xl font-semibold tracking-[-0.06em] sm:text-5xl">Start with what you are making.</h2></div><p className="text-sm leading-6 text-[#697169] lg:whitespace-nowrap">Curated paths connect useful styles to everyday design work.</p></header>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{useCases.map((useCase) => <Link key={useCase.slug} href={`/use/${useCase.slug}`} className="group rounded-2xl bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#1d241f]/5"><div className="flex items-start justify-between gap-4"><h3 className="text-xl font-semibold tracking-[-0.03em]">{useCase.title}</h3><span className="text-[#78907c] transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></div><p className="mt-3 text-sm leading-6 text-[#697169]">{useCase.description}</p></Link>)}</div>
         </section>
 
         <FontExplorer fonts={explorerFonts} total={fonts.length} />
         <div className="mt-7 rounded-2xl border border-[#d8d7cc] bg-white p-5 text-center"><p className="text-sm text-[#697169]">Search interactively above, or move through every permanent catalog page.</p><Link href="/fonts" className="mt-3 inline-block font-medium text-[#1d241f]">Browse all {fonts.length.toLocaleString("en-US")} fonts →</Link></div>
         <NativeBanner />
 
-        <section id="vietnamese" className="pt-16">
+        <section id="vietnamese" className="pt-10 sm:pt-12">
           <header className="flex flex-wrap items-end justify-between gap-5">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#78907c]">
@@ -276,7 +276,7 @@ export default async function Home() {
           </div>
         </section>
 
-        <footer className="mt-16 flex flex-col justify-between gap-4 border-t border-[#d8d7cc] py-6 text-sm text-[#697169] sm:flex-row">
+        <footer className="mt-10 flex flex-col justify-between gap-4 border-t border-[#d8d7cc] py-6 text-sm text-[#697169] sm:flex-row">
           <span>© 2026 Bliss Fonts</span>
           <span>Thoughtful type, clearly catalogued.</span>
         </footer>
