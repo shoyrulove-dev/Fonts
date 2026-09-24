@@ -11,7 +11,7 @@ export function generateStaticParams() { return useCases.map((item) => ({ slug: 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const item = useCases.find((entry) => entry.slug === slug);
-  return item ? { title: `${item.title} — Bliss Fonts`, description: item.description, alternates: { canonical: `/use/${item.slug}` } } : {};
+  return item ? { title: item.title, description: item.description, alternates: { canonical: `/use/${item.slug}` } } : {};
 }
 
 export default async function UseCasePage({ params }: { params: Promise<{ slug: string }> }) {

@@ -6,7 +6,7 @@ import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { getCachedPublicFonts } from "@/lib/catalog";
 
 export const metadata: Metadata = {
-  title: "Vietnamese Fonts — Bliss Fonts",
+  title: "Vietnamese Fonts",
   description: "Browse Vietnamese font collections from SFU, SVN, UTM, UVF, UVN and iCiel.",
   alternates: { canonical: "/vietnamese" },
 };

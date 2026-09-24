@@ -13,7 +13,7 @@ export function generateStaticParams() { return Object.keys(legalPages).map((pag
 
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
   const entry = legalPages[(await params).page as keyof typeof legalPages];
-  return entry ? { title: `${entry.title} — Bliss Fonts`, description: entry.description, alternates: { canonical: `/legal/${(await params).page}` } } : {};
+  return entry ? { title: entry.title, description: entry.description, alternates: { canonical: `/legal/${(await params).page}` } } : {};
 }
 
 export default async function LegalPage({ params }: { params: Promise<{ page: string }> }) {

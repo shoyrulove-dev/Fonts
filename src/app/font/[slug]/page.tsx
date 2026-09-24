@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const font = await getPublicFontBySlug(slug);
   if (!font) return { title: "Font not found" };
   const category = font.category?.toLowerCase().replace("_", " ") ?? "typeface";
-  return { title: `${font.name} — Bliss Fonts`, description: `${font.name} is a ${font.supportsVietnamese ? "Vietnamese-ready " : ""}${category} typeface with a clear ${font.license} license and live preview.`, alternates: { canonical: `/font/${font.slug}` } };
+  return { title: font.name, description: `${font.name} is a ${font.supportsVietnamese ? "Vietnamese-ready " : ""}${category} typeface with a clear ${font.license} license and live preview.`, alternates: { canonical: `/font/${font.slug}` } };
 }
 
 export default async function FontPage({ params }: { params: Promise<{ slug: string }> }) {

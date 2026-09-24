@@ -9,7 +9,7 @@ export function generateStaticParams() { return fontCategories.map(({ slug }) =>
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const category = getFontCategory((await params).category);
-  return category ? { title: `${category.title} — Bliss Fonts`, description: category.description, alternates: { canonical: `/category/${category.slug}` } } : {};
+  return category ? { title: category.title, description: category.description, alternates: { canonical: `/category/${category.slug}` } } : {};
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {

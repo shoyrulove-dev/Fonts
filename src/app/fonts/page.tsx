@@ -3,7 +3,7 @@ import { FontDirectoryPage } from "@/components/font-directory-page";
 import { DIRECTORY_PAGE_SIZE } from "@/components/font-directory";
 import { getCachedPublicFonts } from "@/lib/catalog";
 
-export const metadata: Metadata = { title: "Browse All Fonts — Bliss Fonts", description: "Browse the complete Bliss Fonts catalog with clear style, license and Vietnamese-support details.", alternates: { canonical: "/fonts" } };
+export const metadata: Metadata = { title: "Browse All Fonts", description: "Browse the complete Bliss Fonts catalog with clear style, license and Vietnamese-support details.", alternates: { canonical: "/fonts" } };
 
 export default async function FontsPage() {
   const fonts = await getCachedPublicFonts();

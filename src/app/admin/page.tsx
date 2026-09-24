@@ -4,7 +4,7 @@ import assetManifest from "@/data/woff2-manifest.json";
 import AdminDashboard, { type FontCollectionsData } from "./admin-dashboard";
 
 export const metadata: Metadata = {
-  title: "Admin Dashboard — Bliss Fonts",
+  title: "Admin Dashboard",
   robots: { index: false, follow: false },
 };
 
