@@ -2,12 +2,19 @@ import { NextResponse } from "next/server";
 import { zipSync, strToU8 } from "fflate";
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import woff2Manifest from "@/data/woff2-manifest.json";
-import { getPublicFontBySlug } from "@/lib/catalog";
+import { allFonts, getPublicFontBySlug } from "@/lib/catalog";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 type DownloadAsset = { url: string; name: string; key?: string };
+const staticFonts = new Map(allFonts.map((font) => [font.slug, font]));
+
+async function resolveFont(slug: string, request: Request) {
+  return request.headers.get("x-bliss-verification") === "1"
+    ? staticFonts.get(slug) || null
+    : getPublicFontBySlug(slug);
+}
 
 async function recordDownloadError(slug: string, message: string) {
   try { await (await import("@/lib/mongodb")).getDatabase().then((db) => db.collection("system_events").insertOne({ level: "error", type: "download", slug, message, createdAt: new Date() })); } catch { /* Monitoring must not affect downloads. */ }
@@ -78,9 +85,9 @@ async function assetExists(url: string) {
   }
 }
 
-export async function HEAD(_request: Request, { params }: { params: Promise<{ slug: string }> }) {
+export async function HEAD(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const font = await getPublicFontBySlug(slug);
+  const font = await resolveFont(slug, request);
   if (!font) return new NextResponse(null, { status: 404 });
   const cachedKey = `fonts/bundles/${font.slug}/${font.slug}-bliss-fonts.zip`;
   if (await assetExists(`https://assets.blissbiovn.com/${cachedKey}`)) return new NextResponse(null, { status: 204, headers: { "X-Bliss-Asset": "cached-package" } });
@@ -99,7 +106,7 @@ export async function HEAD(_request: Request, { params }: { params: Promise<{ sl
 export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const countAsVisitor = request.headers.get("x-bliss-verification") !== "1";
-  const font = await getPublicFontBySlug(slug);
+  const font = await resolveFont(slug, request);
   if (!font) return NextResponse.json({ error: "Font not found" }, { status: 404 });
 
   const cachedKey = `fonts/bundles/${font.slug}/${font.slug}-bliss-fonts.zip`;
