@@ -18,6 +18,7 @@ type MetricData = {
   ad_impression?: number;
   topDownloads?: { _id: string; count: number }[];
   dailyDownloads?: { _id: string; count: number }[];
+  dailyViews?: { _id: string; count: number }[];
   recentErrors?: { slug?: string; message?: string; createdAt?: string }[];
 };
 const sections = [
@@ -356,7 +357,7 @@ function Overview({
         />
       </div>
       <div className="mt-8 grid gap-6 xl:grid-cols-[1.5fr_1fr]">
-        <DownloadChart rows={metrics.dailyDownloads || []} />
+        <DownloadChart downloads={metrics.dailyDownloads || []} views={metrics.dailyViews || []} />
         <section className="rounded-3xl border border-[#dce3dd] bg-white p-6">
           <p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">
             Most downloaded
@@ -411,34 +412,62 @@ function Overview({
   );
 }
 
-function DownloadChart({ rows }: { rows: { _id: string; count: number }[] }) {
-  const max = Math.max(...rows.map((item) => item.count), 1);
+function DownloadChart({ downloads, views }: { downloads: { _id: string; count: number }[]; views: { _id: string; count: number }[] }) {
+  const downloadMap = new Map(downloads.map((item) => [item._id, item.count]));
+  const viewMap = new Map(views.map((item) => [item._id, item.count]));
+  const dates = [...new Set([...downloadMap.keys(), ...viewMap.keys()])].sort();
+  const rows = dates.map((date) => ({ date, downloads: downloadMap.get(date) || 0, views: viewMap.get(date) || 0 }));
+  const niceMax = (value: number) => {
+    if (value <= 1) return 1;
+    const scale = 10 ** Math.floor(Math.log10(value));
+    const ratio = value / scale;
+    return (ratio <= 2 ? 2 : ratio <= 5 ? 5 : 10) * scale;
+  };
+  const downloadMax = niceMax(Math.max(...rows.map((item) => item.downloads), 1));
+  const viewMax = niceMax(Math.max(...rows.map((item) => item.views), 1));
+  const width = 820;
+  const height = 300;
+  const left = 54;
+  const right = 58;
+  const top = 30;
+  const bottom = 44;
+  const plotWidth = width - left - right;
+  const plotHeight = height - top - bottom;
+  const step = rows.length > 1 ? plotWidth / (rows.length - 1) : plotWidth;
+  const x = (index: number) => rows.length > 1 ? left + index * step : left + plotWidth / 2;
+  const barWidth = Math.max(5, Math.min(20, plotWidth / Math.max(rows.length, 1) * 0.55));
+  const yDownload = (value: number) => top + plotHeight - (value / downloadMax) * plotHeight;
+  const yView = (value: number) => top + plotHeight - (value / viewMax) * plotHeight;
+  const line = rows.map((item, index) => `${x(index)},${yView(item.views)}`).join(" ");
+  const labelEvery = Math.max(1, Math.ceil(rows.length / 6));
+  const formatDate = (date: string) => new Date(`${date}T00:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric" });
   return (
     <section className="rounded-3xl border border-[#dce3dd] bg-white p-6">
-      <p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">
-        Downloads over time
-      </p>
-      <h2 className="mt-2 text-2xl font-semibold">Visitor interest</h2>
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <div><p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">Last 30 days</p><h2 className="mt-2 text-2xl font-semibold">Downloads and previews</h2></div>
+        <div className="flex flex-wrap gap-4 text-xs text-[#69756c]"><span className="flex items-center gap-2"><span className="h-3 w-3 rounded-sm bg-[#78907c]" />Downloads</span><span className="flex items-center gap-2"><span className="h-0.5 w-5 bg-[#d98252]" />Font previews</span></div>
+      </div>
       {rows.length ? (
-        <div className="mt-8 flex h-48 items-end gap-2">
-          {rows.map((item) => (
-            <div key={item._id} className="group flex h-full flex-1 items-end">
-              <div
-                title={`${item._id}: ${item.count}`}
-                style={{ height: `${Math.max((item.count / max) * 100, 4)}%` }}
-                className="w-full rounded-t-lg bg-[#78907c] transition group-hover:bg-[#52745b]"
-              />
-            </div>
-          ))}
+        <div className="mt-6 overflow-x-auto">
+          <svg viewBox={`0 0 ${width} ${height}`} className="min-w-[640px]" role="img" aria-labelledby="download-chart-title download-chart-description">
+            <title id="download-chart-title">Downloads and font previews over the last 30 days</title>
+            <desc id="download-chart-description">Bars use the left axis for downloads. The orange line uses the right axis for font previews.</desc>
+            <text x={left} y={15} className="fill-[#69756c] text-[11px]">Downloads</text><text x={width - right} y={15} textAnchor="end" className="fill-[#9a5f3d] text-[11px]">Previews</text>
+            {[0, 1, 2, 3, 4].map((tick) => { const y = top + plotHeight - (tick / 4) * plotHeight; return <g key={tick}><line x1={left} x2={width - right} y1={y} y2={y} stroke="#e5e9e5" /><text x={left - 9} y={y + 4} textAnchor="end" className="fill-[#829087] text-[10px]">{Math.round(downloadMax * tick / 4)}</text><text x={width - right + 9} y={y + 4} className="fill-[#9a7259] text-[10px]">{Math.round(viewMax * tick / 4)}</text></g>; })}
+            {rows.map((item, index) => <rect key={item.date} x={x(index) - barWidth / 2} y={yDownload(item.downloads)} width={barWidth} height={Math.max(top + plotHeight - yDownload(item.downloads), item.downloads ? 2 : 0)} rx="3" fill="#78907c"><title>{formatDate(item.date)}: {item.downloads} downloads</title></rect>)}
+            <polyline points={line} fill="none" stroke="#d98252" strokeWidth="3" strokeLinejoin="round" strokeLinecap="round" />
+            {rows.map((item, index) => <circle key={item.date} cx={x(index)} cy={yView(item.views)} r="3.5" fill="#d98252" stroke="white" strokeWidth="2"><title>{formatDate(item.date)}: {item.views} previews</title></circle>)}
+            {rows.map((item, index) => (index % labelEvery === 0 || index === rows.length - 1) && <text key={item.date} x={x(index)} y={height - 15} textAnchor="middle" className="fill-[#829087] text-[10px]">{formatDate(item.date)}</text>)}
+          </svg>
         </div>
       ) : (
         <div className="mt-8 flex h-48 items-center justify-center rounded-2xl bg-[#f4f6f4] text-sm text-[#69756c]">
-          Your download trend will appear here.
+          Activity will appear here as visitors preview and download fonts.
         </div>
       )}
-      <div className="mt-3 flex justify-between text-xs text-[#829087]">
-        <span>Last 30 days</span>
-        <span>{rows.reduce((sum, item) => sum + item.count, 0)} downloads</span>
+      <div className="mt-3 flex flex-wrap justify-between gap-2 border-t border-[#edf0ec] pt-4 text-xs text-[#69756c]">
+        <span>{rows.reduce((sum, item) => sum + item.downloads, 0).toLocaleString("en-US")} downloads</span>
+        <span>{rows.reduce((sum, item) => sum + item.views, 0).toLocaleString("en-US")} font previews</span>
       </div>
     </section>
   );

@@ -18,10 +18,11 @@ export async function GET(request: NextRequest) {
   const days = Math.min(Number(new URL(request.url).searchParams.get("days") || 30), 90);
   const since = new Date(Date.now() - days * 86400000);
   const events = (await getDatabase()).collection("site_events");
-  const [rows, topDownloads, dailyDownloads, recentErrors] = await Promise.all([
+  const [rows, topDownloads, dailyDownloads, dailyViews, recentErrors] = await Promise.all([
     events.aggregate([{ $match: { createdAt: { $gte: since } } }, { $group: { _id: "$event", count: { $sum: 1 } } }]).toArray(),
     events.aggregate([{ $match: { event: "download", createdAt: { $gte: since } } }, { $group: { _id: "$slug", count: { $sum: 1 } } }, { $sort: { count: -1 } }, { $limit: 5 }]).toArray(),
     events.aggregate([{ $match: { event: "download", createdAt: { $gte: since } } }, { $group: { _id: { $dateToString: { format: "%Y-%m-%d", date: "$createdAt" } }, count: { $sum: 1 } } }, { $sort: { _id: 1 } }]).toArray(),
+    events.aggregate([{ $match: { event: "font_view", createdAt: { $gte: since } } }, { $group: { _id: { $dateToString: { format: "%Y-%m-%d", date: "$createdAt" } }, count: { $sum: 1 } } }, { $sort: { _id: 1 } }]).toArray(),
     (await getDatabase()).collection("system_events").aggregate([
       { $match: { createdAt: { $gte: since }, level: "error", resolvedAt: { $exists: false } } },
       { $sort: { createdAt: -1 } },
@@ -40,5 +41,5 @@ export async function GET(request: NextRequest) {
   const resolvedSlugs = checkedErrors.filter((entry) => entry.resolved).map((entry) => String(entry.item.slug));
   if (resolvedSlugs.length) await (await getDatabase()).collection("system_events").updateMany({ type: "download", slug: { $in: resolvedSlugs }, level: "error", resolvedAt: { $exists: false } }, { $set: { resolvedAt: new Date() } });
   const activeErrors = checkedErrors.filter((entry) => !entry.resolved).map((entry) => entry.item);
-  return NextResponse.json({ ...Object.fromEntries(rows.map((row) => [row._id, row.count])), topDownloads, dailyDownloads, recentErrors: activeErrors });
+  return NextResponse.json({ ...Object.fromEntries(rows.map((row) => [row._id, row.count])), topDownloads, dailyDownloads, dailyViews, recentErrors: activeErrors });
 }
