@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import fonts from "@/data/google-fonts.json";
 import vietnameseFonts from "@/data/vietnamese-fonts.json";
+import assets from "@/data/woff2-manifest.json";
 import type { CatalogFont } from "@/lib/catalog";
 import { isAdminRequest } from "@/lib/admin-auth";
 import { getDatabase } from "@/lib/mongodb";
@@ -27,6 +28,38 @@ export async function GET(request: NextRequest) {
   if (!(await isAdminRequest(request))) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   const collection = await seedIfEmpty();
   const url = new URL(request.url);
+  if (url.searchParams.get("view") === "collections") {
+    const records = await collection.find({}, { projection: { sourceGroup: 1, sourcePath: 1, id: 1, files: 1, bundleKey: 1, status: 1, license: 1 } }).toArray();
+    const manifest = assets as Record<string, string[]>;
+    const grouped = new Map<string, { name: string; families: number; previewFamilies: number; files: number; packages: number; published: number; hidden: number; personalUse: number }>();
+    for (const font of records) {
+      const name = font.sourceGroup || (font.sourcePath?.startsWith("sources/google-fonts/") ? "Google Fonts" : font.id?.startsWith("manual/") ? "Manual imports" : "Other sources");
+      const current = grouped.get(name) || { name, families: 0, previewFamilies: 0, files: 0, packages: 0, published: 0, hidden: 0, personalUse: 0 };
+      const preparedFiles = new Set([...(manifest[font.sourcePath || ""] || []), ...(font.files || [])]);
+      current.families += 1;
+      current.files += preparedFiles.size;
+      current.previewFamilies += preparedFiles.size > 0 ? 1 : 0;
+      current.packages += font.bundleKey ? 1 : 0;
+      current.published += ["draft", "archived"].includes(font.status || "published") ? 0 : 1;
+      current.hidden += ["draft", "archived"].includes(font.status || "published") ? 1 : 0;
+      current.personalUse += font.license === "Personal Use" ? 1 : 0;
+      grouped.set(name, current);
+    }
+    const order = ["Google Fonts", "iCIEL", "SVN", "SFU", "UTM", "UVF", "UVN", "Manual imports", "Other sources"];
+    const collections = [...grouped.values()].sort((a, b) => {
+      const aIndex = order.indexOf(a.name);
+      const bIndex = order.indexOf(b.name);
+      return (aIndex < 0 ? order.length : aIndex) - (bIndex < 0 ? order.length : bIndex) || b.families - a.families;
+    });
+    return NextResponse.json({
+      collections,
+      totals: {
+        collections: collections.length,
+        families: collections.reduce((sum, item) => sum + item.families, 0),
+        files: collections.reduce((sum, item) => sum + item.files, 0),
+      },
+    });
+  }
   const query = url.searchParams.get("q")?.trim();
   const category = url.searchParams.get("category");
   const vietnamese = url.searchParams.get("vietnamese") === "true";

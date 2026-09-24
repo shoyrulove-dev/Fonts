@@ -26,8 +26,11 @@ type MetricData = {
   recentErrors?: { slug?: string; message?: string; createdAt?: string }[];
 };
 type StorageData = { packages: number; bytes: number; latest: string | null; scannedAt: string };
+type FontCollection = { name: string; families: number; previewFamilies: number; files: number; packages: number; published: number; hidden: number; personalUse: number };
+type FontCollectionsData = { collections: FontCollection[]; totals: { collections: number; families: number; files: number } };
 const sections = [
   "Overview",
+  "Fonts Manager",
   "Font library",
   "Vietnamese collection",
   "File library",
@@ -62,6 +65,7 @@ export default function AdminDashboard({
   const [metricDays, setMetricDays] = useState(30);
   const [metricTimezone, setMetricTimezone] = useState("Asia/Bangkok");
   const [storage, setStorage] = useState<StorageData | null>(null);
+  const [fontCollections, setFontCollections] = useState<FontCollectionsData | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
   const [loggingOut, setLoggingOut] = useState(false);
   const [logoutError, setLogoutError] = useState("");
@@ -103,6 +107,10 @@ export default function AdminDashboard({
     if (section !== "File library" || storage) return;
     fetch("/api/admin/storage", { credentials: "include" }).then(async (response) => { if (response.ok) setStorage(await response.json()); }).catch(() => {});
   }, [section, storage]);
+  useEffect(() => {
+    if (section !== "Fonts Manager" || fontCollections) return;
+    fetch("/api/admin/fonts?view=collections", { credentials: "include" }).then(async (response) => { if (response.ok) setFontCollections(await response.json()); }).catch(() => {});
+  }, [section, fontCollections]);
   useEffect(() => {
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
@@ -311,6 +319,8 @@ export default function AdminDashboard({
                 onImport={() => setImporting(true)}
                 onSelect={setSelected}
               />
+            ) : section === "Fonts Manager" ? (
+              <FontsManager data={fontCollections} />
             ) : section === "Vietnamese collection" ? (
               <VietnameseCollection
                 archiveCount={summary.archive}
@@ -343,6 +353,56 @@ export default function AdminDashboard({
       )}
       {importing && <BulkImportForm onClose={() => setImporting(false)} />}
     </main>
+  );
+}
+
+const collectionDescriptions: Record<string, string> = {
+  "Google Fonts": "International open-source catalog",
+  iCIEL: "Vietnamese iCIEL collection",
+  SVN: "Vietnamese SVN collection",
+  SFU: "Vietnamese SFU collection",
+  UTM: "Vietnamese UTM collection",
+  UVF: "Vietnamese UVF collection",
+  UVN: "Vietnamese UVN collection",
+  "Manual imports": "Fonts added individually",
+  "Other sources": "Fonts from other collections",
+};
+
+function FontsManager({ data }: { data: FontCollectionsData | null }) {
+  if (!data) return <section className="rounded-3xl border border-[#dce3dd] bg-white p-6 text-sm text-[#69756c]">Loading font collections…</section>;
+  return (
+    <section>
+      <div className="grid gap-4 sm:grid-cols-3">
+        <Metric label="Font collections" value={data.totals.collections.toLocaleString("en-US")} note="Imported sources in your catalog" />
+        <Metric label="Font families" value={data.totals.families.toLocaleString("en-US")} note="Across every collection" />
+        <Metric label="Preview files" value={data.totals.files.toLocaleString("en-US")} note="Prepared styles and weights" />
+      </div>
+      <div className="mt-6 rounded-3xl border border-[#dce3dd] bg-white p-6">
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">Collection inventory</p>
+          <h2 className="mt-2 text-2xl font-semibold">Your font collections</h2>
+          <p className="mt-2 text-sm text-[#69756c]">See which collections have been imported and how many fonts each one contains.</p>
+        </div>
+        <div className="mt-6 overflow-x-auto">
+          <table className="w-full min-w-[760px] text-left text-sm">
+            <thead className="border-b border-[#edf0ec] text-xs uppercase tracking-wider text-[#92a097]">
+              <tr><th className="pb-3">Collection</th><th className="pb-3">Families</th><th className="pb-3">Preview files</th><th className="pb-3">License</th><th className="pb-3">Availability</th></tr>
+            </thead>
+            <tbody>
+              {data.collections.map((item) => (
+                <tr key={item.name} className="border-b border-[#f0f2ef] last:border-0">
+                  <td className="py-4"><span className="font-medium">{item.name}</span><span className="mt-1 block text-xs text-[#92a097]">{collectionDescriptions[item.name] || "Imported font collection"}</span></td>
+                  <td className="py-4 font-medium">{item.families.toLocaleString("en-US")}</td>
+                  <td className="py-4 text-[#69756c]">{item.files.toLocaleString("en-US")}</td>
+                  <td className="py-4 text-[#69756c]">{item.personalUse === item.families ? "Personal Use" : item.personalUse ? `${item.personalUse.toLocaleString("en-US")} Personal Use` : "Open source"}</td>
+                  <td className="py-4"><span className={`rounded-full px-3 py-1 text-xs ${item.previewFamilies === item.families && item.hidden === 0 ? "bg-[#e2eee4] text-[#3e6046]" : "bg-[#fff3df] text-[#8a5b22]"}`}>{item.previewFamilies === item.families && item.hidden === 0 ? "Ready" : `${item.previewFamilies}/${item.families} ready`}</span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
   );
 }
 
