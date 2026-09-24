@@ -31,10 +31,10 @@ type FontCollectionsData = { collections: FontCollection[]; totals: { collection
 const sections = [
   "Overview",
   "Fonts Manager",
-  "Font library",
-  "Vietnamese collection",
-  "File library",
-  "Search visibility",
+  "Font Library",
+  "Vietnamese Collection",
+  "File Library",
+  "Search Visibility",
 ] as const;
 type Section = (typeof sections)[number] | "Profile";
 export default function AdminDashboard({
@@ -104,7 +104,7 @@ export default function AdminDashboard({
     fetch(`/api/metrics?${params}`, { credentials: "include" }).then(async (response) => { if (response.ok) setMetrics(await response.json()); }).catch(() => {});
   }, [metricDays, metricTimezone]);
   useEffect(() => {
-    if (section !== "File library" || storage) return;
+    if (section !== "File Library" || storage) return;
     fetch("/api/admin/storage", { credentials: "include" }).then(async (response) => { if (response.ok) setStorage(await response.json()); }).catch(() => {});
   }, [section, storage]);
   useEffect(() => {
@@ -306,7 +306,7 @@ export default function AdminDashboard({
                 publishMessage={publishMessage}
                 publishReadyFonts={publishReadyFonts}
               />
-            ) : section === "Font library" ? (
+            ) : section === "Font Library" ? (
               <Library
                 results={catalog}
                 query={query}
@@ -321,14 +321,14 @@ export default function AdminDashboard({
               />
             ) : section === "Fonts Manager" ? (
               <FontsManager data={fontCollections} />
-            ) : section === "Vietnamese collection" ? (
+            ) : section === "Vietnamese Collection" ? (
               <VietnameseCollection
                 archiveCount={summary.archive}
                 compatibleCount={summary.compatible}
                 personalUseCount={summary.personalUse}
                 onSelect={setSelected}
               />
-            ) : section === "File library" ? (
+            ) : section === "File Library" ? (
               <FileLibrary
                 catalog={catalog}
                 assetFiles={assetFiles}
