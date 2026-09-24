@@ -1272,6 +1272,9 @@
   "sources/google-fonts/ofl/bpmfiansui": [
     "fonts/sources/google-fonts/ofl/bpmfiansui/BpmfIansui-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/bpmfzihikaistd": [
+    "fonts/sources/google-fonts/ofl/bpmfzihikaistd/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/braahone": [
     "fonts/sources/google-fonts/ofl/braahone/BraahOne-Regular.woff2"
   ],
@@ -2424,6 +2427,9 @@
   "sources/google-fonts/ofl/gamaamli": [
     "fonts/sources/google-fonts/ofl/gamaamli/GaMaamli-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/gamjaflower": [
+    "fonts/sources/google-fonts/ofl/gamjaflower/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/gantari": [
     "fonts/sources/google-fonts/ofl/gantari/Gantari-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/gantari/Gantari[wght].woff2"
@@ -2755,6 +2761,9 @@
   "sources/google-fonts/ofl/hiburmono": [
     "fonts/sources/google-fonts/ofl/hiburmono/HiburMono-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/himelody": [
+    "fonts/sources/google-fonts/ofl/himelody/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/hinamincho": [
     "fonts/sources/google-fonts/ofl/hinamincho/HinaMincho-Regular.woff2"
   ],
@@ -2846,6 +2855,9 @@
   ],
   "sources/google-fonts/ofl/hurricane": [
     "fonts/sources/google-fonts/ofl/hurricane/Hurricane-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/iansui": [
+    "fonts/sources/google-fonts/ofl/iansui/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/ibarrarealnova": [
     "fonts/sources/google-fonts/ofl/ibarrarealnova/IbarraRealNova-Italic[wght].woff2",
@@ -3373,9 +3385,18 @@
     "fonts/sources/google-fonts/ofl/kadwa/Kadwa-Bold.woff2",
     "fonts/sources/google-fonts/ofl/kadwa/Kadwa-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/kaiseidecol": [
+    "fonts/sources/google-fonts/ofl/kaiseidecol/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/kaiseiharunoumi": [
+    "fonts/sources/google-fonts/ofl/kaiseiharunoumi/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/kaiseiopti": [
     "fonts/sources/google-fonts/ofl/kaiseiopti/KaiseiOpti-Bold.woff2",
     "fonts/sources/google-fonts/ofl/kaiseiopti/KaiseiOpti-Medium.woff2"
+  ],
+  "sources/google-fonts/ofl/kaiseitokumin": [
+    "fonts/sources/google-fonts/ofl/kaiseitokumin/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/kalam": [
     "fonts/sources/google-fonts/ofl/kalam/Kalam-Bold.woff2",
@@ -3509,8 +3530,17 @@
   "sources/google-fonts/ofl/kings": [
     "fonts/sources/google-fonts/ofl/kings/Kings-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/kiranghaerang": [
+    "fonts/sources/google-fonts/ofl/kiranghaerang/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/kiteone": [
     "fonts/sources/google-fonts/ofl/kiteone/KiteOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/kiwimaru": [
+    "fonts/sources/google-fonts/ofl/kiwimaru/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/kleeone": [
+    "fonts/sources/google-fonts/ofl/kleeone/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/knewave": [
     "fonts/sources/google-fonts/ofl/knewave/Knewave-Regular.woff2"
@@ -3833,6 +3863,9 @@
   "sources/google-fonts/ofl/linefont": [
     "fonts/sources/google-fonts/ofl/linefont/Linefont[wdth,wght].woff2"
   ],
+  "sources/google-fonts/ofl/lineseedjp": [
+    "fonts/sources/google-fonts/ofl/lineseedjp/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/lisubosa": [
     "fonts/sources/google-fonts/ofl/lisubosa/LisuBosa-Black.woff2",
     "fonts/sources/google-fonts/ofl/lisubosa/LisuBosa-BlackItalic.woff2",
@@ -3857,6 +3890,9 @@
   "sources/google-fonts/ofl/literata": [
     "fonts/sources/google-fonts/ofl/literata/Literata-Italic[opsz,wght].woff2",
     "fonts/sources/google-fonts/ofl/literata/Literata[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/liujianmaocao": [
+    "fonts/sources/google-fonts/ofl/liujianmaocao/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/livvic": [
     "fonts/sources/google-fonts/ofl/livvic/Livvic-Black.woff2",
@@ -3908,6 +3944,9 @@
     "fonts/sources/google-fonts/ofl/londrinasolid/LondrinaSolid-Light.woff2",
     "fonts/sources/google-fonts/ofl/londrinasolid/LondrinaSolid-Regular.woff2",
     "fonts/sources/google-fonts/ofl/londrinasolid/LondrinaSolid-Thin.woff2"
+  ],
+  "sources/google-fonts/ofl/longcang": [
+    "fonts/sources/google-fonts/ofl/longcang/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/lora": [
     "fonts/sources/google-fonts/ofl/lora/Lora-Italic[wght].woff2",
@@ -4086,6 +4125,9 @@
     "fonts/sources/google-fonts/ofl/marvel/Marvel-Italic.woff2",
     "fonts/sources/google-fonts/ofl/marvel/Marvel-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/mashanzheng": [
+    "fonts/sources/google-fonts/ofl/mashanzheng/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/matangi": [
     "fonts/sources/google-fonts/ofl/matangi/Matangi[wght].woff2"
   ],
@@ -4219,6 +4261,12 @@
     "fonts/sources/google-fonts/ofl/mitr/Mitr-Regular.woff2",
     "fonts/sources/google-fonts/ofl/mitr/Mitr-SemiBold.woff2"
   ],
+  "sources/google-fonts/ofl/mochiypopone": [
+    "fonts/sources/google-fonts/ofl/mochiypopone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/mochiypoppone": [
+    "fonts/sources/google-fonts/ofl/mochiypoppone/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/modak": [
     "fonts/sources/google-fonts/ofl/modak/Modak-Regular.woff2"
   ],
@@ -4234,6 +4282,9 @@
   "sources/google-fonts/ofl/mohave": [
     "fonts/sources/google-fonts/ofl/mohave/Mohave-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/mohave/Mohave[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/moiraione": [
+    "fonts/sources/google-fonts/ofl/moiraione/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/molengo": [
     "fonts/sources/google-fonts/ofl/molengo/Molengo-Regular.woff2"
@@ -4460,10 +4511,22 @@
     "fonts/sources/google-fonts/ofl/namdhinggo/Namdhinggo-Regular.woff2",
     "fonts/sources/google-fonts/ofl/namdhinggo/Namdhinggo-SemiBold.woff2"
   ],
+  "sources/google-fonts/ofl/nanumbrushscript": [
+    "fonts/sources/google-fonts/ofl/nanumbrushscript/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/nanumgothic": [
     "fonts/sources/google-fonts/ofl/nanumgothic/NanumGothic-Bold.woff2",
     "fonts/sources/google-fonts/ofl/nanumgothic/NanumGothic-ExtraBold.woff2",
     "fonts/sources/google-fonts/ofl/nanumgothic/NanumGothic-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/nanumgothiccoding": [
+    "fonts/sources/google-fonts/ofl/nanumgothiccoding/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/nanummyeongjo": [
+    "fonts/sources/google-fonts/ofl/nanummyeongjo/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/nanumpenscript": [
+    "fonts/sources/google-fonts/ofl/nanumpenscript/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/narnoor": [
     "fonts/sources/google-fonts/ofl/narnoor/Narnoor-Bold.woff2",
@@ -4515,6 +4578,9 @@
   "sources/google-fonts/ofl/newsreader": [
     "fonts/sources/google-fonts/ofl/newsreader/Newsreader-Italic[opsz,wght].woff2",
     "fonts/sources/google-fonts/ofl/newsreader/Newsreader[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/newtegomin": [
+    "fonts/sources/google-fonts/ofl/newtegomin/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/nicomoji": [
     "fonts/sources/google-fonts/ofl/nicomoji/NicoMoji-Regular.woff2"
@@ -4573,6 +4639,12 @@
     "fonts/sources/google-fonts/ofl/noticiatext/NoticiaText-BoldItalic.woff2",
     "fonts/sources/google-fonts/ofl/noticiatext/NoticiaText-Italic.woff2",
     "fonts/sources/google-fonts/ofl/noticiatext/NoticiaText-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/notocoloremoji": [
+    "fonts/sources/google-fonts/ofl/notocoloremoji/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/notocoloremojicompattest": [
+    "fonts/sources/google-fonts/ofl/notocoloremojicompattest/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/notoemoji": [
     "fonts/sources/google-fonts/ofl/notoemoji/NotoEmoji[wght].woff2"
@@ -5036,6 +5108,9 @@
   "sources/google-fonts/ofl/notosanssiddham": [
     "fonts/sources/google-fonts/ofl/notosanssiddham/NotoSansSiddham-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/notosanssignwriting": [
+    "fonts/sources/google-fonts/ofl/notosanssignwriting/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/notosanssinhala": [
     "fonts/sources/google-fonts/ofl/notosanssinhala/NotoSansSinhala[wdth,wght].woff2"
   ],
@@ -5269,6 +5344,9 @@
     "fonts/sources/google-fonts/ofl/notoseriftamil/NotoSerifTamil-Italic[wdth,wght].woff2",
     "fonts/sources/google-fonts/ofl/notoseriftamil/NotoSerifTamil[wdth,wght].woff2"
   ],
+  "sources/google-fonts/ofl/notoseriftangut": [
+    "fonts/sources/google-fonts/ofl/notoseriftangut/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/notoseriftc": [
     "fonts/sources/google-fonts/ofl/notoseriftc/NotoSerifTC[wght].woff2"
   ],
@@ -5277,6 +5355,9 @@
   ],
   "sources/google-fonts/ofl/notoserifthai": [
     "fonts/sources/google-fonts/ofl/notoserifthai/NotoSerifThai[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/notoseriftibetan": [
+    "fonts/sources/google-fonts/ofl/notoseriftibetan/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/notoseriftodhri": [
     "fonts/sources/google-fonts/ofl/notoseriftodhri/NotoSerifTodhri-Regular.woff2"
@@ -5984,6 +6065,9 @@
   "sources/google-fonts/ofl/pontanosans": [
     "fonts/sources/google-fonts/ofl/pontanosans/PontanoSans[wght].woff2"
   ],
+  "sources/google-fonts/ofl/poorstory": [
+    "fonts/sources/google-fonts/ofl/poorstory/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/poppins": [
     "fonts/sources/google-fonts/ofl/poppins/Poppins-Black.woff2",
     "fonts/sources/google-fonts/ofl/poppins/Poppins-BlackItalic.woff2",
@@ -6224,6 +6308,9 @@
   "sources/google-fonts/ofl/rammettoone": [
     "fonts/sources/google-fonts/ofl/rammettoone/RammettoOne-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/rampartone": [
+    "fonts/sources/google-fonts/ofl/rampartone/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/ramsina": [
     "fonts/sources/google-fonts/ofl/ramsina/Ramsina-Regular.woff2"
   ],
@@ -6295,6 +6382,9 @@
   "sources/google-fonts/ofl/reeniebeanie": [
     "fonts/sources/google-fonts/ofl/reeniebeanie/ReenieBeanie.woff2"
   ],
+  "sources/google-fonts/ofl/reggaeone": [
+    "fonts/sources/google-fonts/ofl/reggaeone/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/rem": [
     "fonts/sources/google-fonts/ofl/rem/REM-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/rem/REM[wght].woff2"
@@ -6346,6 +6436,9 @@
   "sources/google-fonts/ofl/rock3d": [
     "fonts/sources/google-fonts/ofl/rock3d/Rock3D-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/rocknrollone": [
+    "fonts/sources/google-fonts/ofl/rocknrollone/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/rokkitt": [
     "fonts/sources/google-fonts/ofl/rokkitt/Rokkitt-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/rokkitt/Rokkitt[wght].woff2"
@@ -6392,6 +6485,9 @@
     "fonts/sources/google-fonts/ofl/rubik/Rubik-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/rubik/Rubik[wght].woff2"
   ],
+  "sources/google-fonts/ofl/rubik80sfade": [
+    "fonts/sources/google-fonts/ofl/rubik80sfade/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/rubikbeastly": [
     "fonts/sources/google-fonts/ofl/rubikbeastly/RubikBeastly-Regular.woff2"
   ],
@@ -6431,6 +6527,9 @@
   "sources/google-fonts/ofl/rubiklines": [
     "fonts/sources/google-fonts/ofl/rubiklines/RubikLines-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/rubikmaps": [
+    "fonts/sources/google-fonts/ofl/rubikmaps/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/rubikmarkerhatch": [
     "fonts/sources/google-fonts/ofl/rubikmarkerhatch/RubikMarkerHatch-Regular.woff2"
   ],
@@ -6448,6 +6547,9 @@
   ],
   "sources/google-fonts/ofl/rubikone": [
     "fonts/sources/google-fonts/ofl/rubikone/RubikOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/rubikpixels": [
+    "fonts/sources/google-fonts/ofl/rubikpixels/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/rubikpuddles": [
     "fonts/sources/google-fonts/ofl/rubikpuddles/RubikPuddles-Regular.woff2"
@@ -6729,6 +6831,18 @@
   "sources/google-fonts/ofl/sharetechmono": [
     "fonts/sources/google-fonts/ofl/sharetechmono/ShareTechMono-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/shipporiantique": [
+    "fonts/sources/google-fonts/ofl/shipporiantique/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/shipporiantiqueb1": [
+    "fonts/sources/google-fonts/ofl/shipporiantiqueb1/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/shipporimincho": [
+    "fonts/sources/google-fonts/ofl/shipporimincho/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/shipporiminchob1": [
+    "fonts/sources/google-fonts/ofl/shipporiminchob1/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/shizuru": [
     "fonts/sources/google-fonts/ofl/shizuru/Shizuru-Regular.woff2"
   ],
@@ -6842,8 +6956,44 @@
   "sources/google-fonts/ofl/sofadione": [
     "fonts/sources/google-fonts/ofl/sofadione/SofadiOne-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/sofia": [
+    "fonts/sources/google-fonts/ofl/sofia/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sofiasans": [
+    "fonts/sources/google-fonts/ofl/sofiasans/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sofiasanscondensed": [
+    "fonts/sources/google-fonts/ofl/sofiasanscondensed/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sofiasansextracondensed": [
+    "fonts/sources/google-fonts/ofl/sofiasansextracondensed/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sofiasanssemicondensed": [
+    "fonts/sources/google-fonts/ofl/sofiasanssemicondensed/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/solitreo": [
+    "fonts/sources/google-fonts/ofl/solitreo/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/solway": [
+    "fonts/sources/google-fonts/ofl/solway/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sometypemono": [
+    "fonts/sources/google-fonts/ofl/sometypemono/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/songmyung": [
+    "fonts/sources/google-fonts/ofl/songmyung/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/sono": [
     "fonts/sources/google-fonts/ofl/sono/Sono[MONO,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/sonsieone": [
+    "fonts/sources/google-fonts/ofl/sonsieone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sora": [
+    "fonts/sources/google-fonts/ofl/sora/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sortsmillgoudy": [
+    "fonts/sources/google-fonts/ofl/sortsmillgoudy/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/sourcecodepro": [
     "fonts/sources/google-fonts/ofl/sourcecodepro/SourceCodePro-Italic[wght].woff2",
@@ -6857,6 +7007,9 @@
     "fonts/sources/google-fonts/ofl/sourceserif4/SourceSerif4-Italic[opsz,wght].woff2",
     "fonts/sources/google-fonts/ofl/sourceserif4/SourceSerif4[opsz,wght].woff2"
   ],
+  "sources/google-fonts/ofl/sourgummy": [
+    "fonts/sources/google-fonts/ofl/sourgummy/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/spacegrotesk": [
     "fonts/sources/google-fonts/ofl/spacegrotesk/SpaceGrotesk[wght].woff2"
   ],
@@ -6865,6 +7018,15 @@
     "fonts/sources/google-fonts/ofl/spacemono/SpaceMono-BoldItalic.woff2",
     "fonts/sources/google-fonts/ofl/spacemono/SpaceMono-Italic.woff2",
     "fonts/sources/google-fonts/ofl/spacemono/SpaceMono-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/specialgothic": [
+    "fonts/sources/google-fonts/ofl/specialgothic/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/specialgothiccondensedone": [
+    "fonts/sources/google-fonts/ofl/specialgothiccondensedone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/specialgothicexpandedone": [
+    "fonts/sources/google-fonts/ofl/specialgothicexpandedone/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/spectral": [
     "fonts/sources/google-fonts/ofl/spectral/Spectral-Bold.woff2",
@@ -6898,11 +7060,32 @@
     "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-SemiBold.woff2",
     "fonts/sources/google-fonts/ofl/spectralsc/SpectralSC-SemiBoldItalic.woff2"
   ],
+  "sources/google-fonts/ofl/spicyrice": [
+    "fonts/sources/google-fonts/ofl/spicyrice/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/spinnaker": [
+    "fonts/sources/google-fonts/ofl/spinnaker/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/spirax": [
+    "fonts/sources/google-fonts/ofl/spirax/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/splash": [
     "fonts/sources/google-fonts/ofl/splash/Splash-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/splinesans": [
+    "fonts/sources/google-fonts/ofl/splinesans/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/splinesansmono": [
+    "fonts/sources/google-fonts/ofl/splinesansmono/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/squadaone": [
+    "fonts/sources/google-fonts/ofl/squadaone/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/squarepeg": [
     "fonts/sources/google-fonts/ofl/squarepeg/SquarePeg-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/sreekrushnadevaraya": [
+    "fonts/sources/google-fonts/ofl/sreekrushnadevaraya/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/sriracha": [
     "fonts/sources/google-fonts/ofl/sriracha/Sriracha-Regular.woff2"
@@ -6911,6 +7094,39 @@
     "fonts/sources/google-fonts/ofl/srisakdi/Srisakdi-Bold.woff2",
     "fonts/sources/google-fonts/ofl/srisakdi/Srisakdi-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/staatliches": [
+    "fonts/sources/google-fonts/ofl/staatliches/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stacksansheadline": [
+    "fonts/sources/google-fonts/ofl/stacksansheadline/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stacksansnotch": [
+    "fonts/sources/google-fonts/ofl/stacksansnotch/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stacksanstext": [
+    "fonts/sources/google-fonts/ofl/stacksanstext/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stalemate": [
+    "fonts/sources/google-fonts/ofl/stalemate/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stalinistone": [
+    "fonts/sources/google-fonts/ofl/stalinistone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stardosstencil": [
+    "fonts/sources/google-fonts/ofl/stardosstencil/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stick": [
+    "fonts/sources/google-fonts/ofl/stick/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sticknobills": [
+    "fonts/sources/google-fonts/ofl/sticknobills/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stintultracondensed": [
+    "fonts/sources/google-fonts/ofl/stintultracondensed/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/stintultraexpanded": [
+    "fonts/sources/google-fonts/ofl/stintultraexpanded/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/stixtwomath": [
     "fonts/sources/google-fonts/ofl/stixtwomath/STIXTwoMath-Regular.woff2"
   ],
@@ -6918,11 +7134,53 @@
     "fonts/sources/google-fonts/ofl/stixtwotext/STIXTwoText-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/stixtwotext/STIXTwoText[wght].woff2"
   ],
+  "sources/google-fonts/ofl/stoke": [
+    "fonts/sources/google-fonts/ofl/stoke/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/storyscript": [
     "fonts/sources/google-fonts/ofl/storyscript/StoryScript-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/strait": [
+    "fonts/sources/google-fonts/ofl/strait/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/strichpunktsans": [
+    "fonts/sources/google-fonts/ofl/strichpunktsans/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/strong": [
+    "fonts/sources/google-fonts/ofl/strong/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/stylescript": [
     "fonts/sources/google-fonts/ofl/stylescript/StyleScript-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/stylish": [
+    "fonts/sources/google-fonts/ofl/stylish/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sueellenfrancisco": [
+    "fonts/sources/google-fonts/ofl/sueellenfrancisco/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/suezone": [
+    "fonts/sources/google-fonts/ofl/suezone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sulphurpoint": [
+    "fonts/sources/google-fonts/ofl/sulphurpoint/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sumana": [
+    "fonts/sources/google-fonts/ofl/sumana/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sunflower": [
+    "fonts/sources/google-fonts/ofl/sunflower/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/supermercadoone": [
+    "fonts/sources/google-fonts/ofl/supermercadoone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/sura": [
+    "fonts/sources/google-fonts/ofl/sura/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/suranna": [
+    "fonts/sources/google-fonts/ofl/suranna/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/suravaram": [
+    "fonts/sources/google-fonts/ofl/suravaram/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/suse": [
     "fonts/sources/google-fonts/ofl/suse/SUSE-Italic[wght].woff2",
@@ -6932,15 +7190,51 @@
     "fonts/sources/google-fonts/ofl/susemono/SUSEMono-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/susemono/SUSEMono[wght].woff2"
   ],
+  "sources/google-fonts/ofl/suwannaphum": [
+    "fonts/sources/google-fonts/ofl/suwannaphum/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/swankyandmoomoo": [
+    "fonts/sources/google-fonts/ofl/swankyandmoomoo/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/syne": [
+    "fonts/sources/google-fonts/ofl/syne/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/synemono": [
+    "fonts/sources/google-fonts/ofl/synemono/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/synetactile": [
+    "fonts/sources/google-fonts/ofl/synetactile/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/tacone": [
     "fonts/sources/google-fonts/ofl/tacone/TacOne-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/tagesschrift": [
+    "fonts/sources/google-fonts/ofl/tagesschrift/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/taiheritagepro": [
     "fonts/sources/google-fonts/ofl/taiheritagepro/TaiHeritagePro-Bold.woff2",
     "fonts/sources/google-fonts/ofl/taiheritagepro/TaiHeritagePro-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/tajawal": [
+    "fonts/sources/google-fonts/ofl/tajawal/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tangerine": [
+    "fonts/sources/google-fonts/ofl/tangerine/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/tapestry": [
     "fonts/sources/google-fonts/ofl/tapestry/Tapestry-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/taprom": [
+    "fonts/sources/google-fonts/ofl/taprom/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tasaexplorer": [
+    "fonts/sources/google-fonts/ofl/tasaexplorer/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tasaorbiter": [
+    "fonts/sources/google-fonts/ofl/tasaorbiter/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tauri": [
+    "fonts/sources/google-fonts/ofl/tauri/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/taviraj": [
     "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Black.woff2",
@@ -6962,12 +7256,33 @@
     "fonts/sources/google-fonts/ofl/taviraj/Taviraj-Thin.woff2",
     "fonts/sources/google-fonts/ofl/taviraj/Taviraj-ThinItalic.woff2"
   ],
+  "sources/google-fonts/ofl/teachers": [
+    "fonts/sources/google-fonts/ofl/teachers/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/teko": [
+    "fonts/sources/google-fonts/ofl/teko/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/tektur": [
     "fonts/sources/google-fonts/ofl/tektur/Tektur[wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/telex": [
+    "fonts/sources/google-fonts/ofl/telex/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tenaliramakrishna": [
+    "fonts/sources/google-fonts/ofl/tenaliramakrishna/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tenorsans": [
+    "fonts/sources/google-fonts/ofl/tenorsans/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/textmeone": [
+    "fonts/sources/google-fonts/ofl/textmeone/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/texturina": [
     "fonts/sources/google-fonts/ofl/texturina/Texturina-Italic[opsz,wght].woff2",
     "fonts/sources/google-fonts/ofl/texturina/Texturina[opsz,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/thabit": [
+    "fonts/sources/google-fonts/ofl/thabit/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/thasadith": [
     "fonts/sources/google-fonts/ofl/thasadith/Thasadith-Bold.woff2",
@@ -6975,12 +7290,21 @@
     "fonts/sources/google-fonts/ofl/thasadith/Thasadith-Italic.woff2",
     "fonts/sources/google-fonts/ofl/thasadith/Thasadith-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/thegirlnextdoor": [
+    "fonts/sources/google-fonts/ofl/thegirlnextdoor/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/thenautigal": [
     "fonts/sources/google-fonts/ofl/thenautigal/TheNautigal-Bold.woff2",
     "fonts/sources/google-fonts/ofl/thenautigal/TheNautigal-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/tienne": [
+    "fonts/sources/google-fonts/ofl/tienne/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/tiktoksans": [
     "fonts/sources/google-fonts/ofl/tiktoksans/TikTokSans[opsz,slnt,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/tillana": [
+    "fonts/sources/google-fonts/ofl/tillana/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/tiltneon": [
     "fonts/sources/google-fonts/ofl/tiltneon/TiltNeon[XROT,YROT].woff2"
@@ -6988,15 +7312,57 @@
   "sources/google-fonts/ofl/tiltprism": [
     "fonts/sources/google-fonts/ofl/tiltprism/TiltPrism[XROT,YROT].woff2"
   ],
+  "sources/google-fonts/ofl/tiltwarp": [
+    "fonts/sources/google-fonts/ofl/tiltwarp/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/timmana": [
+    "fonts/sources/google-fonts/ofl/timmana/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/tinos": [
     "fonts/sources/google-fonts/ofl/tinos/Tinos-Bold.woff2",
     "fonts/sources/google-fonts/ofl/tinos/Tinos-BoldItalic.woff2",
     "fonts/sources/google-fonts/ofl/tinos/Tinos-Italic.woff2",
     "fonts/sources/google-fonts/ofl/tinos/Tinos-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/tiny5": [
+    "fonts/sources/google-fonts/ofl/tiny5/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/tiny5duo": [
     "fonts/sources/google-fonts/ofl/tiny5duo/Tiny5Duo-Italic[BLED,JITT,ROND,wdth,wght].woff2",
     "fonts/sources/google-fonts/ofl/tiny5duo/Tiny5Duo[BLED,JITT,ROND,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/tirobangla": [
+    "fonts/sources/google-fonts/ofl/tirobangla/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirodevanagarihindi": [
+    "fonts/sources/google-fonts/ofl/tirodevanagarihindi/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirodevanagarimarathi": [
+    "fonts/sources/google-fonts/ofl/tirodevanagarimarathi/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirodevanagarisanskrit": [
+    "fonts/sources/google-fonts/ofl/tirodevanagarisanskrit/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirogurmukhi": [
+    "fonts/sources/google-fonts/ofl/tirogurmukhi/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirokannada": [
+    "fonts/sources/google-fonts/ofl/tirokannada/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirotamil": [
+    "fonts/sources/google-fonts/ofl/tirotamil/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirotelugu": [
+    "fonts/sources/google-fonts/ofl/tirotelugu/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tirra": [
+    "fonts/sources/google-fonts/ofl/tirra/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/titanone": [
+    "fonts/sources/google-fonts/ofl/titanone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/titilliumweb": [
+    "fonts/sources/google-fonts/ofl/titilliumweb/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/tomorrow": [
     "fonts/sources/google-fonts/ofl/tomorrow/Tomorrow-Black.woff2",
@@ -7022,6 +7388,15 @@
     "fonts/sources/google-fonts/ofl/tourney/Tourney-Italic[wdth,wght].woff2",
     "fonts/sources/google-fonts/ofl/tourney/Tourney[wdth,wght].woff2"
   ],
+  "sources/google-fonts/ofl/tradewinds": [
+    "fonts/sources/google-fonts/ofl/tradewinds/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/trainone": [
+    "fonts/sources/google-fonts/ofl/trainone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/triodion": [
+    "fonts/sources/google-fonts/ofl/triodion/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/trirong": [
     "fonts/sources/google-fonts/ofl/trirong/Trirong-Black.woff2",
     "fonts/sources/google-fonts/ofl/trirong/Trirong-BlackItalic.woff2",
@@ -7045,20 +7420,74 @@
   "sources/google-fonts/ofl/trispace": [
     "fonts/sources/google-fonts/ofl/trispace/Trispace[wdth,wght].woff2"
   ],
+  "sources/google-fonts/ofl/trocchi": [
+    "fonts/sources/google-fonts/ofl/trocchi/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/trochut": [
+    "fonts/sources/google-fonts/ofl/trochut/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/truculenta": [
     "fonts/sources/google-fonts/ofl/truculenta/Truculenta[opsz,wdth,wght].woff2"
+  ],
+  "sources/google-fonts/ofl/trykker": [
+    "fonts/sources/google-fonts/ofl/trykker/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tsukimirounded": [
+    "fonts/sources/google-fonts/ofl/tsukimirounded/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tuffy": [
+    "fonts/sources/google-fonts/ofl/tuffy/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/tulpenone": [
+    "fonts/sources/google-fonts/ofl/tulpenone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/turretroad": [
+    "fonts/sources/google-fonts/ofl/turretroad/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/twinklestar": [
     "fonts/sources/google-fonts/ofl/twinklestar/TwinkleStar-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/uchen": [
+    "fonts/sources/google-fonts/ofl/uchen/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/unbounded": [
     "fonts/sources/google-fonts/ofl/unbounded/Unbounded[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/uncialantiqua": [
+    "fonts/sources/google-fonts/ofl/uncialantiqua/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/underdog": [
+    "fonts/sources/google-fonts/ofl/underdog/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/unicaone": [
     "fonts/sources/google-fonts/ofl/unicaone/UnicaOne-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/unifrakturcook": [
+    "fonts/sources/google-fonts/ofl/unifrakturcook/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/unifrakturmaguntia": [
+    "fonts/sources/google-fonts/ofl/unifrakturmaguntia/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/unlock": [
+    "fonts/sources/google-fonts/ofl/unlock/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/unna": [
+    "fonts/sources/google-fonts/ofl/unna/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/uoqmunthenkhung": [
+    "fonts/sources/google-fonts/ofl/uoqmunthenkhung/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/updock": [
     "fonts/sources/google-fonts/ofl/updock/Updock-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/urbanist": [
+    "fonts/sources/google-fonts/ofl/urbanist/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/valleysans": [
+    "fonts/sources/google-fonts/ofl/valleysans/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/vampiroone": [
+    "fonts/sources/google-fonts/ofl/vampiroone/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/varela": [
     "fonts/sources/google-fonts/ofl/varela/Varela-Regular.woff2"
@@ -7069,21 +7498,45 @@
   "sources/google-fonts/ofl/varta": [
     "fonts/sources/google-fonts/ofl/varta/Varta[wght].woff2"
   ],
+  "sources/google-fonts/ofl/vastshadow": [
+    "fonts/sources/google-fonts/ofl/vastshadow/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/vazirmatn": [
     "fonts/sources/google-fonts/ofl/vazirmatn/Vazirmatn[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/vendsans": [
+    "fonts/sources/google-fonts/ofl/vendsans/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/vesperlibre": [
+    "fonts/sources/google-fonts/ofl/vesperlibre/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/viaodalibre": [
     "fonts/sources/google-fonts/ofl/viaodalibre/ViaodaLibre-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/vibes": [
+    "fonts/sources/google-fonts/ofl/vibes/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/vibur": [
+    "fonts/sources/google-fonts/ofl/vibur/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/victormono": [
     "fonts/sources/google-fonts/ofl/victormono/VictorMono-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/victormono/VictorMono[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/vidaloka": [
+    "fonts/sources/google-fonts/ofl/vidaloka/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/viga": [
+    "fonts/sources/google-fonts/ofl/viga/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/vinasans": [
     "fonts/sources/google-fonts/ofl/vinasans/VinaSans-Regular.woff2"
   ],
   "sources/google-fonts/ofl/voces": [
     "fonts/sources/google-fonts/ofl/voces/Voces-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/volkhov": [
+    "fonts/sources/google-fonts/ofl/volkhov/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/vollkorn": [
     "fonts/sources/google-fonts/ofl/vollkorn/Vollkorn-Italic[wght].woff2",
@@ -7104,11 +7557,38 @@
   "sources/google-fonts/ofl/vujahdayscript": [
     "fonts/sources/google-fonts/ofl/vujahdayscript/VujahdayScript-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/waitingforthesunrise": [
+    "fonts/sources/google-fonts/ofl/waitingforthesunrise/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wallpoet": [
+    "fonts/sources/google-fonts/ofl/wallpoet/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/warnes": [
+    "fonts/sources/google-fonts/ofl/warnes/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/waterbrush": [
     "fonts/sources/google-fonts/ofl/waterbrush/WaterBrush-Regular.woff2"
   ],
   "sources/google-fonts/ofl/waterfall": [
     "fonts/sources/google-fonts/ofl/waterfall/Waterfall-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/wavefont": [
+    "fonts/sources/google-fonts/ofl/wavefont/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wdxllubrifontjpn": [
+    "fonts/sources/google-fonts/ofl/wdxllubrifontjpn/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wdxllubrifontsc": [
+    "fonts/sources/google-fonts/ofl/wdxllubrifontsc/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wdxllubrifonttc": [
+    "fonts/sources/google-fonts/ofl/wdxllubrifonttc/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wellfleet": [
+    "fonts/sources/google-fonts/ofl/wellfleet/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wendyone": [
+    "fonts/sources/google-fonts/ofl/wendyone/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/whisper": [
     "fonts/sources/google-fonts/ofl/whisper/Whisper-Regular.woff2"
@@ -7116,6 +7596,18 @@
   "sources/google-fonts/ofl/windsong": [
     "fonts/sources/google-fonts/ofl/windsong/WindSong-Medium.woff2",
     "fonts/sources/google-fonts/ofl/windsong/WindSong-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/winkyrough": [
+    "fonts/sources/google-fonts/ofl/winkyrough/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/winkysans": [
+    "fonts/sources/google-fonts/ofl/winkysans/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wireone": [
+    "fonts/sources/google-fonts/ofl/wireone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/wittgenstein": [
+    "fonts/sources/google-fonts/ofl/wittgenstein/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/wixmadefordisplay": [
     "fonts/sources/google-fonts/ofl/wixmadefordisplay/WixMadeforDisplay[wght].woff2"
@@ -7128,6 +7620,9 @@
     "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText-SemiBold.woff2",
     "fonts/sources/google-fonts/ofl/wixmadefortext/WixMadeforText[wght].woff2"
   ],
+  "sources/google-fonts/ofl/workbench": [
+    "fonts/sources/google-fonts/ofl/workbench/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/worksans": [
     "fonts/sources/google-fonts/ofl/worksans/WorkSans-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/worksans/WorkSans[wght].woff2"
@@ -7136,14 +7631,50 @@
     "fonts/sources/google-fonts/ofl/xanhmono/XanhMono-Italic.woff2",
     "fonts/sources/google-fonts/ofl/xanhmono/XanhMono-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/yaldevi": [
+    "fonts/sources/google-fonts/ofl/yaldevi/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yaldevicolombo": [
+    "fonts/sources/google-fonts/ofl/yaldevicolombo/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/yanonekaffeesatz": [
     "fonts/sources/google-fonts/ofl/yanonekaffeesatz/YanoneKaffeesatz[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/yantramanav": [
+    "fonts/sources/google-fonts/ofl/yantramanav/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yarndings12": [
+    "fonts/sources/google-fonts/ofl/yarndings12/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yarndings12charted": [
+    "fonts/sources/google-fonts/ofl/yarndings12charted/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yarndings20": [
+    "fonts/sources/google-fonts/ofl/yarndings20/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yarndings20charted": [
+    "fonts/sources/google-fonts/ofl/yarndings20charted/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yatraone": [
+    "fonts/sources/google-fonts/ofl/yatraone/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yeonsung": [
+    "fonts/sources/google-fonts/ofl/yeonsung/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/yesevaone": [
     "fonts/sources/google-fonts/ofl/yesevaone/YesevaOne-Regular.woff2"
   ],
+  "sources/google-fonts/ofl/yesteryear": [
+    "fonts/sources/google-fonts/ofl/yesteryear/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yinmar": [
+    "fonts/sources/google-fonts/ofl/yinmar/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/yomogi": [
     "fonts/sources/google-fonts/ofl/yomogi/Yomogi-Regular.woff2"
+  ],
+  "sources/google-fonts/ofl/youngserif": [
+    "fonts/sources/google-fonts/ofl/youngserif/preview-subset.woff2"
   ],
   "sources/google-fonts/ofl/yrsa": [
     "fonts/sources/google-fonts/ofl/yrsa/Yrsa-Italic[wght].woff2",
@@ -7164,6 +7695,33 @@
   "sources/google-fonts/ofl/ysabeausc": [
     "fonts/sources/google-fonts/ofl/ysabeausc/YsabeauSC[wght].woff2"
   ],
+  "sources/google-fonts/ofl/yujiboku": [
+    "fonts/sources/google-fonts/ofl/yujiboku/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yujihentaiganaakari": [
+    "fonts/sources/google-fonts/ofl/yujihentaiganaakari/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yujihentaiganaakebono": [
+    "fonts/sources/google-fonts/ofl/yujihentaiganaakebono/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yujimai": [
+    "fonts/sources/google-fonts/ofl/yujimai/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yujisyuku": [
+    "fonts/sources/google-fonts/ofl/yujisyuku/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yuseimagic": [
+    "fonts/sources/google-fonts/ofl/yuseimagic/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yuyu": [
+    "fonts/sources/google-fonts/ofl/yuyu/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/yuyushort": [
+    "fonts/sources/google-fonts/ofl/yuyushort/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zain": [
+    "fonts/sources/google-fonts/ofl/zain/preview-subset.woff2"
+  ],
   "sources/google-fonts/ofl/zalandosans": [
     "fonts/sources/google-fonts/ofl/zalandosans/ZalandoSans-Italic[wdth,wght].woff2",
     "fonts/sources/google-fonts/ofl/zalandosans/ZalandoSans[wdth,wght].woff2"
@@ -7175,6 +7733,57 @@
   "sources/google-fonts/ofl/zalandosanssemiexpanded": [
     "fonts/sources/google-fonts/ofl/zalandosanssemiexpanded/ZalandoSansSemiExpanded-Italic[wght].woff2",
     "fonts/sources/google-fonts/ofl/zalandosanssemiexpanded/ZalandoSansSemiExpanded[wght].woff2"
+  ],
+  "sources/google-fonts/ofl/zcoolkuaile": [
+    "fonts/sources/google-fonts/ofl/zcoolkuaile/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zcoolqingkehuangyou": [
+    "fonts/sources/google-fonts/ofl/zcoolqingkehuangyou/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zcoolxiaowei": [
+    "fonts/sources/google-fonts/ofl/zcoolxiaowei/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenantique": [
+    "fonts/sources/google-fonts/ofl/zenantique/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenantiquesoft": [
+    "fonts/sources/google-fonts/ofl/zenantiquesoft/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zendots": [
+    "fonts/sources/google-fonts/ofl/zendots/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenkakugothicantique": [
+    "fonts/sources/google-fonts/ofl/zenkakugothicantique/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenkakugothicnew": [
+    "fonts/sources/google-fonts/ofl/zenkakugothicnew/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenkurenaido": [
+    "fonts/sources/google-fonts/ofl/zenkurenaido/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenloop": [
+    "fonts/sources/google-fonts/ofl/zenloop/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenmarugothic": [
+    "fonts/sources/google-fonts/ofl/zenmarugothic/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zenoldmincho": [
+    "fonts/sources/google-fonts/ofl/zenoldmincho/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zentokyozoo": [
+    "fonts/sources/google-fonts/ofl/zentokyozoo/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zeyada": [
+    "fonts/sources/google-fonts/ofl/zeyada/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zhimangxing": [
+    "fonts/sources/google-fonts/ofl/zhimangxing/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zillaslab": [
+    "fonts/sources/google-fonts/ofl/zillaslab/preview-subset.woff2"
+  ],
+  "sources/google-fonts/ofl/zillaslabhighlight": [
+    "fonts/sources/google-fonts/ofl/zillaslabhighlight/preview-subset.woff2"
   ],
   "sources/google-fonts/ufl/ubuntu": [
     "fonts/sources/google-fonts/ufl/ubuntu/Ubuntu-Bold.woff2",

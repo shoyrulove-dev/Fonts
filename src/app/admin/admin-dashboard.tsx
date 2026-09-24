@@ -16,12 +16,16 @@ type MetricData = {
   download?: number;
   font_view?: number;
   ad_impression?: number;
+  ad_error?: number;
+  days?: number;
+  timezone?: string;
   periodEnd?: string;
   topDownloads?: { _id: string; count: number }[];
   dailyDownloads?: { _id: string; count: number }[];
   dailyViews?: { _id: string; count: number }[];
   recentErrors?: { slug?: string; message?: string; createdAt?: string }[];
 };
+type StorageData = { packages: number; bytes: number; latest: string | null; scannedAt: string };
 const sections = [
   "Overview",
   "Font library",
@@ -55,9 +59,26 @@ export default function AdminDashboard({
   const [adding, setAdding] = useState(false);
   const [importing, setImporting] = useState(false);
   const [metrics, setMetrics] = useState<MetricData>({});
+  const [metricDays, setMetricDays] = useState(30);
+  const [metricTimezone, setMetricTimezone] = useState("Asia/Bangkok");
+  const [storage, setStorage] = useState<StorageData | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
   const [loggingOut, setLoggingOut] = useState(false);
   const [logoutError, setLogoutError] = useState("");
+  const [publishingReady, setPublishingReady] = useState(false);
+  const [publishMessage, setPublishMessage] = useState("");
+  async function publishReadyFonts() {
+    setPublishingReady(true);
+    setPublishMessage("");
+    try {
+      const response = await fetch("/api/admin/fonts/publish-ready", { method: "POST", credentials: "include" });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Review failed");
+      setSummary((current) => ({ ...current, published: current.published + data.published, hidden: data.remaining }));
+      setPublishMessage(`${data.published} ready fonts published · ${data.remaining} still need review`);
+    } catch { setPublishMessage("Could not review hidden fonts. Please try again."); }
+    finally { setPublishingReady(false); }
+  }
   async function logOut() {
     setLoggingOut(true);
     setLogoutError("");
@@ -75,8 +96,13 @@ export default function AdminDashboard({
     }
   }
   useEffect(() => {
-    fetch("/api/metrics?days=30", { credentials: "include" }).then(async (response) => { if (response.ok) setMetrics(await response.json()); }).catch(() => {});
-  }, []);
+    const params = new URLSearchParams({ days: String(metricDays), timezone: metricTimezone });
+    fetch(`/api/metrics?${params}`, { credentials: "include" }).then(async (response) => { if (response.ok) setMetrics(await response.json()); }).catch(() => {});
+  }, [metricDays, metricTimezone]);
+  useEffect(() => {
+    if (section !== "File library" || storage) return;
+    fetch("/api/admin/storage", { credentials: "include" }).then(async (response) => { if (response.ok) setStorage(await response.json()); }).catch(() => {});
+  }, [section, storage]);
   useEffect(() => {
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
@@ -264,6 +290,13 @@ export default function AdminDashboard({
                 assetFiles={assetFiles}
                 assetFamilies={assetFamilies}
                 metrics={metrics}
+                metricDays={metricDays}
+                metricTimezone={metricTimezone}
+                setMetricDays={setMetricDays}
+                setMetricTimezone={setMetricTimezone}
+                publishingReady={publishingReady}
+                publishMessage={publishMessage}
+                publishReadyFonts={publishReadyFonts}
               />
             ) : section === "Font library" ? (
               <Library
@@ -290,6 +323,7 @@ export default function AdminDashboard({
                 catalog={catalog}
                 assetFiles={assetFiles}
                 assetFamilies={assetFamilies}
+                storage={storage}
               />
             ) : (
               <SearchVisibility totalPages={summary.published + 15} />
@@ -317,11 +351,25 @@ function Overview({
   assetFiles,
   assetFamilies,
   metrics,
+  metricDays,
+  metricTimezone,
+  setMetricDays,
+  setMetricTimezone,
+  publishingReady,
+  publishMessage,
+  publishReadyFonts,
 }: {
   summary: CatalogSummary;
   assetFiles: number;
   assetFamilies: number;
   metrics: MetricData;
+  metricDays: number;
+  metricTimezone: string;
+  setMetricDays: (days: number) => void;
+  setMetricTimezone: (timezone: string) => void;
+  publishingReady: boolean;
+  publishMessage: string;
+  publishReadyFonts: () => void;
 }) {
   return (
     <>
@@ -349,16 +397,22 @@ function Overview({
         <Metric
           label="Recorded downloads"
           value={(metrics.download || 0).toLocaleString("en-US")}
-          note="Last 30 days · older checks may be included"
+          note={`Last ${metricDays} days · older checks may be included`}
         />
         <Metric
           label="Ad views"
           value={(metrics.ad_impression || 0).toLocaleString("en-US")}
-          note="Last 30 days"
+          note={metrics.ad_error ? `${metrics.ad_error} delivery issues to review` : `Last ${metricDays} days`}
         />
       </div>
+      {summary.hidden > 0 && (
+        <section className="mt-6 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-[#eadbc6] bg-[#fff8ee] p-5">
+          <div><p className="font-medium">{summary.hidden} hidden fonts are ready for a final check</p><p className="mt-1 text-sm text-[#7c6a54]">Only fonts with a prepared preview or download package will be published.</p>{publishMessage && <p className="mt-2 text-xs text-[#52745b]">{publishMessage}</p>}</div>
+          <button type="button" disabled={publishingReady} onClick={publishReadyFonts} className="rounded-full bg-[#1d241f] px-5 py-2.5 text-sm font-medium text-white disabled:opacity-50">{publishingReady ? "Reviewing…" : "Review and publish"}</button>
+        </section>
+      )}
       <div className="mt-8 grid gap-6 xl:grid-cols-[1.5fr_1fr]">
-        <DownloadChart downloads={metrics.dailyDownloads || []} views={metrics.dailyViews || []} periodEnd={metrics.periodEnd} />
+        <DownloadChart downloads={metrics.dailyDownloads || []} views={metrics.dailyViews || []} periodEnd={metrics.periodEnd} days={metricDays} timezone={metricTimezone} setDays={setMetricDays} setTimezone={setMetricTimezone} />
         <section className="rounded-3xl border border-[#dce3dd] bg-white p-6">
           <p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">
             Most downloaded
@@ -413,12 +467,12 @@ function Overview({
   );
 }
 
-function DownloadChart({ downloads, views, periodEnd }: { downloads: { _id: string; count: number }[]; views: { _id: string; count: number }[]; periodEnd?: string }) {
+function DownloadChart({ downloads, views, periodEnd, days, timezone, setDays, setTimezone }: { downloads: { _id: string; count: number }[]; views: { _id: string; count: number }[]; periodEnd?: string; days: number; timezone: string; setDays: (days: number) => void; setTimezone: (timezone: string) => void }) {
   const downloadMap = new Map(downloads.map((item) => [item._id, item.count]));
   const viewMap = new Map(views.map((item) => [item._id, item.count]));
   const hasActivity = downloads.length > 0 || views.length > 0;
   const endTime = periodEnd ? Date.parse(`${periodEnd}T00:00:00Z`) : 0;
-  const dates = hasActivity && endTime ? Array.from({ length: 30 }, (_, index) => new Date(endTime - (29 - index) * 86400000).toISOString().slice(0, 10)) : [];
+  const dates = hasActivity && endTime ? Array.from({ length: days }, (_, index) => new Date(endTime - (days - 1 - index) * 86400000).toISOString().slice(0, 10)) : [];
   const rows = dates.map((date) => ({ date, downloads: downloadMap.get(date) || 0, views: viewMap.get(date) || 0 }));
   const niceMax = (value: number) => {
     if (value <= 1) return 1;
@@ -444,16 +498,30 @@ function DownloadChart({ downloads, views, periodEnd }: { downloads: { _id: stri
   const line = rows.map((item, index) => `${x(index)},${yView(item.views)}`).join(" ");
   const labelEvery = Math.max(1, Math.ceil(rows.length / 6));
   const formatDate = (date: string) => new Date(`${date}T00:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  const exportCsv = () => {
+    const csv = ["date,downloads,font_previews", ...rows.map((item) => `${item.date},${item.downloads},${item.views}`)].join("\n");
+    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `bliss-fonts-activity-${days}-days.csv`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
   return (
     <section className="rounded-3xl border border-[#dce3dd] bg-white p-6">
       <div className="flex flex-wrap items-start justify-between gap-4">
-        <div><p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">Last 30 days</p><h2 className="mt-2 text-2xl font-semibold">Downloads and previews</h2></div>
-        <div className="flex flex-wrap gap-4 text-xs text-[#69756c]"><span className="flex items-center gap-2"><span className="h-3 w-3 rounded-sm bg-[#78907c]" />Downloads</span><span className="flex items-center gap-2"><span className="h-0.5 w-5 bg-[#d98252]" />Font previews</span></div>
+        <div><p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">Last {days} days</p><h2 className="mt-2 text-2xl font-semibold">Downloads and previews</h2></div>
+        <div className="flex flex-wrap items-center gap-2 text-xs text-[#69756c]">
+          {[7, 30, 90].map((value) => <button type="button" key={value} onClick={() => setDays(value)} className={`rounded-full px-3 py-1.5 ${days === value ? "bg-[#1d241f] text-white" : "border border-[#dce3dd]"}`}>{value}d</button>)}
+          <select aria-label="Chart timezone" value={timezone} onChange={(event) => setTimezone(event.target.value)} className="rounded-full border border-[#dce3dd] bg-white px-3 py-1.5"><option value="Asia/Bangkok">Bangkok time</option><option value="UTC">UTC</option></select>
+          <button type="button" onClick={exportCsv} disabled={!rows.length} className="rounded-full border border-[#dce3dd] px-3 py-1.5 disabled:opacity-40">Export CSV</button>
+        </div>
       </div>
+      <div className="mt-4 flex flex-wrap gap-4 text-xs text-[#69756c]"><span className="flex items-center gap-2"><span className="h-3 w-3 rounded-sm bg-[#78907c]" />Downloads</span><span className="flex items-center gap-2"><span className="h-0.5 w-5 bg-[#d98252]" />Font previews</span></div>
       {rows.length ? (
         <div className="mt-6 overflow-x-auto">
           <svg viewBox={`0 0 ${width} ${height}`} className="min-w-[640px]" role="img" aria-labelledby="download-chart-title download-chart-description">
-            <title id="download-chart-title">Downloads and font previews over the last 30 days</title>
+            <title id="download-chart-title">Downloads and font previews over the last {days} days</title>
             <desc id="download-chart-description">Bars use the left axis for downloads. The orange line uses the right axis for font previews.</desc>
             <text x={left} y={15} className="fill-[#69756c] text-[11px]">Downloads</text><text x={width - right} y={15} textAnchor="end" className="fill-[#9a5f3d] text-[11px]">Previews</text>
             {[0, 1, 2, 3, 4].map((tick) => { const y = top + plotHeight - (tick / 4) * plotHeight; return <g key={tick}><line x1={left} x2={width - right} y1={y} y2={y} stroke="#e5e9e5" /><text x={left - 9} y={y + 4} textAnchor="end" className="fill-[#829087] text-[10px]">{Math.round(downloadMax * tick / 4)}</text><text x={width - right + 9} y={y + 4} className="fill-[#9a7259] text-[10px]">{Math.round(viewMax * tick / 4)}</text></g>; })}
@@ -729,10 +797,12 @@ function FileLibrary({
   catalog,
   assetFiles,
   assetFamilies,
+  storage,
 }: {
   catalog: FontRecord[];
   assetFiles: number;
   assetFamilies: number;
+  storage: StorageData | null;
 }) {
   const prepared = catalog
     .filter((font) => font.files?.length || font.bundleKey || font.sourcePath)
@@ -752,8 +822,8 @@ function FileLibrary({
         />
         <Metric
           label="Download packages"
-          value="On demand"
-          note="ZIPs are created on the first download"
+          value={storage ? storage.packages.toLocaleString("en-US") : "Loading…"}
+          note={storage ? `${formatBytes(storage.bytes)} cached · refreshed every 15 minutes` : "Counting ZIP files in storage"}
         />
       </div>
       <div className="mt-6 rounded-3xl border border-[#dce3dd] bg-white p-6">
@@ -915,6 +985,12 @@ function Metric({
       <p className="mt-2 text-xs text-[#52745b]">{note}</p>
     </div>
   );
+}
+function formatBytes(bytes: number) {
+  if (!bytes) return "0 B";
+  const units = ["B", "KB", "MB", "GB", "TB"];
+  const index = Math.min(Math.floor(Math.log(bytes) / Math.log(1024)), units.length - 1);
+  return `${(bytes / 1024 ** index).toFixed(index ? 1 : 0)} ${units[index]}`;
 }
 function Status({ status }: { status: string }) {
   const label =

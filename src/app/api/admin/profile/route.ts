@@ -16,5 +16,6 @@ export async function PATCH(request: NextRequest) {
   const admin = await collection.findOne({ username });
   if (!admin || !(await bcrypt.compare(currentPassword, admin.passwordHash))) return NextResponse.json({ error: "Current password is incorrect" }, { status: 400 });
   await collection.updateOne({ username }, { $set: { passwordHash: await bcrypt.hash(newPassword, 12), updatedAt: new Date() } });
+  await db.collection("admin_audit_events").insertOne({ event: "password_changed", username, createdAt: new Date() });
   return NextResponse.json({ ok: true });
 }
