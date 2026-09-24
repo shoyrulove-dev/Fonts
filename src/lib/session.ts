@@ -5,14 +5,25 @@ function encode(value: string) {
 }
 
 function decode(value: string) {
-  return atob(value.replace(/-/g, "+").replace(/_/g, "/"));
+  const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
+  return atob(normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "="));
+}
+
+async function sessionKey(usage: KeyUsage) {
+  const secret = process.env.ADMIN_SESSION_SECRET;
+  if (!secret) throw new Error("Missing ADMIN_SESSION_SECRET");
+  return crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, [usage]);
 }
 
 async function sign(value: string) {
-  const secret = process.env.ADMIN_SESSION_SECRET;
-  if (!secret) throw new Error("Missing ADMIN_SESSION_SECRET");
-  const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const key = await sessionKey("sign");
   return encode(String.fromCharCode(...new Uint8Array(await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(value)))));
+}
+
+async function signatureIsValid(value: string, signature: string) {
+  const key = await sessionKey("verify");
+  const bytes = Uint8Array.from(decode(signature), (character) => character.charCodeAt(0));
+  return crypto.subtle.verify("HMAC", key, bytes, new TextEncoder().encode(value));
 }
 
 export async function createSession(user: string) {
@@ -22,10 +33,14 @@ export async function createSession(user: string) {
 
 export async function verifySession(token: string | undefined) {
   if (!token) return null;
-  const [payload, signature] = token.split(".");
-  if (!payload || !signature || signature !== await sign(payload)) return null;
-  const data = JSON.parse(decode(payload));
-  return data.exp > Date.now() ? data : null;
+  try {
+    const [payload, signature] = token.split(".");
+    if (!payload || !signature || !(await signatureIsValid(payload, signature))) return null;
+    const data = JSON.parse(decode(payload));
+    return typeof data.exp === "number" && data.exp > Date.now() ? data : null;
+  } catch {
+    return null;
+  }
 }
 
 export const adminCookieName = cookieName;
