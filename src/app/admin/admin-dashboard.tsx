@@ -16,6 +16,7 @@ type MetricData = {
   download?: number;
   font_view?: number;
   ad_impression?: number;
+  periodEnd?: string;
   topDownloads?: { _id: string; count: number }[];
   dailyDownloads?: { _id: string; count: number }[];
   dailyViews?: { _id: string; count: number }[];
@@ -357,7 +358,7 @@ function Overview({
         />
       </div>
       <div className="mt-8 grid gap-6 xl:grid-cols-[1.5fr_1fr]">
-        <DownloadChart downloads={metrics.dailyDownloads || []} views={metrics.dailyViews || []} />
+        <DownloadChart downloads={metrics.dailyDownloads || []} views={metrics.dailyViews || []} periodEnd={metrics.periodEnd} />
         <section className="rounded-3xl border border-[#dce3dd] bg-white p-6">
           <p className="text-xs font-semibold uppercase tracking-[.18em] text-[#829087]">
             Most downloaded
@@ -412,10 +413,12 @@ function Overview({
   );
 }
 
-function DownloadChart({ downloads, views }: { downloads: { _id: string; count: number }[]; views: { _id: string; count: number }[] }) {
+function DownloadChart({ downloads, views, periodEnd }: { downloads: { _id: string; count: number }[]; views: { _id: string; count: number }[]; periodEnd?: string }) {
   const downloadMap = new Map(downloads.map((item) => [item._id, item.count]));
   const viewMap = new Map(views.map((item) => [item._id, item.count]));
-  const dates = [...new Set([...downloadMap.keys(), ...viewMap.keys()])].sort();
+  const hasActivity = downloads.length > 0 || views.length > 0;
+  const endTime = periodEnd ? Date.parse(`${periodEnd}T00:00:00Z`) : 0;
+  const dates = hasActivity && endTime ? Array.from({ length: 30 }, (_, index) => new Date(endTime - (29 - index) * 86400000).toISOString().slice(0, 10)) : [];
   const rows = dates.map((date) => ({ date, downloads: downloadMap.get(date) || 0, views: viewMap.get(date) || 0 }));
   const niceMax = (value: number) => {
     if (value <= 1) return 1;

@@ -41,5 +41,5 @@ export async function GET(request: NextRequest) {
   const resolvedSlugs = checkedErrors.filter((entry) => entry.resolved).map((entry) => String(entry.item.slug));
   if (resolvedSlugs.length) await (await getDatabase()).collection("system_events").updateMany({ type: "download", slug: { $in: resolvedSlugs }, level: "error", resolvedAt: { $exists: false } }, { $set: { resolvedAt: new Date() } });
   const activeErrors = checkedErrors.filter((entry) => !entry.resolved).map((entry) => entry.item);
-  return NextResponse.json({ ...Object.fromEntries(rows.map((row) => [row._id, row.count])), topDownloads, dailyDownloads, dailyViews, recentErrors: activeErrors });
+  return NextResponse.json({ ...Object.fromEntries(rows.map((row) => [row._id, row.count])), periodEnd: new Date().toISOString().slice(0, 10), topDownloads, dailyDownloads, dailyViews, recentErrors: activeErrors });
 }
