@@ -27,6 +27,7 @@ jobs:
           FONT_SITE_URL: https://fonts.blissbiovn.com
           FONT_VERIFY_CONCURRENCY: 6
           FONT_VERIFY_TIMEOUT_MS: 45000
+          FONT_VERIFY_RETRIES: 3
       - if: always()
         uses: actions/upload-artifact@v4
         with:
