@@ -28,9 +28,9 @@ const baseMetadata: Metadata = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getRequestLocale();
-  const titles = { en: "Bliss Fonts — Curated Font Library", vi: "Bliss Fonts — Thư viện font", zh: "Bliss Fonts — 字体库", fr: "Bliss Fonts — Bibliothèque de polices" };
-  const descriptions = { en: "Discover, preview and download international and Vietnamese fonts with clear licensing.", vi: "Khám phá, xem trước và tải font quốc tế cùng font tiếng Việt với giấy phép rõ ràng.", zh: "探索、预览并下载授权清晰的国际字体和越南语字体。", fr: "Découvrez, prévisualisez et téléchargez des polices internationales et vietnamiennes avec des licences claires." };
-  return { ...baseMetadata, title: { default: titles[locale], template: "%s | Bliss Fonts" }, description: descriptions[locale], openGraph: { ...baseMetadata.openGraph, locale: locale === "vi" ? "vi_VN" : locale === "zh" ? "zh_CN" : locale === "fr" ? "fr_FR" : "en_US", title: titles[locale], description: descriptions[locale] }, twitter: { ...baseMetadata.twitter, title: titles[locale], description: descriptions[locale] } };
+  const titles = { en: "Bliss Fonts — Curated Font Library", vi: "Bliss Fonts — Thư viện font", zh: "Bliss Fonts — 字体库", fr: "Bliss Fonts — Bibliothèque de polices", es: "Bliss Fonts — Biblioteca de fuentes" };
+  const descriptions = { en: "Discover, preview and download international and Vietnamese fonts with clear licensing.", vi: "Khám phá, xem trước và tải font quốc tế cùng font tiếng Việt với giấy phép rõ ràng.", zh: "探索、预览并下载授权清晰的国际字体和越南语字体。", fr: "Découvrez, prévisualisez et téléchargez des polices internationales et vietnamiennes avec des licences claires.", es: "Descubre, previsualiza y descarga fuentes internacionales y vietnamitas con licencias claras." };
+  return { ...baseMetadata, title: { default: titles[locale], template: "%s | Bliss Fonts" }, description: descriptions[locale], alternates: { canonical: `${siteUrl}/?lang=${locale}`, languages: { en: `${siteUrl}/?lang=en`, vi: `${siteUrl}/?lang=vi`, zh: `${siteUrl}/?lang=zh`, fr: `${siteUrl}/?lang=fr`, es: `${siteUrl}/?lang=es`, "x-default": `${siteUrl}/?lang=en` } }, openGraph: { ...baseMetadata.openGraph, locale: locale === "vi" ? "vi_VN" : locale === "zh" ? "zh_CN" : locale === "fr" ? "fr_FR" : locale === "es" ? "es_ES" : "en_US", title: titles[locale], description: descriptions[locale] }, twitter: { ...baseMetadata.twitter, title: titles[locale], description: descriptions[locale] } };
 }
 
 export const viewport: Viewport = { themeColor: "#1d241f", colorScheme: "light" };
