@@ -10,6 +10,7 @@
 /catalog.sqlite-wal
 
 # Local/runtime files
+tmp-fonts/
 __pycache__/
 *.py[cod]
 .venv/
