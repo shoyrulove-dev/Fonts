@@ -6,6 +6,8 @@ import { NativeBanner } from "@/components/ad-units";
 import { getPublicFonts, type CatalogFont } from "@/lib/catalog";
 import { useCases } from "@/data/collections";
 import woff2Manifest from "@/data/woff2-manifest.json";
+import { getMessages } from "@/lib/i18n";
+import { getRequestLocale } from "@/lib/request-locale";
 
 const categories = [
   {
@@ -44,6 +46,8 @@ const categoryLabel = (category: string | null) =>
   category?.replace("_", " ") ?? "Other";
 
 export default async function Home() {
+  const locale = await getRequestLocale();
+  const m = getMessages(locale);
   const fonts = await getPublicFonts();
   const vietnameseArchive = fonts.filter(
     (font: CatalogFont) => font.id.startsWith("vietnamese/"),
@@ -103,13 +107,13 @@ export default async function Home() {
             </span>
           </Link>
           <div className="flex items-center gap-5 text-sm text-[#697169]">
-            <a href="#collections" className="hidden hover:text-[#1d241f] sm:block">Collections</a>
-            <Link href="/fonts" className="hidden hover:text-[#1d241f] sm:block">All fonts</Link>
+            <a href="#collections" className="hidden hover:text-[#1d241f] sm:block">{m.collections}</a>
+            <Link href="/fonts" className="hidden hover:text-[#1d241f] sm:block">{m.allFonts}</Link>
             <Link
               href="/vietnamese"
               className="rounded-full bg-[#1d241f] px-4 py-2 text-white"
             >
-              Vietnamese fonts
+              {m.vietnamese}
             </Link>
           </div>
         </nav>
@@ -117,7 +121,7 @@ export default async function Home() {
         <div className="relative grid gap-8 py-10 lg:grid-cols-[1.12fr_.88fr] lg:items-center lg:py-14">
           <div data-reveal>
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.24em] text-[#5e7965]">
-              Find your next typeface
+              {locale === "vi" ? "Tìm kiểu chữ tiếp theo" : locale === "zh" ? "找到下一款字体" : locale === "fr" ? "Trouvez votre prochaine police" : "Find your next typeface"}
             </p>
             <h1 className="max-w-3xl text-5xl font-semibold leading-[0.94] tracking-[-0.065em] sm:text-6xl xl:text-[5.5rem]">
               <span className="block">Find a font</span>
@@ -145,7 +149,7 @@ export default async function Home() {
               International library · Clear licenses · Live preview
             </p>
           </div>
-          <DynamicSpecimen fonts={specimenFonts} />
+          <DynamicSpecimen fonts={specimenFonts} locale={locale} />
         </div>
 
         <div
@@ -225,7 +229,7 @@ export default async function Home() {
           <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{useCases.map((useCase) => <Link key={useCase.slug} href={`/use/${useCase.slug}`} className="group rounded-2xl bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#1d241f]/5"><div className="flex items-start justify-between gap-4"><h3 className="text-xl font-semibold tracking-[-0.03em]">{useCase.title}</h3><span className="text-[#78907c] transition-transform group-hover:translate-x-1" aria-hidden="true">→</span></div><p className="mt-3 text-sm leading-6 text-[#697169]">{useCase.description}</p></Link>)}</div>
         </section>
 
-        <FontExplorer fonts={explorerFonts} total={fonts.length} />
+        <FontExplorer fonts={explorerFonts} total={fonts.length} locale={locale} />
         <div className="mt-7 rounded-2xl border border-[#d8d7cc] bg-white p-5 text-center"><p className="text-sm text-[#697169]">Search interactively above, or move through every permanent catalog page.</p><Link href="/fonts" className="mt-3 inline-block font-medium text-[#1d241f]">Browse all {fonts.length.toLocaleString("en-US")} fonts →</Link></div>
         <NativeBanner />
 

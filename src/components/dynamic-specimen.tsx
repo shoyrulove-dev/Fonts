@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
+import type { Locale } from "@/lib/i18n";
+import { specimenText } from "@/lib/i18n";
 
 type SpecimenFont = {
   slug: string;
@@ -10,7 +12,7 @@ type SpecimenFont = {
   file: string;
 };
 
-export default function DynamicSpecimen({ fonts }: { fonts: SpecimenFont[] }) {
+export default function DynamicSpecimen({ fonts, locale = "en" }: { fonts: SpecimenFont[]; locale?: Locale }) {
   const [font, setFont] = useState<SpecimenFont | null>(null);
 
   const chooseFont = useCallback(() => {
@@ -35,6 +37,7 @@ export default function DynamicSpecimen({ fonts }: { fonts: SpecimenFont[] }) {
   const face = font
     ? `@font-face{font-family:'${family}';src:url('https://assets.blissbiovn.com/${font.file}') format('woff2');font-display:swap;}`
     : "";
+  const sample = specimenText[locale];
 
   return (
     <div data-reveal className="relative mx-auto w-full max-w-sm">
@@ -64,9 +67,9 @@ export default function DynamicSpecimen({ fonts }: { fonts: SpecimenFont[] }) {
           className="mt-7 text-xl leading-tight text-[#dce8dc]"
           style={{ fontFamily: family }}
         >
-          Every letter
+          {sample.line}
           <br />
-          has a point of view.
+          {sample.detail}
         </p>
         <div className="mt-8 flex items-end justify-between gap-4 text-xs text-[#a2b3a4]">
           {font ? (
@@ -87,7 +90,7 @@ export default function DynamicSpecimen({ fonts }: { fonts: SpecimenFont[] }) {
           Live specimen
         </span>
         <span className="mt-1 block max-w-52 truncate font-medium text-[#3d3028]">
-          {font?.name || "A different font each visit"}
+          {font?.name || (locale === "vi" ? "Mỗi lần vào là một font khác" : locale === "zh" ? "每次访问显示不同字体" : locale === "fr" ? "Une police différente à chaque visite" : "A different font each visit")}
         </span>
       </div>
     </div>

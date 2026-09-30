@@ -11628,6 +11628,9 @@
   "sources/open-fonts/fontsource/fontsource-yakuhanrps": [
     "fonts/sources/open-fonts/fontsource/fontsource-yakuhanrps/preview.woff2"
   ],
+  "sources/open-fonts/sil/doulos-sil": [
+    "fonts/sources/open-fonts/sil/doulos-sil/preview.woff2"
+  ],
   "sources/vietnamese/iciel/iciel-andesroundedlight": [
     "fonts/sources/vietnamese/iciel/iciel-andesroundedlight/AndesRoundedLight.woff2"
   ],

@@ -6615,6 +6615,33 @@
     "sourceFileCount": 1
   },
   {
+    "id": "open/sil/doulos-sil",
+    "slug": "doulos-sil",
+    "name": "Doulos SIL",
+    "designer": "SIL International",
+    "category": "SERIF",
+    "license": "SIL Open Font License 1.1",
+    "licenseTier": "standard",
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "ipa"
+    ],
+    "supportsVietnamese": true,
+    "sourcePath": "sources/open-fonts/sil/doulos-sil",
+    "sourceUrl": "https://github.com/silnrsi/font-doulos",
+    "sourceGroup": "SIL Fonts",
+    "bundleKey": "fonts/bundles/doulos-sil/doulos-sil-bliss-fonts.zip",
+    "status": "published",
+    "tags": [
+      "Open Source",
+      "Open License",
+      "Latin",
+      "IPA"
+    ],
+    "sourceFileCount": 1
+  },
+  {
     "id": "open/fontlibrary/dragon",
     "slug": "fontlibrary-dragon",
     "name": "Dragon",

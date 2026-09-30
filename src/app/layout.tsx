@@ -4,13 +4,14 @@ import Script from "next/script";
 import WebVitals from "@/components/web-vitals";
 import ScrollReveal from "@/components/scroll-reveal";
 import "./globals.css";
+import { getRequestLocale } from "@/lib/request-locale";
 
 const GA_MEASUREMENT_ID = "G-JMWRTDVZ9D";
 const siteUrl = "https://fonts.blissbiovn.com";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: "Bliss Fonts — Curated Font Library", template: "%s | Bliss Fonts" },
   description: "Discover, preview and download international and Vietnamese fonts with clear licensing.",
@@ -25,6 +26,13 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Bliss Fonts — Curated Font Library", description: "Discover and preview international and Vietnamese fonts with clear licensing.", images: ["/og-bliss-fonts.png"] },
 };
 
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getRequestLocale();
+  const titles = { en: "Bliss Fonts — Curated Font Library", vi: "Bliss Fonts — Thư viện font", zh: "Bliss Fonts — 字体库", fr: "Bliss Fonts — Bibliothèque de polices" };
+  const descriptions = { en: "Discover, preview and download international and Vietnamese fonts with clear licensing.", vi: "Khám phá, xem trước và tải font quốc tế cùng font tiếng Việt với giấy phép rõ ràng.", zh: "探索、预览并下载授权清晰的国际字体和越南语字体。", fr: "Découvrez, prévisualisez et téléchargez des polices internationales et vietnamiennes avec des licences claires." };
+  return { ...baseMetadata, title: { default: titles[locale], template: "%s | Bliss Fonts" }, description: descriptions[locale], openGraph: { ...baseMetadata.openGraph, locale: locale === "vi" ? "vi_VN" : locale === "zh" ? "zh_CN" : locale === "fr" ? "fr_FR" : "en_US", title: titles[locale], description: descriptions[locale] }, twitter: { ...baseMetadata.twitter, title: titles[locale], description: descriptions[locale] } };
+}
+
 export const viewport: Viewport = { themeColor: "#1d241f", colorScheme: "light" };
 
 const structuredData = {
@@ -36,8 +44,9 @@ const structuredData = {
   potentialAction: { "@type": "SearchAction", target: `${siteUrl}/?q={search_term_string}`, "query-input": "required name=search_term_string" },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
-  return <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}><body className="flex min-h-full flex-col">{children}<ScrollReveal /><WebVitals /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /><Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="lazyOnload" /><Script id="google-analytics" strategy="lazyOnload">{`window.dataLayer = window.dataLayer || [];
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const locale = await getRequestLocale();
+  return <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}><body className="flex min-h-full flex-col">{children}<ScrollReveal /><WebVitals /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /><Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="lazyOnload" /><Script id="google-analytics" strategy="lazyOnload">{`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', '${GA_MEASUREMENT_ID}');`}</Script></body></html>;
