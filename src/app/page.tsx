@@ -8,6 +8,7 @@ import { useCases } from "@/data/collections";
 import woff2Manifest from "@/data/woff2-manifest.json";
 import { getMessages } from "@/lib/i18n";
 import { getRequestLocale } from "@/lib/request-locale";
+import LocaleSwitcher from "@/components/locale-switcher";
 
 const categories = [
   {
@@ -106,7 +107,7 @@ export default async function Home() {
               Bliss Fonts
             </span>
           </Link>
-          <div className="flex items-center gap-5 text-sm text-[#697169]">
+          <div className="flex items-center gap-3 text-sm text-[#697169]">
             <a href="#collections" className="hidden hover:text-[#1d241f] sm:block">{m.collections}</a>
             <Link href="/fonts" className="hidden hover:text-[#1d241f] sm:block">{m.allFonts}</Link>
             <Link
@@ -115,6 +116,7 @@ export default async function Home() {
             >
               {m.vietnamese}
             </Link>
+            <LocaleSwitcher locale={locale} />
           </div>
         </nav>
 

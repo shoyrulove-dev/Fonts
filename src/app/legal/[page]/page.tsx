@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { legalPages } from "@/data/collections";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
+import { localeAlternates } from "@/lib/i18n";
 
 const content = {
   privacy: ["Bliss Fonts uses basic analytics to understand page visits, font previews and downloads. We do not sell personal information.", "Advertising partners may use their own cookies or similar technology. You can control cookies through your browser settings."],
@@ -13,7 +14,7 @@ export function generateStaticParams() { return Object.keys(legalPages).map((pag
 
 export async function generateMetadata({ params }: { params: Promise<{ page: string }> }): Promise<Metadata> {
   const entry = legalPages[(await params).page as keyof typeof legalPages];
-  return entry ? { title: entry.title, description: entry.description, alternates: { canonical: `/legal/${(await params).page}` } } : {};
+  return entry ? { title: entry.title, description: entry.description, alternates: localeAlternates(`/legal/${(await params).page}`) } : {};
 }
 
 export default async function LegalPage({ params }: { params: Promise<{ page: string }> }) {

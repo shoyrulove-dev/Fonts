@@ -4,12 +4,13 @@ import { FontDirectoryPage } from "@/components/font-directory-page";
 import { DIRECTORY_PAGE_SIZE } from "@/components/font-directory";
 import { fontCategories, getFontCategory } from "@/data/collections";
 import { getCachedPublicFonts } from "@/lib/catalog";
+import { localeAlternates } from "@/lib/i18n";
 
 export function generateStaticParams() { return fontCategories.map(({ slug }) => ({ category: slug })); }
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const category = getFontCategory((await params).category);
-  return category ? { title: category.title, description: category.description, alternates: { canonical: `/category/${category.slug}` } } : {};
+  return category ? { title: category.title, description: category.description, alternates: localeAlternates(`/category/${category.slug}`) } : {};
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {

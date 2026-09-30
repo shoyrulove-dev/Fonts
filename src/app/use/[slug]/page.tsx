@@ -5,13 +5,14 @@ import { getPublicFonts } from "@/lib/catalog";
 import { useCases } from "@/data/collections";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { CatalogSiloNav } from "@/components/catalog-silo-nav";
+import { localeAlternates } from "@/lib/i18n";
 
 export function generateStaticParams() { return useCases.map((item) => ({ slug: item.slug })); }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const item = useCases.find((entry) => entry.slug === slug);
-  return item ? { title: item.title, description: item.description, alternates: { canonical: `/use/${item.slug}` } } : {};
+  return item ? { title: item.title, description: item.description, alternates: localeAlternates(`/use/${item.slug}`) } : {};
 }
 
 export default async function UseCasePage({ params }: { params: Promise<{ slug: string }> }) {
