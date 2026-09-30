@@ -9,6 +9,12 @@ export async function proxy(request: NextRequest) {
   if (locale && ["en", "vi", "zh", "fr", "es"].includes(locale)) requestHeaders.set("x-bliss-locale", locale);
   const next = () => NextResponse.next({ request: { headers: requestHeaders } });
   if (pathname === "/admin/login" || pathname === "/api/admin/login") return next();
+  const publicApi =
+    pathname === "/api/health" ||
+    pathname === "/api/fonts" ||
+    pathname.startsWith("/api/fonts/") ||
+    pathname === "/api/metrics";
+  if (publicApi) return next();
   if (!pathname.startsWith("/admin") && !pathname.startsWith("/api")) return next();
   if (await verifySession(request.cookies.get(adminCookieName)?.value)) return next();
   if (pathname.startsWith("/api/")) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
