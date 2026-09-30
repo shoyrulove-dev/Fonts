@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { FontDirectoryPage } from "@/components/font-directory-page";
 import { DIRECTORY_PAGE_SIZE } from "@/components/font-directory";
 import { getCachedPublicFonts } from "@/lib/catalog";
+import { localeAlternates } from "@/lib/i18n";
 
-export const metadata: Metadata = { title: "Browse All Fonts", description: "Browse the complete Bliss Fonts catalog with clear style, license and Vietnamese-support details.", alternates: { canonical: "/fonts" } };
+export const metadata: Metadata = { title: "Browse All Fonts", description: "Browse the complete Bliss Fonts catalog with clear style, license and Vietnamese-support details.", alternates: localeAlternates("/fonts") };
 
 export default async function FontsPage() {
   const fonts = await getCachedPublicFonts();

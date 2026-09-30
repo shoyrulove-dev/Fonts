@@ -4,11 +4,12 @@ import { CatalogSiloNav } from "@/components/catalog-silo-nav";
 import { DirectoryPagination, DIRECTORY_PAGE_SIZE } from "@/components/font-directory";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { getCachedPublicFonts } from "@/lib/catalog";
+import { localeAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Vietnamese Fonts",
   description: "Browse Vietnamese font collections from SFU, SVN, UTM, UVF, UVN and iCiel.",
-  alternates: { canonical: "/vietnamese" },
+  alternates: localeAlternates("/vietnamese"),
 };
 
 export default async function VietnamesePage() {
