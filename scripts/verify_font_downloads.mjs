@@ -12,7 +12,8 @@ const maxAttempts = Math.max(1, Number(process.env.FONT_VERIFY_RETRIES || 3));
 const mode = process.env.FONT_VERIFY_MODE || "availability";
 const international = JSON.parse(await fs.readFile(path.join(root, "src", "data", "google-fonts.json"), "utf8"));
 const vietnamese = JSON.parse(await fs.readFile(path.join(root, "src", "data", "vietnamese-fonts.json"), "utf8"));
-const catalog = [...international, ...vietnamese];
+const openFonts = JSON.parse(await fs.readFile(path.join(root, "src", "data", "open-fonts.json"), "utf8"));
+const catalog = [...international, ...vietnamese, ...openFonts];
 let selectedCatalog = catalog;
 if (process.env.FONT_VERIFY_SLUGS) {
   const requested = new Set(process.env.FONT_VERIFY_SLUGS.split(",").map((slug) => slug.trim()).filter(Boolean));

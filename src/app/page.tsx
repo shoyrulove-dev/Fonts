@@ -46,8 +46,7 @@ const categoryLabel = (category: string | null) =>
 export default async function Home() {
   const fonts = await getPublicFonts();
   const vietnameseArchive = fonts.filter(
-    (font: CatalogFont) =>
-      font.id.startsWith("vietnamese/") || Boolean(font.sourceGroup),
+    (font: CatalogFont) => font.id.startsWith("vietnamese/"),
   );
   const internationalFonts = fonts.length - vietnameseArchive.length;
   const featured = vietnameseArchive.slice(0, 8);

@@ -5,7 +5,7 @@ import { DIRECTORY_PAGE_SIZE } from "@/components/font-directory";
 import { allFonts, getCachedPublicFonts } from "@/lib/catalog";
 
 function isVietnameseArchive(font: (typeof allFonts)[number]) {
-  return font.id.startsWith("vietnamese/") || Boolean(font.sourceGroup);
+  return font.id.startsWith("vietnamese/");
 }
 
 export function generateStaticParams() {

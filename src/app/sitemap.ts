@@ -22,7 +22,7 @@ function reliableLastModified(font: CatalogFont) {
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const fonts = await getCachedPublicFonts();
-  const vietnamese = fonts.filter((font) => font.id.startsWith("vietnamese/") || Boolean(font.sourceGroup));
+  const vietnamese = fonts.filter((font) => font.id.startsWith("vietnamese/"));
   const categoryDirectories = fontCategories.flatMap((category) => pageUrls(`/category/${category.slug}`, fonts.filter((font) => font.category === category.key).length, 0.8));
 
   return [

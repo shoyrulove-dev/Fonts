@@ -1,5 +1,6 @@
 import baseFonts from "@/data/google-fonts.json";
 import vietnameseFonts from "@/data/vietnamese-fonts.json";
+import openFonts from "@/data/open-fonts.json";
 import { getDatabase } from "@/lib/mongodb";
 import { cache } from "react";
 import { unstable_cache } from "next/cache";
@@ -11,9 +12,11 @@ export type CatalogFont = (typeof baseFonts)[number] & {
   updatedAt?: Date | string;
   sourceGroup?: string;
   sourceFile?: string;
+  sourceFileCount?: number;
+  licenseTier?: string;
 };
 
-export const allFonts = [...baseFonts, ...vietnameseFonts] as CatalogFont[];
+export const allFonts = [...baseFonts, ...vietnameseFonts, ...openFonts] as CatalogFont[];
 const staticFontsBySlug = new Map(allFonts.map((font) => [font.slug, font]));
 
 async function findPublicFontBySlug(slug: string): Promise<CatalogFont | null> {
@@ -43,7 +46,12 @@ export async function getPublicFonts(): Promise<CatalogFont[]> {
   if (!process.env.MONGODB_URI) return allFonts;
   try {
     const collection = (await getDatabase()).collection<CatalogFont>("fonts");
-    const records = await collection.find({}).toArray();
+    const records = await collection.find({
+      $or: [
+        { updatedAt: { $exists: true } },
+        { id: /^manual\// },
+      ],
+    }).toArray();
     if (!records.length) return allFonts;
     const merged = new Map(allFonts.map((font) => [font.id, font]));
     for (const record of records) {
@@ -56,4 +64,4 @@ export async function getPublicFonts(): Promise<CatalogFont[]> {
   }
 }
 
-export const getCachedPublicFonts = unstable_cache(getPublicFonts, ["public-font-catalog-v2"], { revalidate: 60 });
+export const getCachedPublicFonts = cache(getPublicFonts);

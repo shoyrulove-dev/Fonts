@@ -5,7 +5,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 function isVietnameseArchive(font: CatalogFont) {
-  return font.id.startsWith("vietnamese/") || Boolean(font.sourceGroup);
+  return font.id.startsWith("vietnamese/");
 }
 
 export async function GET(request: Request) {

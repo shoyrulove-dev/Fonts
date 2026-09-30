@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import fonts from "@/data/google-fonts.json";
 import vietnameseFonts from "@/data/vietnamese-fonts.json";
+import openFonts from "@/data/open-fonts.json";
 import assets from "@/data/woff2-manifest.json";
 import type { CatalogFont } from "@/lib/catalog";
 import { isAdminRequest } from "@/lib/admin-auth";
@@ -11,16 +12,24 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 type FontRecord = CatalogFont;
+const staticCatalog = [...fonts, ...vietnameseFonts, ...openFonts] as FontRecord[];
+let catalogSync: Promise<void> | null = null;
 
 async function seedIfEmpty() {
   const db = await getDatabase();
   const collection = db.collection<FontRecord>("fonts");
-  const catalog = [...fonts, ...vietnameseFonts] as FontRecord[];
-  if (await collection.estimatedDocumentCount() === 0) {
+  if (!catalogSync) catalogSync = (async () => {
     await collection.createIndex({ slug: 1 }, { unique: true });
+    await collection.createIndex({ id: 1 }, { unique: true });
     await collection.createIndex({ category: 1, supportsVietnamese: 1 });
-    await collection.insertMany(catalog, { ordered: false });
-  }
+    const existing = new Set((await collection.find({ id: { $in: staticCatalog.map((font) => font.id) } }, { projection: { id: 1 } }).toArray()).map((font) => font.id));
+    const missing = staticCatalog.filter((font) => !existing.has(font.id));
+    if (missing.length) await collection.bulkWrite(
+      missing.map((font) => ({ updateOne: { filter: { id: font.id }, update: { $setOnInsert: font }, upsert: true } })),
+      { ordered: false },
+    );
+  })();
+  await catalogSync;
   return collection;
 }
 
@@ -31,7 +40,7 @@ export async function GET(request: NextRequest) {
   if (url.searchParams.get("view") === "collections") {
     const manifest = assets as Record<string, string[]>;
     const staticAssets = new Map<string, { files: number; previewFamilies: number }>();
-    for (const font of [...fonts, ...vietnameseFonts] as FontRecord[]) {
+    for (const font of staticCatalog) {
       const name = font.sourceGroup || (font.sourcePath?.startsWith("sources/google-fonts/") ? "Google Fonts" : "Other sources");
       const current = staticAssets.get(name) || { files: 0, previewFamilies: 0 };
       const fileCount = manifest[font.sourcePath || ""]?.length || 0;
@@ -63,7 +72,7 @@ export async function GET(request: NextRequest) {
       const prepared = staticAssets.get(row._id) || { files: 0, previewFamilies: 0 };
       return { name: row._id, families: row.families, previewFamilies: Math.min(row.families, prepared.previewFamilies + row.dynamicPreviewFamilies), files: prepared.files + row.dynamicFiles, packages: row.packages, published: row.published, hidden: row.hidden, personalUse: row.personalUse };
     });
-    const order = ["Google Fonts", "iCIEL", "SVN", "SFU", "UTM", "UVF", "UVN", "Manual imports", "Other sources"];
+    const order = ["Google Fonts", "Font Library", "Fontsource Community", "iCIEL", "SVN", "SFU", "UTM", "UVF", "UVN", "Manual imports", "Other sources"];
     collections.sort((a, b) => {
       const aIndex = order.indexOf(a.name);
       const bIndex = order.indexOf(b.name);
@@ -89,7 +98,7 @@ export async function GET(request: NextRequest) {
   const clauses: Record<string, unknown>[] = [];
   if (category && category !== "ALL") clauses.push({ category });
   if (vietnamese) clauses.push({ supportsVietnamese: true });
-  if (archiveOnly) clauses.push({ $or: [{ id: /^vietnamese\// }, { sourceGroup: { $exists: true, $nin: [""] } }] });
+  if (archiveOnly) clauses.push({ id: /^vietnamese\// });
   if (group !== "ALL") clauses.push({ sourceGroup: group });
   if (hasAssets) clauses.push({ $or: [{ sourcePath: { $exists: true, $nin: [null, ""] } }, { files: { $exists: true, $ne: [] } }, { bundleKey: { $exists: true, $nin: [null, ""] } }] });
   if (query) {
@@ -98,7 +107,7 @@ export async function GET(request: NextRequest) {
     clauses.push({ $or: [{ name: pattern }, { designer: pattern }, { category: pattern }, { sourceGroup: pattern }] });
   }
   const filter = clauses.length ? { $and: clauses } : {};
-  const archiveFilter = { $or: [{ id: /^vietnamese\// }, { sourceGroup: { $exists: true, $nin: [""] } }] };
+  const archiveFilter = { id: /^vietnamese\// };
   const compatibleFilter = { supportsVietnamese: true, $nor: [archiveFilter] };
   const [result, filteredTotal, total, published, hidden, archive, compatible, personalUse] = await Promise.all([
     collection.find(filter).sort({ name: 1 }).skip((page - 1) * limit).limit(limit).toArray(),

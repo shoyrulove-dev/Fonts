@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function AdminPage() {
-  const archive = allFonts.filter((font) => font.id.startsWith("vietnamese/") || Boolean(font.sourceGroup));
+  const archive = allFonts.filter((font) => font.id.startsWith("vietnamese/"));
   const compatible = allFonts.filter((font) => font.supportsVietnamese && !archive.some((item) => item.id === font.id)).length;
   const catalogAssets = allFonts.map((font) => assetManifest[font.sourcePath as keyof typeof assetManifest] ?? []);
   const collectionMap = new Map<string, FontCollectionsData["collections"][number]>();
@@ -25,8 +25,12 @@ export default function AdminPage() {
     current.personalUse += font.license === "Personal Use" ? 1 : 0;
     collectionMap.set(name, current);
   }
-  const collectionOrder = ["Google Fonts", "iCIEL", "SVN", "SFU", "UTM", "UVF", "UVN", "Other sources"];
-  const collections = [...collectionMap.values()].sort((a, b) => collectionOrder.indexOf(a.name) - collectionOrder.indexOf(b.name));
+  const collectionOrder = ["Google Fonts", "Font Library", "Fontsource Community", "iCIEL", "SVN", "SFU", "UTM", "UVF", "UVN", "Other sources"];
+  const collections = [...collectionMap.values()].sort((a, b) => {
+    const ai = collectionOrder.indexOf(a.name);
+    const bi = collectionOrder.indexOf(b.name);
+    return (ai < 0 ? collectionOrder.length : ai) - (bi < 0 ? collectionOrder.length : bi);
+  });
   return <AdminDashboard
     fonts={allFonts.slice(0, 30)}
     username={process.env.ADMIN_USER || "admin"}

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default async function VietnamesePage() {
   const allFonts = await getCachedPublicFonts();
-  const fonts = allFonts.filter((font) => font.id.startsWith("vietnamese/") || Boolean(font.sourceGroup));
+  const fonts = allFonts.filter((font) => font.id.startsWith("vietnamese/"));
   const collectionIds = new Set(fonts.map((font) => font.id));
   const compatible = allFonts.filter((font) => font.supportsVietnamese && !collectionIds.has(font.id)).length;
   const explorerFonts = fonts.slice(0, DIRECTORY_PAGE_SIZE).map(({ id, slug, name, designer, category, license, sourceGroup }) => ({ id, slug, name, designer, category, license, sourceGroup }));
