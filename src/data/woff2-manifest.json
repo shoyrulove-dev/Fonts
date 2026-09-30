@@ -8103,6 +8103,9 @@
   "sources/open-fonts/fontlibrary/fontlibrary-babacar": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-babacar/preview.woff2"
   ],
+  "sources/open-fonts/fontlibrary/fontlibrary-babelstone-han": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-babelstone-han/preview.woff2"
+  ],
   "sources/open-fonts/fontlibrary/fontlibrary-babelstone-modern": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-babelstone-modern/preview.woff2"
   ],
@@ -9186,6 +9189,9 @@
   "sources/open-fonts/fontlibrary/fontlibrary-haramain": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-haramain/preview.woff2"
   ],
+  "sources/open-fonts/fontlibrary/fontlibrary-hasnain-misbahi-taj-nastaleeq": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-hasnain-misbahi-taj-nastaleeq/preview.woff2"
+  ],
   "sources/open-fonts/fontlibrary/fontlibrary-hebert-sans": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-hebert-sans/preview.woff2"
   ],
@@ -9333,6 +9339,12 @@
   "sources/open-fonts/fontlibrary/fontlibrary-jakob": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-jakob/preview.woff2"
   ],
+  "sources/open-fonts/fontlibrary/fontlibrary-jameel-khushkhat-l": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-jameel-khushkhat-l/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-jameel-khushkhat-lk": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-jameel-khushkhat-lk/preview.woff2"
+  ],
   "sources/open-fonts/fontlibrary/fontlibrary-jameelkhushkhati-ttf": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-jameelkhushkhati-ttf/preview.woff2"
   ],
@@ -9476,6 +9488,9 @@
   ],
   "sources/open-fonts/fontlibrary/fontlibrary-khnum": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-khnum/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-khushkhati": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-khushkhati/preview.woff2"
   ],
   "sources/open-fonts/fontlibrary/fontlibrary-khwan-sans": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-khwan-sans/preview.woff2"
@@ -9998,6 +10013,9 @@
   ],
   "sources/open-fonts/fontlibrary/fontlibrary-nocurvesboustrophedon": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-nocurvesboustrophedon/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-noori-khushkhat": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-noori-khushkhat/preview.woff2"
   ],
   "sources/open-fonts/fontlibrary/fontlibrary-nord-sud": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-nord-sud/preview.woff2"
@@ -10920,6 +10938,21 @@
   "sources/open-fonts/fontlibrary/fontlibrary-tt2020-base-style": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-tt2020-base-style/preview.woff2"
   ],
+  "sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-b": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-b/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-d": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-d/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-e": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-e/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-f": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-f/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-g": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-tt2020-style-g/preview.woff2"
+  ],
   "sources/open-fonts/fontlibrary/fontlibrary-ttnorms-black": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-ttnorms-black/preview.woff2"
   ],
@@ -10949,6 +10982,9 @@
   ],
   "sources/open-fonts/fontlibrary/fontlibrary-ukij-chiwer-kesme": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-ukij-chiwer-kesme/preview.woff2"
+  ],
+  "sources/open-fonts/fontlibrary/fontlibrary-ukij-cjk": [
+    "fonts/sources/open-fonts/fontlibrary/fontlibrary-ukij-cjk/preview.woff2"
   ],
   "sources/open-fonts/fontlibrary/fontlibrary-ukij-diwani": [
     "fonts/sources/open-fonts/fontlibrary/fontlibrary-ukij-diwani/preview.woff2"
@@ -11364,6 +11400,15 @@
   "sources/open-fonts/fontsource/fontsource-firago": [
     "fonts/sources/open-fonts/fontsource/fontsource-firago/preview.woff2"
   ],
+  "sources/open-fonts/fontsource/fontsource-fusion-kai-g": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-kai-g/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-kai-j": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-kai-j/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-kai-t": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-kai-t/preview.woff2"
+  ],
   "sources/open-fonts/fontsource/fontsource-fusion-pixel-10px-monospaced-jp": [
     "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-10px-monospaced-jp/preview.woff2"
   ],
@@ -11388,8 +11433,59 @@
   "sources/open-fonts/fontsource/fontsource-fusion-pixel-10px-proportional-tc": [
     "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-10px-proportional-tc/preview.woff2"
   ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-jp": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-jp/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-kr": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-kr/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-sc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-sc/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-tc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-monospaced-tc/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-jp": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-jp/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-kr": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-kr/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-sc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-sc/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-tc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-12px-proportional-tc/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-jp": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-jp/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-kr": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-kr/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-sc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-sc/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-tc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-monospaced-tc/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-jp": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-jp/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-kr": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-kr/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-sc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-sc/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-tc": [
+    "fonts/sources/open-fonts/fontsource/fontsource-fusion-pixel-8px-proportional-tc/preview.woff2"
+  ],
   "sources/open-fonts/fontsource/fontsource-geist-sans": [
     "fonts/sources/open-fonts/fontsource/fontsource-geist-sans/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-genjyuu-gothic": [
+    "fonts/sources/open-fonts/fontsource/fontsource-genjyuu-gothic/preview.woff2"
   ],
   "sources/open-fonts/fontsource/fontsource-hauora-sans": [
     "fonts/sources/open-fonts/fontsource/fontsource-hauora-sans/preview.woff2"
@@ -11403,11 +11499,29 @@
   "sources/open-fonts/fontsource/fontsource-ia-writer-quattro": [
     "fonts/sources/open-fonts/fontsource/fontsource-ia-writer-quattro/preview.woff2"
   ],
+  "sources/open-fonts/fontsource/fontsource-iosevka": [
+    "fonts/sources/open-fonts/fontsource/fontsource-iosevka/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-iosevka-aile": [
+    "fonts/sources/open-fonts/fontsource/fontsource-iosevka-aile/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-iosevka-curly": [
+    "fonts/sources/open-fonts/fontsource/fontsource-iosevka-curly/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-iosevka-curly-slab": [
+    "fonts/sources/open-fonts/fontsource/fontsource-iosevka-curly-slab/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-iosevka-etoile": [
+    "fonts/sources/open-fonts/fontsource/fontsource-iosevka-etoile/preview.woff2"
+  ],
   "sources/open-fonts/fontsource/fontsource-league-mono": [
     "fonts/sources/open-fonts/fontsource/fontsource-league-mono/preview.woff2"
   ],
   "sources/open-fonts/fontsource/fontsource-lextrall": [
     "fonts/sources/open-fonts/fontsource/fontsource-lextrall/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-lxgw-wenkai": [
+    "fonts/sources/open-fonts/fontsource/fontsource-lxgw-wenkai/preview.woff2"
   ],
   "sources/open-fonts/fontsource/fontsource-maple-mono": [
     "fonts/sources/open-fonts/fontsource/fontsource-maple-mono/preview.woff2"
@@ -11420,6 +11534,9 @@
   ],
   "sources/open-fonts/fontsource/fontsource-monaspace-neon": [
     "fonts/sources/open-fonts/fontsource/fontsource-monaspace-neon/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-monaspace-radon": [
+    "fonts/sources/open-fonts/fontsource/fontsource-monaspace-radon/preview.woff2"
   ],
   "sources/open-fonts/fontsource/fontsource-monaspace-xenon": [
     "fonts/sources/open-fonts/fontsource/fontsource-monaspace-xenon/preview.woff2"
@@ -11454,6 +11571,9 @@
   "sources/open-fonts/fontsource/fontsource-pitagon-serif": [
     "fonts/sources/open-fonts/fontsource/fontsource-pitagon-serif/preview.woff2"
   ],
+  "sources/open-fonts/fontsource/fontsource-pretendard": [
+    "fonts/sources/open-fonts/fontsource/fontsource-pretendard/preview.woff2"
+  ],
   "sources/open-fonts/fontsource/fontsource-redaction": [
     "fonts/sources/open-fonts/fontsource/fontsource-redaction/preview.woff2"
   ],
@@ -11480,6 +11600,12 @@
   ],
   "sources/open-fonts/fontsource/fontsource-uncut-sans": [
     "fonts/sources/open-fonts/fontsource/fontsource-uncut-sans/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-unifont": [
+    "fonts/sources/open-fonts/fontsource/fontsource-unifont/preview.woff2"
+  ],
+  "sources/open-fonts/fontsource/fontsource-unifontex": [
+    "fonts/sources/open-fonts/fontsource/fontsource-unifontex/preview.woff2"
   ],
   "sources/open-fonts/fontsource/fontsource-win95fa": [
     "fonts/sources/open-fonts/fontsource/fontsource-win95fa/preview.woff2"

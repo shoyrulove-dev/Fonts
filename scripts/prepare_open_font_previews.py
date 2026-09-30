@@ -6,6 +6,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+from fontTools.subset import Options, Subsetter
 from fontTools.ttLib import TTFont
 
 
@@ -13,7 +14,9 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "src" / "data" / "open-fonts.json"
 OUTPUT_ROOT = ROOT / "converted" / "woff2"
 REPORT = ROOT / "manifests" / "open-font-previews.json"
-MAX_PREVIEW_SOURCE_BYTES = 2 * 1024 * 1024
+# Large CJK and Unicode families still need a lightweight web preview. The
+# source ZIP remains untouched; this limit only controls preview conversion.
+MAX_PREVIEW_SOURCE_BYTES = 128 * 1024 * 1024
 REQUIRED_VIETNAMESE = set("ĂÂĐÊÔƠƯăâđêôơư")
 
 
@@ -38,6 +41,22 @@ def inspect_font(path: Path) -> tuple[bool, bool]:
 def convert_preview(source: Path, target: Path) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
     font = TTFont(source, recalcBBoxes=False, recalcTimestamp=False)
+    # Keep previews small even for CJK/Unicode families. The complete source
+    # files remain in the ZIP; the web specimen only needs common Latin text.
+    options = Options()
+    options.layout_features = ["*"]
+    subsetter = Subsetter(options=options)
+    subsetter.populate(unicodes=set(range(0x20, 0x7F)) | set(range(0xA0, 0x100)) | set(map(ord, "ĂÂĐÊÔƠƯăâđêôơư")))
+    try:
+        subsetter.subset(font)
+    except Exception:
+        # A few legacy Unicode fonts contain malformed optional tables. Keep
+        # the font usable by removing the broken layout table and retrying.
+        font.close()
+        font = TTFont(source, recalcBBoxes=False, recalcTimestamp=False)
+        if "BASE" in font:
+            del font["BASE"]
+        subsetter.subset(font)
     font.flavor = "woff2"
     font.save(target)
     font.close()
