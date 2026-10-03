@@ -64,4 +64,5 @@ export async function getPublicFonts(): Promise<CatalogFont[]> {
   }
 }
 
-export const getCachedPublicFonts = cache(getPublicFonts);
+const getCachedPublicFontsData = unstable_cache(getPublicFonts, ["public-fonts"], { revalidate: 60 });
+export const getCachedPublicFonts = cache(getCachedPublicFontsData);
