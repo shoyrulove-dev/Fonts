@@ -3,7 +3,7 @@ import Link from "next/link";
 import FontExplorer from "@/components/font-explorer";
 import DynamicSpecimen from "@/components/dynamic-specimen";
 import { NativeBanner } from "@/components/ad-units";
-import { getPublicFonts, type CatalogFont } from "@/lib/catalog";
+import { getCachedPublicFonts, type CatalogFont } from "@/lib/catalog";
 import { useCases } from "@/data/collections";
 import woff2Manifest from "@/data/woff2-manifest.json";
 import { getMessages } from "@/lib/i18n";
@@ -49,7 +49,7 @@ const categoryLabel = (category: string | null) =>
 export default async function Home() {
   const locale = await getRequestLocale();
   const m = getMessages(locale);
-  const fonts = await getPublicFonts();
+  const fonts = await getCachedPublicFonts();
   const vietnameseArchive = fonts.filter(
     (font: CatalogFont) => font.id.startsWith("vietnamese/"),
   );

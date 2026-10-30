@@ -19,6 +19,14 @@ export type CatalogFont = (typeof baseFonts)[number] & {
 export const allFonts = [...baseFonts, ...vietnameseFonts, ...openFonts] as CatalogFont[];
 const staticFontsBySlug = new Map(allFonts.map((font) => [font.slug, font]));
 
+function toPublicCatalogFont(font: CatalogFont): CatalogFont {
+  const metadata = { ...font } as Partial<CatalogFont>;
+  delete metadata.files;
+  delete metadata.bundleKey;
+  delete metadata.sourceFile;
+  return metadata as CatalogFont;
+}
+
 async function findPublicFontBySlug(slug: string): Promise<CatalogFont | null> {
   const fallback = staticFontsBySlug.get(slug) ?? null;
   if (!process.env.MONGODB_URI) return fallback;
@@ -43,7 +51,7 @@ export function getStaticRelatedFonts(font: CatalogFont, limit = 6) {
 }
 
 export async function getPublicFonts(): Promise<CatalogFont[]> {
-  if (!process.env.MONGODB_URI) return allFonts;
+  if (!process.env.MONGODB_URI) return allFonts.map(toPublicCatalogFont);
   try {
     const collection = (await getDatabase()).collection<CatalogFont>("fonts");
     const records = await collection.find({
@@ -51,16 +59,20 @@ export async function getPublicFonts(): Promise<CatalogFont[]> {
         { updatedAt: { $exists: true } },
         { id: /^manual\// },
       ],
+    }, {
+      // Directory/search pages only need catalog metadata. Keep file lists and
+      // package keys out of this shared cache; detail/download loads them by slug.
+      projection: { files: 0, bundleKey: 0, sourceFile: 0 },
     }).toArray();
-    if (!records.length) return allFonts;
+    if (!records.length) return allFonts.map(toPublicCatalogFont);
     const merged = new Map(allFonts.map((font) => [font.id, font]));
     for (const record of records) {
       if (record.status === "draft" || record.status === "archived") merged.delete(record.id);
       else merged.set(record.id, { ...merged.get(record.id), ...record } as CatalogFont);
     }
-    return [...merged.values()].sort((a, b) => a.name.localeCompare(b.name));
+    return [...merged.values()].map(toPublicCatalogFont).sort((a, b) => a.name.localeCompare(b.name));
   } catch {
-    return allFonts;
+    return allFonts.map(toPublicCatalogFont);
   }
 }
 

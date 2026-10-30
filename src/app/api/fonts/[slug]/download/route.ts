@@ -150,7 +150,9 @@ export async function GET(request: Request, { params }: { params: Promise<{ slug
   ].join("\n");
   archive["README.txt"] = strToU8(readme);
 
-  const zip = zipSync(archive, { level: 6 });
+  // WOFF/WOFF2 files are already compressed; level 0 avoids expensive CPU
+  // recompression while keeping the ZIP package identical in contents.
+  const zip = zipSync(archive, { level: 0 });
   void savePackage(font.slug, zip);
   const filename = `${font.slug}-bliss-fonts.zip`;
   return new NextResponse(Buffer.from(zip), {
