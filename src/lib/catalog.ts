@@ -4,6 +4,7 @@ import openFonts from "@/data/open-fonts.json";
 import { getDatabase } from "@/lib/mongodb";
 import { cache } from "react";
 import { unstable_cache } from "next/cache";
+import { cachedPublicFontData, usesPublicFontEdgeCache } from "./public-font-edge-cache";
 
 export type CatalogFont = (typeof baseFonts)[number] & {
   status?: string;
@@ -27,7 +28,7 @@ function toPublicCatalogFont(font: CatalogFont): CatalogFont {
   return metadata as CatalogFont;
 }
 
-async function findPublicFontBySlug(slug: string): Promise<CatalogFont | null> {
+async function findPublicFontBySlug(slug: string, strict = false): Promise<CatalogFont | null> {
   const fallback = staticFontsBySlug.get(slug) ?? null;
   if (!process.env.MONGODB_URI) return fallback;
   try {
@@ -36,13 +37,16 @@ async function findPublicFontBySlug(slug: string): Promise<CatalogFont | null> {
     if (!record) return fallback;
     if (record.status === "draft" || record.status === "archived") return null;
     return { ...fallback, ...record } as CatalogFont;
-  } catch {
+  } catch (error) {
+    if (strict) throw error;
     return fallback;
   }
 }
 
 const getCachedPublicFontBySlug = unstable_cache(findPublicFontBySlug, ["public-font-by-slug"], { revalidate: 60 });
-export const getPublicFontBySlug = cache((slug: string) => getCachedPublicFontBySlug(slug));
+export const getPublicFontBySlug = cache((slug: string) => usesPublicFontEdgeCache()
+  ? cachedPublicFontData("font:" + slug, () => findPublicFontBySlug(slug, true)).catch(() => staticFontsBySlug.get(slug) ?? null)
+  : getCachedPublicFontBySlug(slug));
 
 export function getStaticRelatedFonts(font: CatalogFont, limit = 6) {
   return allFonts
@@ -50,7 +54,7 @@ export function getStaticRelatedFonts(font: CatalogFont, limit = 6) {
     .slice(0, limit);
 }
 
-export async function getPublicFonts(): Promise<CatalogFont[]> {
+async function loadPublicFonts(strict = false): Promise<CatalogFont[]> {
   if (!process.env.MONGODB_URI) return allFonts.map(toPublicCatalogFont);
   try {
     const collection = (await getDatabase()).collection<CatalogFont>("fonts");
@@ -71,10 +75,15 @@ export async function getPublicFonts(): Promise<CatalogFont[]> {
       else merged.set(record.id, { ...merged.get(record.id), ...record } as CatalogFont);
     }
     return [...merged.values()].map(toPublicCatalogFont).sort((a, b) => a.name.localeCompare(b.name));
-  } catch {
+  } catch (error) {
+    if (strict) throw error;
     return allFonts.map(toPublicCatalogFont);
   }
 }
 
+export const getPublicFonts = () => loadPublicFonts();
+
 const getCachedPublicFontsData = unstable_cache(getPublicFonts, ["public-fonts"], { revalidate: 60 });
-export const getCachedPublicFonts = cache(getCachedPublicFontsData);
+export const getCachedPublicFonts = cache(() => usesPublicFontEdgeCache()
+  ? cachedPublicFontData("catalog", () => loadPublicFonts(true)).catch(() => allFonts.map(toPublicCatalogFont))
+  : getCachedPublicFontsData());

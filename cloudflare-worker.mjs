@@ -13,7 +13,12 @@ async function closeMongo(scope) {
 
 export default {
   fetch(request, env, ctx) {
-    const scope = {};
+    const url = new URL(request.url);
+    const isAdmin = /^(?:\/api)?\/admin(?:\/|$)/.test(url.pathname);
+    const scope = {
+      publicCacheOrigin: request.method === "GET" && !isAdmin ? url.origin : undefined,
+      waitUntil: (promise) => ctx.waitUntil(promise),
+    };
     return mongoRequestScope.run(scope, async () => {
       try {
         const response = await next.fetch(request, env, ctx);
@@ -23,7 +28,11 @@ export default {
         }
         const stream = new TransformStream();
         ctx.waitUntil(response.body.pipeTo(stream.writable).catch(() => {}).finally(() => closeMongo(scope)));
-        return new Response(stream.readable, response);
+        const output = new Response(stream.readable, response);
+        if (scope.publicCacheResult) {
+          output.headers.append("Server-Timing", `fontdata;desc="${scope.publicCacheResult}"`);
+        }
+        return output;
       } catch (error) {
         ctx.waitUntil(closeMongo(scope));
         throw error;
