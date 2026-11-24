@@ -10,5 +10,11 @@
     "binding": "ASSETS"
   },
   "workers_dev": true,
-  "preview_urls": false
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "fonts.blissbiovn.com",
+      "custom_domain": true
+    }
+  ]
 }
