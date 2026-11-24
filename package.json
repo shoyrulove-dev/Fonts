@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "verify:downloads": "node scripts/verify_font_downloads.mjs",
-    "cf:build": "opennextjs-cloudflare build --config wrangler.jsonc",
+    "cf:build": "opennextjs-cloudflare build --config wrangler.jsonc && node scripts/fix-worker-cookie-parser.mjs",
     "cf:deploy": "opennextjs-cloudflare deploy --config wrangler.jsonc"
   },
   "dependencies": {
